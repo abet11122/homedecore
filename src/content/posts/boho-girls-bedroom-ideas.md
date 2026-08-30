@@ -3,7 +3,7 @@ title: "Boho Girls Bedroom Ideas"
 description: "Boho girls bedroom ideas that look collected rather than cluttered — the palette, the textures, macrame and rattan, and how to keep the layered look tidy."
 category: "bedroom"
 tags: ["bedroom", "girls bedroom", "boho", "rattan", "macrame"]
-publishDate: 2026-09-02
+publishDate: 2026-08-10
 heroImage: "photo-1600210491305-7396500b5b31"
 pinImage: "photo-1633945098489-6ffc53067860"
 featured: false

@@ -3,7 +3,7 @@ title: "Balcony Decor Ideas for Small Spaces"
 description: "Balcony decor ideas for tiny spaces — railing solutions, vertical planting, seating that folds away, and how to style a narrow balcony properly."
 category: "outdoor"
 tags: ["outdoor", "balcony", "small spaces", "plants", "renter-friendly"]
-publishDate: 2026-09-17
+publishDate: 2026-08-25
 heroImage: "photo-1486484290742-0ce4eb743a34"
 pinImage: "photo-1708223578831-5c737a3074ab"
 featured: false

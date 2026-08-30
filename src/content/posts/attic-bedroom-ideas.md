@@ -3,7 +3,7 @@ title: "Attic Bedroom Ideas"
 description: "Attic bedroom ideas that work with sloped ceilings — headroom rules, furniture placement, lighting, insulation and how to make a loft room feel cosy not cramped."
 category: "bedroom"
 tags: ["bedroom", "attic", "sloped ceiling", "loft conversion", "storage"]
-publishDate: 2026-09-08
+publishDate: 2026-08-16
 heroImage: "photo-1719569332255-030dd517952f"
 pinImage: "photo-1727270921836-3d51d25d9e33"
 featured: false

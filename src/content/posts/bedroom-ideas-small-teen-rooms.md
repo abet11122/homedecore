@@ -3,7 +3,7 @@ title: "Bedroom Ideas for Small Teen Rooms"
 description: "Small teen bedroom ideas that handle sleeping, studying and hanging out in one room — zoning, desk setups, storage and letting them own the space."
 category: "bedroom"
 tags: ["bedroom", "teen bedroom", "small spaces", "desk", "storage"]
-publishDate: 2026-09-07
+publishDate: 2026-08-15
 heroImage: "photo-1628746234641-28eb583a51b4"
 pinImage: "photo-1628304457638-562e9c885708"
 featured: false

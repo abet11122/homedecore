@@ -3,7 +3,7 @@ title: "Fall Decor Ideas for the Living Room"
 description: "Fall living room decor ideas that look warm rather than themed — the palette, textures, lighting and swaps that take twenty minutes."
 category: "seasonal"
 tags: ["seasonal", "fall", "living room", "decor", "textiles"]
-publishDate: 2026-09-19
+publishDate: 2026-08-27
 heroImage: "photo-1632120377007-c2adc3017b1e"
 pinImage: "photo-1601617956235-c97e358d054f"
 featured: false

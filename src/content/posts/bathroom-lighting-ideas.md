@@ -3,7 +3,7 @@ title: "Bathroom Lighting Ideas That Actually Flatter"
 description: "Bathroom lighting ideas with the heights, temperatures and CRI ratings that matter — why overhead light is unflattering and what to use instead."
 category: "bathroom"
 tags: ["bathroom", "lighting", "sconces", "bulbs", "measurements"]
-publishDate: 2026-09-14
+publishDate: 2026-08-22
 heroImage: "photo-1642755623069-eb720c326553"
 pinImage: "photo-1658370230118-24aa79649d6c"
 featured: false

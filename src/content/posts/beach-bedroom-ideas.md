@@ -3,7 +3,7 @@ title: "Beach Bedroom Ideas"
 description: "Beach bedroom ideas that feel coastal rather than themed — the right palette, natural textures, and how to avoid the nautical cliches."
 category: "bedroom"
 tags: ["bedroom", "coastal", "beach style", "linen", "natural textures"]
-publishDate: 2026-09-09
+publishDate: 2026-08-17
 heroImage: "photo-1602810372187-76337cedc513"
 pinImage: "photo-1760067537391-cd60b1ebc597"
 featured: false

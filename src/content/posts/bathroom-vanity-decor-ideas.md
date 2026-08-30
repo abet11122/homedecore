@@ -3,7 +3,7 @@ title: "Bathroom Vanity Decor Ideas"
 description: "Bathroom vanity decor ideas that stay tidy — the tray method, mirror sizing, what to display versus hide, and seasonal touches that survive humidity."
 category: "bathroom"
 tags: ["bathroom", "vanity", "styling", "mirrors", "storage"]
-publishDate: 2026-09-13
+publishDate: 2026-08-21
 heroImage: "photo-1576698483491-8c43f0862543"
 pinImage: "photo-1635286771551-9d7241ce7811"
 featured: false

@@ -3,7 +3,7 @@ title: "Renter-Friendly Wall Decor Ideas (No Damage)"
 description: "Renter-friendly wall decor ideas that leave no damage — adhesive strips and their real weight limits, leaning displays, removable wallpaper and how to repair small holes."
 category: "renter"
 tags: ["renter-friendly", "wall decor", "no-damage", "frames", "art"]
-publishDate: 2026-09-22
+publishDate: 2026-08-30
 heroImage: "photo-1697620734013-b7890bbeb02b"
 pinImage: "photo-1574514120529-364d014b9a0a"
 featured: false

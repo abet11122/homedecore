@@ -3,7 +3,7 @@ title: "Black and White Bedroom Ideas"
 description: "Black and white bedroom ideas that feel warm instead of stark — the right ratio, which whites and blacks to choose, and the third element that makes it work."
 category: "bedroom"
 tags: ["bedroom", "black and white", "paint colour", "monochrome", "styling"]
-publishDate: 2026-09-10
+publishDate: 2026-08-18
 heroImage: "photo-1651336259530-362bce65fffe"
 pinImage: "photo-1612365416820-33b8d140f476"
 featured: false

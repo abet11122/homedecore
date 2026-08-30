@@ -3,7 +3,7 @@ title: "Bedroom Ideas for Small Spaces That Feel Bigger"
 description: "Small bedroom ideas that genuinely make a room feel bigger — bed sizes, clearances, sightlines, colour and the layout rules that create space you can feel."
 category: "bedroom"
 tags: ["bedroom", "small spaces", "layout", "storage", "clearances"]
-publishDate: 2026-09-04
+publishDate: 2026-08-12
 heroImage: "photo-1615874959474-d609969a20ed"
 pinImage: "photo-1499916078039-922301b0eb9b"
 featured: false

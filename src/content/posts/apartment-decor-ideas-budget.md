@@ -3,7 +3,7 @@ title: "Apartment Decor Ideas on a Budget"
 description: "Budget apartment decor ideas in order of impact — the cheap changes that transform a rental, what's worth spending on, and what to skip entirely."
 category: "renter"
 tags: ["renter-friendly", "budget", "apartment", "lighting", "textiles"]
-publishDate: 2026-09-21
+publishDate: 2026-08-29
 heroImage: "photo-1665249934445-1de680641f50"
 pinImage: "photo-1650137938625-11576502aecd"
 featured: false

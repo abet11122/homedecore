@@ -3,7 +3,7 @@ title: "Bookshelf Ideas for Small Bedrooms"
 description: "Bookshelf ideas for small bedrooms — shelf depths, wall-mounted options, over-bed and over-door shelving, plus how to style shelves so they look calm."
 category: "bedroom"
 tags: ["bedroom", "small spaces", "bookshelf", "storage", "styling"]
-publishDate: 2026-09-05
+publishDate: 2026-08-13
 heroImage: "photo-1553444836-bc6c8d340ba7"
 pinImage: "photo-1553444859-788c4b385b13"
 featured: false

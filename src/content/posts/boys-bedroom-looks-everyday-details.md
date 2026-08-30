@@ -3,7 +3,7 @@ title: "Boys Bedroom Looks with Smart Everyday Details"
 description: "The small everyday details that make a boys bedroom work — charging stations, laundry systems, morning routines and the fittings that quietly do the heavy lifting."
 category: "bedroom"
 tags: ["bedroom", "boys bedroom", "storage", "organization", "routines"]
-publishDate: 2026-08-31
+publishDate: 2026-08-08
 heroImage: "photo-1651607160925-bbe958e38115"
 pinImage: "photo-1613043546863-9ede428dabb6"
 featured: false

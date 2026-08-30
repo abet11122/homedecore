@@ -3,7 +3,7 @@ title: "Backyard Seating Area Ideas"
 description: "Backyard seating area ideas with real dimensions — how much space you need, base materials, layouts, shade, lighting and fire pit clearances."
 category: "outdoor"
 tags: ["outdoor", "patio", "seating", "furniture", "lighting"]
-publishDate: 2026-09-18
+publishDate: 2026-08-26
 heroImage: "photo-1589830468294-765e8aba10a9"
 pinImage: "photo-1589830517302-44c51f875686"
 featured: false

@@ -3,7 +3,7 @@ title: "Baddie Bedroom Ideas for Small Rooms"
 description: "Baddie bedroom ideas for small rooms — the glam palette, LED lighting done well, mirrors, vanity setups and how to get the look on a small budget."
 category: "bedroom"
 tags: ["bedroom", "small spaces", "glam", "LED lighting", "vanity"]
-publishDate: 2026-09-06
+publishDate: 2026-08-14
 heroImage: "photo-1603726477468-da922b12b8ce"
 pinImage: "photo-1743867840110-ee532b7c6fb9"
 featured: false

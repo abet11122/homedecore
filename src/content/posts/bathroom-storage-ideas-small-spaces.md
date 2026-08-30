@@ -3,7 +3,7 @@ title: "Bathroom Storage Ideas for Small Spaces"
 description: "Small bathroom storage ideas with real depths and heights — over-toilet, vanity, shower and wall storage that fits without crowding the room."
 category: "bathroom"
 tags: ["bathroom", "small spaces", "storage", "shelving", "renter-friendly"]
-publishDate: 2026-09-12
+publishDate: 2026-08-20
 heroImage: "photo-1515938541268-cb8a388444b4"
 pinImage: "photo-1618579252366-f431305ada51"
 featured: false

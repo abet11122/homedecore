@@ -3,7 +3,7 @@ title: "Aesthetic Bedroom Ideas for Small Rooms"
 description: "Aesthetic bedroom ideas for small rooms — the lighting, palette and styling choices that make a tiny space photograph beautifully and still function."
 category: "bedroom"
 tags: ["bedroom", "small spaces", "aesthetic", "lighting", "styling"]
-publishDate: 2026-09-03
+publishDate: 2026-08-11
 heroImage: "photo-1611286079235-f4e84fccacba"
 pinImage: "photo-1587911146207-813e19d079f9"
 featured: false

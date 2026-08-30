@@ -3,7 +3,7 @@ title: "Christmas Entryway Decor Ideas"
 description: "Christmas entryway decor ideas that fit a small hall — wreath sizing, garland lengths, what fits on a console, and keeping the space walkable."
 category: "seasonal"
 tags: ["seasonal", "christmas", "entryway", "hallway", "decorations"]
-publishDate: 2026-09-20
+publishDate: 2026-08-28
 heroImage: "photo-1514712640984-713640f515c7"
 pinImage: "photo-1632210373446-bf3ce948e7db"
 featured: false

@@ -3,7 +3,7 @@ title: "Blue Girls Bedroom Ideas"
 description: "Blue girls bedroom ideas beyond the obvious — dusty blue, teal and navy palettes with the warm pairings that stop a blue room feeling cold."
 category: "bedroom"
 tags: ["bedroom", "girls bedroom", "blue", "paint colour", "dusty blue"]
-publishDate: 2026-09-01
+publishDate: 2026-08-09
 heroImage: "photo-1615388247210-f97018b08786"
 pinImage: "photo-1633197011007-34da7df0253b"
 featured: false
