@@ -1,4 +1,6 @@
 ---
+import { SITE } from '../site';
+
 interface Crumb {
   label: string;
   href?: string;
@@ -9,7 +11,7 @@ interface Props {
 }
 
 const { items } = Astro.props;
-const site = Astro.site?.href ?? 'https://yourdomain.com/';
+const site = Astro.site?.href ?? `${SITE.url}/`;
 
 const schema = {
   '@context': 'https://schema.org',

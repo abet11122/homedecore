@@ -8,7 +8,9 @@ export const SITE = {
   tagline: 'Considered interiors for real homes',
   description:
     'An editorial guide to interiors: room-by-room design ideas, DIY projects and styling tips you can actually use.',
-  url: 'https://yourdomain.com',
+  // Interim: swap for your real domain once purchased — this is the only
+  // place it needs to change (astro.config.mjs reads it from here).
+  url: 'https://homedecore-neon.vercel.app',
   author: 'Elena Marsh',
   authorRole: 'Editor & Interior Stylist',
   authorBio:

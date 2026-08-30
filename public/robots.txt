@@ -2,5 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /search/
 
-# Update the domain here and in astro.config.mjs before deploying.
-Sitemap: https://yourdomain.com/sitemap-index.xml
+# Update the domain here and in src/site.ts once you buy one.
+Sitemap: https://homedecore-neon.vercel.app/sitemap-index.xml
