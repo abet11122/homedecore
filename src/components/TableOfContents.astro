@@ -1,0 +1,35 @@
+---
+interface Heading {
+  depth: number;
+  text: string;
+  slug: string;
+}
+
+interface Props {
+  headings: Heading[];
+}
+
+const { headings } = Astro.props;
+const items = headings.filter((h) => h.depth === 2);
+---
+
+{items.length > 2 && (
+  <nav class="my-10 border-y border-rule py-7" aria-labelledby="toc-heading">
+    <p id="toc-heading" class="eyebrow-muted">In this article</p>
+    <ol class="mt-5 grid gap-x-10 gap-y-3 sm:grid-cols-2">
+      {items.map((h, i) => (
+        <li class="flex gap-3">
+          <span class="mt-[0.15rem] w-5 shrink-0 font-display text-sm text-clay">
+            {String(i + 1).padStart(2, '0')}
+          </span>
+          <a
+            href={`#${h.slug}`}
+            class="text-[0.9375rem] leading-snug text-ink-60 transition-colors hover:text-clay"
+          >
+            {h.text}
+          </a>
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}

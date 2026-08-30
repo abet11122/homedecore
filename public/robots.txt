@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /search/
+
+# Update the domain here and in astro.config.mjs before deploying.
+Sitemap: https://yourdomain.com/sitemap-index.xml

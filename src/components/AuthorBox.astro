@@ -1,0 +1,37 @@
+---
+import { SITE, formatDate } from '../site';
+
+interface Props {
+  publishDate: Date;
+  updatedDate?: Date;
+}
+
+const { publishDate, updatedDate } = Astro.props;
+---
+
+<aside class="mt-14 border-y border-rule py-8">
+  <div class="flex flex-col gap-5 sm:flex-row sm:gap-7">
+    <img
+      src={SITE.authorAvatar}
+      alt=""
+      width="72"
+      height="72"
+      loading="lazy"
+      class="h-[72px] w-[72px] shrink-0 rounded-full object-cover"
+    />
+    <div>
+      <p class="eyebrow-muted">Written by</p>
+      <p class="mt-2 font-display text-xl text-ink">{SITE.author}</p>
+      <p class="mt-0.5 text-xs uppercase tracking-[0.1em] text-ink-40">{SITE.authorRole}</p>
+      <p class="mt-3 max-w-xl text-[0.9375rem] leading-relaxed text-ink-60">{SITE.authorBio}</p>
+      <p class="mt-4 text-xs text-ink-40">
+        Published <time datetime={publishDate.toISOString()}>{formatDate(publishDate)}</time>
+        {updatedDate && (
+          <>
+            {' · '}Updated <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate)}</time>
+          </>
+        )}
+      </p>
+    </div>
+  </div>
+</aside>

@@ -1,0 +1,206 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Img from '../components/Img.astro';
+import PostCard from '../components/PostCard.astro';
+import SectionHead from '../components/SectionHead.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Newsletter from '../components/Newsletter.astro';
+import {
+  CATEGORIES,
+  PRIMARY_CATEGORIES,
+  SECONDARY_CATEGORIES,
+  SITE,
+  categoryName,
+  formatDateShort,
+} from '../site';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
+);
+
+const featured = posts.find((p) => p.data.featured) ?? posts[0];
+const rest = posts.filter((p) => p.id !== featured?.id);
+const secondary = rest.slice(0, 2);
+const grid = rest.slice(2, 8);
+const listed = rest.slice(8, 13);
+
+const today = new Date().toLocaleDateString('en-US', {
+  weekday: 'long',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<Layout>
+  {/* ── Masthead strip ─────────────────────────────────────────── */}
+  <div class="border-b border-rule bg-sand/60">
+    <div class="wrap flex items-center justify-between py-2.5">
+      <p class="text-eyebrow font-semibold uppercase text-ink-40">{today}</p>
+      <p class="hidden text-eyebrow font-semibold uppercase text-ink-40 sm:block">
+        Issue №{String(posts.length).padStart(2, '0')} · Independent &amp; reader-funded
+      </p>
+    </div>
+  </div>
+
+  {/* ── Lead story ─────────────────────────────────────────────── */}
+  {featured && (
+    <section class="wrap pb-16 pt-10 lg:pb-24 lg:pt-16">
+      <div class="grid items-center gap-9 lg:grid-cols-12 lg:gap-16">
+        <div class="lg:col-span-7">
+          <a href={`/post/${featured.id}/`} class="group block">
+            <div class="frame aspect-[4/3] lg:aspect-[7/5]">
+              <Img
+                src={featured.data.heroImage}
+                alt={featured.data.title}
+                width={1120}
+                height={800}
+                loading="eager"
+                fetchpriority="high"
+                sizes="(min-width: 1024px) 58vw, 100vw"
+              />
+            </div>
+          </a>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="flex items-center gap-3">
+            <span class="h-px w-8 bg-clay"></span>
+            <p class="eyebrow">The Lead · {categoryName(featured.data.category)}</p>
+          </div>
+
+          <h1 class="mt-5 font-display text-[2.25rem] leading-[1.06] text-ink sm:text-[3rem] lg:text-[3.5rem]">
+            <a href={`/post/${featured.id}/`} class="transition-colors duration-250 hover:text-clay">
+              {featured.data.title}
+            </a>
+          </h1>
+
+          <p class="mt-6 text-[1.0625rem] leading-relaxed text-ink-60 lg:text-[1.125rem]">
+            {featured.data.description}
+          </p>
+
+          <div class="mt-8 flex items-center gap-5 border-t border-rule pt-5">
+            <a href={`/post/${featured.id}/`} class="link-arrow">
+              Read the story
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6"></path>
+              </svg>
+            </a>
+            <span class="text-xs uppercase tracking-[0.1em] text-ink-40">
+              {formatDateShort(featured.data.publishDate)}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {secondary.length > 0 && (
+        <div class="mt-16 grid gap-x-12 gap-y-12 border-t border-rule pt-12 sm:grid-cols-2">
+          {secondary.map((post) => (
+            <PostCard post={post} variant="wide" sizes="(min-width: 640px) 24vw, 90vw" />
+          ))}
+        </div>
+      )}
+    </section>
+  )}
+
+  <div class="wrap">
+    <AdSlot placement="feed" class="mb-14 lg:mb-20" />
+  </div>
+
+  {/* ── Rooms ──────────────────────────────────────────────────── */}
+  <section class="wrap" aria-labelledby="rooms-heading">
+    <SectionHead
+      id="rooms-heading"
+      kicker={`${CATEGORIES.length} rooms`}
+      title="Browse by room"
+    />
+
+    {/*
+      The six main rooms run as photographic tiles — exactly one full row at
+      every breakpoint, so the grid never leaves an orphaned last row. The
+      remaining rooms sit below as type, mirroring the header's primary/More
+      split so the same hierarchy reads on the page and in the nav.
+    */}
+    <div class="mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
+      {PRIMARY_CATEGORIES.map((c) => (
+        <a href={`/category/${c.slug}/`} class="tile aspect-[3/4]">
+          <Img
+            src={c.image}
+            alt=""
+            width={340}
+            height={453}
+            sizes="(min-width: 1024px) 15vw, (min-width: 768px) 30vw, 45vw"
+          />
+          <span class="tile-label">{c.name}</span>
+        </a>
+      ))}
+    </div>
+
+    {SECONDARY_CATEGORIES.length > 0 && (
+      <div class="mt-7 flex flex-wrap items-baseline gap-x-8 gap-y-3 border-t border-rule pt-6">
+        <span class="eyebrow-muted shrink-0">Also</span>
+        {SECONDARY_CATEGORIES.map((c) => (
+          <a
+            href={`/category/${c.slug}/`}
+            class="link-underline font-display text-xl leading-none text-ink hover:text-clay sm:text-[1.375rem]"
+          >
+            {c.name}
+          </a>
+        ))}
+      </div>
+    )}
+  </section>
+
+  {/* ── Latest ─────────────────────────────────────────────────── */}
+  {grid.length > 0 && (
+    <section class="wrap mt-16 lg:mt-24" aria-labelledby="latest-heading">
+      <SectionHead id="latest-heading" kicker="Fresh this week" title="Latest stories" />
+
+      <div class="mt-12 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
+        {grid.map((post) => (
+          <PostCard post={post} />
+        ))}
+      </div>
+    </section>
+  )}
+
+  {/* ── Numbered list — keeps readers moving to a second page ──── */}
+  {listed.length > 0 && (
+    <section class="wrap mt-16 lg:mt-24" aria-labelledby="more-heading">
+      <SectionHead
+        id="more-heading"
+        kicker="Keep reading"
+        title="More from the archive"
+        href="/search/"
+        hrefLabel="Browse all"
+      />
+      <ol class="mt-2">
+        {listed.map((post, i) => (
+          <li class="group border-b border-rule">
+            <a
+              href={`/post/${post.id}/`}
+              class="grid grid-cols-[2.75rem_1fr_auto] items-center gap-5 py-6 sm:gap-8"
+            >
+              <span class="font-display text-2xl leading-none text-ink-20 transition-colors duration-250 group-hover:text-clay">
+                {String(i + 1).padStart(2, '0')}
+              </span>
+              <span class="min-w-0">
+                <span class="eyebrow-muted">{categoryName(post.data.category)}</span>
+                <span class="mt-2 block font-display text-lg leading-snug text-ink transition-colors duration-250 group-hover:text-clay sm:text-xl">
+                  {post.data.title}
+                </span>
+              </span>
+              <span class="frame hidden aspect-square w-20 shrink-0 sm:block">
+                <Img src={post.data.heroImage} alt="" width={160} height={160} sizes="80px" />
+              </span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )}
+
+  <div class="mt-16 lg:mt-24">
+    <Newsletter />
+  </div>
+</Layout>

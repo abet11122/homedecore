@@ -1,0 +1,126 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import PostCard from '../../components/PostCard.astro';
+import Img from '../../components/Img.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import { CATEGORIES, categoryBySlug } from '../../site';
+
+export async function getStaticPaths() {
+  return CATEGORIES.map((c) => ({ params: { slug: c.slug } }));
+}
+
+const { slug } = Astro.params;
+const category = categoryBySlug(slug!)!;
+
+const posts = (await getCollection('posts'))
+  .filter((p) => p.data.category === slug)
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+
+const [lead, ...others] = posts;
+const otherCategories = CATEGORIES.filter((c) => c.slug !== slug);
+
+// Thin rooms were rendering a single card stranded in a three-column row with
+// two-thirds of the row empty. Match the column count to what is actually left:
+// one story reads better full-width, and two or four sit square in two columns.
+const gridClass =
+  others.length === 2 || others.length === 4
+    ? 'sm:grid-cols-2'
+    : 'sm:grid-cols-2 lg:grid-cols-3';
+---
+
+<Layout
+  title={category.name}
+  description={category.blurb}
+  image={lead?.data.pinImage}
+>
+  <header class="border-b border-rule">
+    <div class="wrap py-10 lg:py-14">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: category.name }]} />
+      {/*
+        The room's own photograph anchors the header — without it a category
+        page opened from search is a wall of type, while every other template
+        on the site leads with an image.
+      */}
+      <div class="mt-7 grid gap-8 lg:grid-cols-12 lg:items-center lg:gap-14">
+        <div class="lg:col-span-6">
+          <h1 class="font-display text-[2.5rem] leading-[1.05] text-ink sm:text-5xl lg:text-6xl">
+            {category.name}
+          </h1>
+          <p class="mt-5 max-w-xl text-[1.0625rem] leading-relaxed text-ink-60">
+            {category.blurb}
+          </p>
+          <p class="mt-6 flex items-center gap-3 text-eyebrow font-semibold uppercase text-ink-40">
+            <span class="h-px w-8 bg-clay"></span>
+            {posts.length} {posts.length === 1 ? 'story' : 'stories'}
+          </p>
+        </div>
+
+        <div class="lg:col-span-6">
+          <div class="frame aspect-[16/10] lg:aspect-[3/2]">
+            <Img
+              src={category.image}
+              alt=""
+              width={860}
+              height={573}
+              loading="eager"
+              fetchpriority="high"
+              sizes="(min-width: 1024px) 45vw, 100vw"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {posts.length > 0 ? (
+    <>
+      <section class="wrap py-12 lg:py-16">
+        <PostCard post={lead} variant="wide" eager sizes="(min-width: 640px) 45vw, 90vw" />
+
+        {others.length === 1 && (
+          <div class="mt-14 border-t border-rule pt-12">
+            <PostCard post={others[0]} variant="wide" sizes="(min-width: 640px) 45vw, 90vw" />
+          </div>
+        )}
+
+        {others.length > 1 && (
+          <div class={`mt-14 grid gap-x-7 gap-y-12 border-t border-rule pt-12 ${gridClass}`}>
+            {others.map((post) => (
+              <PostCard post={post} />
+            ))}
+          </div>
+        )}
+      </section>
+
+      <div class="wrap">
+        <AdSlot placement="feed" class="mb-12 lg:mb-16" />
+      </div>
+    </>
+  ) : (
+    <section class="wrap py-20 text-center">
+      <p class="font-display text-2xl text-ink">Nothing here yet.</p>
+      <p class="mx-auto mt-3 max-w-md text-ink-60">
+        We are working on this room. In the meantime, browse the rest of the archive.
+      </p>
+      <a href="/" class="btn btn-outline mt-7">Back to home</a>
+    </section>
+  )}
+
+  <section class="wrap border-t border-rule pt-12" aria-labelledby="other-rooms">
+    <h2 id="other-rooms" class="eyebrow-muted">Other rooms</h2>
+    <div class="mt-5 flex flex-wrap gap-x-7 gap-y-3">
+      {otherCategories.map((c) => (
+        <a href={`/category/${c.slug}/`} class="font-display text-xl text-ink transition-colors hover:text-clay sm:text-2xl">
+          {c.name}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <div class="mt-16 lg:mt-20">
+    <Newsletter />
+  </div>
+</Layout>
