@@ -8,6 +8,25 @@ heroImage: "photo-1522771739844-6a9f6d5f14af"
 pinImage: "photo-1616594039964-ae9021a400a0"
 featured: false
 affiliateDisclosure: false
+keyTakeaways:
+  - "Three separately switchable sources at different heights is the point where a room stops having a light and starts having lighting."
+  - "2700K is the bedroom number; 4000K and above belongs in a garage."
+  - "Swing-arm sconces sit 90-100cm above the mattress and about 20cm out from the bed, which frees the nightstand entirely."
+  - "Buy CRI 90+ where you can find it — below 80, wood goes grey and every textile in the room looks wrong."
+  - "If a fitting cannot dim, it can only ever be right at one time of day."
+faqs:
+  - q: "What colour temperature is best for bedroom lighting?"
+    a: "2700K — standard warm white, the colour of an old incandescent bulb. 3000K is acceptable for a reading light. Anything at 4000K or above suppresses melatonin for a good while after you switch it off, which is the opposite of what a bedroom is for."
+  - q: "How many light sources does a bedroom need?"
+    a: "At least three, independently switchable, at different heights: an ambient wash, a reading light on each sleeping side, and a low accent glow under about 25cm tall. Three is the number at which a room stops being one flat pool of light."
+  - q: "How high should bedside wall lights be mounted?"
+    a: "Swing-arm sconces go 90 to 100cm above the top of the mattress, roughly 20cm out from the edge of the bed. The bottom of the shade should land near shoulder height when you are propped up — higher shines in your eyes, lower lights the sheets rather than the page."
+  - q: "How many lumens do I need in a bedroom?"
+    a: "Roughly 400-800 dimmable lumens for ambient, 400-600 directed for reading, and 100-250 for accent. A typical 12-14m² bedroom totals around 1500-2000 lumens with everything on — and you should almost never have everything on."
+  - q: "Can I fix bedroom lighting in a rental?"
+    a: "Yes, with no drilling and nothing hard-wired. A plug-in swing-arm sconce per side hung on a picture hook, a corner floor lamp on a smart plug, a small dresser lamp with a 2200K bulb, and warm dimmable smart bulbs grouped into one bedtime scene. Then leave the ceiling fitting off permanently."
+  - q: "What does CRI mean on a light bulb?"
+    a: "Colour rendering index — how accurately the light shows colour. Buy 90 or above where you can find it. Below about 80, wood goes grey, skin looks sallow and every textile in the room reads slightly wrong. It is the cheapest upgrade in lighting."
 ---
 
 A single bright bulb in the middle of the ceiling is the worst possible way to light a bedroom, and it is how roughly every rented flat in the world is lit. It flattens every surface, throws hard shadows under everything, and — because of what it does to your melatonin — actively works against the room's only real job.

@@ -1,4 +1,13 @@
 ---
+/**
+ * Article contents, in two forms.
+ *
+ * `inline` is the horizontal block that sits above the body on narrow
+ * screens. `sidebar` is the sticky rail shown from xl up, where there is
+ * dead margin to spend — it tracks the reader's position as they scroll,
+ * so the article always shows how much is left and how to jump. Readers
+ * who can see the shape of a piece scroll further into it.
+ */
 interface Heading {
   depth: number;
   text: string;
@@ -7,14 +16,16 @@ interface Heading {
 
 interface Props {
   headings: Heading[];
+  variant?: 'inline' | 'sidebar';
+  class?: string;
 }
 
-const { headings } = Astro.props;
+const { headings, variant = 'inline', class: className = '' } = Astro.props;
 const items = headings.filter((h) => h.depth === 2);
 ---
 
-{items.length > 2 && (
-  <nav class="my-10 border-y border-rule py-7" aria-labelledby="toc-heading">
+{items.length > 2 && variant === 'inline' && (
+  <nav class={`my-10 border-y border-rule py-7 ${className}`} aria-labelledby="toc-heading">
     <p id="toc-heading" class="eyebrow-muted">In this article</p>
     <ol class="mt-5 grid gap-x-10 gap-y-3 sm:grid-cols-2">
       {items.map((h, i) => (
@@ -26,6 +37,28 @@ const items = headings.filter((h) => h.depth === 2);
             href={`#${h.slug}`}
             class="text-[0.9375rem] leading-snug text-ink-60 transition-colors hover:text-clay"
           >
+            {h.text}
+          </a>
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}
+
+{items.length > 2 && variant === 'sidebar' && (
+  <nav class={`toc-rail ${className}`} aria-labelledby="toc-rail-heading">
+    <p id="toc-rail-heading" class="eyebrow-muted">In this article</p>
+    <ol class="mt-5 space-y-0.5 border-l border-rule">
+      {items.map((h, i) => (
+        <li>
+          <a
+            href={`#${h.slug}`}
+            data-toc-link={h.slug}
+            class="toc-link block py-1.5 pl-4 text-[0.8125rem] leading-snug text-ink-40 transition-colors hover:text-ink"
+          >
+            <span class="mr-1.5 font-display text-[0.6875rem] text-ink-20">
+              {String(i + 1).padStart(2, '0')}
+            </span>
             {h.text}
           </a>
         </li>

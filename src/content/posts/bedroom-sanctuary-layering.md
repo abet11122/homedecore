@@ -9,6 +9,25 @@ heroImage: "photo-1631049307264-da0ec9d70304"
 pinImage: "photo-1505693416388-ac5ce068fe85"
 featured: true
 affiliateDisclosure: true
+keyTakeaways:
+  - "Buy the duvet one size larger than the mattress — it is the single highest-leverage change to how a bed looks."
+  - "Layer in order so each layer reveals a strip of the one behind it; those horizontal bands are what the eye reads as made properly."
+  - "Match pillow count to bed width rather than ambition: a double takes three, a king takes six."
+  - "Choose warm whites or cool whites and stay there — mixing the two reads as dirt."
+  - "Thread count above roughly 400 is marketing; weave and fibre length matter far more."
+faqs:
+  - q: "What size duvet should I buy for my bed?"
+    a: "One size larger than the mattress. A queen mattress takes a king duvet; a king takes a super king. Standard sizing stops at the mattress edge and hangs in a stiff lip, while an oversized duvet drapes past the side and creates the soft folds that make a bed look inviting."
+  - q: "How many pillows should be on a bed?"
+    a: "Match the count to the width. Single: one sleeping pillow and one cushion. Double: two pillows and a lumbar. Queen: two pillows, two euro shams, one lumbar. King: three pillows, two euro shams, one lumbar. Two decorative cushions is the ceiling, not the starting point."
+  - q: "Is linen or cotton better for bedding?"
+    a: "Linen if you want the lived-in look for the least effort — it creases immediately and softens for years. Cotton percale if you prefer crisp and tidy, though it wants ironing. Avoid microfibre: it does not crease, but it does not drape either, so it sits flat."
+  - q: "Does thread count actually matter?"
+    a: "Above roughly 400 it is largely marketing. Weave and fibre length matter far more. A 200-thread-count long-staple cotton percale will outperform a 1000-thread-count short-staple sateen on softness, durability and the way it falls over the edge of the bed."
+  - q: "How should I drape a throw on a bed?"
+    a: "Fold it in half lengthways, lay it diagonally across one bottom corner, and let one end fall to or near the floor. Do not straighten it. Straight across the footboard reads as a hotel that has given up; the deliberate asymmetry is what makes the bed look casual."
+  - q: "What order do you layer a bed in?"
+    a: "Fitted sheet, flat sheet folded back about 25cm at the head, duvet or quilt, coverlet folded across the lower third, sleeping pillows against the headboard, euro shams in front, two decorative cushions, then a throw. Skipping a layer is fine; reordering is not."
 ---
 
 Every well-photographed bed you have ever envied is doing the same five things. None of them are expensive, and none of them require the bedding to match. What they require is order — literally, the order in which things go onto the bed — and a willingness to size up.

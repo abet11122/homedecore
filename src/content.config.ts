@@ -28,6 +28,24 @@ const posts = defineCollection({
     pinImage: z.string(),
     featured: z.boolean().default(false),
     affiliateDisclosure: z.boolean().default(false),
+    /**
+     * Scannable summary rendered above the article and read by AI answer
+     * engines. 3-5 short lines; omit rather than pad.
+     */
+    keyTakeaways: z.array(z.string()).max(6).optional(),
+    /**
+     * Questions readers actually ask, answered in 40-60 words each.
+     * Rendered as an accordion and emitted as FAQPage structured data,
+     * which is what makes the page eligible for the People Also Ask block.
+     */
+    faqs: z
+      .array(
+        z.object({
+          q: z.string(),
+          a: z.string(),
+        })
+      )
+      .optional(),
   }),
 });
 

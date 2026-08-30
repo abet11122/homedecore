@@ -5,64 +5,150 @@ import { SITE, CATEGORIES, PRIMARY_CATEGORIES, SECONDARY_CATEGORIES } from '../s
 interface Props {
   title?: string;
   description?: string;
+  /** Vertical 2:3 pin — becomes og:image so Pinterest saves the tall crop. */
   image?: string;
+  /** Horizontal hero — becomes twitter:image, which wants 1.91:1. */
+  imageWide?: string;
   type?: 'website' | 'article';
   publishDate?: string;
   updatedDate?: string;
   noindex?: boolean;
+  /** Category name, emitted as articleSection. */
+  section?: string;
+  /** Post tags, emitted as keywords and article:tag. */
+  keywords?: string[];
+  /** Body word count, emitted as wordCount. */
+  words?: number;
+  /** Reading time in minutes, emitted as timeRequired. */
+  minutes?: number;
+  /** Extra JSON-LD nodes merged into the page graph (ItemList, FAQPage, …). */
+  schemas?: Record<string, unknown>[];
 }
 
 const {
   title,
   description = SITE.description,
   image,
+  imageWide,
   type = 'website',
   publishDate,
   updatedDate,
   noindex = false,
+  section,
+  keywords = [],
+  words,
+  minutes,
+  schemas = [],
 } = Astro.props;
 
 const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+const origin = (Astro.site ?? new URL(SITE.url)).origin;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
+
+const abs = (path: string) => new URL(path, origin).href;
+
+/** Unsplash id → CDN URL at the crop we want; absolute URLs pass through. */
+function photo(src: string, w: number, h: number) {
+  return src.startsWith('photo-')
+    ? `https://images.unsplash.com/${src}?w=${w}&h=${h}&fit=crop&auto=format&q=75`
+    : src;
+}
+
+const DEFAULT_PHOTO = 'photo-1600210492486-724fe5c67fb0';
 
 // og:image is the vertical pin when a post supplies one, so Pinterest saves
 // the 2:3 image rather than the horizontal hero.
-const ogImage = image
-  ? image.startsWith('photo-')
-    ? `https://images.unsplash.com/${image}?w=1000&h=1500&fit=crop&auto=format&q=75`
-    : image
-  : `https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1200&h=630&fit=crop&auto=format&q=75`;
+const ogImage = image ? photo(image, 1000, 1500) : photo(DEFAULT_PHOTO, 1200, 630);
+const ogIsPin = Boolean(image);
+const ogW = ogIsPin ? 1000 : 1200;
+const ogH = ogIsPin ? 1500 : 630;
+
+// Twitter cards crop to 1.91:1, so a tall pin would be sliced through the
+// middle. Feed the horizontal hero there instead when we have one.
+const twitterImage = imageWide ? photo(imageWide, 1200, 630) : ogImage;
 
 const adsenseId = import.meta.env.PUBLIC_ADSENSE_CLIENT_ID || import.meta.env.ADSENSE_CLIENT_ID || '';
 
-const orgSchema = {
-  '@context': 'https://schema.org',
+/* ------------------------------------------------------------------
+   Structured data
+
+   Emitted as one @graph with stable @ids so Organization, WebSite, the
+   author Person and the page itself are cross-referenced rather than
+   repeated — that is what lets a search engine resolve them into a
+   single entity instead of four loose blobs.
+------------------------------------------------------------------- */
+const ORG_ID = `${origin}/#organization`;
+const SITE_ID = `${origin}/#website`;
+const AUTHOR_ID = `${origin}/author/${SITE.authorSlug}/#person`;
+
+const orgNode = {
   '@type': 'Organization',
+  '@id': ORG_ID,
   name: SITE.name,
-  url: SITE.url,
+  url: `${origin}/`,
   description: SITE.description,
-  sameAs: [SITE.pinterest, SITE.instagram],
+  logo: {
+    '@type': 'ImageObject',
+    url: abs(SITE.logo),
+    caption: SITE.name,
+  },
+  sameAs: [SITE.pinterest, SITE.instagram].filter(Boolean),
 };
 
-const articleSchema =
+const siteNode = {
+  '@type': 'WebSite',
+  '@id': SITE_ID,
+  name: SITE.name,
+  alternateName: SITE.tagline,
+  url: `${origin}/`,
+  description: SITE.description,
+  inLanguage: SITE.lang,
+  publisher: { '@id': ORG_ID },
+};
+
+const authorNode = {
+  '@type': 'Person',
+  '@id': AUTHOR_ID,
+  name: SITE.author,
+  url: abs(`/author/${SITE.authorSlug}/`),
+  jobTitle: SITE.authorRole,
+  description: SITE.authorBio,
+  image: SITE.authorAvatar,
+  worksFor: { '@id': ORG_ID },
+  ...(SITE.authorLinks.length ? { sameAs: [...SITE.authorLinks] } : {}),
+};
+
+const articleNode =
   type === 'article'
     ? {
-        '@context': 'https://schema.org',
-        '@type': 'Article',
+        '@type': 'BlogPosting',
+        '@id': `${canonical}#article`,
         headline: title,
         description,
-        image: [ogImage],
+        // Both crops: search engines pick whichever aspect ratio the
+        // surface they are rendering into needs.
+        image: [ogImage, twitterImage].filter((v, i, a) => a.indexOf(v) === i),
         datePublished: publishDate,
         dateModified: updatedDate || publishDate,
-        author: { '@type': 'Person', name: SITE.author },
-        publisher: { '@type': 'Organization', name: SITE.name },
+        author: { '@id': AUTHOR_ID },
+        publisher: { '@id': ORG_ID },
+        isPartOf: { '@id': SITE_ID },
         mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+        inLanguage: SITE.lang,
+        isAccessibleForFree: true,
+        ...(section ? { articleSection: section } : {}),
+        ...(keywords.length ? { keywords: keywords.join(', ') } : {}),
+        ...(words ? { wordCount: words } : {}),
+        ...(minutes ? { timeRequired: `PT${minutes}M` } : {}),
       }
     : null;
+
+const graph = [orgNode, siteNode, authorNode, articleNode, ...schemas].filter(Boolean);
+const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={SITE.lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -75,6 +161,7 @@ const articleSchema =
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE.name} — latest stories`} href="/rss.xml" />
 
     {/* Fonts: preconnect + swap so text paints instantly and never reflows */}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -90,19 +177,29 @@ const articleSchema =
     <meta property="og:title" content={title || SITE.name} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content={String(ogW)} />
+    <meta property="og:image:height" content={String(ogH)} />
+    <meta property="og:image:alt" content={title || SITE.name} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:locale" content={SITE.locale} />
     {type === 'article' && publishDate && (
       <meta property="article:published_time" content={publishDate} />
     )}
     {type === 'article' && updatedDate && (
       <meta property="article:modified_time" content={updatedDate} />
     )}
+    {type === 'article' && <meta property="article:author" content={SITE.author} />}
+    {type === 'article' && section && <meta property="article:section" content={section} />}
+    {type === 'article' && keywords.map((k) => <meta property="article:tag" content={k} />)}
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title || SITE.name} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={twitterImage} />
+    <meta name="twitter:image:alt" content={title || SITE.name} />
+    {SITE.twitter && <meta name="twitter:site" content={SITE.twitter} />}
+    {SITE.twitter && <meta name="twitter:creator" content={SITE.twitter} />}
 
     {/* Pinterest Rich Pins + domain verification */}
     <meta name="pinterest-rich-pin" content="true" />
@@ -113,8 +210,7 @@ const articleSchema =
       <meta name="google-site-verification" content={SITE.googleVerification} />
     )}
 
-    <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
-    {articleSchema && <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />}
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
     {/*
       Google Consent Mode v2 defaults — denied until the certified CMP
@@ -191,6 +287,12 @@ const articleSchema =
                     {c.name}
                   </a>
                 ))}
+                <a
+                  href="/tags/"
+                  class="mt-2 block border-t border-rule px-3 pb-2 pt-3.5 font-body text-eyebrow font-semibold uppercase text-ink-40 transition-colors hover:text-clay"
+                >
+                  All topics
+                </a>
               </div>
             </details>
           </nav>
@@ -230,6 +332,9 @@ const articleSchema =
                       {c.name}
                     </a>
                   ))}
+                  <a href="/tags/" class="border-b border-rule/70 py-3.5 font-display text-lg text-ink">
+                    All topics
+                  </a>
                   <a href="/about/" class="py-3.5 font-body text-sm uppercase tracking-[0.1em] text-ink-40">
                     About
                   </a>
@@ -255,6 +360,7 @@ const articleSchema =
               <a href={SITE.pinterest} rel="noopener noreferrer nofollow" target="_blank" class="eyebrow-muted hover:text-clay">Pinterest</a>
               <a href={SITE.instagram} rel="noopener noreferrer nofollow" target="_blank" class="eyebrow-muted hover:text-clay">Instagram</a>
               <a href={`mailto:${SITE.email}`} class="eyebrow-muted hover:text-clay">Email</a>
+              <a href="/rss.xml" class="eyebrow-muted hover:text-clay">RSS</a>
             </div>
           </div>
 
@@ -274,7 +380,13 @@ const articleSchema =
             <p class="eyebrow-muted">Site</p>
             <ul class="mt-4 space-y-2.5">
               <li><a href="/" class="text-sm text-ink-60 hover:text-clay">Home</a></li>
+              <li><a href="/tags/" class="text-sm text-ink-60 hover:text-clay">Topics</a></li>
               <li><a href="/about/" class="text-sm text-ink-60 hover:text-clay">About</a></li>
+              <li>
+                <a href={`/author/${SITE.authorSlug}/`} class="text-sm text-ink-60 hover:text-clay">
+                  {SITE.author}
+                </a>
+              </li>
               <li><a href="/contact/" class="text-sm text-ink-60 hover:text-clay">Contact</a></li>
               <li><a href="/search/" class="text-sm text-ink-60 hover:text-clay">Search</a></li>
             </ul>

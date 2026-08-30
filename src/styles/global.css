@@ -461,3 +461,133 @@
   width: 0;
   transition: width 120ms linear;
 }
+
+/* ------------------------------------------------------------------
+   Post grid
+
+   The reading column is the constant; the rails are margin that only
+   appears once the viewport can spare it. Below xl the grid is a single
+   column and behaves exactly as it did before.
+
+   xl   14 + 43 + 3 gap            = 60rem of content
+   2xl  14 + 43 + 19.5 + 6.5 gaps  = 83rem, inside a 1536px viewport
+------------------------------------------------------------------- */
+.post-grid {
+  display: grid;
+}
+
+@media (min-width: 1280px) {
+  .post-grid {
+    grid-template-columns: 14rem minmax(0, 43rem);
+    column-gap: 3rem;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1536px) {
+  .post-grid {
+    grid-template-columns: 14rem minmax(0, 43rem) 19.5rem;
+    column-gap: 3.25rem;
+    /*
+      Three columns do not fit inside the 82rem page width without stealing
+      from the middle one, and the reading measure is the thing that must not
+      move. So the grid — and only the grid — steps outside the wrapper here.
+    */
+    margin-inline: -6rem;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Sticky contents rail
+------------------------------------------------------------------- */
+
+/* A long article must not push the rail past the fold — it scrolls itself. */
+.toc-rail ol {
+  max-height: calc(100vh - 18rem);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #e5dcd0 transparent;
+}
+
+.toc-rail ol::-webkit-scrollbar {
+  width: 3px;
+}
+
+.toc-rail ol::-webkit-scrollbar-thumb {
+  background: #e5dcd0;
+}
+
+.toc-link {
+  position: relative;
+}
+
+.toc-link.is-current {
+  @apply font-medium text-ink;
+}
+
+/* Sits on top of the list's own hairline, so the marker reads as the rule
+   lighting up rather than as a second line appearing beside it. */
+.toc-link.is-current::before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 0.3rem;
+  bottom: 0.3rem;
+  width: 2px;
+  @apply bg-clay;
+}
+
+/* ------------------------------------------------------------------
+   Tag chips
+------------------------------------------------------------------- */
+.chip-link {
+  @apply inline-flex items-center border border-rule bg-paper px-3 py-1 font-body text-xs text-ink-60;
+  transition:
+    color 200ms ease,
+    background-color 200ms ease,
+    border-color 200ms ease;
+}
+
+.chip-link:hover {
+  @apply border-clay bg-clay-soft text-clay-deep;
+}
+
+/* ------------------------------------------------------------------
+   Key takeaways
+
+   Deliberately the only tinted block in the reading column, so it reads
+   as an aside rather than as part of the argument.
+------------------------------------------------------------------- */
+.takeaways {
+  @apply border-l-2 border-clay bg-sand/70 px-6 py-6 sm:px-8 sm:py-7;
+}
+
+/* ------------------------------------------------------------------
+   FAQ accordion
+------------------------------------------------------------------- */
+.faq-icon svg {
+  transition: transform 250ms cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.faq-item[open] .faq-icon svg {
+  transform: rotate(45deg);
+}
+
+.faq-item[open] summary h3 {
+  @apply text-clay;
+}
+
+.faq-item[open] .faq-answer {
+  animation: faq-reveal 240ms ease both;
+}
+
+@keyframes faq-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

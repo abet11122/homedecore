@@ -1,14 +1,19 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from './Layout.astro';
 import Img from '../components/Img.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import TableOfContents from '../components/TableOfContents.astro';
+import KeyTakeaways from '../components/KeyTakeaways.astro';
+import Faq from '../components/Faq.astro';
 import AuthorBox from '../components/AuthorBox.astro';
 import AffiliateDisclosure from '../components/AffiliateDisclosure.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
+import PostNav from '../components/PostNav.astro';
 import PinterestButton from '../components/PinterestButton.astro';
+import Newsletter from '../components/Newsletter.astro';
 import AdSlot from '../components/AdSlot.astro';
-import { SITE, categoryName, formatDate } from '../site';
+import { SITE, categoryName, formatDate, collectTags, tagSlug, wordCount } from '../site';
 
 interface Props {
   post: any;
@@ -18,15 +23,75 @@ interface Props {
 
 const { post, headings, minutes } = Astro.props;
 const d = post.data;
+
+const all = (await getCollection('posts')).sort(
+  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
+);
+
+/* ------------------------------------------------------------------
+   Onward navigation
+
+   Neighbours are picked from within the same room first, so "next" is a
+   genuine continuation rather than whatever happened to publish that
+   week. Only a category with a single post falls back to the archive.
+------------------------------------------------------------------- */
+const sameRoom = all.filter((p) => p.data.category === d.category);
+const sequence = sameRoom.length > 1 ? sameRoom : all;
+const at = sequence.findIndex((p) => p.id === post.id);
+const prev = at > 0 ? sequence[at - 1] : undefined;
+const next = at >= 0 && at < sequence.length - 1 ? sequence[at + 1] : undefined;
+
+/* ------------------------------------------------------------------
+   Tags
+
+   Only tags with a hub page behind them become links; the rest stay as
+   plain labels. A link to a 404 is worse than no link, and a link to a
+   one-post page is close behind.
+------------------------------------------------------------------- */
+const hubs = new Set(collectTags(all).map((t) => t.slug));
+const tags = [...new Set((d.tags ?? []).map(tagSlug))]
+  .filter(Boolean)
+  .map((slug: string) => ({
+    slug,
+    label: (d.tags as string[]).find((t) => tagSlug(t) === slug) ?? slug,
+    linked: hubs.has(slug),
+  }));
+
+const words = wordCount(post.body ?? '');
+const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
+
+/*
+  FAQPage markup. Google narrowed the *rich result* to health and government
+  sites in 2023, but the markup still tells every answer engine — AI Overviews,
+  ChatGPT search, Perplexity — exactly which passage answers which question,
+  and those are the surfaces citing this kind of content now.
+*/
+const faqSchema = d.faqs?.length
+  ? {
+      '@type': 'FAQPage',
+      '@id': canonical + '#faq',
+      mainEntity: d.faqs.map((f: { q: string; a: string }) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    }
+  : null;
 ---
 
 <Layout
   title={d.title}
   description={d.description}
   image={d.pinImage}
+  imageWide={d.heroImage}
   type="article"
   publishDate={d.publishDate.toISOString()}
   updatedDate={d.updatedDate?.toISOString()}
+  section={categoryName(d.category)}
+  keywords={d.tags ?? []}
+  words={words}
+  minutes={minutes}
+  schemas={faqSchema ? [faqSchema] : []}
 >
   <div id="progress" aria-hidden="true"></div>
 
@@ -54,7 +119,9 @@ const d = post.data;
         </p>
 
         <div class="mt-7 flex flex-wrap items-center gap-x-4 gap-y-2 border-y border-rule py-4 text-xs uppercase tracking-[0.1em] text-ink-40">
-          <span class="text-ink-60">{SITE.author}</span>
+          <a href={`/author/${SITE.authorSlug}/`} class="text-ink-60 transition-colors hover:text-clay">
+            {SITE.author}
+          </a>
           <span aria-hidden="true" class="text-ink-20">/</span>
           <time datetime={d.publishDate.toISOString()}>{formatDate(d.publishDate)}</time>
           {d.updatedDate && (
@@ -84,42 +151,89 @@ const d = post.data;
       </div>
     </figure>
 
-    <div class="mx-auto mt-10 max-w-reading lg:mt-14">
-      {d.affiliateDisclosure && <AffiliateDisclosure />}
+    {/*
+      From xl up the page becomes a rail + column + rail grid. Below that it
+      collapses to the single reading column it has always been, and both
+      rails are simply not rendered — no hidden weight on small screens.
+    */}
+    <div class="post-grid mt-10 lg:mt-14">
+      <aside class="post-rail hidden xl:block">
+        <div class="sticky top-28">
+          <TableOfContents headings={headings} variant="sidebar" />
 
-      <TableOfContents headings={headings} />
+          <div class="mt-8 border-t border-rule pt-6">
+            <p class="eyebrow-muted">Keep going</p>
+            <a
+              href={`/category/${d.category}/`}
+              class="link-arrow mt-4 text-[0.8125rem] text-ink-60 hover:text-clay"
+            >
+              More {categoryName(d.category).toLowerCase()}
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </aside>
 
-      <AdSlot placement="in-article-top" class="my-10" />
+      <div class="post-body mx-auto w-full max-w-reading">
+        {d.affiliateDisclosure && <AffiliateDisclosure />}
 
-      <div class="article">
-        <slot />
+        {d.keyTakeaways?.length && <KeyTakeaways items={d.keyTakeaways} class="mt-8" />}
+
+        {/* The rail carries the contents from xl up; below that it sits inline. */}
+        <TableOfContents headings={headings} class="xl:hidden" />
+
+        <AdSlot placement="in-article-top" class="my-10" />
+
+        <div class="article">
+          <slot />
+        </div>
+
+        {tags.length > 0 && (
+          <div class="mt-12 flex flex-wrap items-center gap-2 border-t border-rule pt-7">
+            <span class="eyebrow-muted mr-1">Filed under</span>
+            {tags.map((tag) =>
+              tag.linked ? (
+                <a href={`/tag/${tag.slug}/`} class="chip-link">{tag.label}</a>
+              ) : (
+                <span class="border border-rule px-3 py-1 text-xs text-ink-60">{tag.label}</span>
+              )
+            )}
+          </div>
+        )}
+
+        <AdSlot placement="in-article-mid" class="my-12" />
+
+        <Faq items={d.faqs ?? []} />
+
+        <section class="mt-14 border-t border-rule pt-10">
+          <div class="text-center">
+            <p class="eyebrow-muted">Save it</p>
+            <h2 class="mt-3 font-display text-2xl text-ink sm:text-3xl">Pin this for your board</h2>
+            <p class="mx-auto mt-3 max-w-md text-[0.9375rem] leading-relaxed text-ink-60">
+              Tap the image to save it to Pinterest and come back to it when you are ready to start.
+            </p>
+          </div>
+          <div class="mt-8">
+            <PinterestButton image={d.pinImage} title={d.title} description={d.description} />
+          </div>
+        </section>
+
+        <AuthorBox publishDate={d.publishDate} updatedDate={d.updatedDate} />
+
+        <PostNav prev={prev} next={next} />
       </div>
 
-      {d.tags && d.tags.length > 0 && (
-        <div class="mt-12 flex flex-wrap items-center gap-2 border-t border-rule pt-7">
-          <span class="eyebrow-muted mr-1">Filed under</span>
-          {d.tags.map((tag: string) => (
-            <span class="border border-rule px-3 py-1 text-xs text-ink-60">{tag}</span>
-          ))}
+      {/*
+        Sticky half-page in the right margin, from 2xl only — at narrower
+        widths there is no spare margin and it would squeeze the column.
+      */}
+      <aside class="post-aside hidden 2xl:block">
+        <div class="sticky top-28">
+          <AdSlot placement="sidebar" />
         </div>
-      )}
-
-      <AdSlot placement="in-article-mid" class="my-12" />
-
-      <section class="mt-14 border-t border-rule pt-10">
-        <div class="text-center">
-          <p class="eyebrow-muted">Save it</p>
-          <h2 class="mt-3 font-display text-2xl text-ink sm:text-3xl">Pin this for your board</h2>
-          <p class="mx-auto mt-3 max-w-md text-[0.9375rem] leading-relaxed text-ink-60">
-            Tap the image to save it to Pinterest and come back to it when you are ready to start.
-          </p>
-        </div>
-        <div class="mt-8">
-          <PinterestButton image={d.pinImage} title={d.title} description={d.description} />
-        </div>
-      </section>
-
-      <AuthorBox publishDate={d.publishDate} updatedDate={d.updatedDate} />
+      </aside>
     </div>
 
     <div class="mx-auto max-w-[72rem]">
@@ -127,6 +241,10 @@ const d = post.data;
       <RelatedPosts category={d.category} currentId={post.id} />
     </div>
   </article>
+
+  <div class="mt-16 lg:mt-24">
+    <Newsletter />
+  </div>
 
   {/* Sticky mobile anchor ad. Body gets bottom padding so it never covers text. */}
   <div class="anchor-ad" slot="after-footer">
@@ -147,16 +265,68 @@ const d = post.data;
   (function () {
     var bar = document.getElementById('progress');
     var article = document.querySelector('.article');
-    if (!bar || !article) return;
-    function update() {
-      var start = article.offsetTop;
-      var total = article.offsetHeight - window.innerHeight;
-      var done = window.scrollY - start;
-      var pct = total > 0 ? Math.min(100, Math.max(0, (done / total) * 100)) : 0;
-      bar.style.width = pct + '%';
+    if (!article) return;
+
+    /*
+      One passive scroll listener drives both the progress bar and the
+      contents rail. An IntersectionObserver would be the tidier way to do
+      the second job, but it needs its own bookkeeping to answer "which
+      section am I in" when the reader is between two headings — and the
+      listener is already here for the first job. Offsets are measured once
+      and re-measured on resize, so the scroll path itself stays arithmetic.
+    */
+    var links = document.querySelectorAll('[data-toc-link]');
+    var sections = [];
+    var i;
+    for (i = 0; i < links.length; i++) {
+      var heading = document.getElementById(links[i].getAttribute('data-toc-link'));
+      if (heading) sections.push({ link: links[i], el: heading, top: 0 });
     }
+
+    var current = null;
+    var articleTop = 0;
+    var articleSpan = 0;
+
+    function measure() {
+      articleTop = article.getBoundingClientRect().top + window.scrollY;
+      articleSpan = article.offsetHeight - window.innerHeight;
+      for (var j = 0; j < sections.length; j++) {
+        sections[j].top = sections[j].el.getBoundingClientRect().top + window.scrollY;
+      }
+    }
+
+    function update() {
+      if (bar) {
+        var done = window.scrollY - articleTop;
+        var pct = articleSpan > 0 ? Math.min(100, Math.max(0, (done / articleSpan) * 100)) : 0;
+        bar.style.width = pct + '%';
+      }
+
+      if (!sections.length) return;
+
+      // The last heading the reader has scrolled past, allowing for the
+      // sticky masthead. Before the first one, the first stays lit.
+      var mark = window.scrollY + 140;
+      var active = 0;
+      for (var k = 0; k < sections.length; k++) {
+        if (sections[k].top <= mark) active = k;
+      }
+
+      if (active === current) return;
+      if (current !== null) sections[current].link.classList.remove('is-current');
+      current = active;
+      sections[current].link.classList.add('is-current');
+    }
+
+    function remeasure() {
+      measure();
+      update();
+    }
+
     addEventListener('scroll', update, { passive: true });
-    addEventListener('resize', update, { passive: true });
-    update();
+    addEventListener('resize', remeasure, { passive: true });
+    // Late-loading images change every offset below them.
+    addEventListener('load', remeasure);
+    remeasure();
   })();
 </script>

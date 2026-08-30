@@ -117,13 +117,32 @@ Astro validates every field against a Zod schema (`src/content.config.ts`) at bu
 | `title` | yes | Under 90 characters (search results truncate past that) |
 | `description` | yes | 50–200 characters; enforced |
 | `category` | yes | One of: `living-room`, `bedroom`, `kitchen`, `small-spaces`, `diy-decor`, `seasonal` |
-| `tags` | no | Array of strings; shown under the article and searchable |
+| `tags` | no | Array of strings. Any tag used by 2+ posts gets its own hub page at `/tag/<slug>/` and the label becomes a link |
 | `publishDate` | yes | `YYYY-MM-DD` |
 | `updatedDate` | no | Shown in the byline and in the Article schema |
 | `heroImage` | yes | **Horizontal.** Unsplash photo ID or absolute URL |
 | `pinImage` | yes | **Vertical 2:3.** Becomes `og:image` and the Pinterest save target |
 | `featured` | no | `true` promotes it to the homepage lead slot |
 | `affiliateDisclosure` | no | `true` shows the FTC disclosure banner above the body |
+| `keyTakeaways` | no | 3–5 short lines. Renders as the "short version" card above the body |
+| `faqs` | no | `- q:` / `a:` pairs. Renders as an accordion and emits `FAQPage` structured data |
+
+#### Key takeaways and FAQs
+
+Both are optional and both earn their place twice — once for the reader, once for search.
+
+```yaml
+keyTakeaways:
+  - "Undertone, not the colour name, is what ruins a paint choice."
+  - "North-facing rooms need warm pigment or genuine depth, never a weak pastel."
+faqs:
+  - q: "Why does my grey paint look purple on the wall?"
+    a: "Every neutral carries an undertone. Hold the sample beside plain printer paper and the bias shows immediately."
+```
+
+Write answers at **40–60 words**, self-contained, and answering the question in the first sentence. That shape is what gets lifted into AI Overviews, ChatGPT and Perplexity answers — a passage that needs the surrounding article to make sense will not be quoted.
+
+Six posts ship with both filled in as worked examples: `paint-colour-guide`, `living-room-layout-rules`, `bedroom-sanctuary-layering`, `bedroom-ideas-small-spaces-bigger`, `bathroom-storage-ideas-small-spaces` and `bedroom-lighting-layers`.
 
 ### About images
 
@@ -173,13 +192,44 @@ Fonts are Playfair Display (display) and Inter (body), loaded in `Layout.astro`.
 
 ## SEO
 
-Automatic: `sitemap-index.xml`, `robots.txt`, canonical URLs, `Article` / `Organization` / `BreadcrumbList` JSON-LD, Open Graph, Twitter cards, semantic HTML with exactly one `<h1>` per page.
+### Structured data
 
-Manual, before launch:
+Every page emits one JSON-LD `@graph` with stable `@id`s, so `Organization`, `WebSite`, the author `Person` and the page node cross-reference each other rather than repeating. That is what lets a search engine resolve them into a single entity instead of four unrelated blobs.
+
+| Page type | Nodes emitted |
+|---|---|
+| Any page | `Organization` (with logo), `WebSite`, `Person`, `BreadcrumbList` |
+| Post | `BlogPosting` with `wordCount`, `articleSection`, `keywords`, `timeRequired`, `inLanguage` |
+| Post with `faqs` | `FAQPage` |
+| Category / tag / topic index | `CollectionPage` + `ItemList` |
+| Author hub | `ProfilePage` |
+
+### Discovery surfaces
+
+| Path | What it is |
+|---|---|
+| `/sitemap-index.xml` | Generated, includes tag and author pages |
+| `/rss.xml` | Full archive feed, linked from every page head |
+| `/llms.txt` | Plain-text site map for AI answer engines, generated from the collection |
+| `/robots.txt` | Explicitly allows GPTBot, PerplexityBot, ClaudeBot, OAI-SearchBot and Google-Extended |
+
+### Internal linking
+
+The archive has two axes, and they cross-link in both directions:
+
+- **Rooms** — `/category/<slug>/`, listed in the header nav
+- **Topics** — `/tag/<slug>/`, built automatically for any tag used by 2+ posts, indexed at `/tags/`
+
+Tag slugs are normalised, so `small spaces`, `Small Spaces` and `small-spaces` collapse into one hub. Tags used only once stay as plain text — a one-post page is thin content, and thin pages drag the domain down.
+
+**Worth doing next:** the tag vocabulary is fragmented (`paint` and `colour` on one post, `paint colour` on another), so several posts currently link to only one hub. Consolidating tags across the archive would roughly double the internal link density at no content cost.
+
+### Before launch
 
 - Set `SITE_URL` in `.env` **and** the `Sitemap:` line in `public/robots.txt`
 - Add your Search Console code to `googleVerification` in `src/site.ts`
 - Submit `https://yourdomain.com/sitemap-index.xml` to Search Console
+- Fill in `authorLinks` in `src/site.ts` with real profiles — `Person.sameAs` is an E-E-A-T signal, and an empty author page is worse than none
 
 ---
 
@@ -249,13 +299,16 @@ src/
 │  ├─ AffiliateDisclosure.astro
 │  ├─ AuthorBox.astro
 │  ├─ Breadcrumbs.astro       Renders BreadcrumbList JSON-LD too
+│  ├─ Faq.astro               CSS-only accordion; schema comes from PostLayout
 │  ├─ Img.astro               srcset + AVIF/WebP + explicit dimensions
+│  ├─ KeyTakeaways.astro      The "short version" card
 │  ├─ Newsletter.astro
 │  ├─ PinterestButton.astro   2:3 pin image + Save button
 │  ├─ PostCard.astro          default / wide / compact variants
+│  ├─ PostNav.astro           Previous / next, within the same room
 │  ├─ RelatedPosts.astro      Same category, topped up if thin
 │  ├─ SectionHead.astro
-│  └─ TableOfContents.astro   Built from the post's h2 headings
+│  └─ TableOfContents.astro   inline (mobile) or sticky sidebar (xl+)
 ├─ content/
 │  └─ posts/                  ← your Markdown goes here
 ├─ content.config.ts          Zod schema for frontmatter
@@ -268,7 +321,12 @@ src/
 │  ├─ 404.astro
 │  ├─ about / contact / disclosure / privacy-policy .astro
 │  ├─ search.astro            Client-side filter over a prebuilt index
+│  ├─ tags.astro              Topic index, sized by frequency
+│  ├─ rss.xml.ts              Full archive feed
+│  ├─ llms.txt.ts             Generated site map for AI answer engines
+│  ├─ author/[slug].astro     Author hub — the target of Person.sameAs
 │  ├─ category/[slug].astro
+│  ├─ tag/[slug].astro        Built for any tag used by 2+ posts
 │  └─ post/[slug].astro
 ├─ site.ts                    ← site config and categories
 └─ styles/global.css          Design tokens and article typography

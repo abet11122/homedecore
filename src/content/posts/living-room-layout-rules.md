@@ -8,6 +8,25 @@ heroImage: "photo-1524758631624-e2822e304c36"
 pinImage: "photo-1560448204-e02f11c3d0e2"
 featured: false
 affiliateDisclosure: false
+keyTakeaways:
+  - "Facing seats want 180-240cm between them; that single distance separates a room people talk in from one that feels like a waiting area."
+  - "Floating the sofa 20-30cm off the wall makes the room read larger, not smaller."
+  - "A rug that is too small is the most damaging error in a living room — every seat needs at least its front legs on it."
+  - "Leave 90cm clear for the main route through the room and 60cm for secondary ones."
+  - "Pick one focal point and aim the primary seating at it; a room serving two never resolves."
+faqs:
+  - q: "How far apart should a sofa and chairs be?"
+    a: "180 to 240cm between facing seats. Closer than 180cm feels intimate to the point of awkward with guests. Further than 240cm and people raise their voices slightly, which makes a room feel unwelcoming without anyone being able to say why."
+  - q: "What size rug do I need for a living room?"
+    a: "Large enough that the front legs of every seat sit on it — usually 200x290cm. For all legs on, with 15-20cm of rug showing beyond the furniture, you generally need 240x340cm. Leave 20-45cm of bare floor between the rug and the walls."
+  - q: "Should living room furniture be pushed against the walls?"
+    a: "No. Pull the sofa at least 20-30cm off the wall. The gap lets the eye register space continuing behind the furniture, so the room reads as larger, and it brings the seating close enough for people to hold a conversation."
+  - q: "How far should the coffee table be from the sofa?"
+    a: "40-45cm — close enough to set a cup down without standing, far enough for knees. Keep the table level with the sofa seat or up to 5cm below it, and roughly two-thirds the length of the sofa."
+  - q: "How high should art hang above a sofa?"
+    a: "The bottom edge 20-25cm above the sofa back, with the piece roughly two-thirds the sofa's width. Art on an empty wall should be centred 145-150cm from the floor, which is the gallery standard and works in almost every room."
+  - q: "How do I lay out a long narrow living room?"
+    a: "Break it into two zones across its width instead of lining both long walls, which only creates a corridor. Main seating around its own rug at one end, a second function at the other, with a console or the back of the sofa marking the division."
 ---
 
 Almost every living room that feels wrong has the same layout: every piece of furniture pushed flat against a wall, a large empty rectangle in the middle, and a rug that is too small floating somewhere near the coffee table. It is the arrangement people default to because it seems to maximise space, and it is precisely why the room does not work.

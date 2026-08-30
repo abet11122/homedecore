@@ -8,6 +8,25 @@ heroImage: "photo-1515938541268-cb8a388444b4"
 pinImage: "photo-1618579252366-f431305ada51"
 featured: false
 affiliateDisclosure: false
+keyTakeaways:
+  - "Depth is the whole game: 3.5 inches for a recessed niche, 6-8 for a wall cabinet, 8-10 over the toilet."
+  - "Protect 21 inches of clear floor at the toilet and 30 at the vanity before you add anything at all."
+  - "Hooks beat rails — a hook takes 3 inches of wall, a rail takes 24 for the same towel."
+  - "Renters get most of the gain with no drilling: an over-toilet etagere, a leaning ladder shelf and tension caddies."
+  - "Reducing what is in the room beats any product. Fifteen items feels spacious; sixty feels chaotic however good the shelving is."
+faqs:
+  - q: "How deep should over-toilet shelving be?"
+    a: "8 to 10 inches. Any deeper and you will knock your head standing up. Start the lowest shelf about 24 inches above the cistern so the lid still opens fully, and you get roughly 30 inches of otherwise dead wall back."
+  - q: "How much clear floor does a small bathroom need?"
+    a: "21 inches in front of the toilet and 30 inches in front of the vanity. Protect those two measurements first and fit storage into what is left — which is exactly why almost everything in a small bathroom has to be shallow or wall-mounted."
+  - q: "What bathroom storage works without drilling?"
+    a: "A freestanding over-toilet etagere, a leaning ladder shelf, tension rods and tension corner caddies, over-door hooks and organisers, a narrow freestanding cabinet, and a rolling cart in the gap beside the vanity. Adhesive hooks work too, but check the weight rating against your wall finish."
+  - q: "Are hooks or towel rails better in a small bathroom?"
+    a: "Hooks, comfortably. A hook takes about 3 inches of wall; a rail takes 24 for the same towel. In a room where wall space is the only space you have, that is a trade worth making almost every time."
+  - q: "How deep is a recessed bathroom niche?"
+    a: "3.5 inches — the depth of a standard stud cavity — so it costs no room depth at all, which is what makes it the best answer to bottles on the shower floor. Check for pipes and wiring before cutting, and avoid external walls in cold climates."
+  - q: "How do I stop open bathroom shelving looking cluttered?"
+    a: "Aim for roughly 70% closed storage to 30% open, use matching baskets with one per category, decant soap and lotion into matching bottles, roll towels rather than folding them, and leave some shelf deliberately empty."
 ---
 
 Small bathrooms have almost no floor to give up, so nearly every storage solution has to be shallow, wall-mounted, or hidden inside something that's already there.

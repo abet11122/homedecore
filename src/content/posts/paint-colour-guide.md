@@ -9,6 +9,25 @@ heroImage: "photo-1586023492125-27b2c045efd7"
 pinImage: "photo-1615529182904-14819c35db37"
 featured: false
 affiliateDisclosure: true
+keyTakeaways:
+  - "Undertone, not the colour name, is what ruins a paint choice — hold every sample against plain printer paper to expose the bias."
+  - "North-facing rooms flatten and cool every colour, so they need warm pigment or genuine depth, never a weak pastel."
+  - "Paint samples onto A2 white card rather than the wall, and move them around the room across three days."
+  - "Sheen changes the shade: the same pigment reads deeper in matt and lighter in eggshell."
+  - "One litre covers roughly 12m² per coat — calculate the wall area, plan two coats, then buy 10% more."
+faqs:
+  - q: "Why does my grey paint look purple or green on the wall?"
+    a: "Every neutral carries an undertone — green, blue, purple, yellow or pink. Under your room's light, and next to your floor, that bias becomes obvious even though it was invisible on the card. Hold the sample beside a sheet of plain printer paper and it shows immediately."
+  - q: "How many paint samples should I test before choosing?"
+    a: "Three or four candidates on A2 white card, then narrow to two for a second round with larger cards. Fewer than three and you never see the undertone differences; more than four and you stop being able to tell them apart."
+  - q: "What colour should I paint a north-facing room?"
+    a: "Something with pigment in it. North light is cool and indirect all day, so it drains colour — pale greys end up looking institutional. Warm off-whites, ochre, clay and deep green all work, and north rooms are genuinely excellent in strong dark colour."
+  - q: "What paint finish should I use in a living room?"
+    a: "Eggshell is the sensible default: enough sheen to wash down, little enough to forgive imperfect plaster. Use matt on ceilings and on any dark colour, since dark paint in satin reflects light and looks plasticky. Satin or gloss belong on woodwork."
+  - q: "Should the ceiling always be brilliant white?"
+    a: "Usually not. The wall colour cut 25-50% with white reads better in almost every room. A brilliant white ceiling above a coloured wall draws a hard line at the top of the wall, which visually lowers the whole room."
+  - q: "How much paint do I need for one room?"
+    a: "One litre covers about 12m² per coat. Take the wall perimeter multiplied by the height, subtract windows and doors, and plan for two coats — three if you are going lighter over dark, or using a strong red or yellow. Buy 10% more than that."
 ---
 
 Almost every paint disaster comes from the same mistake: choosing the colour somewhere other than the room it is going in. A swatch under shop lighting, held against a white card, at eye level, in the middle of the day, tells you almost nothing about how that colour will behave on four walls in your north-facing living room in November.

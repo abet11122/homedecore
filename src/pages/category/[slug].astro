@@ -6,7 +6,7 @@ import Img from '../../components/Img.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import Newsletter from '../../components/Newsletter.astro';
-import { CATEGORIES, categoryBySlug } from '../../site';
+import { SITE, CATEGORIES, categoryBySlug, collectTags } from '../../site';
 
 export async function getStaticPaths() {
   return CATEGORIES.map((c) => ({ params: { slug: c.slug } }));
@@ -29,12 +29,43 @@ const gridClass =
   others.length === 2 || others.length === 4
     ? 'sm:grid-cols-2'
     : 'sm:grid-cols-2 lg:grid-cols-3';
+
+// Topic hubs that actually have posts in this room. Rooms and topics are the
+// site's two axes; linking them here is what turns a flat archive into a
+// graph a crawler can traverse in either direction.
+const allPosts = await getCollection('posts');
+const hubs = new Set(collectTags(allPosts).map((t) => t.slug));
+const topics = collectTags(posts, 1)
+  .filter((t) => hubs.has(t.slug) && t.slug !== slug)
+  .slice(0, 10);
+
+const origin = (Astro.site ?? new URL(SITE.url)).origin;
+
+const listSchema = {
+  '@type': 'CollectionPage',
+  '@id': `${new URL(Astro.url.pathname, origin).href}#collection`,
+  name: category.name,
+  description: category.blurb,
+  isPartOf: { '@id': `${origin}/#website` },
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: posts.length,
+    itemListElement: posts.map((post, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: new URL(`/post/${post.id}/`, origin).href,
+      name: post.data.title,
+    })),
+  },
+};
 ---
 
 <Layout
-  title={category.name}
+  title={`${category.name} Ideas`}
   description={category.blurb}
   image={lead?.data.pinImage}
+  imageWide={lead?.data.heroImage ?? category.image}
+  schemas={[listSchema]}
 >
   <header class="border-b border-rule">
     <div class="wrap py-10 lg:py-14">
@@ -109,7 +140,18 @@ const gridClass =
     </section>
   )}
 
-  <section class="wrap border-t border-rule pt-12" aria-labelledby="other-rooms">
+  {topics.length > 0 && (
+    <section class="wrap border-t border-rule pt-10" aria-labelledby="room-topics">
+      <h2 id="room-topics" class="eyebrow-muted">Topics in this room</h2>
+      <div class="mt-5 flex flex-wrap gap-2">
+        {topics.map((t) => (
+          <a href={`/tag/${t.slug}/`} class="chip-link">{t.label}</a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="wrap mt-10 border-t border-rule pt-10" aria-labelledby="other-rooms">
     <h2 id="other-rooms" class="eyebrow-muted">Other rooms</h2>
     <div class="mt-5 flex flex-wrap gap-x-7 gap-y-3">
       {otherCategories.map((c) => (

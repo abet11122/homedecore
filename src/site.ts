@@ -24,6 +24,16 @@ export const SITE = {
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */
   googleVerification: '',
+  /** Slug for the author hub page at /author/<slug>/. */
+  authorSlug: 'elena-marsh',
+  /** Public profiles for the author — feeds Person.sameAs (E-E-A-T). */
+  authorLinks: [] as string[],
+  locale: 'en_US',
+  lang: 'en',
+  /** Square mark used for Organization.logo in structured data. */
+  logo: '/favicon.svg',
+  /** Twitter/X handle including the @, e.g. '@hearthandgrain'. Optional. */
+  twitter: '',
 } as const;
 
 export type CategorySlug =
@@ -168,4 +178,83 @@ export function formatDateShort(date: Date): string {
     year: 'numeric',
     timeZone: 'UTC',
   });
+}
+
+/* ------------------------------------------------------------------
+   Tags
+   Frontmatter tags were authored by hand, so the same idea arrives in
+   several spellings ("small spaces", "small-spaces", "Small Spaces").
+   Everything is keyed off the slug so those collapse into one page,
+   and the display label is derived from the slug rather than from
+   whichever spelling happened to be written first.
+------------------------------------------------------------------- */
+
+/** Words that stay lowercase inside a tag label unless they lead it. */
+const MINOR_WORDS = new Set(['and', 'the', 'of', 'for', 'in', 'to', 'a']);
+
+/** Tags whose natural casing a title-caser would get wrong. */
+const TAG_LABEL_OVERRIDES: Record<string, string> = {
+  diy: 'DIY',
+  'diy-decor': 'DIY Decor',
+  'peel-and-stick': 'Peel-and-Stick',
+  'renter-friendly': 'Renter-Friendly',
+};
+
+export function tagSlug(tag: string): string {
+  return tag
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+export function tagLabel(slug: string): string {
+  if (TAG_LABEL_OVERRIDES[slug]) return TAG_LABEL_OVERRIDES[slug];
+  return slug
+    .split('-')
+    .map((word, i) =>
+      i > 0 && MINOR_WORDS.has(word) ? word : word.charAt(0).toUpperCase() + word.slice(1)
+    )
+    .join(' ');
+}
+
+export interface TagSummary {
+  slug: string;
+  label: string;
+  count: number;
+}
+
+/**
+ * Every distinct tag across the archive, most-used first.
+ * `minCount` drops one-off tags that would only ever build a single-post
+ * page — thin pages Google reads as low value, so they are left unbuilt
+ * and simply render as plain text on the post.
+ */
+export function collectTags(
+  posts: Array<{ data: { tags?: string[] } }>,
+  minCount = 2
+): TagSummary[] {
+  const counts = new Map<string, number>();
+  for (const post of posts) {
+    // A post can carry two spellings of the same tag; count it once.
+    for (const slug of new Set((post.data.tags ?? []).map(tagSlug))) {
+      if (!slug) continue;
+      counts.set(slug, (counts.get(slug) ?? 0) + 1);
+    }
+  }
+  return [...counts.entries()]
+    .filter(([, count]) => count >= minCount)
+    .map(([slug, count]) => ({ slug, label: tagLabel(slug), count }))
+    .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+}
+
+/** Does this post carry the given tag, in any spelling? */
+export function postHasTag(post: { data: { tags?: string[] } }, slug: string): boolean {
+  return (post.data.tags ?? []).some((t) => tagSlug(t) === slug);
+}
+
+/** Body word count — reported in Article schema, which Google reads. */
+export function wordCount(body: string): number {
+  return body.trim().split(/\s+/).filter(Boolean).length;
 }
