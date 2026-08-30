@@ -21,7 +21,7 @@ const { prev, next } = Astro.props;
 
 {(prev || next) && (
   <nav class="mt-16 border-t border-rule pt-8" aria-label="More stories">
-    <div class="grid gap-px overflow-hidden bg-rule sm:grid-cols-2">
+    <div class="reveal grid gap-px overflow-hidden bg-rule sm:grid-cols-2">
       {prev ? (
         <a href={`/post/${prev.id}/`} class="group flex items-center gap-5 bg-paper py-6 pr-5 transition-colors hover:bg-sand/60 sm:pl-1">
           <span class="frame aspect-square w-16 shrink-0 sm:w-20">
@@ -34,7 +34,7 @@ const { prev, next } = Astro.props;
               </svg>
               Previous
             </span>
-            <span class="mt-2 block font-display text-[1.0625rem] leading-snug text-ink transition-colors group-hover:text-clay">
+            <span class="mt-2 block font-display text-title-sm text-ink transition-colors group-hover:text-clay">
               {prev.data.title}
             </span>
           </span>
@@ -52,7 +52,7 @@ const { prev, next } = Astro.props;
                 <path d="M5 12h14M13 6l6 6-6 6"></path>
               </svg>
             </span>
-            <span class="mt-2 block font-display text-[1.0625rem] leading-snug text-ink transition-colors group-hover:text-clay">
+            <span class="mt-2 block font-display text-title-sm text-ink transition-colors group-hover:text-clay">
               {next.data.title}
             </span>
           </span>

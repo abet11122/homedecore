@@ -11,7 +11,7 @@ interface Props {
 const { title, kicker, href, hrefLabel = 'See all', id, class: className = '' } = Astro.props;
 ---
 
-<div class={`section-head ${className}`}>
+<div class={`section-head reveal ${className}`}>
   <div>
     {kicker && <p class="eyebrow mb-2.5">{kicker}</p>}
     <h2 id={id} class="section-title">{title}</h2>

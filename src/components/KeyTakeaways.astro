@@ -16,7 +16,7 @@ const { items, class: className = '' } = Astro.props;
 ---
 
 {items.length > 0 && (
-  <aside class={`takeaways ${className}`} aria-labelledby="takeaways-heading">
+  <aside class={`takeaways reveal ${className}`} aria-labelledby="takeaways-heading">
     <p id="takeaways-heading" class="eyebrow">The short version</p>
     <ul class="mt-5 space-y-3.5">
       {items.map((item) => (

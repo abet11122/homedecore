@@ -77,20 +77,16 @@ const listSchema = {
       */}
       <div class="mt-7 grid gap-8 lg:grid-cols-12 lg:items-center lg:gap-14">
         <div class="lg:col-span-6">
-          <h1 class="font-display text-[2.5rem] leading-[1.05] text-ink sm:text-5xl lg:text-6xl">
-            {category.name}
-          </h1>
-          <p class="mt-5 max-w-xl text-[1.0625rem] leading-relaxed text-ink-60">
-            {category.blurb}
-          </p>
+          <h1 class="font-display text-display-1 text-ink">{category.name}</h1>
+          <p class="mt-5 max-w-xl text-lead text-ink-60">{category.blurb}</p>
           <p class="mt-6 flex items-center gap-3 text-eyebrow font-semibold uppercase text-ink-40">
-            <span class="h-px w-8 bg-clay"></span>
+            <span class="rule-draw h-px w-8 bg-clay"></span>
             {posts.length} {posts.length === 1 ? 'story' : 'stories'}
           </p>
         </div>
 
         <div class="lg:col-span-6">
-          <div class="frame aspect-[16/10] lg:aspect-[3/2]">
+          <div class="frame lead-photo aspect-[16/10] lg:aspect-[3/2]">
             <Img
               src={category.image}
               alt=""

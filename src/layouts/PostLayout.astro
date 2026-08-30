@@ -110,13 +110,11 @@ const faqSchema = d.faqs?.length
           {categoryName(d.category)}
         </a>
 
-        <h1 class="mt-4 font-display text-[2.125rem] leading-[1.12] text-ink sm:text-[2.75rem] lg:text-[3.25rem]">
-          {d.title}
-        </h1>
+        <h1 class="mt-4 font-display text-display-2 text-ink">{d.title}</h1>
 
-        <p class="mt-5 font-display text-lg italic leading-relaxed text-ink-60 sm:text-xl">
-          {d.description}
-        </p>
+        {/* The standfirst is set in the display italic — it belongs to the
+            headline, not to the body copy that follows it. */}
+        <p class="mt-5 font-display text-lead italic text-ink-60">{d.description}</p>
 
         <div class="mt-7 flex flex-wrap items-center gap-x-4 gap-y-2 border-y border-rule py-4 text-xs uppercase tracking-[0.1em] text-ink-40">
           <a href={`/author/${SITE.authorSlug}/`} class="text-ink-60 transition-colors hover:text-clay">
@@ -138,7 +136,7 @@ const faqSchema = d.faqs?.length
 
     {/* Hero image sits below the headline: the H1 paints first, which keeps LCP text-fast */}
     <figure class="mt-9 lg:mt-12">
-      <div class="frame aspect-[16/10] sm:aspect-[2/1]">
+      <div class="frame lead-photo aspect-[16/10] sm:aspect-[2/1]">
         <Img
           src={d.heroImage}
           alt={d.title}
@@ -266,6 +264,20 @@ const faqSchema = d.faqs?.length
     var bar = document.getElementById('progress');
     var article = document.querySelector('.article');
     if (!article) return;
+
+    /*
+      The bar is driven by a scroll-driven animation in the stylesheet
+      wherever one is available, and that cannot lag the scroll. Only take
+      it over here when it is not — otherwise the inline width written
+      below would fight the transform the stylesheet is applying.
+    */
+    if (
+      window.CSS &&
+      CSS.supports('animation-timeline: scroll()') &&
+      !matchMedia('(prefers-reduced-motion: reduce)').matches
+    ) {
+      bar = null;
+    }
 
     /*
       One passive scroll listener drives both the progress bar and the

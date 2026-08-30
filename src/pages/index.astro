@@ -49,7 +49,7 @@ const today = new Date().toLocaleDateString('en-US', {
       <div class="grid items-center gap-9 lg:grid-cols-12 lg:gap-16">
         <div class="lg:col-span-7">
           <a href={`/post/${featured.id}/`} class="group block">
-            <div class="frame aspect-[4/3] lg:aspect-[7/5]">
+            <div class="frame lead-photo aspect-[4/3] lg:aspect-[7/5]">
               <Img
                 src={featured.data.heroImage}
                 alt={featured.data.title}
@@ -65,19 +65,17 @@ const today = new Date().toLocaleDateString('en-US', {
 
         <div class="lg:col-span-5">
           <div class="flex items-center gap-3">
-            <span class="h-px w-8 bg-clay"></span>
+            <span class="rule-draw h-px w-8 bg-clay"></span>
             <p class="eyebrow">The Lead · {categoryName(featured.data.category)}</p>
           </div>
 
-          <h1 class="mt-5 font-display text-[2.25rem] leading-[1.06] text-ink sm:text-[3rem] lg:text-[3.5rem]">
+          <h1 class="mt-5 font-display text-display-1 text-ink">
             <a href={`/post/${featured.id}/`} class="transition-colors duration-250 hover:text-clay">
               {featured.data.title}
             </a>
           </h1>
 
-          <p class="mt-6 text-[1.0625rem] leading-relaxed text-ink-60 lg:text-[1.125rem]">
-            {featured.data.description}
-          </p>
+          <p class="mt-6 text-lead text-ink-60">{featured.data.description}</p>
 
           <div class="mt-8 flex items-center gap-5 border-t border-rule pt-5">
             <a href={`/post/${featured.id}/`} class="link-arrow">
@@ -94,9 +92,15 @@ const today = new Date().toLocaleDateString('en-US', {
       </div>
 
       {secondary.length > 0 && (
-        <div class="mt-16 grid gap-x-12 gap-y-12 border-t border-rule pt-12 sm:grid-cols-2">
+        <div class="mt-16 grid gap-x-12 gap-y-12 border-t border-rule pt-12 lg:grid-cols-2">
+          {/*
+            Two wide cards side by side need real width: each one splits again
+            into image and text, and between 640px and 1024px that left the
+            photograph at ~150px with the headline breaking every second word.
+            They stack until there is room for the pair.
+          */}
           {secondary.map((post) => (
-            <PostCard post={post} variant="wide" sizes="(min-width: 640px) 24vw, 90vw" />
+            <PostCard post={post} variant="wide" sizes="(min-width: 1024px) 24vw, (min-width: 640px) 45vw, 90vw" />
           ))}
         </div>
       )}
@@ -121,7 +125,7 @@ const today = new Date().toLocaleDateString('en-US', {
       remaining rooms sit below as type, mirroring the header's primary/More
       split so the same hierarchy reads on the page and in the nav.
     */}
-    <div class="mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
+    <div class="reveal-group mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
       {PRIMARY_CATEGORIES.map((c) => (
         <a href={`/category/${c.slug}/`} class="tile aspect-[3/4]">
           <Img
@@ -142,7 +146,7 @@ const today = new Date().toLocaleDateString('en-US', {
         {SECONDARY_CATEGORIES.map((c) => (
           <a
             href={`/category/${c.slug}/`}
-            class="link-underline font-display text-xl leading-none text-ink hover:text-clay sm:text-[1.375rem]"
+            class="link-underline font-display text-title-lg text-ink hover:text-clay"
           >
             {c.name}
           </a>
@@ -176,17 +180,17 @@ const today = new Date().toLocaleDateString('en-US', {
       />
       <ol class="mt-2">
         {listed.map((post, i) => (
-          <li class="group border-b border-rule">
+          <li class="reveal group border-b border-rule">
             <a
               href={`/post/${post.id}/`}
               class="grid grid-cols-[2.75rem_1fr_auto] items-center gap-5 py-6 sm:gap-8"
             >
-              <span class="font-display text-2xl leading-none text-ink-20 transition-colors duration-250 group-hover:text-clay">
+              <span class="font-display text-2xl leading-none tabular-nums text-ink-20 transition-colors duration-250 group-hover:text-clay">
                 {String(i + 1).padStart(2, '0')}
               </span>
               <span class="min-w-0">
                 <span class="eyebrow-muted">{categoryName(post.data.category)}</span>
-                <span class="mt-2 block font-display text-lg leading-snug text-ink transition-colors duration-250 group-hover:text-clay sm:text-xl">
+                <span class="mt-2 block font-display text-title text-ink transition-colors duration-250 group-hover:text-clay sm:text-title-lg">
                   {post.data.title}
                 </span>
               </span>
