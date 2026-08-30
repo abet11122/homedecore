@@ -1,6 +1,5 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 // Change this to your real domain before deploying.
@@ -12,11 +11,7 @@ export default defineConfig({
   site: SITE,
   output: 'static',
   trailingSlash: 'always',
-  integrations: [
-    // We ship our own preflight + base styles from src/styles/global.css
-    tailwind({ applyBaseStyles: false }),
-    sitemap(),
-  ],
+  integrations: [sitemap()],
   build: {
     inlineStylesheets: 'auto',
   },
