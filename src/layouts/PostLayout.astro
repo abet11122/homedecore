@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from './Layout.astro';
 import Img from '../components/Img.astro';
+import SaveIdea from '../components/SaveIdea.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import KeyTakeaways from '../components/KeyTakeaways.astro';
@@ -132,6 +133,7 @@ const faqSchema = d.faqs?.length
           <span>{minutes} min read</span>
         </div>
       </header>
+      <div class="mt-5 flex flex-wrap items-center gap-5"><SaveIdea id={post.id} /><a class="quiet-link" href="/saved/">View saved ideas ↗</a><a class="quiet-link" href={`https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(canonical)}&media=${encodeURIComponent(d.pinImage.startsWith('photo-') ? `https://images.unsplash.com/${d.pinImage}?w=1000&h=1500&fit=crop&auto=format` : new URL(d.pinImage, canonical).href)}&description=${encodeURIComponent(d.title)}`} target="_blank" rel="noopener noreferrer">Save to Pinterest ↗</a></div>
     </div>
 
     {/* Hero image sits below the headline: the H1 paints first, which keeps LCP text-fast */}
@@ -253,7 +255,7 @@ const faqSchema = d.faqs?.length
 <style is:global>
   /* Room for the mobile anchor ad */
   @media (max-width: 767px) {
-    body {
+    body:has(.anchor-ad .ad) {
       padding-bottom: 60px;
     }
   }

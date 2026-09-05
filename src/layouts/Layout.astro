@@ -105,7 +105,7 @@ const orgNode = {
     url: abs(SITE.logo),
     caption: SITE.name,
   },
-  sameAs: [SITE.pinterest, SITE.instagram].filter(Boolean),
+  sameAs: [SITE.pinterest, SITE.instagram].filter(url => url && new URL(url).pathname !== '/'),
 };
 
 const siteNode = {
@@ -168,7 +168,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    {noindex && <meta name="robots" content="noindex, follow" />}
+    <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
     <meta name="theme-color" content="#FBF8F4" />
     <meta name="generator" content={Astro.generator} />
 
@@ -322,6 +322,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
           </nav>
 
           <div class="flex items-center gap-2">
+            <a href="/saved/" aria-label="Your saved ideas" class="grid h-10 w-10 place-items-center text-xl text-ink-60 hover:text-clay">♡</a>
             <a
               href="/search/"
               aria-label="Search"

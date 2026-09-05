@@ -1,5 +1,6 @@
 ---
 import Img from './Img.astro';
+import SaveIdea from './SaveIdea.astro';
 import { categoryName, formatDateShort } from '../site';
 
 interface Props {
@@ -16,7 +17,7 @@ const d = post.data;
 ---
 
 {variant === 'default' && (
-  <article class="reveal group">
+  <article class="reveal group idea-card">
     <a href={href} class="card-lift block">
       <div class="frame aspect-[4/5]">
         <Img
@@ -35,6 +36,7 @@ const d = post.data;
       <p class="clamp-2 mt-3 text-[0.9375rem] leading-relaxed text-ink-60">{d.description}</p>
       <p class="mt-4 text-xs uppercase tracking-[0.1em] text-ink-40">{formatDateShort(d.publishDate)}</p>
     </a>
+    <SaveIdea id={post.id} />
   </article>
 )}
 

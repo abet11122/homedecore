@@ -10,7 +10,7 @@ export default defineConfig({
   site: process.env.SITE_URL || SITE.url,
   output: 'static',
   trailingSlash: 'always',
-  integrations: [sitemap()],
+  integrations: [sitemap({ filter: (page) => !/\/(search|saved|404)\/$/.test(new URL(page).pathname) })],
   build: {
     inlineStylesheets: 'auto',
   },

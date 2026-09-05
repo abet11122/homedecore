@@ -1,215 +1,64 @@
----
+﻿---
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import Img from '../components/Img.astro';
 import PostCard from '../components/PostCard.astro';
-import SectionHead from '../components/SectionHead.astro';
 import AdSlot from '../components/AdSlot.astro';
 import Newsletter from '../components/Newsletter.astro';
-import {
-  CATEGORIES,
-  PRIMARY_CATEGORIES,
-  SECONDARY_CATEGORIES,
-  SITE,
-  categoryName,
-  formatDateShort,
-} from '../site';
-
-const posts = (await getCollection('posts')).sort(
-  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
-);
-
-const featured = posts.find((p) => p.data.featured) ?? posts[0];
-const rest = posts.filter((p) => p.id !== featured?.id);
-const secondary = rest.slice(0, 2);
-const grid = rest.slice(2, 8);
-const listed = rest.slice(8, 13);
-
-const today = new Date().toLocaleDateString('en-US', {
-  weekday: 'long',
-  month: 'long',
-  day: 'numeric',
-});
+import { CATEGORIES, PRIMARY_CATEGORIES, categoryName } from '../site';
+const posts = (await getCollection('posts')).sort((a,b) => b.data.publishDate.getTime()-a.data.publishDate.getTime());
+const featured = posts.find(p => p.data.featured) ?? posts[0];
+const picks = posts.filter(p => ['small-bedroom-ideas-that-look-expensive','apartment-decor-ideas-budget','renter-friendly-wall-decor-ideas'].includes(p.id));
 ---
-
-<Layout>
-  {/* ── Masthead strip ─────────────────────────────────────────── */}
-  <div class="issue-strip border-b border-rule bg-sand/60">
-    <div class="wrap flex items-center justify-between py-2.5">
-      <p class="text-eyebrow font-semibold uppercase text-ink-40">{today}</p>
-      <p class="hidden text-eyebrow font-semibold uppercase text-ink-40 sm:block">
-        Issue №{String(posts.length).padStart(2, '0')} · Independent &amp; reader-funded
-      </p>
+<Layout title="Home Decor Ideas for Beautiful, Livable Spaces" description="Find home decor ideas for small bedrooms, living rooms, rentals and more. Explore practical styling guides, save your favorites and plan your next room refresh.">
+  <div class="home-note">A little inspiration. A home that feels like you.</div>
+  <section class="wrap home-hero">
+    <div class="home-hero-copy">
+      <p class="eyebrow">Beautiful spaces. Everyday living.</p>
+      <h1>Make room for<br /><em>the life you love.</em></h1>
+      <p>Home decor ideas for real rooms, real budgets, and your own kind of beautiful. Find the little changes that make you love coming home.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#find-ideas">Find your inspiration ↗</a><a class="quiet-link" href="/saved/">♡ My saved ideas</a></div>
+      <div class="hero-footnote"><span>{posts.length} decorating guides</span><span>Room-by-room inspiration</span></div>
     </div>
-  </div>
-
-  {/* ── Lead story ─────────────────────────────────────────────── */}
-  {featured && (
-    <section class="hero-section wrap pb-16 pt-10 lg:pb-24 lg:pt-16">
-      <div class="hero-intro mb-8 flex items-center justify-between gap-6 lg:mb-10">
-        <p class="eyebrow">A quieter way to live well</p>
-        <span class="hidden h-px flex-1 bg-rule sm:block"></span>
-        <p class="hidden text-eyebrow uppercase tracking-[0.14em] text-ink-40 sm:block">Vol. 04 / Home notes</p>
-      </div>
-      <div class="grid items-center gap-9 lg:grid-cols-12 lg:gap-16">
-        <div class="lg:col-span-7">
-          <a href={`/post/${featured.id}/`} class="lead-image-wrap group block">
-            <div class="frame lead-photo aspect-[4/3] lg:aspect-[7/5]">
-              <Img
-                src={featured.data.heroImage}
-                alt={featured.data.title}
-                width={1120}
-                height={800}
-                loading="eager"
-                fetchpriority="high"
-                sizes="(min-width: 1024px) 58vw, 100vw"
-              />
-            </div>
-          </a>
-        </div>
-
-        <div class="hero-copy lg:col-span-5">
-          <div class="flex items-center gap-3">
-            <span class="rule-draw h-px w-8 bg-clay"></span>
-            <p class="eyebrow">The Lead · {categoryName(featured.data.category)}</p>
-          </div>
-
-          <h1 class="mt-5 max-w-[18ch] font-display text-display-1 text-ink">
-            <a href={`/post/${featured.id}/`} class="transition-colors duration-250 hover:text-clay">
-              {featured.data.title}
-            </a>
-          </h1>
-
-          <p class="mt-6 text-lead text-ink-60">{featured.data.description}</p>
-
-          <div class="mt-8 flex items-center gap-5 border-t border-rule pt-5">
-            <a href={`/post/${featured.id}/`} class="link-arrow">
-              Read the story
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-                <path d="M5 12h14M13 6l6 6-6 6"></path>
-              </svg>
-            </a>
-            <span class="text-xs uppercase tracking-[0.1em] text-ink-40">
-              {formatDateShort(featured.data.publishDate)}
-            </span>
-          </div>
-        </div>
-      </div>
-
-      {secondary.length > 0 && (
-        <div class="mt-16 grid gap-x-12 gap-y-12 border-t border-rule pt-12 lg:grid-cols-2">
-          {/*
-            Two wide cards side by side need real width: each one splits again
-            into image and text, and between 640px and 1024px that left the
-            photograph at ~150px with the headline breaking every second word.
-            They stack until there is room for the pair.
-          */}
-          {secondary.map((post) => (
-            <PostCard post={post} variant="wide" sizes="(min-width: 1024px) 24vw, (min-width: 640px) 45vw, 90vw" />
-          ))}
-        </div>
-      )}
-    </section>
-  )}
-
-  <div class="wrap">
-    <AdSlot placement="feed" class="mb-14 lg:mb-20" />
-  </div>
-
-  {/* ── Rooms ──────────────────────────────────────────────────── */}
-  <section class="wrap" aria-labelledby="rooms-heading">
-    <SectionHead
-      id="rooms-heading"
-      kicker={`${CATEGORIES.length} rooms`}
-      title="Browse by room"
-    />
-
-    {/*
-      The six main rooms run as photographic tiles — exactly one full row at
-      every breakpoint, so the grid never leaves an orphaned last row. The
-      remaining rooms sit below as type, mirroring the header's primary/More
-      split so the same hierarchy reads on the page and in the nav.
-    */}
-    <div class="reveal-group mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
-      {PRIMARY_CATEGORIES.map((c) => (
-        <a href={`/category/${c.slug}/`} class="tile aspect-[3/4]">
-          <Img
-            src={c.image}
-            alt=""
-            width={340}
-            height={453}
-            sizes="(min-width: 1024px) 15vw, (min-width: 768px) 30vw, 45vw"
-          />
-          <span class="tile-label">{c.name}</span>
-        </a>
-      ))}
-    </div>
-
-    {SECONDARY_CATEGORIES.length > 0 && (
-      <div class="mt-7 flex flex-wrap items-baseline gap-x-8 gap-y-3 border-t border-rule pt-6">
-        <span class="eyebrow-muted shrink-0">Also</span>
-        {SECONDARY_CATEGORIES.map((c) => (
-          <a
-            href={`/category/${c.slug}/`}
-            class="link-underline font-display text-title-lg text-ink hover:text-clay"
-          >
-            {c.name}
-          </a>
-        ))}
-      </div>
-    )}
+    {featured && <a class="hero-feature" href={`/post/${featured.id}/`}>
+      <Img src={featured.data.heroImage} alt={featured.data.title} width={900} height={1000} loading="eager" fetchpriority="high" sizes="(min-width: 900px) 48vw, 100vw" />
+      <span class="feature-label">The editor’s pick</span>
+      <div class="feature-caption"><span>{categoryName(featured.data.category)}</span><h2>{featured.data.title}</h2><span class="feature-arrow" aria-hidden="true">↗</span></div>
+    </a>}
   </section>
-
-  {/* ── Latest ─────────────────────────────────────────────────── */}
-  {grid.length > 0 && (
-    <section class="wrap mt-16 lg:mt-24" aria-labelledby="latest-heading">
-      <SectionHead id="latest-heading" kicker="Fresh this week" title="Latest stories" />
-
-      <div class="mt-12 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
-        {grid.map((post) => (
-          <PostCard post={post} />
-        ))}
-      </div>
-    </section>
-  )}
-
-  {/* ── Numbered list — keeps readers moving to a second page ──── */}
-  {listed.length > 0 && (
-    <section class="wrap mt-16 lg:mt-24" aria-labelledby="more-heading">
-      <SectionHead
-        id="more-heading"
-        kicker="Keep reading"
-        title="More from the archive"
-        href="/search/"
-        hrefLabel="Browse all"
-      />
-      <ol class="mt-2">
-        {listed.map((post, i) => (
-          <li class="reveal group border-b border-rule">
-            <a
-              href={`/post/${post.id}/`}
-              class="grid grid-cols-[2.75rem_1fr_auto] items-center gap-5 py-6 sm:gap-8"
-            >
-              <span class="font-display text-2xl leading-none tabular-nums text-ink-20 transition-colors duration-250 group-hover:text-clay">
-                {String(i + 1).padStart(2, '0')}
-              </span>
-              <span class="min-w-0">
-                <span class="eyebrow-muted">{categoryName(post.data.category)}</span>
-                <span class="mt-2 block font-display text-title text-ink transition-colors duration-250 group-hover:text-clay sm:text-title-lg">
-                  {post.data.title}
-                </span>
-              </span>
-              <span class="frame hidden aspect-square w-20 shrink-0 sm:block">
-                <Img src={post.data.heroImage} alt="" width={160} height={160} sizes="80px" />
-              </span>
-            </a>
-          </li>
-        ))}
-      </ol>
-    </section>
-  )}
-
-  <div class="mt-16 lg:mt-24">
-    <Newsletter />
-  </div>
+  <section class="wrap room-section" aria-labelledby="rooms-title">
+    <div class="home-section-head"><div><p class="eyebrow">Start somewhere you love</p><h2 id="rooms-title">Which room is on your mind?</h2></div><a class="quiet-link" href="/tags/">Explore all topics ↗</a></div>
+    <div class="room-grid">{PRIMARY_CATEGORIES.map(c => <a href={`/category/${c.slug}/`} class="room-card"><div class="frame"><Img src={c.image} alt={`${c.name} decorating inspiration`} width={320} height={380} sizes="(min-width: 900px) 15vw, 45vw" /></div><span>{c.name}<span aria-hidden="true">↗</span></span></a>)}</div>
+  </section>
+  <section class="discovery-section" id="find-ideas" aria-labelledby="ideas-title">
+    <div class="wrap">
+      <div class="home-section-head"><div><p class="eyebrow">Your next “I could do that” moment</p><h2 id="ideas-title">Find your next home idea</h2></div><a class="quiet-link" href="/search/">Search all guides ↗</a></div>
+      <div class="idea-filters" aria-label="Filter ideas by room"><button data-room="all" aria-pressed="true">All ideas</button>{CATEGORIES.map(c => <button data-room={c.slug} aria-pressed="false">{c.name}</button>)}</div>
+      <p id="idea-count" class="idea-count" aria-live="polite">Explore {posts.length} decorating guides.</p>
+      <div class="ideas-grid">{posts.map(post => <div data-idea-room={post.data.category}><PostCard post={post} /></div>)}</div>
+      <button id="more-ideas" class="btn btn-primary more-ideas" hidden>Discover more ideas ↓</button>
+    </div>
+  </section>
+  <div class="wrap"><AdSlot placement="feed" class="my-12" /></div>
+  <section class="wrap budget-section" aria-labelledby="budget-title"><div class="home-section-head"><div><p class="eyebrow">Little changes, lovely results</p><h2 id="budget-title">Big on style. Kind to your budget.</h2></div><a class="quiet-link" href="/category/renter/">Explore renter-friendly ideas ↗</a></div><div class="grid gap-8 md:grid-cols-3">{picks.map(post => <PostCard post={post} />)}</div></section>
+  <div class="wrap my-16"><Newsletter /></div>
 </Layout>
+<script>
+  const filters = document.querySelectorAll<HTMLButtonElement>('[data-room]');
+  const cards = [...document.querySelectorAll<HTMLElement>('[data-idea-room]')];
+  const more = document.querySelector<HTMLButtonElement>('#more-ideas')!;
+  let active = 'all'; let limit = 9;
+  function render() {
+    const matching = cards.filter(card => active === 'all' || card.dataset.ideaRoom === active);
+    cards.forEach(card => { card.hidden = true; });
+    matching.slice(0,limit).forEach(card => { card.hidden = false; });
+    more.hidden = matching.length <= limit;
+    document.querySelector('#idea-count')!.textContent = `Showing ${Math.min(limit,matching.length)} of ${matching.length} guides`;
+  }
+  filters.forEach(button => button.addEventListener('click', () => {
+    active = button.dataset.room!; limit = 9;
+    filters.forEach(filter => filter.setAttribute('aria-pressed', String(filter === button))); render();
+  }));
+  more.addEventListener('click', () => { const previous = limit; limit += 9; render(); cards.filter(card => active === 'all' || card.dataset.ideaRoom === active)[previous]?.querySelector('a')?.focus({preventScroll:true}); });
+  render();
+</script>
