@@ -1,7 +1,63 @@
 ---
-const { id } = Astro.props;
+interface Props {
+  id: string;
+  title?: string;
+}
+
+const { id, title } = Astro.props;
 ---
-<button class="save-idea" data-save-id={id} aria-pressed="false" hidden><span aria-hidden="true">♡</span> <span data-save-label>Save idea</span></button>
+<button class="save-idea" type="button" data-save-id={id} aria-label={title ? `Save idea: ${title}` : 'Save idea'} aria-pressed="false" hidden>
+  <svg class="save-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5.5 3.25h9a.75.75 0 0 1 .75.75v12.5L10 13.25 4.75 16.5V4a.75.75 0 0 1 .75-.75Z" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round" /></svg>
+  <span data-save-label>Save idea</span>
+</button>
+
+<style>
+  .save-idea {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    min-height: 40px;
+    padding: 9px 13px;
+    margin-top: 14px;
+    border: 1px solid #d8cfc2;
+    border-radius: 4px;
+    background: #fbf8f4;
+    color: #344b3c;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: .01em;
+    cursor: pointer;
+    transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+  }
+
+  .save-idea[hidden] {
+    display: none;
+  }
+
+  .save-idea:hover {
+    background: #f0ebe1;
+    border-color: #b7b3a3;
+  }
+
+  .save-idea[aria-pressed='true'] {
+    background: #e8ece4;
+    border-color: #b3c1ac;
+    color: #344b3c;
+  }
+
+  .save-icon {
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+  }
+
+  .save-idea[aria-pressed='true'] .save-icon {
+    fill: currentColor;
+  }
+</style>
+
 <script>
   const key = 'hearth-saved-ideas';
   function read(): string[] { try { const value = JSON.parse(localStorage.getItem(key) || '[]'); return Array.isArray(value) ? value.filter(id => typeof id === 'string') : []; } catch { return []; } }
@@ -18,6 +74,7 @@ const { id } = Astro.props;
     if (empty) empty.hidden = [...document.querySelectorAll<HTMLElement>('[data-saved-card]')].some(card => !card.hidden);
   }
   document.addEventListener('click', event => {
+    if (!(event.target instanceof Element)) return;
     const button = (event.target as Element).closest<HTMLButtonElement>('[data-save-id]');
     if (!button) return;
     const saved = read(); const id = button.dataset.saveId!;
@@ -26,5 +83,6 @@ const { id } = Astro.props;
   });
   window.addEventListener('storage', sync);
   window.addEventListener('pageshow', sync);
+  document.addEventListener('astro:page-load', sync);
   sync();
 </script>
