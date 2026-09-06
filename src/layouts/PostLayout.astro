@@ -14,6 +14,8 @@ import PostNav from '../components/PostNav.astro';
 import PinterestButton from '../components/PinterestButton.astro';
 import Newsletter from '../components/Newsletter.astro';
 import AdSlot from '../components/AdSlot.astro';
+import ReadingTools from '../components/ReadingTools.astro';
+import '../styles/reading.css';
 import { SITE, categoryName, formatDate, collectTags, tagSlug, wordCount } from '../site';
 
 interface Props {
@@ -96,8 +98,8 @@ const faqSchema = d.faqs?.length
 >
   <div id="progress" aria-hidden="true"></div>
 
-  <article class="wrap pt-8 lg:pt-12">
-    <div class="mx-auto max-w-reading">
+  <article class="wrap post-page" aria-labelledby="post-title">
+    <div class="post-breadcrumbs">
       <Breadcrumbs
         items={[
           { label: 'Home', href: '/' },
@@ -106,59 +108,42 @@ const faqSchema = d.faqs?.length
         ]}
       />
 
-      <header class="mt-8">
-        <a href={`/category/${d.category}/`} class="eyebrow hover:text-clay-deep">
-          {categoryName(d.category)}
-        </a>
-
-        <h1 class="mt-4 font-display text-display-2 text-ink">{d.title}</h1>
-
-        {/* The standfirst is set in the display italic — it belongs to the
-            headline, not to the body copy that follows it. */}
-        <p class="mt-5 font-display text-lead italic text-ink-60">{d.description}</p>
-
-        <div class="mt-7 flex flex-wrap items-center gap-x-4 gap-y-2 border-y border-rule py-4 text-xs uppercase tracking-[0.1em] text-ink-40">
-          <a href={`/author/${SITE.authorSlug}/`} class="text-ink-60 transition-colors hover:text-clay">
-            {SITE.author}
-          </a>
-          <span aria-hidden="true" class="text-ink-20">/</span>
-          <time datetime={d.publishDate.toISOString()}>{formatDate(d.publishDate)}</time>
-          {d.updatedDate && (
-            <>
-              <span aria-hidden="true" class="text-ink-20">/</span>
-              <span>Updated {formatDate(d.updatedDate)}</span>
-            </>
-          )}
-          <span aria-hidden="true" class="text-ink-20">/</span>
-          <span>{minutes} min read</span>
-        </div>
-      </header>
-      <div class="mt-5 flex flex-wrap items-center gap-5"><SaveIdea id={post.id} /><a class="quiet-link" href="/saved/">View saved ideas ↗</a><a class="quiet-link" href={`https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(canonical)}&media=${encodeURIComponent(d.pinImage.startsWith('photo-') ? `https://images.unsplash.com/${d.pinImage}?w=1000&h=1500&fit=crop&auto=format` : new URL(d.pinImage, canonical).href)}&description=${encodeURIComponent(d.title)}`} target="_blank" rel="noopener noreferrer">Save to Pinterest ↗</a></div>
     </div>
 
-    {/* Hero image sits below the headline: the H1 paints first, which keeps LCP text-fast */}
-    <figure class="mt-9 lg:mt-12">
-      <div class="frame lead-photo aspect-[16/10] sm:aspect-[2/1]">
-        <Img
-          src={d.heroImage}
-          alt={d.title}
-          width={1280}
-          height={640}
-          loading="eager"
-          fetchpriority="high"
-          sizes="(min-width: 1280px) 1180px, 100vw"
-        />
-      </div>
-    </figure>
+    <div class="post-opening">
+      <header class="post-heading">
+        <div class="post-kicker">
+          <a href={`/category/${d.category}/`} class="eyebrow">The {categoryName(d.category).toLowerCase()} edit</a>
+          <span class="post-read-time"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>{minutes} min read</span>
+        </div>
+        <h1 id="post-title">{d.title}</h1>
+        <p class="post-deck">{d.description}</p>
+        <div class="post-byline">
+          <img src={SITE.authorAvatar} alt="" width="42" height="42" class="post-avatar" />
+          <div>
+            <a href={`/author/${SITE.authorSlug}/`}>By {SITE.author}</a>
+            <p>{d.updatedDate ? 'Updated ' : ''}<time datetime={(d.updatedDate ?? d.publishDate).toISOString()}>{formatDate(d.updatedDate ?? d.publishDate)}</time><span aria-hidden="true"> · </span>{SITE.authorRole}</p>
+          </div>
+        </div>
+        <div class="post-actions">
+          <SaveIdea id={post.id} />
+          <a href="#article-body" class="post-start">Start reading <svg width="16" height="16" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M10 3v14m-5-5 5 5 5-5"/></svg></a>
+          <button type="button" class="post-share" data-share-url={canonical} data-share-title={d.title} aria-label="Share this article" hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 16V3m-4 4 4-4 4 4M5 12v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-8"/></svg><span>Share</span></button>
+        </div>
+        <p class="post-share-status" data-share-status role="status"></p>
+      </header>
+      <figure class="post-hero">
+        <div class="frame post-hero-image">
+          <Img src={d.heroImage} alt={d.title} width={900} height={1000} loading="eager" fetchpriority="high" sizes="(min-width: 1440px) 580px, (min-width: 900px) 44vw, (min-width: 640px) 85vw, 100vw" />
+        </div>
+        <figcaption><span>{categoryName(d.category)} inspiration</span><span>{SITE.name}</span></figcaption>
+      </figure>
+    </div>
 
-    {/*
-      From xl up the page becomes a rail + column + rail grid. Below that it
-      collapses to the single reading column it has always been, and both
-      rails are simply not rendered — no hidden weight on small screens.
-    */}
-    <div class="post-grid mt-10 lg:mt-14">
+    {/* A comfortable reading column, with contents in the desktop margin. */}
+    <div class="post-grid">
       <aside class="post-rail hidden xl:block">
-        <div class="sticky top-28">
+        <div class="sticky post-rail-inner">
           <TableOfContents headings={headings} variant="sidebar" />
 
           <div class="mt-8 border-t border-rule pt-6">
@@ -179,19 +164,23 @@ const faqSchema = d.faqs?.length
       <div class="post-body mx-auto w-full max-w-reading">
         {d.affiliateDisclosure && <AffiliateDisclosure />}
 
-        {d.keyTakeaways?.length && <KeyTakeaways items={d.keyTakeaways} class="mt-8" />}
+        {d.keyTakeaways?.length > 0 && <KeyTakeaways items={d.keyTakeaways} />}
 
         {/* The rail carries the contents from xl up; below that it sits inline. */}
-        <TableOfContents headings={headings} class="xl:hidden" />
+        <div id="article-contents" class="xl:hidden"><TableOfContents headings={headings} /></div>
 
         <AdSlot placement="in-article-top" class="my-10" />
 
-        <div class="article">
+        <ReadingTools minutes={minutes} />
+
+        <div class="article reading-article" id="article-body" tabindex="-1">
           <slot />
         </div>
 
+        <a class="reading-back-top" href="#post-title" aria-label="Back to article title" hidden><span>Back to the top</span><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></a>
+
         {tags.length > 0 && (
-          <div class="mt-12 flex flex-wrap items-center gap-2 border-t border-rule pt-7">
+          <div class="post-tags mt-12 flex flex-wrap items-center gap-2 border-t border-rule pt-7">
             <span class="eyebrow-muted mr-1">Filed under</span>
             {tags.map((tag) =>
               tag.linked ? (
@@ -207,7 +196,7 @@ const faqSchema = d.faqs?.length
 
         <Faq items={d.faqs ?? []} />
 
-        <section class="mt-14 border-t border-rule pt-10">
+        <section class="post-pin mt-14 border-t border-rule pt-10">
           <div class="text-center">
             <p class="eyebrow-muted">Save it</p>
             <h2 class="mt-3 font-display text-2xl text-ink sm:text-3xl">Pin this for your board</h2>
@@ -225,10 +214,7 @@ const faqSchema = d.faqs?.length
         <PostNav prev={prev} next={next} />
       </div>
 
-      {/*
-        Sticky half-page in the right margin, from 2xl only — at narrower
-        widths there is no spare margin and it would squeeze the column.
-      */}
+      {/* A configured sidebar ad gets a separate rail only on wide screens. */}
       <aside class="post-aside hidden 2xl:block">
         <div class="sticky top-28">
           <AdSlot placement="sidebar" />
@@ -246,7 +232,7 @@ const faqSchema = d.faqs?.length
     <Newsletter />
   </div>
 
-  {/* Sticky mobile anchor ad. Body gets bottom padding so it never covers text. */}
+  {/* Reserve space for a configured mobile anchor ad. */}
   <div class="anchor-ad" slot="after-footer">
     <AdSlot placement="anchor" />
   </div>
@@ -260,87 +246,3 @@ const faqSchema = d.faqs?.length
     }
   }
 </style>
-
-<script is:inline>
-  (function () {
-    var bar = document.getElementById('progress');
-    var article = document.querySelector('.article');
-    if (!article) return;
-
-    /*
-      The bar is driven by a scroll-driven animation in the stylesheet
-      wherever one is available, and that cannot lag the scroll. Only take
-      it over here when it is not — otherwise the inline width written
-      below would fight the transform the stylesheet is applying.
-    */
-    if (
-      window.CSS &&
-      CSS.supports('animation-timeline: scroll()') &&
-      !matchMedia('(prefers-reduced-motion: reduce)').matches
-    ) {
-      bar = null;
-    }
-
-    /*
-      One passive scroll listener drives both the progress bar and the
-      contents rail. An IntersectionObserver would be the tidier way to do
-      the second job, but it needs its own bookkeeping to answer "which
-      section am I in" when the reader is between two headings — and the
-      listener is already here for the first job. Offsets are measured once
-      and re-measured on resize, so the scroll path itself stays arithmetic.
-    */
-    var links = document.querySelectorAll('[data-toc-link]');
-    var sections = [];
-    var i;
-    for (i = 0; i < links.length; i++) {
-      var heading = document.getElementById(links[i].getAttribute('data-toc-link'));
-      if (heading) sections.push({ link: links[i], el: heading, top: 0 });
-    }
-
-    var current = null;
-    var articleTop = 0;
-    var articleSpan = 0;
-
-    function measure() {
-      articleTop = article.getBoundingClientRect().top + window.scrollY;
-      articleSpan = article.offsetHeight - window.innerHeight;
-      for (var j = 0; j < sections.length; j++) {
-        sections[j].top = sections[j].el.getBoundingClientRect().top + window.scrollY;
-      }
-    }
-
-    function update() {
-      if (bar) {
-        var done = window.scrollY - articleTop;
-        var pct = articleSpan > 0 ? Math.min(100, Math.max(0, (done / articleSpan) * 100)) : 0;
-        bar.style.width = pct + '%';
-      }
-
-      if (!sections.length) return;
-
-      // The last heading the reader has scrolled past, allowing for the
-      // sticky masthead. Before the first one, the first stays lit.
-      var mark = window.scrollY + 140;
-      var active = 0;
-      for (var k = 0; k < sections.length; k++) {
-        if (sections[k].top <= mark) active = k;
-      }
-
-      if (active === current) return;
-      if (current !== null) sections[current].link.classList.remove('is-current');
-      current = active;
-      sections[current].link.classList.add('is-current');
-    }
-
-    function remeasure() {
-      measure();
-      update();
-    }
-
-    addEventListener('scroll', update, { passive: true });
-    addEventListener('resize', remeasure, { passive: true });
-    // Late-loading images change every offset below them.
-    addEventListener('load', remeasure);
-    remeasure();
-  })();
-</script>

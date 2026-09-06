@@ -30,7 +30,7 @@ const mediaUrl = image.startsWith('photo-')
 
     <button
       type="button"
-      class="js-pin absolute right-3 top-3 inline-flex items-center gap-2 bg-[#E60023] px-4 py-2.5 text-sm font-semibold text-white opacity-0 shadow-lg transition-opacity duration-250 focus-visible:opacity-100 group-hover:opacity-100 max-md:opacity-100"
+      class="js-pin absolute right-3 top-3 inline-flex min-h-11 items-center gap-2 rounded-sm bg-[#E60023] px-4 py-2.5 text-sm font-semibold text-white opacity-0 shadow-lg transition-opacity duration-250 focus-visible:opacity-100 group-hover:opacity-100 max-md:opacity-100"
       data-media={mediaUrl}
       data-description={`${title} — ${description}`}
     >
@@ -44,7 +44,7 @@ const mediaUrl = image.startsWith('photo-')
   </div>
 
   <figcaption class="mt-3 text-center text-xs text-ink-40">
-    Pin this for later — 1000×1500 vertical image, sized for Pinterest.
+    A little inspiration for your next room refresh.
   </figcaption>
 </figure>
 
