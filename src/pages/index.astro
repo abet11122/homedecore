@@ -25,6 +25,10 @@ const secondary = rest.slice(0, 2);
 const grid = rest.slice(2, 8);
 const listed = rest.slice(8, 13);
 
+const christmasPosts = posts.filter((p) =>
+  p.id.toLowerCase().includes('christmas')
+).slice(0, 6);
+
 const today = new Date().toLocaleDateString('en-US', {
   weekday: 'long',
   month: 'long',
@@ -116,6 +120,24 @@ const today = new Date().toLocaleDateString('en-US', {
     <AdSlot placement="feed" class="mb-14 lg:mb-20" />
   </div>
 
+  {/* ── Christmas ─────────────────────────────────────────────── */}
+  {christmasPosts.length > 0 && (
+    <section class="wrap mt-16 lg:mt-24" aria-labelledby="christmas-heading">
+      <div class="flex items-center gap-4 border-b border-rule pb-6">
+        <span class="text-2xl" aria-hidden="true">🎄</span>
+        <div>
+          <p class="eyebrow text-clay">Seasonal · Christmas</p>
+          <h2 id="christmas-heading" class="mt-1 font-display text-display-3 text-ink">Christmas at Home</h2>
+        </div>
+      </div>
+      <div class="mt-10 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
+        {christmasPosts.map((post) => (
+          <PostCard post={post} />
+        ))}
+      </div>
+    </section>
+  )}
+
   {/* ── Rooms ──────────────────────────────────────────────────── */}
   <section class="wrap" aria-labelledby="rooms-heading">
     <SectionHead
@@ -195,6 +217,9 @@ const today = new Date().toLocaleDateString('en-US', {
               </span>
               <span class="min-w-0">
                 <span class="eyebrow-muted">{categoryName(post.data.category)}</span>
+                {post.id.startsWith('new_blogs/') && (
+                  <span class="ml-2 inline-block bg-clay px-1.5 py-0.5 text-[0.6rem] font-semibold uppercase tracking-widest text-white align-middle">New</span>
+                )}
                 <span class="mt-2 block font-display text-title text-ink transition-colors duration-250 group-hover:text-clay sm:text-title-lg">
                   {post.data.title}
                 </span>
