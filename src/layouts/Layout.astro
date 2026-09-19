@@ -445,14 +445,11 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     <slot name="after-footer" />
 
     {/* AdSense — deferred so it never competes with the main content paint */}
-    {adsenseId && (
-      <script
-        is:inline
-        async
-        defer
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`}
-        crossorigin="anonymous"></script>
-    )}
+    <script
+      is:inline
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8497285724891966"
+      crossorigin="anonymous"></script>
 
     {/* Pinterest save button — deferred, ~14KB, loads after paint */}
     <script is:inline async defer data-pin-hover="true" src="https://assets.pinterest.com/js/pinit.js"></script>
