@@ -64,6 +64,22 @@ A black dress with a white collar, two braids, and a deadpan expression. This is
 
 A black dress with a white Peter Pan collar is the most accurate version.
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4izfbzd" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Women's Black Halloween Costume Set on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween look</small>
+      <strong>Women's Black Halloween Costume Set</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 7. Morticia Addams
 
 A long black dress, pale skin, dark lips, and long dark hair. This is an elegant, sophisticated Halloween costume that suits a woman who wants to look beautiful rather than scary.
@@ -102,6 +118,22 @@ A colorful embroidered blouse, a long skirt, flowers in the hair, and drawn-on c
 
 The flowers in the hair and the connected eyebrows are the two most important elements.
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4y0ZSUH" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 54-Color Face Painting Kit on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this costume makeup</small>
+      <strong>54-Color Face Painting Kit</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 13. Audrey Hepburn in Breakfast at Tiffany's
 
 A little black dress, long gloves, a pearl necklace, an updo, and a cigarette holder prop. This is an elegant, classic costume that suits a woman who wants to look beautiful rather than scary.
@@ -139,6 +171,22 @@ Respond to every question in a robotic voice for extra effect.
 A white outfit with a yellow circle on the front and devil horns. This is a punny, unexpected costume that always gets a reaction.
 
 The pun is the costume — make sure it is readable from across the room.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4hltPI7" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 42-Color Costume Makeup Kit on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this costume makeup</small>
+      <strong>42-Color Costume Makeup Kit</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ### 19. Error 404: Costume Not Found
 
@@ -183,54 +231,6 @@ The hair is the most important element — each character has a very specific ha
 Three women in 1970s-inspired outfits — flared trousers, fitted tops, and big hair. This is a stylish, recognizable group costume that suits women who want to look good rather than scary.
 
 The big, voluminous hair is the most important element.
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4izfbzd" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Women's Black Halloween Costume Set on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this Halloween look</small>
-      <strong>Women's Black Halloween Costume Set</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4y0ZSUH" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 54-Color Face Painting Kit on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this costume makeup</small>
-      <strong>54-Color Face Painting Kit</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4hltPI7" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 42-Color Costume Makeup Kit on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this costume makeup</small>
-      <strong>42-Color Costume Makeup Kit</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
 
 ## Final Thoughts
 

@@ -58,6 +58,22 @@ Check the size before buying — pajamas are not one-size-fits-most.
 
 ## Beauty and Self-Care
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/3VkX0na" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween-Themed Fairy Lights on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this basket add-on</small>
+      <strong>Halloween-Themed Fairy Lights</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 6. Face Mask
 
 A sheet mask or a clay mask in a Halloween-themed packaging — or simply a high-quality mask she would not buy herself — is a practical self-care gift. Add a pair of under-eye patches for extra points.
@@ -89,6 +105,22 @@ A set of lip balms in fall flavors — pumpkin spice, apple cider, cinnamon — 
 Choose a set with at least three flavors for variety.
 
 ## Snacks and Treats
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4xDbBrF" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 12-Pack Halloween Costume Headbands on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this costume accessory</small>
+      <strong>12-Pack Halloween Costume Headbands</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ### 11. Her Favorite Chocolate
 
@@ -122,6 +154,22 @@ Choose a box with a clear window so the cookies are visible.
 
 ## Accessories and Decor
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4yHHTm7" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Zombie Temporary Tattoo Variety Pack on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this costume accessory</small>
+      <strong>Zombie Temporary Tattoo Variety Pack</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 16. Halloween Earrings
 
 A pair of small Halloween earrings — ghost studs, pumpkin hoops, or black cat drops — is a fun, wearable gift. Choose a style that suits her everyday jewelry rather than something overtly costume-like.
@@ -151,54 +199,6 @@ Add a bookmark with a Halloween print for extra detail.
 A set of scented wax melts in fall scents — pumpkin, cinnamon, apple — is a practical gift for someone who already owns a wax warmer. Choose a set with at least three different scents.
 
 Check that she owns a wax warmer before buying wax melts.
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/3VkX0na" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween-Themed Fairy Lights on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this basket add-on</small>
-      <strong>Halloween-Themed Fairy Lights</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4xDbBrF" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 12-Pack Halloween Costume Headbands on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this costume accessory</small>
-      <strong>12-Pack Halloween Costume Headbands</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4yHHTm7" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Zombie Temporary Tattoo Variety Pack on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this costume accessory</small>
-      <strong>Zombie Temporary Tattoo Variety Pack</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
 
 ## Final Thoughts
 

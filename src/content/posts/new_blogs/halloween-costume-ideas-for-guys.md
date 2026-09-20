@@ -58,6 +58,22 @@ Theatrical makeup is more convincing than face paint for zombie skin.
 
 ## Pop Culture
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4yHHTm7" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Zombie Temporary Tattoo Variety Pack on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this costume accessory</small>
+      <strong>Zombie Temporary Tattoo Variety Pack</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 6. Jack Sparrow
 
 A pirate coat, a tricorn hat, dreadlocks or a wig, kohl around the eyes, and a rum bottle prop. The key is the walk and the speech — Jack Sparrow moves and talks in a very specific way.
@@ -94,6 +110,22 @@ A tuxedo, slicked-back hair, a martini glass prop, and a confident demeanor. Thi
 
 The tuxedo is the most important element — a well-fitted one looks far better than a cheap rental.
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4ygCMte" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Two-Pack Halloween Fake Blood on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this special-effects makeup</small>
+      <strong>Two-Pack Halloween Fake Blood</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 12. The Dude (The Big Lebowski)
 
 A bathrobe, a white t-shirt, jeans, sunglasses, and a White Russian drink. This is a comfortable, recognizable costume that suits a man who wants to be comfortable rather than impressive.
@@ -125,6 +157,22 @@ White face paint and a drawn-on tear are the most important makeup elements.
 A red and white striped shirt, a red and white bobble hat, glasses, and jeans. This is a simple, recognizable costume that requires almost no shopping.
 
 The striped shirt and the bobble hat are the two most important elements.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4hltPI7" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 42-Color Costume Makeup Kit on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this costume makeup</small>
+      <strong>42-Color Costume Makeup Kit</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ### 17. A Ceiling Fan
 
@@ -163,54 +211,6 @@ Use a large, readable font on the sign.
 Regular clothes with a sign that says "Nudist on Strike." This is the laziest Halloween costume on the list, but it is also one of the most reliably funny.
 
 Use a large, readable font on the sign.
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4yHHTm7" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Zombie Temporary Tattoo Variety Pack on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this costume accessory</small>
-      <strong>Zombie Temporary Tattoo Variety Pack</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4ygCMte" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Two-Pack Halloween Fake Blood on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this special-effects makeup</small>
-      <strong>Two-Pack Halloween Fake Blood</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4hltPI7" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 42-Color Costume Makeup Kit on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this costume makeup</small>
-      <strong>42-Color Costume Makeup Kit</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
 
 ## Final Thoughts
 

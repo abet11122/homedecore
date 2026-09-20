@@ -43,6 +43,22 @@ Yellow and black caution tape draped across doorways, around furniture, and alon
 
 ## Screens and Tech
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4h1UgDI" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween Balloon Garland Arch Kit on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this party decoration</small>
+      <strong>Halloween Balloon Garland Arch Kit</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 5. Glitchy Screen Displays
 
 Loop a glitchy screen effect, a Y2K countdown, or a static noise video on a TV or monitor. Free glitch effect videos are widely available online. This single element does more for the atmosphere than almost anything else.
@@ -61,6 +77,22 @@ Print large-format versions of classic Windows error messages — "FATAL ERROR",
 
 ## Lighting
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4cWmihw" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween Party Tableware Kit for 50 on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this party essential</small>
+      <strong>Halloween Party Tableware Kit for 50</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 9. Neon Green or Blue Lighting
 
 Neon green or electric blue bulbs or LED strips create the most atmospheric Y2K lighting. Use them in corners, under furniture, or behind screens for a glow effect.
@@ -78,6 +110,22 @@ A black light makes white and neon elements glow and adds an eerie quality to th
 ### 12. Foil Table Covers
 
 Silver foil table covers on the food and drinks tables add metallic texture and reflect the lighting. They are cheap, widely available, and easy to dispose of after the party.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4hAAPSG" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween Photo Booth Props, 18-Piece Set on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this party accessory</small>
+      <strong>Halloween Photo Booth Props, 18-Piece Set</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ### 13. Y2K Countdown Centrepiece
 
@@ -100,54 +148,6 @@ Print fake newspaper front pages with Y2K apocalypse headlines — "COMPUTERS TO
 ### 17. Y2K Playlist
 
 A playlist of late-1990s pop, nu-metal, and electronic music playing throughout the party completes the aesthetic in a way that no visual element can. The music is as important as the decor.
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4h1UgDI" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween Balloon Garland Arch Kit on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this party decoration</small>
-      <strong>Halloween Balloon Garland Arch Kit</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4cWmihw" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween Party Tableware Kit for 50 on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this party essential</small>
-      <strong>Halloween Party Tableware Kit for 50</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4hAAPSG" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween Photo Booth Props, 18-Piece Set on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this party accessory</small>
-      <strong>Halloween Photo Booth Props, 18-Piece Set</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
 
 ## Final Thoughts
 

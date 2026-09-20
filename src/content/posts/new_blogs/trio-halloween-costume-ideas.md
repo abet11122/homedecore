@@ -58,6 +58,22 @@ The wild hair and the dramatic makeup are the most important elements.
 
 ## Pop Culture Trios
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4cWladM" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Rock, Paper, Scissors Trio Costume Set on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this trio costume</small>
+      <strong>Rock, Paper, Scissors Trio Costume Set</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 6. Harry, Ron, and Hermione
 
 Harry in a Gryffindor robe with round glasses and a lightning bolt scar; Ron in a Gryffindor robe with red hair; Hermione in a Gryffindor robe with bushy hair and a book. This is a recognizable pop culture trio costume.
@@ -89,6 +105,22 @@ Prue in a dark, sophisticated outfit; Piper in a casual, warm outfit; Phoebe in 
 The contrasting styles of the three sisters are the most important element.
 
 ## Funny Trios
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4xDbBrF" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 12-Pack Halloween Costume Headbands on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this costume accessory</small>
+      <strong>12-Pack Halloween Costume Headbands</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ### 11. Rock, Paper, Scissors
 
@@ -122,6 +154,22 @@ The matching outfits and the large sombreros are the most important elements.
 
 ## Themed Trios
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4y0ZSUH" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 54-Color Face Painting Kit on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this costume makeup</small>
+      <strong>54-Color Face Painting Kit</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 16. Traffic Light
 
 One person in red, one in yellow, one in green. Each person wears a large circle in their color on the front of their outfit. Together they are a traffic light.
@@ -151,54 +199,6 @@ The labels are the most important element — the concept needs to be readable.
 Three people in outfits representing their virtue — Faith in white with a cross, Hope in green with an anchor, Charity in red with a heart. This is a classic, allegorical trio costume.
 
 The symbols are the most important element — they need to be large and clearly visible.
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4cWladM" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Rock, Paper, Scissors Trio Costume Set on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this trio costume</small>
-      <strong>Rock, Paper, Scissors Trio Costume Set</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4xDbBrF" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 12-Pack Halloween Costume Headbands on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this costume accessory</small>
-      <strong>12-Pack Halloween Costume Headbands</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
-
-<div class="shop-look-wrap">
-  <a class="shop-look" href="https://amzn.to/4y0ZSUH" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 54-Color Face Painting Kit on Amazon (opens in a new tab)">
-    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
-    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
-    <span class="shop-look__copy">
-      <small>Shop this costume makeup</small>
-      <strong>54-Color Face Painting Kit</strong>
-      <span class="shop-look__meta">See details &amp; availability</span>
-    </span>
-    <span class="shop-look__purchase" aria-hidden="true">
-      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
-      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
-    </span>
-  </a>
-</div>
 
 ## Final Thoughts
 
