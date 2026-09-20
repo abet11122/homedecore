@@ -4,8 +4,8 @@ description: "Find the perfect group Halloween costume with 20 Toy Story and Ins
 category: seasonal
 tags: ["halloween costumes", "group costumes", "toy story", "inside out", "family costumes", "seasonal"]
 publishDate: 2026-10-06
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1612373856198-8ff66f376aaa"
+pinImage: "photo-1665779132288-4fa362fd5180"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

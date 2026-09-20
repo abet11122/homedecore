@@ -4,8 +4,8 @@ description: "Find a funny family Halloween costume with 18 ideas for groups of 
 category: seasonal
 tags: ["halloween costumes", "family costumes", "funny halloween costumes", "halloween", "seasonal"]
 publishDate: 2026-09-27
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1640677834690-84f54f26f333"
+pinImage: "photo-1697425351819-50f9fa8f1f8b"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

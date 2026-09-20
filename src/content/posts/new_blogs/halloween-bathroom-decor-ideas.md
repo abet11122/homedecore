@@ -4,8 +4,8 @@ description: "Transform your bathroom for Halloween with 16 ideas using black ca
 category: bathroom
 tags: ["halloween decor", "bathroom decor", "seasonal decorating", "home styling", "spooky decor"]
 publishDate: 2026-10-08
-heroImage: "photo-1763485956235-0f9a1217f58c"
-pinImage: "photo-1763485956235-0f9a1217f58c"
+heroImage: "photo-1604610426369-2ff40588e236"
+pinImage: "photo-1759169277632-e5052b6d3e01"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

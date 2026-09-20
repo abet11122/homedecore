@@ -4,8 +4,8 @@ description: "Paint pumpkins with 18 ideas from simple solid colors to detailed 
 category: diy-decor
 tags: ["pumpkin painting", "halloween crafts", "diy decor", "halloween decor", "seasonal decorating"]
 publishDate: 2026-09-20
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1700234552956-fb794b8fc2f9"
+pinImage: "photo-1539787090838-bfc9c69a1530"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

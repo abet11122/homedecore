@@ -4,8 +4,8 @@ description: "Decorate for Halloween in dusty pink with 15 pink Halloween decor 
 category: seasonal
 tags: ["halloween decor", "pink halloween", "pink-o-ween", "seasonal decorating", "home styling"]
 publishDate: 2026-09-29
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1570131875041-44b41e8e3319"
+pinImage: "photo-1743610661596-7a98170d4daa"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

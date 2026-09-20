@@ -4,8 +4,8 @@ description: "Stand out at every college Halloween party with 24 costume ideas t
 category: seasonal
 tags: ["halloween costumes", "college costumes", "costume ideas", "halloween", "seasonal"]
 publishDate: 2026-10-02
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1665779132288-4fa362fd5180"
+pinImage: "photo-1667129702857-74261f4243a9"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

@@ -4,8 +4,8 @@ description: "Decorate a compact home for Halloween with 17 small space Hallowee
 category: seasonal
 tags: ["halloween decor", "small spaces", "seasonal decorating", "apartment decor", "renter friendly"]
 publishDate: 2026-09-27
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1725349434921-666dff058b1c"
+pinImage: "photo-1758192178311-451c50d87f2e"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

@@ -4,8 +4,8 @@ description: "Style your fireplace for Halloween with 15 mantel decor ideas usin
 category: seasonal
 tags: ["halloween decor", "fireplace decor", "mantel styling", "seasonal decorating", "home styling"]
 publishDate: 2026-09-07
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1572978567882-408eb0787206"
+pinImage: "photo-1602518986674-e0dbf4a54f2f"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

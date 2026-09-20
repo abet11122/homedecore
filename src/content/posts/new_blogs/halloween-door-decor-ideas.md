@@ -4,8 +4,8 @@ description: "Find the right Halloween door decor for your style with 18 ideas r
 category: seasonal
 tags: ["halloween decor", "halloween door decor", "seasonal decorating", "front door decor", "home styling"]
 publishDate: 2026-09-05
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1673300970122-14e7a2d5c5ef"
+pinImage: "photo-1698444436276-5064eae977e5"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

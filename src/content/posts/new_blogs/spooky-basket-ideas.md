@@ -4,8 +4,8 @@ description: "Build a spooky Halloween gift basket with 16 ideas covering themes
 category: seasonal
 tags: ["halloween gifts", "boo basket", "spooky gifts", "seasonal", "gift ideas"]
 publishDate: 2026-09-15
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1708528182738-28601672f14c"
+pinImage: "photo-1730460118906-3290a30bfdcf"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

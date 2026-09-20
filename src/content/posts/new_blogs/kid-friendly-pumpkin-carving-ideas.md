@@ -4,8 +4,8 @@ description: "Carve pumpkins safely with children using 15 kid-friendly ideas fr
 category: diy-decor
 tags: ["pumpkin carving", "halloween crafts", "crafts for kids", "halloween decor", "seasonal decorating"]
 publishDate: 2026-09-19
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1477516561410-f0b5dd8319e4"
+pinImage: "photo-1663568399694-fa3ee4fbb972"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

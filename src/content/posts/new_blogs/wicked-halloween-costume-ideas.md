@@ -4,8 +4,8 @@ description: "Recreate the most iconic duo of the year with 17 Wicked Halloween 
 category: seasonal
 tags: ["halloween costumes", "wicked", "elphaba", "glinda", "duo costumes", "seasonal"]
 publishDate: 2026-09-15
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1783712986056-90e824d369ad"
+pinImage: "photo-1783712990053-5bb76106df74"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

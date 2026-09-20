@@ -4,8 +4,8 @@ description: "Find the perfect baby's first Halloween costume with 20 ideas that
 category: seasonal
 tags: ["halloween costumes", "baby halloween", "first halloween", "seasonal", "baby gifts"]
 publishDate: 2026-09-21
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1693934189611-cfba028d2225"
+pinImage: "photo-1730144430328-f88fa3e6701d"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

@@ -4,8 +4,8 @@ description: "Find a Halloween costume you will actually wear with 22 ideas for 
 category: seasonal
 tags: ["halloween costumes", "costume ideas", "halloween", "seasonal", "men's costumes"]
 publishDate: 2026-09-23
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1612373856198-8ff66f376aaa"
+pinImage: "photo-1667129702857-74261f4243a9"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

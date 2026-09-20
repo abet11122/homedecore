@@ -4,8 +4,8 @@ description: "Find the perfect Halloween costume for three people with 20 trio i
 category: seasonal
 tags: ["halloween costumes", "trio costumes", "group costumes", "halloween", "seasonal"]
 publishDate: 2026-09-30
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1640677834690-84f54f26f333"
+pinImage: "photo-1669483478131-6222bc46b06c"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

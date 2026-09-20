@@ -4,8 +4,8 @@ description: "Decorate a small apartment for Halloween with 17 renter-friendly i
 category: seasonal
 tags: ["halloween decor", "small apartment", "renter friendly", "seasonal decorating", "small spaces"]
 publishDate: 2026-10-01
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1632489369505-346cf4a7d06b"
+pinImage: "photo-1758192178306-98a89d651a34"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

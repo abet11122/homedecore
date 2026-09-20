@@ -4,8 +4,8 @@ description: "Create a gothic Halloween atmosphere with 17 dark botanical decor 
 category: seasonal
 tags: ["halloween decor", "gothic decor", "dark botanical", "seasonal decorating", "home styling"]
 publishDate: 2026-10-07
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1477659803863-c1bf91b34c90"
+pinImage: "photo-1640085461451-e3dc47415dd1"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

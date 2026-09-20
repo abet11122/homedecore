@@ -4,8 +4,8 @@ description: "Find the perfect couple Halloween costume with 22 ideas from class
 category: seasonal
 tags: ["halloween costumes", "couple costumes", "halloween", "seasonal", "costume ideas"]
 publishDate: 2026-09-28
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1636634959169-c1145dba87c1"
+pinImage: "photo-1669483478131-6222bc46b06c"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

@@ -4,8 +4,8 @@ description: "Find the perfect matching Halloween costume for you and your best 
 category: seasonal
 tags: ["halloween costumes", "best friend costumes", "duo costumes", "halloween", "seasonal"]
 publishDate: 2026-09-24
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1612373856198-8ff66f376aaa"
+pinImage: "photo-1667129702857-74261f4243a9"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

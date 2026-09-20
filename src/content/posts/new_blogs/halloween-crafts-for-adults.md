@@ -4,8 +4,8 @@ description: "Make Halloween decorations and gifts with 16 adult craft ideas inc
 category: diy-decor
 tags: ["halloween crafts", "diy decor", "halloween decor", "crafts for adults", "seasonal decorating"]
 publishDate: 2026-09-17
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1602865048633-c341342b2334"
+pinImage: "photo-1663754832816-36a5d862d23d"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

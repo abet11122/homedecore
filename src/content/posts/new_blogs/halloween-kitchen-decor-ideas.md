@@ -4,8 +4,8 @@ description: "Decorate your kitchen for Halloween with 18 ideas using window dis
 category: kitchen
 tags: ["halloween decor", "kitchen decor", "seasonal decorating", "home styling", "autumn"]
 publishDate: 2026-10-02
-heroImage: "photo-1556909114-f6e7ad7d3136"
-pinImage: "photo-1556909114-f6e7ad7d3136"
+heroImage: "photo-1666249709493-21a751c08f57"
+pinImage: "photo-1666249712070-7208603be73e"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

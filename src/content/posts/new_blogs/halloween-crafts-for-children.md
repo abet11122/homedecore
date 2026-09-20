@@ -4,8 +4,8 @@ description: "Keep kids busy with 18 Halloween crafts including painted pumpkins
 category: diy-decor
 tags: ["halloween crafts", "crafts for kids", "halloween decor", "diy decor", "seasonal decorating"]
 publishDate: 2026-09-18
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1663754832816-36a5d862d23d"
+pinImage: "photo-1602865048633-c341342b2334"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

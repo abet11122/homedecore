@@ -4,8 +4,8 @@ description: "Decorate for Halloween with 17 vintage Halloween decor ideas using
 category: seasonal
 tags: ["halloween decor", "vintage decor", "seasonal decorating", "antique style", "home styling"]
 publishDate: 2026-09-22
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1571152013534-fdc8f268ce37"
+pinImage: "photo-1572978567882-408eb0787206"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

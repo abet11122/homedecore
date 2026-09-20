@@ -4,8 +4,8 @@ description: "Add humor to your Halloween yard with 15 funny outdoor decoration 
 category: outdoor
 tags: ["halloween decor", "funny halloween", "outdoor decor", "seasonal decorating", "yard decorations"]
 publishDate: 2026-09-11
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1632856976438-6282d960c4ef"
+pinImage: "photo-1635177106854-476d85a24e25"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

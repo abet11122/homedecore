@@ -4,8 +4,8 @@ description: "Make your own outdoor Halloween decor with 16 DIY ideas using mate
 category: diy-decor
 tags: ["halloween decor", "diy decor", "outdoor decor", "seasonal decorating", "halloween crafts"]
 publishDate: 2026-09-02
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1632856976438-6282d960c4ef"
+pinImage: "photo-1572978306654-a3835dd40cd4"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

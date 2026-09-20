@@ -4,8 +4,8 @@ description: "Turn your yard into a Halloween display with 17 ideas including gr
 category: outdoor
 tags: ["halloween decor", "halloween yard", "outdoor decor", "seasonal decorating", "yard decorations"]
 publishDate: 2026-09-09
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1635177106854-476d85a24e25"
+pinImage: "photo-1632856976438-6282d960c4ef"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

@@ -4,8 +4,8 @@ description: "Decorate your porch for Halloween with 16 ideas including pumpkin 
 category: outdoor
 tags: ["halloween decor", "porch decor", "outdoor decor", "seasonal decorating", "halloween porch"]
 publishDate: 2026-09-08
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1572978306654-a3835dd40cd4"
+pinImage: "photo-1698444436276-5064eae977e5"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

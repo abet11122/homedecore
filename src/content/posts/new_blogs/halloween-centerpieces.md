@@ -4,8 +4,8 @@ description: "Create a striking Halloween centerpiece with 14 ideas using pumpki
 category: seasonal
 tags: ["halloween decor", "halloween centerpieces", "seasonal decorating", "table styling", "home styling"]
 publishDate: 2026-09-03
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1635604521676-04f4f46b60e2"
+pinImage: "photo-1572332727986-4de3e3d8d9a3"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

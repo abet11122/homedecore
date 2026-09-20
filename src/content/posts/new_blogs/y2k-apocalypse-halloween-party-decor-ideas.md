@@ -4,8 +4,8 @@ description: "Throw a Y2K apocalypse Halloween party with 17 decor ideas using g
 category: seasonal
 tags: ["halloween party", "y2k decor", "party decor", "seasonal decorating", "halloween"]
 publishDate: 2026-10-05
-heroImage: "photo-1508193638397-1c4234db14d8"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "photo-1665779132288-4fa362fd5180"
+pinImage: "photo-1783712280458-ae8575c4cdee"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

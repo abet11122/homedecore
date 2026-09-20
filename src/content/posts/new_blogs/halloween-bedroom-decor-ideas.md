@@ -4,8 +4,8 @@ description: "Transform your bedroom for Halloween with 20 ideas using string li
 category: bedroom
 tags: ["halloween decor", "bedroom decor", "seasonal decorating", "cozy bedroom", "home styling"]
 publishDate: 2026-09-30
-heroImage: "photo-1631049307264-da0ec9d70304"
-pinImage: "photo-1505693416388-ac5ce068fe85"
+heroImage: "photo-1785530899798-7d73c9c90765"
+pinImage: "photo-1602861166176-3dda0761b39b"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:
