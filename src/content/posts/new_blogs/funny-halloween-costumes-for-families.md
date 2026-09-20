@@ -7,6 +7,7 @@ publishDate: 2026-09-27
 heroImage: "photo-1508193638397-1c4234db14d8"
 pinImage: "photo-1572635196237-14b3f281503f"
 featured: false
+affiliateDisclosure: true
 keyTakeaways:
   - "The best family costumes have a role for every member, including the baby and the dog."
   - "Punny family costumes — a bag of jelly beans, a box of crayons — scale to any family size."
@@ -36,6 +37,22 @@ Use large, readable labels — the pun needs to be visible from across the room.
 Each family member wears a different color outfit with a crayon label. The family is recognizable as a set because of the matching crayon aesthetic. This is a colorful, cheerful family costume.
 
 Use large, readable labels with the crayon color name.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://www.amazon.com/dp/B0GWVBJG3Q?tag=cozynest0f3-20" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Crayon Costume Family Set on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween look</small>
+      <strong>Crayon Costume Family Set</strong>
+      <span class="shop-look__meta">See sizes, colors &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ### 3. Condiments
 
@@ -94,6 +111,22 @@ The red shirt is the most important element for Pooh.
 Each family member is a different superhero. The group is recognizable as a set because of the superhero aesthetic. Assign characters based on each family member's preferences and physical characteristics.
 
 The most recognizable superheroes for a family costume are Superman, Batman, Wonder Woman, and Spider-Man.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4AmUFbh" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Superhero Family Capes on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween look</small>
+      <strong>Superhero Family Capes</strong>
+      <span class="shop-look__meta">See sizes, colors &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ### 12. Pirates
 
