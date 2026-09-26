@@ -4,7 +4,7 @@ description: "Build the perfect Halloween boo basket for her with 20 ideas cover
 category: seasonal
 tags: ["halloween gifts", "boo basket", "halloween decor", "seasonal", "gift ideas"]
 publishDate: 2026-09-13
-heroImage: "photo-1665591041446-cc590c49c951"
+heroImage: "photo-1730460118906-3290a30bfdcf"
 pinImage: "photo-1730460118906-3290a30bfdcf"
 featured: false
 affiliateDisclosure: true

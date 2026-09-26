@@ -1,0 +1,27 @@
+---
+interface Props {
+  class?: string;
+}
+
+const { class: className = '' } = Astro.props;
+---
+
+<section class={`reveal relative overflow-hidden bg-ink px-6 py-12 text-paper sm:px-12 sm:py-14 ${className}`}>
+  <div class="pointer-events-none absolute -right-16 -top-24 h-72 w-72 rounded-full border border-paper/10" aria-hidden="true"></div>
+  <div class="pointer-events-none absolute -right-4 -top-12 h-56 w-56 rounded-full border border-paper/10" aria-hidden="true"></div>
+
+  <div class="relative mx-auto flex max-w-5xl flex-col gap-8 lg:flex-row lg:items-end lg:justify-between lg:gap-12">
+    <div class="max-w-2xl">
+      <p class="text-eyebrow font-semibold uppercase text-clay-soft">Keep exploring</p>
+      <h2 class="mt-4 font-display text-display-3 text-paper">Find the idea that fits your home.</h2>
+      <p class="mt-4 max-w-xl text-[0.9375rem] leading-relaxed text-paper/75">
+        Browse room guides, practical storage fixes, seasonal details and small changes that make everyday spaces feel better.
+      </p>
+    </div>
+
+    <div class="flex shrink-0 flex-col gap-3 sm:flex-row">
+      <a href="/search/" class="btn bg-clay text-paper hover:bg-clay-deep">Explore all stories</a>
+      <a href="/tags/" class="btn border border-paper/40 text-paper hover:bg-paper hover:text-ink">Browse topics</a>
+    </div>
+  </div>
+</section>

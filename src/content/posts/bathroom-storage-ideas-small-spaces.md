@@ -4,7 +4,7 @@ description: "Small bathroom storage ideas with real depths and heights — over
 category: "bathroom"
 tags: ["bathroom", "small spaces", "storage", "shelving", "renter-friendly"]
 publishDate: 2026-08-20
-heroImage: "photo-1515938541268-cb8a388444b4"
+heroImage: "photo-1618579252366-f431305ada51"
 pinImage: "photo-1618579252366-f431305ada51"
 featured: false
 affiliateDisclosure: false

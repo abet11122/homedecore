@@ -5,12 +5,11 @@ import Img from '../components/Img.astro';
 import PostCard from '../components/PostCard.astro';
 import SectionHead from '../components/SectionHead.astro';
 import AdSlot from '../components/AdSlot.astro';
-import Newsletter from '../components/Newsletter.astro';
+import ExploreMore from '../components/ExploreMore.astro';
 import {
   CATEGORIES,
   PRIMARY_CATEGORIES,
   SECONDARY_CATEGORIES,
-  SITE,
   categoryName,
   formatDateShort,
 } from '../site';
@@ -41,19 +40,17 @@ const today = new Date().toLocaleDateString('en-US', {
   <div class="issue-strip border-b border-rule bg-sand/60">
     <div class="wrap flex items-center justify-between py-2.5">
       <p class="text-eyebrow font-semibold uppercase text-ink-40">{today}</p>
-      <p class="hidden text-eyebrow font-semibold uppercase text-ink-40 sm:block">
-        Issue №{String(posts.length).padStart(2, '0')} · Independent &amp; reader-funded
-      </p>
+      <p class="hidden text-eyebrow font-semibold uppercase text-ink-40 sm:block">Ideas for a home that feels like yours</p>
     </div>
   </div>
 
   {/* ── Lead story ─────────────────────────────────────────────── */}
   {featured && (
-    <section class="hero-section wrap pb-16 pt-10 lg:pb-24 lg:pt-16">
-      <div class="hero-intro mb-8 flex items-center justify-between gap-6 lg:mb-10">
-        <p class="eyebrow">A quieter way to live well</p>
+    <section class="hero-section wrap pb-14 pt-8 lg:pb-20 lg:pt-12">
+      <div class="hero-intro mb-6 flex items-center justify-between gap-6 lg:mb-8">
+        <p class="eyebrow">Welcome to Cozy Nest Ideas</p>
         <span class="hidden h-px flex-1 bg-rule sm:block"></span>
-        <p class="hidden text-eyebrow uppercase tracking-[0.14em] text-ink-40 sm:block">Vol. 04 / Home notes</p>
+        <p class="hidden text-eyebrow uppercase tracking-[0.14em] text-ink-40 sm:block">Comfort, room by room</p>
       </div>
       <div class="grid items-center gap-9 lg:grid-cols-12 lg:gap-16">
         <div class="lg:col-span-7">
@@ -61,7 +58,7 @@ const today = new Date().toLocaleDateString('en-US', {
             <div class="frame lead-photo aspect-[4/3] lg:aspect-[7/5]">
               <Img
                 src={featured.data.heroImage}
-                alt={featured.data.title}
+                alt={featured.data.heroImageAlt ?? featured.data.title}
                 width={1120}
                 height={800}
                 loading="eager"
@@ -75,7 +72,7 @@ const today = new Date().toLocaleDateString('en-US', {
         <div class="hero-copy lg:col-span-5">
           <div class="flex items-center gap-3">
             <span class="rule-draw h-px w-8 bg-clay"></span>
-            <p class="eyebrow">The Lead · {categoryName(featured.data.category)}</p>
+            <p class="eyebrow">Featured · {categoryName(featured.data.category)}</p>
           </div>
 
           <h1 class="mt-5 max-w-[18ch] font-display text-display-1 text-ink">
@@ -86,13 +83,14 @@ const today = new Date().toLocaleDateString('en-US', {
 
           <p class="mt-6 text-lead text-ink-60">{featured.data.description}</p>
 
-          <div class="mt-8 flex items-center gap-5 border-t border-rule pt-5">
+          <div class="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3 border-t border-rule pt-5">
             <a href={`/post/${featured.id}/`} class="link-arrow">
               Read the story
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
                 <path d="M5 12h14M13 6l6 6-6 6"></path>
               </svg>
             </a>
+            <a href="#rooms-heading" class="text-sm font-semibold text-clay underline decoration-clay/50 underline-offset-4 hover:text-clay-deep">Explore rooms</a>
             <span class="text-xs uppercase tracking-[0.1em] text-ink-40">
               {formatDateShort(featured.data.publishDate)}
             </span>
@@ -185,7 +183,7 @@ const today = new Date().toLocaleDateString('en-US', {
   {/* ── Latest ─────────────────────────────────────────────────── */}
   {grid.length > 0 && (
     <section class="wrap mt-16 lg:mt-24" aria-labelledby="latest-heading">
-      <SectionHead id="latest-heading" kicker="Fresh this week" title="Latest stories" />
+      <SectionHead id="latest-heading" kicker="Find your next idea" title="Latest stories" />
 
       <div class="mt-12 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
         {grid.map((post) => (
@@ -235,6 +233,6 @@ const today = new Date().toLocaleDateString('en-US', {
   )}
 
   <div class="mt-16 lg:mt-24">
-    <Newsletter />
+    <ExploreMore />
   </div>
 </Layout>

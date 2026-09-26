@@ -5,7 +5,7 @@ category: "small-spaces"
 tags: ["maximalism", "bedroom", "color", "small-spaces", "design-tips"]
 publishDate: 2024-08-15
 updatedDate: 2024-08-20
-heroImage: "photo-1540518614846-7eded433c457"
+heroImage: "photo-1611892440504-42a792e24d32"
 pinImage: "photo-1611892440504-42a792e24d32"
 featured: true
 affiliateDisclosure: true

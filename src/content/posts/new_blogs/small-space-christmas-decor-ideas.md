@@ -4,8 +4,9 @@ description: "Decorate a compact home for Christmas with 17 small space Christma
 category: seasonal
 tags: ["christmas decor", "small spaces", "apartment decor", "seasonal decorating", "holiday decor"]
 publishDate: 2026-10-11
-heroImage: "photo-1512389142860-9c449e58a543"
-pinImage: "photo-1543589077-47d81606c1bf"
+heroImage: "/images/posts/small-space-christmas-decor-ideas/hero.webp"
+heroImageAlt: "Compact Christmas tree in a bright apartment corner."
+pinImage: "/images/posts/small-space-christmas-decor-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Choose a tabletop or pencil tree to save floor space in a small apartment."

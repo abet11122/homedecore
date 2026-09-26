@@ -4,7 +4,7 @@ description: "A studio fails when every activity happens everywhere. Rugs, backs
 category: "small-spaces"
 tags: ["studio", "small-spaces", "zoning", "layout", "rental"]
 publishDate: 2026-08-08
-heroImage: "photo-1502005229762-cf1b2da7c5d6"
+heroImage: "photo-1618221195710-dd6b41faaea6"
 pinImage: "photo-1618221195710-dd6b41faaea6"
 featured: false
 affiliateDisclosure: false

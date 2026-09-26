@@ -11,7 +11,7 @@ import AffiliateDisclosure from '../components/AffiliateDisclosure.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
 import PostNav from '../components/PostNav.astro';
 import PinterestButton from '../components/PinterestButton.astro';
-import Newsletter from '../components/Newsletter.astro';
+import ExploreMore from '../components/ExploreMore.astro';
 import AdSlot from '../components/AdSlot.astro';
 import { SITE, categoryName, formatDate, collectTags, tagSlug, wordCount } from '../site';
 
@@ -139,7 +139,7 @@ const faqSchema = d.faqs?.length
       <div class="frame lead-photo aspect-[16/10] sm:aspect-[2/1]">
         <Img
           src={d.heroImage}
-          alt={d.title}
+          alt={d.heroImageAlt ?? d.title}
           width={1280}
           height={640}
           loading="eager"
@@ -241,7 +241,7 @@ const faqSchema = d.faqs?.length
   </article>
 
   <div class="mt-16 lg:mt-24">
-    <Newsletter />
+    <ExploreMore />
   </div>
 
   {/* Sticky mobile anchor ad. Body gets bottom padding so it never covers text. */}

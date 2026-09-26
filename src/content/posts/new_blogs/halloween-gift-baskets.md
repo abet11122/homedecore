@@ -4,8 +4,9 @@ description: "Find the right Halloween gift basket for everyone with 17 ideas fo
 category: seasonal
 tags: ["halloween gifts", "gift baskets", "halloween decor", "seasonal", "gift ideas"]
 publishDate: 2026-09-16
-heroImage: "photo-1665591041446-cc590c49c951"
-pinImage: "photo-1730460118906-3290a30bfdcf"
+heroImage: "/images/posts/halloween-gift-baskets/hero.webp"
+heroImageAlt: "Orange pumpkin candy bucket surrounded by Halloween treats."
+pinImage: "/images/posts/halloween-gift-baskets/pin.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

@@ -4,7 +4,7 @@ description: "Get genuine laughs this Halloween with 22 funny costume ideas incl
 category: seasonal
 tags: ["halloween costumes", "funny halloween costumes", "costume ideas", "halloween", "seasonal"]
 publishDate: 2026-09-26
-heroImage: "photo-1612373856198-8ff66f376aaa"
+heroImage: "photo-1726759354534-7b3681e6af43"
 pinImage: "photo-1726759354534-7b3681e6af43"
 featured: false
 affiliateDisclosure: true

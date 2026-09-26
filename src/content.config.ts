@@ -24,6 +24,8 @@ const posts = defineCollection({
     updatedDate: z.date().optional(),
     /** Unsplash photo id ("photo-1600210…") or an absolute URL. Horizontal. */
     heroImage: z.string(),
+    /** Description of the lead photo for screen readers. */
+    heroImageAlt: z.string().optional(),
     /** Vertical 2:3 image used for og:image and the Pinterest save button. */
     pinImage: z.string(),
     featured: z.boolean().default(false),

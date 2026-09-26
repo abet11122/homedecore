@@ -4,8 +4,9 @@ description: "Create a serene and sophisticated bedroom with 15 neutral bedroom 
 category: bedroom
 tags: ["neutral bedroom", "bedroom decor", "bedroom styling", "calm bedroom", "natural bedroom"]
 publishDate: 2026-11-22
-heroImage: "photo-1616594039964-ae9021a400a0"
-pinImage: "photo-1540518614846-7eded433c457"
+heroImage: "/images/posts/neutral-bedroom-ideas/hero.webp"
+heroImageAlt: "Soft neutral bedding in a modern beige bedroom."
+pinImage: "/images/posts/neutral-bedroom-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Choose a warm white base rather than stark white for a softer, more inviting feel."

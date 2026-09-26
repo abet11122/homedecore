@@ -4,8 +4,9 @@ description: "Create a bedroom that works for study, gaming, and sleep with 17 t
 category: bedroom
 tags: ["teenage bedroom", "boys bedrooms", "bedroom decor", "storage", "bedroom styling"]
 publishDate: 2026-09-27
-heroImage: "photo-1555041469-a586c61ea9bc"
-pinImage: "photo-1616486338812-3dadae4b4ace"
+heroImage: "/images/posts/teenage-boy-bedroom-ideas/hero.webp"
+heroImageAlt: "Blue accent wall and simple bed in a modern teenage bedroom."
+pinImage: "/images/posts/teenage-boy-bedroom-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Create a dedicated desk zone for study and gaming before adding any decor."

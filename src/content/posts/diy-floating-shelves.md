@@ -5,7 +5,7 @@ category: "diy-decor"
 tags: ["diy", "shelving", "woodwork", "storage", "weekend-project"]
 publishDate: 2026-08-14
 updatedDate: 2026-08-20
-heroImage: "photo-1594026112284-02bb6f3352fe"
+heroImage: "photo-1595428774223-ef52624120d2"
 pinImage: "photo-1595428774223-ef52624120d2"
 featured: false
 affiliateDisclosure: true

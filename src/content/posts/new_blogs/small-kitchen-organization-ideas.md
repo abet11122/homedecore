@@ -4,8 +4,9 @@ description: "Reclaim your kitchen with 17 small kitchen organization ideas cove
 category: kitchen
 tags: ["kitchen organization", "small kitchen", "kitchen storage", "organization", "small spaces"]
 publishDate: 2026-10-11
-heroImage: "photo-1556909114-f6e7ad7d3136"
-pinImage: "photo-1556909172-54557c7e4fb7"
+heroImage: "/images/posts/small-kitchen-organization-ideas/hero.webp"
+heroImageAlt: "Neatly sorted cooking utensils in a kitchen drawer."
+pinImage: "/images/posts/small-kitchen-organization-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Clear the counter completely before organizing — start from a blank surface."

@@ -5,7 +5,7 @@ category: seasonal
 tags: ["fall decor","living rooms","cozy home","seasonal decorating","natural materials"]
 publishDate: 2026-09-06
 heroImage: "/images/posts/fall-living-room-decor-ideas/hero.webp"
-heroImageAlt: "Textured neutral sofa beside a wooden side table and floor lamp in warm golden light."
+heroImageAlt: "Neutral living room with a sofa, wooden furniture and autumn trees outside."
 pinImage: "/images/posts/fall-living-room-decor-ideas/pin.webp"
 featured: false
 keyTakeaways:
@@ -68,7 +68,7 @@ Cream, green, terracotta, and soft orange pumpkins can work with neutral interio
 Reusable ceramic or fabric pumpkins reduce yearly waste if you enjoy the same look each season.
 
 <figure class="article-figure">
-  <img src="/images/posts/fall-living-room-decor-ideas/autumn-details.webp" srcset="/images/posts/fall-living-room-decor-ideas/autumn-details-480.webp 480w, /images/posts/fall-living-room-decor-ideas/autumn-details-960.webp 960w, /images/posts/fall-living-room-decor-ideas/autumn-details.webp 1000w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1000" height="667" loading="lazy" decoding="async" alt="Amber pumpkin-shaped candle beside a small white pumpkin and autumn greenery." />
+  <img src="/images/posts/fall-living-room-decor-ideas/autumn-details.webp" srcset="/images/posts/fall-living-room-decor-ideas/autumn-details-480.webp 480w, /images/posts/fall-living-room-decor-ideas/autumn-details-960.webp 960w, /images/posts/fall-living-room-decor-ideas/autumn-details.webp 1000w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1000" height="667" loading="lazy" decoding="async" alt="Orange pumpkins on a wooden tray with autumn leaves and a pine cone." />
   <figcaption><span>A small white pumpkin and amber glass bring in the season without a bright orange palette.</span><a href="https://unsplash.com/photos/lit-candle-in-pumpkin-shaped-glass-with-autumn-decor-DavzbD0IQB8" target="_blank" rel="noopener noreferrer">Photo: Heather Newsom</a></figcaption>
 </figure>
 
@@ -99,7 +99,7 @@ A large basket beside the sofa keeps blankets accessible while adding natural te
 Choose a basket with smooth edges so it does not snag delicate throws.
 
 <figure class="article-figure">
-  <img src="/images/posts/fall-living-room-decor-ideas/woven-blanket-basket.webp" srcset="/images/posts/fall-living-room-decor-ideas/woven-blanket-basket-480.webp 480w, /images/posts/fall-living-room-decor-ideas/woven-blanket-basket-960.webp 960w, /images/posts/fall-living-room-decor-ideas/woven-blanket-basket.webp 1000w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1000" height="667" loading="lazy" decoding="async" alt="Green and blue patterned blankets folded in a woven basket beside a chair." />
+  <img src="/images/posts/fall-living-room-decor-ideas/woven-blanket-basket.webp" srcset="/images/posts/fall-living-room-decor-ideas/woven-blanket-basket-480.webp 480w, /images/posts/fall-living-room-decor-ideas/woven-blanket-basket-960.webp 960w, /images/posts/fall-living-room-decor-ideas/woven-blanket-basket.webp 1000w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1000" height="667" loading="lazy" decoding="async" alt="Green and blue patterned blankets folded in a woven basket." />
   <figcaption><span>A woven basket makes spare throws part of the room and keeps them within reach.</span><a href="https://www.pexels.com/photo/soft-blankets-in-a-wicker-basket-10880520/" target="_blank" rel="noopener noreferrer">Photo: Jessica Lewis</a></figcaption>
 </figure>
 
@@ -122,7 +122,7 @@ An unused corner can become a cozy seasonal feature with a comfortable chair, a 
 In a small room, use a compact chair or reposition an existing chair rather than buying an oversized accent chair.
 
 <figure class="article-figure">
-  <img src="/images/posts/fall-living-room-decor-ideas/warm-reading-corner.webp" srcset="/images/posts/fall-living-room-decor-ideas/warm-reading-corner-480.webp 480w, /images/posts/fall-living-room-decor-ideas/warm-reading-corner-960.webp 960w, /images/posts/fall-living-room-decor-ideas/warm-reading-corner.webp 1000w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1000" height="1500" loading="lazy" decoding="async" alt="Rust-colored armchair beneath a floor lamp beside a leafy plant and exposed brick wall." />
+  <img src="/images/posts/fall-living-room-decor-ideas/warm-reading-corner.webp" srcset="/images/posts/fall-living-room-decor-ideas/warm-reading-corner-480.webp 480w, /images/posts/fall-living-room-decor-ideas/warm-reading-corner-960.webp 960w, /images/posts/fall-living-room-decor-ideas/warm-reading-corner.webp 1000w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1000" height="1500" loading="lazy" decoding="async" alt="Rust-colored reading chair beside a warm floor lamp against a dark paneled wall." />
   <figcaption><span>Pair a comfortable chair with its own lamp to make an inviting autumn reading corner.</span><a href="https://www.pexels.com/photo/lamp-and-armchair-in-corner-16751828/" target="_blank" rel="noopener noreferrer">Photo: Tuğçe Açıkyürek</a></figcaption>
 </figure>
 

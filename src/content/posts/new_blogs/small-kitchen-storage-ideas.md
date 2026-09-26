@@ -4,8 +4,9 @@ description: "Maximize a compact kitchen with 17 small kitchen storage ideas cov
 category: kitchen
 tags: ["small kitchen", "kitchen storage", "kitchen organization", "small spaces", "storage"]
 publishDate: 2026-11-22
-heroImage: "photo-1556909114-f6e7ad7d3136"
-pinImage: "photo-1556909172-54557c7e4fb7"
+heroImage: "/images/posts/small-kitchen-storage-ideas/hero.webp"
+heroImageAlt: "Open kitchen cabinet with neatly stacked dishes and glassware."
+pinImage: "/images/posts/small-kitchen-storage-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Use toe-kick or low drawer space where available for rarely used items."

@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import Newsletter from '../components/Newsletter.astro';
+import ExploreMore from '../components/ExploreMore.astro';
 import { SITE, CATEGORIES, collectTags } from '../site';
 
 /**
@@ -94,6 +94,6 @@ function scale(count: number) {
   </section>
 
   <div class="mt-16 lg:mt-20">
-    <Newsletter />
+    <ExploreMore />
   </div>
 </Layout>

@@ -4,8 +4,9 @@ description: "Create a clean, contemporary room with 15 modern boys bedroom idea
 category: bedroom
 tags: ["boys bedrooms", "modern bedroom", "bedroom decor", "kids rooms", "bedroom styling"]
 publishDate: 2026-10-04
-heroImage: "photo-1555041469-a586c61ea9bc"
-pinImage: "photo-1616486338812-3dadae4b4ace"
+heroImage: "/images/posts/modern-boys-bedroom-ideas/hero.webp"
+heroImageAlt: "Bright children's bedroom with a bunk bed, wardrobe and shelves."
+pinImage: "/images/posts/modern-boys-bedroom-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Use clean-lined furniture and a calm palette of navy, charcoal, sage, or warm white."

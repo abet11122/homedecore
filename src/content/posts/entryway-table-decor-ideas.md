@@ -4,7 +4,7 @@ description: "How to style an entryway table so it looks finished and still work
 category: "entryway"
 tags: ["entryway", "console table", "styling", "seasonal decor"]
 publishDate: 2026-08-28
-heroImage: "photo-1752061289543-de2e7720b029"
+heroImage: "photo-1777305293159-70adab4ea6ef"
 pinImage: "photo-1777305293159-70adab4ea6ef"
 featured: false
 affiliateDisclosure: false

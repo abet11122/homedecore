@@ -5,7 +5,7 @@ category: "living-room"
 tags: ["minimalism", "living-room", "design-principles", "declutter", "serene-spaces"]
 publishDate: 2024-08-20
 updatedDate: 2024-08-22
-heroImage: "photo-1616486338812-3dadae4b4ace"
+heroImage: "photo-1519710164239-da123dc03ef4"
 pinImage: "photo-1519710164239-da123dc03ef4"
 featured: true
 affiliateDisclosure: false

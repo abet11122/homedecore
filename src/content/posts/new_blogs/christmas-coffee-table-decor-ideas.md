@@ -4,8 +4,9 @@ description: "Style your coffee table for the holidays with 15 Christmas coffee 
 category: seasonal
 tags: ["christmas decor", "coffee table decor", "seasonal decorating", "holiday decor", "living room styling"]
 publishDate: 2026-11-08
-heroImage: "photo-1512389142860-9c449e58a543"
-pinImage: "photo-1543589077-47d81606c1bf"
+heroImage: "/images/posts/christmas-coffee-table-decor-ideas/hero.webp"
+heroImageAlt: "Gold and evergreen Christmas centerpiece on a coffee table."
+pinImage: "/images/posts/christmas-coffee-table-decor-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Start with a tray to contain the seasonal display and make it easy to move."

@@ -4,7 +4,7 @@ description: "Open kitchen shelves can be beautiful and functional. Learn the co
 category: "kitchen"
 tags: ["kitchen", "open-shelving", "organization", "design", "styling"]
 publishDate: 2024-08-05
-heroImage: "photo-1484154218962-a197022b5858"
+heroImage: "photo-1560185007-cde436f6a4d0"
 pinImage: "photo-1560185007-cde436f6a4d0"
 featured: false
 affiliateDisclosure: false

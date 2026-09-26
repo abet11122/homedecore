@@ -23,7 +23,7 @@ const isNew = post.id.startsWith('new_blogs/');
         {isNew && <span class="absolute top-2 left-2 z-10 bg-clay px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-widest text-white">New</span>}
         <Img
           src={d.heroImage}
-          alt={d.title}
+          alt={d.heroImageAlt ?? d.title}
           width={640}
           height={800}
           loading={eager ? 'eager' : 'lazy'}
@@ -47,7 +47,7 @@ const isNew = post.id.startsWith('new_blogs/');
         {isNew && <span class="absolute top-2 left-2 z-10 bg-clay px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-widest text-white">New</span>}
         <Img
           src={d.heroImage}
-          alt={d.title}
+          alt={d.heroImageAlt ?? d.title}
           width={560}
           height={420}
           loading={eager ? 'eager' : 'lazy'}
@@ -74,7 +74,7 @@ const isNew = post.id.startsWith('new_blogs/');
     <a href={href} class="shrink-0">
       <div class="frame aspect-square w-20 sm:w-24 relative">
         {isNew && <span class="absolute top-1 left-1 z-10 bg-clay px-1.5 py-0.5 text-[0.6rem] font-semibold uppercase tracking-widest text-white">New</span>}
-        <Img src={d.heroImage} alt={d.title} width={192} height={192} sizes="96px" />
+        <Img src={d.heroImage} alt={d.heroImageAlt ?? d.title} width={192} height={192} sizes="96px" />
       </div>
     </a>
     <div class="min-w-0">

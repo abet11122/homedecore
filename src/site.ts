@@ -4,22 +4,20 @@
  */
 
 export const SITE = {
-  name: 'Hearth & Grain',
+  name: 'Cozy Nest Ideas',
   tagline: 'Considered interiors for real homes',
   description:
     'An editorial guide to interiors: room-by-room design ideas, DIY projects and styling tips you can actually use.',
-  // Interim: swap for your real domain once purchased — this is the only
-  // place it needs to change (astro.config.mjs reads it from here).
-  url: 'https://homedecore-neon.vercel.app',
+  url: 'https://www.cozynestideas.online',
   author: 'Elena Marsh',
   authorRole: 'Editor & Interior Stylist',
   authorBio:
     'Elena has spent twelve years styling homes and writing about them. She believes good rooms are built slowly, from things you actually love.',
   authorAvatar:
     'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&auto=format&q=70',
-  pinterest: 'https://pinterest.com/',
-  instagram: 'https://instagram.com/',
-  email: 'hello@yourdomain.com',
+  pinterest: '',
+  instagram: '',
+  email: '',
   /** Paste your Pinterest domain-verification code here (Settings → Claim). */
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */
@@ -32,7 +30,7 @@ export const SITE = {
   lang: 'en',
   /** Square mark used for Organization.logo in structured data. */
   logo: '/favicon.svg',
-  /** Twitter/X handle including the @, e.g. '@hearthandgrain'. Optional. */
+  /** Twitter/X handle including the @. Optional. */
   twitter: '',
 } as const;
 

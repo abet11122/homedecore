@@ -4,8 +4,9 @@ description: "Transform the most cluttered cabinet in your bathroom with 17 unde
 category: bathroom
 tags: ["bathroom organization", "under sink storage", "bathroom storage", "small bathroom", "organization"]
 publishDate: 2026-10-25
-heroImage: "photo-1552321554-5fefe8c9ef14"
-pinImage: "photo-1584622650111-993a426fbf0a"
+heroImage: "/images/posts/under-sink-bathroom-organization-ideas/hero.webp"
+heroImageAlt: "Bathroom sink with a compact storage cabinet beneath it."
+pinImage: "/images/posts/under-sink-bathroom-organization-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Measure around the pipes first before buying any under-sink organizers."

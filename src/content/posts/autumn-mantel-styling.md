@@ -4,7 +4,7 @@ description: "A grown-up approach to autumn decorating: three heights, one palet
 category: "seasonal"
 tags: ["autumn", "mantel", "seasonal", "styling", "dried-flowers"]
 publishDate: 2026-08-27
-heroImage: "photo-1513694203232-719a280e022f"
+heroImage: "photo-1550581190-9c1c48d21d6c"
 pinImage: "photo-1550581190-9c1c48d21d6c"
 featured: true
 affiliateDisclosure: true

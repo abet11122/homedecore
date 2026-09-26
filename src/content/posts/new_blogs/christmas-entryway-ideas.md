@@ -4,8 +4,9 @@ description: "Create a warm and festive first impression with 17 Christmas entry
 category: seasonal
 tags: ["christmas decor", "entryway decor", "seasonal decorating", "holiday decor", "home styling"]
 publishDate: 2026-11-01
-heroImage: "photo-1512389142860-9c449e58a543"
-pinImage: "photo-1543589077-47d81606c1bf"
+heroImage: "/images/posts/christmas-entryway-ideas/hero.webp"
+heroImageAlt: "Holiday wreath hanging on the glass door of a bright home entry."
+pinImage: "/images/posts/christmas-entryway-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Add a wreath at eye level as the main seasonal focal point."

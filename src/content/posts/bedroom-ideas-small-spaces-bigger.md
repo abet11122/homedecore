@@ -4,7 +4,7 @@ description: "Small bedroom ideas that genuinely make a room feel bigger — bed
 category: "bedroom"
 tags: ["bedroom", "small spaces", "layout", "storage", "clearances"]
 publishDate: 2026-08-12
-heroImage: "photo-1615874959474-d609969a20ed"
+heroImage: "photo-1499916078039-922301b0eb9b"
 pinImage: "photo-1499916078039-922301b0eb9b"
 featured: false
 affiliateDisclosure: false

@@ -4,8 +4,9 @@ description: "Make a single-room apartment work harder with 15 small studio apar
 category: small-spaces
 tags: ["studio apartment", "small spaces", "apartment living", "small apartment", "organization"]
 publishDate: 2026-10-25
-heroImage: "photo-1555041469-a586c61ea9bc"
-pinImage: "photo-1484101403633-562f891dc89a"
+heroImage: "/images/posts/small-studio-apartment-ideas/hero.webp"
+heroImageAlt: "Studio apartment living area with a compact sofa and window."
+pinImage: "/images/posts/small-studio-apartment-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Define sleeping and living zones before buying any furniture or storage."

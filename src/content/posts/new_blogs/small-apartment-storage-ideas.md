@@ -4,8 +4,9 @@ description: "Make the most of a compact home with 15 small apartment storage id
 category: small-spaces
 tags: ["small apartment", "storage", "small spaces", "apartment living", "organization"]
 publishDate: 2026-10-11
-heroImage: "photo-1555041469-a586c61ea9bc"
-pinImage: "photo-1484101403633-562f891dc89a"
+heroImage: "/images/posts/small-apartment-storage-ideas/hero.webp"
+heroImageAlt: "Open clothing rack and shelves in an organized apartment."
+pinImage: "/images/posts/small-apartment-storage-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Use the top of wardrobes and above doors for seasonal and rarely used items."

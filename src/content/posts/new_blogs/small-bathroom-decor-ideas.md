@@ -4,8 +4,9 @@ description: "Transform a compact bathroom with 17 small bathroom decor ideas co
 category: bathroom
 tags: ["small bathroom", "bathroom decor", "bathroom styling", "small spaces", "bathroom organization"]
 publishDate: 2026-11-08
-heroImage: "photo-1552321554-5fefe8c9ef14"
-pinImage: "photo-1584622650111-993a426fbf0a"
+heroImage: "/images/posts/small-bathroom-decor-ideas/hero.webp"
+heroImageAlt: "Bathroom mirror with greenery and warm decorative details."
+pinImage: "/images/posts/small-bathroom-decor-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Use a large mirror to make the bathroom feel bigger and brighter."

@@ -4,7 +4,7 @@ description: "Maximize every inch of a compact bathroom with 17 bathroom organiz
 category: bathroom
 tags: ["bathroom organization", "small spaces", "bathroom storage", "small bathroom", "organization"]
 publishDate: 2026-10-04
-heroImage: "photo-1552321554-5fefe8c9ef14"
+heroImage: "photo-1584622650111-993a426fbf0a"
 pinImage: "photo-1584622650111-993a426fbf0a"
 featured: false
 keyTakeaways:

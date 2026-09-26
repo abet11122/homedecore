@@ -19,7 +19,7 @@ const { image, title, description } = Astro.props;
 
 const mediaUrl = image.startsWith('photo-')
   ? `https://images.unsplash.com/${image}?w=1000&h=1500&fit=crop&auto=format&q=80`
-  : image;
+  : new URL(image, Astro.site ?? SITE.url).href;
 ---
 
 <figure class="mx-auto max-w-sm">

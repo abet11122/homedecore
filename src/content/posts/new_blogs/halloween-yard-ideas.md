@@ -4,8 +4,9 @@ description: "Turn your yard into a Halloween display with 17 ideas including gr
 category: outdoor
 tags: ["halloween decor", "halloween yard", "outdoor decor", "seasonal decorating", "yard decorations"]
 publishDate: 2026-09-09
-heroImage: "photo-1635177106854-476d85a24e25"
-pinImage: "photo-1632856976438-6282d960c4ef"
+heroImage: "/images/posts/halloween-yard-ideas/hero.webp"
+heroImageAlt: "Spooky outdoor Halloween display with hanging figures and lights."
+pinImage: "/images/posts/halloween-yard-ideas/pin.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

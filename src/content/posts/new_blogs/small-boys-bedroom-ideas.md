@@ -5,7 +5,7 @@ category: bedroom
 tags: ["small bedrooms","boys bedrooms","storage","kids rooms","small spaces"]
 publishDate: 2026-09-06
 heroImage: "/images/posts/small-boys-bedroom-ideas/hero.webp"
-heroImageAlt: "Pale blue bunk bed with under-bed drawers, open shelves, and a desk beside a bright window."
+heroImageAlt: "Pale blue bunk bed and open shelving in a compact children's bedroom."
 pinImage: "/images/posts/small-boys-bedroom-ideas/pin.webp"
 featured: true
 keyTakeaways:
@@ -56,7 +56,7 @@ A homework station does not need a deep office desk. A slim desk or wall-mounted
 Mount a small shelf above it for stationery so the desktop stays usable. In very tight rooms, a folding wall desk is a good budget-friendly option.
 
 <figure class="article-figure">
-  <img src="/images/posts/small-boys-bedroom-ideas/study-corner.webp" srcset="/images/posts/small-boys-bedroom-ideas/study-corner-480.webp 480w, /images/posts/small-boys-bedroom-ideas/study-corner-960.webp 960w, /images/posts/small-boys-bedroom-ideas/study-corner.webp 1200w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1200" height="801" loading="lazy" decoding="async" alt="Small wooden desk with white chairs and a colorful drawing board beside a window." />
+  <img src="/images/posts/small-boys-bedroom-ideas/study-corner.webp" srcset="/images/posts/small-boys-bedroom-ideas/study-corner-480.webp 480w, /images/posts/small-boys-bedroom-ideas/study-corner-960.webp 960w, /images/posts/small-boys-bedroom-ideas/study-corner.webp 1200w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1200" height="801" loading="lazy" decoding="async" alt="Compact desk with a teddy bear in a bright children's bedroom." />
   <figcaption><span>A compact desk beside natural light gives drawing and homework a place of their own.</span><a href="https://www.pexels.com/photo/children-desk-at-home-9328035/" target="_blank" rel="noopener noreferrer">Photo: Stephen Andrews</a></figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ Open shelving looks better when small toys and loose items are grouped into bask
 Woven baskets suit a warm neutral room, while fabric bins are lighter and usually cheaper.
 
 <figure class="article-figure">
-  <img src="/images/posts/small-boys-bedroom-ideas/toy-storage.webp" srcset="/images/posts/small-boys-bedroom-ideas/toy-storage-480.webp 480w, /images/posts/small-boys-bedroom-ideas/toy-storage-960.webp 960w, /images/posts/small-boys-bedroom-ideas/toy-storage.webp 1200w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1200" height="1800" loading="lazy" decoding="async" alt="Wooden animal toys and colorful blocks beside a woven basket." />
+  <img src="/images/posts/small-boys-bedroom-ideas/toy-storage.webp" srcset="/images/posts/small-boys-bedroom-ideas/toy-storage-480.webp 480w, /images/posts/small-boys-bedroom-ideas/toy-storage-960.webp 960w, /images/posts/small-boys-bedroom-ideas/toy-storage.webp 1200w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1200" height="1800" loading="lazy" decoding="async" alt="Wooden animal toys and colorful blocks arranged on a white bed." />
   <figcaption><span>Keep a basket close to the play area so everyday tidying stays simple.</span><a href="https://www.pexels.com/photo/brown-wicker-basket-near-colorful-blocks-3661240/" target="_blank" rel="noopener noreferrer">Photo: cottonbro studio</a></figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ A reading corner can fit into a space too small for another piece of furniture. 
 If the room is extremely small, the end of the bed can double as the reading spot with one extra cushion and a nearby book basket.
 
 <figure class="article-figure">
-  <img src="/images/posts/small-boys-bedroom-ideas/reading-corner.webp" srcset="/images/posts/small-boys-bedroom-ideas/reading-corner-480.webp 480w, /images/posts/small-boys-bedroom-ideas/reading-corner-960.webp 960w, /images/posts/small-boys-bedroom-ideas/reading-corner.webp 1440w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1440" height="960" loading="lazy" decoding="async" alt="White play tent and floor cushions beside a wooden bunk bed." />
+  <img src="/images/posts/small-boys-bedroom-ideas/reading-corner.webp" srcset="/images/posts/small-boys-bedroom-ideas/reading-corner-480.webp 480w, /images/posts/small-boys-bedroom-ideas/reading-corner-960.webp 960w, /images/posts/small-boys-bedroom-ideas/reading-corner.webp 1440w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1440" height="960" loading="lazy" decoding="async" alt="White play tent beside a pale bunk bed in a children's room." />
   <figcaption><span>Borrow the cozy corner idea with a soft cushion and a few favorite books.</span><a href="https://www.pexels.com/photo/children-bedroom-with-bunk-beds-5008397/" target="_blank" rel="noopener noreferrer">Photo: Curtis Adams</a></figcaption>
 </figure>
 

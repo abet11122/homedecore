@@ -4,7 +4,7 @@ description: "Small home office ideas for corners, closets, hallways and shared 
 category: "home-office"
 tags: ["home office", "small spaces", "desk", "storage", "lighting"]
 publishDate: 2026-08-29
-heroImage: "photo-1777460978703-32d290b8f9e3"
+heroImage: "photo-1697809462690-57bc1601f665"
 pinImage: "photo-1697809462690-57bc1601f665"
 featured: false
 affiliateDisclosure: false

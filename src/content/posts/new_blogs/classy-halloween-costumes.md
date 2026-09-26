@@ -4,7 +4,7 @@ description: "Look stunning this Halloween with 20 classy costume ideas that are
 category: seasonal
 tags: ["halloween costumes", "classy halloween costumes", "elegant costumes", "halloween", "seasonal"]
 publishDate: 2026-10-03
-heroImage: "photo-1636634959169-c1145dba87c1"
+heroImage: "photo-1572332727986-4de3e3d8d9a3"
 pinImage: "photo-1572332727986-4de3e3d8d9a3"
 featured: false
 affiliateDisclosure: true

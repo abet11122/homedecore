@@ -4,8 +4,9 @@ description: "Transform a cluttered pantry with 17 small pantry organization ide
 category: kitchen
 tags: ["pantry organization", "kitchen organization", "small kitchen", "storage", "organization"]
 publishDate: 2026-11-01
-heroImage: "photo-1556909114-f6e7ad7d3136"
-pinImage: "photo-1556909172-54557c7e4fb7"
+heroImage: "/images/posts/small-pantry-organization-ideas/hero.webp"
+heroImageAlt: "Glass jars of dry ingredients on shelves in a home pantry."
+pinImage: "/images/posts/small-pantry-organization-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Group food by meal or use rather than by food type for a more practical pantry."

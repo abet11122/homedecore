@@ -4,8 +4,9 @@ description: "Refresh a compact room without a full renovation using 17 small be
 category: bedroom
 tags: ["small bedrooms", "bedroom makeover", "bedroom decor", "budget decor", "bedroom styling"]
 publishDate: 2026-10-18
-heroImage: "photo-1616594039964-ae9021a400a0"
-pinImage: "photo-1540518614846-7eded433c457"
+heroImage: "/images/posts/small-bedroom-makeover-ideas/hero.webp"
+heroImageAlt: "Simple bedroom with pale bedding and a clean neutral palette."
+pinImage: "/images/posts/small-bedroom-makeover-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Rework the layout before buying anything — moving furniture is free."

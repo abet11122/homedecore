@@ -4,7 +4,7 @@ description: "Create a welcoming Halloween entryway with 15 ideas using wreaths,
 category: entryway
 tags: ["halloween decor", "entryway decor", "seasonal decorating", "wreaths", "home styling"]
 publishDate: 2026-10-03
-heroImage: "photo-1698444436276-5064eae977e5"
+heroImage: "photo-1749014744361-cf5d20c11f29"
 pinImage: "photo-1749014744361-cf5d20c11f29"
 featured: false
 affiliateDisclosure: true

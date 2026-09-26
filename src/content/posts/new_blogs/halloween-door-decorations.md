@@ -4,7 +4,7 @@ description: "Decorate your front door for Halloween with 13 ideas including wre
 category: seasonal
 tags: ["halloween decor", "halloween door decorations", "seasonal decorating", "front door decor", "renter friendly"]
 publishDate: 2026-09-04
-heroImage: "photo-1673300970122-14e7a2d5c5ef"
+heroImage: "photo-1698444436276-5064eae977e5"
 pinImage: "photo-1698444436276-5064eae977e5"
 featured: false
 affiliateDisclosure: true

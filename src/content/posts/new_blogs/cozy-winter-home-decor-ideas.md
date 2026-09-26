@@ -4,8 +4,9 @@ description: "Keep your home feeling warm and inviting after the holidays with 2
 category: seasonal
 tags: ["winter decor", "cozy home", "seasonal decorating", "home styling", "hygge"]
 publishDate: 2026-11-22
-heroImage: "photo-1507003211169-0a1dd7228f2d"
-pinImage: "photo-1543589077-47d81606c1bf"
+heroImage: "/images/posts/cozy-winter-home-decor-ideas/hero.webp"
+heroImageAlt: "Soft sofa in a warmly lit living room with an evening lamp."
+pinImage: "/images/posts/cozy-winter-home-decor-ideas/pin.webp"
 featured: false
 keyTakeaways:
   - "Add more texture rather than more objects — wool, boucle, and knit create warmth."
