@@ -10,6 +10,7 @@ To rebuild the WebP files, install `scripts/image-requirements.txt` and run `pyt
 | christmas-entryway-ideas | [Pexels photo](https://www.pexels.com/photo/christmas-wreath-decorating-modern-interior-21701325/) |
 | cozy-christmas-bedroom-ideas | [Pexels photo](https://www.pexels.com/photo/cozy-christmas-bedroom-with-decorations-35099201/) |
 | cozy-christmas-living-room-ideas | [Pexels photo](https://www.pexels.com/photo/cozy-christmas-living-room-decor-with-tree-29637478/) |
+| cozy-winter-home-decor-ideas | [Pexels photo](https://www.pexels.com/photo/cozy-living-room-with-sofa-and-lamp-36363112/) |
 | fall-living-room-decor-ideas | [Pexels photo](https://www.pexels.com/photo/cozy-autumn-living-room-with-minimalist-decor-34322226/) |
 | halloween-costume-ideas-for-guys | [Pexels photo](https://www.pexels.com/photo/portrait-of-man-in-halloween-costume-18959365/) |
 | halloween-gift-baskets | [Pexels photo](https://www.pexels.com/photo/halloween-candy-display-with-pumpkin-bucket-29111982/) |

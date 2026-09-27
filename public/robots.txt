@@ -26,5 +26,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-# Update the domain here and in src/site.ts once you buy one.
 Sitemap: https://www.cozynestideas.online/sitemap-index.xml
