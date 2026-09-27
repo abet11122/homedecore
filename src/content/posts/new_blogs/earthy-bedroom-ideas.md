@@ -7,6 +7,7 @@ publishDate: 2026-11-01
 heroImage: "photo-1616594039964-ae9021a400a0"
 pinImage: "photo-1540518614846-7eded433c457"
 featured: false
+affiliateDisclosure: true
 keyTakeaways:
   - "Use clay, sand, olive, and warm brown as the foundation of the color palette."
   - "Add natural wood furniture for warmth and organic texture."
@@ -23,6 +24,21 @@ The ideas below are designed to be practical for real homes. You do not need to 
 These four tones form the foundation of an earthy bedroom palette. Use one as the dominant wall or bedding color and repeat the others through accessories, textiles, and furniture.
 
 A common mistake is introducing a different strong color in every object. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4jmFQ2m" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Hearth &amp; Harbor Wall Mounted Queen Headboard on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this bedroom piece</small>
+      <strong>Hearth &amp; Harbor Wall Mounted Queen Headboard</strong>
+      <span class="shop-look__meta">An olive-green wall-mounted queen headboard; check the wall fixings and width.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## 2. Add Natural Wood Furniture
 

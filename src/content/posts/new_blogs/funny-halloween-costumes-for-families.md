@@ -72,6 +72,36 @@ One parent is the pizza box, the other is the pizza, and the children are the to
 
 The pizza box costume is the most important element — it anchors the whole theme.
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4yNfpr5" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Adult Peas In A Pod Costume on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Adult Peas In A Pod Costume</strong>
+      <span class="shop-look__meta">An adult peas-in-a-pod costume for a family food theme; check how it fits your group.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4jbZDS6" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 2 Pcs Halloween Adult Ice Cream Sundae Costume Set on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>2 Pcs Halloween Adult Ice Cream Sundae Costume Set</strong>
+      <span class="shop-look__meta">An adult ice-cream-sundae costume for a family food theme.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ## Pop Culture Themes
 
 ### 6. The Flintstones
@@ -161,6 +191,51 @@ The ringmaster's top hat is the most important element.
 The parents are farmers in overalls and straw hats. The children are farm animals — a cow, a pig, a chicken. The baby is the smallest animal. The family dog is also a farm animal.
 
 The overalls and straw hats are the most important elements for the farmers.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4dPfvGH" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for GKTZ Black Cat / Leopard Costume for Girls (hooded onesie) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>GKTZ Black Cat / Leopard Costume for Girls (hooded onesie)</strong>
+      <span class="shop-look__meta">A girl&#x27;s black cat or leopard onesie for a family animal or witch-and-cat theme.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4xAImWw" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for EBYTOP Little Red Riding Hood Costume (dress, cape, socks) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>EBYTOP Little Red Riding Hood Costume (dress, cape, socks)</strong>
+      <span class="shop-look__meta">A girl&#x27;s Little Red Riding Hood costume for a family storybook group with a wolf and grandmother.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4jbZH4i" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for TOHONGADON Halloween Dwarf/Gnome Costume Set on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>TOHONGADON Halloween Dwarf/Gnome Costume Set</strong>
+      <span class="shop-look__meta">An adult gnome costume set for a family garden-gnome theme.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## Punny Family Costumes
 

@@ -134,11 +134,101 @@ Dorothy in a blue gingham dress with ruby slippers, the Scarecrow in a straw hat
 
 Dorothy's ruby slippers are the most important element.
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4izJFBb" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Spooktacular Creations Girls Light-Up Witch Costume (hat + broom) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Spooktacular Creations Girls Light-Up Witch Costume (hat + broom)</strong>
+      <span class="shop-look__meta">A children&#x27;s light-up witch costume with hat and broom for the Wicked Witch role.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/3V0ulE0" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Forwe 5Pcs Wizard Costume Set (Robe, Hat, Wig, Beard) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Forwe 5Pcs Wizard Costume Set (Robe, Hat, Wig, Beard)</strong>
+      <span class="shop-look__meta">A robe-and-hat wizard set for an expanded Oz group; check the character styling.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 13. Disney Princesses
 
 Each person chooses a different Disney princess. The group is recognizable as a set because of the princess aesthetic — ball gowns, tiaras, and specific color palettes.
 
 Assign princesses based on each person's preferences and coloring.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4cXB7QR" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Davvew Light-Up LED Princess Dress, Yellow (Belle-style, 8-pc set) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Davvew Light-Up LED Princess Dress, Yellow (Belle-style, 8-pc set)</strong>
+      <span class="shop-look__meta">A yellow light-up children&#x27;s princess dress for a family princess group.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4rlGHT3" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Davvew Light-Up LED Princess Dress, Pink (Aurora-style, 8-pc set) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Davvew Light-Up LED Princess Dress, Pink (Aurora-style, 8-pc set)</strong>
+      <span class="shop-look__meta">A pink light-up children&#x27;s princess dress for a family princess group.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/3V5zzOD" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Esvaiy Girls Princess Elsa Dress Costume (5-pc set with wig) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Esvaiy Girls Princess Elsa Dress Costume (5-pc set with wig)</strong>
+      <span class="shop-look__meta">A children&#x27;s Elsa dress set with a wig for a family princess group.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4h7lQ0Y" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Zvzio Girl&#x27;s Ruffle Tulle Satin Princess Pageant Dress (8 colors) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Zvzio Girl&#x27;s Ruffle Tulle Satin Princess Pageant Dress (8 colors)</strong>
+      <span class="shop-look__meta">A girl&#x27;s tulle princess dress; choose the color that fits the group&#x27;s characters.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ### 14. The Office Characters
 
@@ -199,6 +289,21 @@ Use large, readable card designs — the suit and number need to be visible from
 Each person represents a different planet — Mercury in grey, Venus in yellow, Earth in blue and green, Mars in red, Jupiter in orange and white stripes, Saturn with a ring prop, Uranus in light blue, Neptune in dark blue. Add the Sun for a ninth member.
 
 The ring prop is the most important element for Saturn.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4yKwqCe" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for WISHTEN 5 PCS Costume Accessory Set (goggles, beanie, tutu, suspenders, gloves) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>WISHTEN 5 PCS Costume Accessory Set (goggles, beanie, tutu, suspenders, gloves)</strong>
+      <span class="shop-look__meta">Five costume accessories for building a coordinated DIY group look.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## Final Thoughts
 

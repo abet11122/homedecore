@@ -44,11 +44,41 @@ A black outfit, cat ears, a drawn-on nose and whiskers, and a tail. This is the 
 
 A cat-eye liner look elevates this costume significantly.
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4jjqbAS" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Leg Avenue Wet Look Zipper Front Catsuit on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Leg Avenue Wet Look Zipper Front Catsuit</strong>
+      <span class="shop-look__meta">A black catsuit base for a cat costume; add ears, tail, and makeup separately.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 4. Ghost
 
 A white dress or sheet with dramatic pale makeup and dark, hollow eyes. The best ghost costumes are ethereal rather than cartoonish. Choose a specific ghost reference — a Victorian ghost, a Japanese yurei, a bride ghost — for a more interesting result.
 
 White face paint and dark eye shadow create the most convincing ghost makeup.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4yEX27U" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for NatuBeau 6 PCS Ghost Costume Set (double-sided poncho, headband, bag, tights, brooch, earrings) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>NatuBeau 6 PCS Ghost Costume Set (double-sided poncho, headband, bag, tights, brooch, earrings)</strong>
+      <span class="shop-look__meta">A ghost poncho set with accessories; check the included pieces and fit.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ### 5. Devil
 
@@ -72,6 +102,21 @@ A black dress with a white Peter Pan collar is the most accurate version.
       <small>Shop this Halloween look</small>
       <strong>Women's Black Halloween Costume Set</strong>
       <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/3VEUOac" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for HMPRT Halloween Costume Set (black Peter Pan collar dress, braided wig, cap, socks, lipstick) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>HMPRT Halloween Costume Set (black Peter Pan collar dress, braided wig, cap, socks, lipstick)</strong>
+      <span class="shop-look__meta">A black Peter Pan collar dress set with braids and accessories for a Wednesday-inspired look.</span>
     </span>
     <span class="shop-look__purchase" aria-hidden="true">
       <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
@@ -231,6 +276,55 @@ The hair is the most important element — each character has a very specific ha
 Three women in 1970s-inspired outfits — flared trousers, fitted tops, and big hair. This is a stylish, recognizable group costume that suits women who want to look good rather than scary.
 
 The big, voluminous hair is the most important element.
+
+## More quick seasonal looks
+
+These ready-to-wear options work when you want a simple Halloween outfit.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/3T9VTWT" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for CONGRU Pumpkin Poncho Costume Set (poncho, knit beret, candy bag) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>CONGRU Pumpkin Poncho Costume Set (poncho, knit beret, candy bag)</strong>
+      <span class="shop-look__meta">A pumpkin poncho set with a beret and candy bag for an easy October outfit.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4hfgIbs" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Zeagoo Pumpkin Print 3/4 Sleeve Tunic Top on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Zeagoo Pumpkin Print 3/4 Sleeve Tunic Top</strong>
+      <span class="shop-look__meta">A pumpkin-print tunic that can be worn as a casual Halloween look.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/46Ahj2o" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Tipsy Elves Skeleton Hooded Jumpsuit on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Tipsy Elves Skeleton Hooded Jumpsuit</strong>
+      <span class="shop-look__meta">A hooded skeleton jumpsuit for a ready-to-wear costume.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## Final Thoughts
 

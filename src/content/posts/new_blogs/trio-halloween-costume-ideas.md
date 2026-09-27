@@ -44,6 +44,21 @@ Blossom in pink, Bubbles in blue, Buttercup in green. Each character wears a sim
 
 The hair is the most important element — each character has a very specific hairstyle.
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4iXemk3" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for LANCAINI Pastel Bob Wig with Bangs (multiple colors) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>LANCAINI Pastel Bob Wig with Bangs (multiple colors)</strong>
+      <span class="shop-look__meta">A pastel bob wig option for a color-coded trio; choose each character&#x27;s color.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ### 4. Charlie's Angels
 
 Three women in 1970s-inspired outfits — flared trousers, fitted tops, and big hair. This is a stylish, recognizable trio costume that suits three women who want to look good.

@@ -8,6 +8,7 @@ heroImage: "/images/posts/neutral-bedroom-ideas/hero.webp"
 heroImageAlt: "Soft neutral bedding in a modern beige bedroom."
 pinImage: "/images/posts/neutral-bedroom-ideas/pin.webp"
 featured: false
+affiliateDisclosure: true
 keyTakeaways:
   - "Choose a warm white base rather than stark white for a softer, more inviting feel."
   - "Layer three or four neutral tones — cream, oatmeal, taupe, and sand — for depth."
@@ -30,6 +31,21 @@ A common mistake is introducing a different strong color in every object. In a s
 Cream, oatmeal, taupe, and sand layered together create depth and visual interest without introducing any color. Use them across bedding, cushions, rugs, and walls.
 
 A common mistake is introducing a different strong color in every object.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4cYKmQP" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Sasttie Headboard Pillow Queen on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this bedroom piece</small>
+      <strong>Sasttie Headboard Pillow Queen</strong>
+      <span class="shop-look__meta">A beige queen headboard pillow; check its dimensions against your bed.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## 3. Mix Wood, Linen, and Wool
 

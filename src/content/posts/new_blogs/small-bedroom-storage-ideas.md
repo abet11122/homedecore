@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-bedroom-storage-ideas/hero.webp"
 heroImageAlt: "Floating shelf above a compact bed."
 pinImage: "/images/posts/small-bedroom-storage-ideas/pin.webp"
 featured: false
+affiliateDisclosure: true
 keyTakeaways:
   - "Start with a full declutter before buying any storage products."
   - "Use under-bed storage first — it is the most underused space in most bedrooms."
@@ -36,6 +37,36 @@ Measure the wall before ordering and check that the headboard fits the bed frame
 A bedside cabinet with drawers stores more than an open shelf and keeps the surface looking tidy. Even one small drawer makes a difference in a compact room.
 
 Measure width, depth, and height before choosing, especially if the space beside the bed is narrow.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/3TEGIVP" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Furologee Night Stand with Charging Station, 2 Fabric Drawers on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this bedroom piece</small>
+      <strong>Furologee Night Stand with Charging Station, 2 Fabric Drawers</strong>
+      <span class="shop-look__meta">A nightstand with two fabric drawers and a charging station; measure your bedside space.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/3VJdXYw" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for BOLUO White Nightstand with Charging Station, LED Night Stand with 2 Fabric Drawers on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this bedroom piece</small>
+      <strong>BOLUO White Nightstand with Charging Station, LED Night Stand with 2 Fabric Drawers</strong>
+      <span class="shop-look__meta">A white nightstand with two fabric drawers, charging, and LED lighting; check its dimensions.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## 4. Build Storage Around the Bed
 

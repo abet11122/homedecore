@@ -7,7 +7,7 @@ publishDate: 2026-08-10
 heroImage: "photo-1600210491305-7396500b5b31"
 pinImage: "photo-1633945098489-6ffc53067860"
 featured: false
-affiliateDisclosure: false
+affiliateDisclosure: true
 ---
 
 Boho is the most popular style for girls' bedrooms right now, and it's also the easiest to get wrong. The look depends on layering — and layering is one step away from clutter.
@@ -53,6 +53,36 @@ The bed carries most of the look.
 **Layers:** fitted sheet, duvet, a chunky knit or woven throw folded across the bottom third, three cushions maximum — one large, one medium, one small lumbar in a different texture.
 
 **Canopy:** a sheer canopy or a simple hoop with fabric draped over the bed is very boho and genuinely lovely. Fix it properly to a ceiling joist.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4ApWBA1" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Bollepo Pink Bed Canopy for Girls with Glowing Stars on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this bedroom piece</small>
+      <strong>Bollepo Pink Bed Canopy for Girls with Glowing Stars</strong>
+      <span class="shop-look__meta">A pink children&#x27;s bed canopy with glowing stars; check ceiling height and installation.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/3Td1KL6" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Obrecis Bed Canopy with LED Star Lights, 24 Color Changing on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this bedroom piece</small>
+      <strong>Obrecis Bed Canopy with LED Star Lights, 24 Color Changing</strong>
+      <span class="shop-look__meta">A star-light bed canopy with changing LED colors; check mounting and power needs.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## Rug layering
 

@@ -7,7 +7,7 @@ publishDate: 2026-08-12
 heroImage: "photo-1533779283484-8ad4940aa3a8"
 pinImage: "photo-1512389142860-9c449e58a543"
 featured: false
-affiliateDisclosure: false
+affiliateDisclosure: true
 ---
 
 Hygge got flattened into a shopping list somewhere around 2016 — buy a chunky throw, light a candle, photograph a mug. The idea underneath it is better than that, and it is mostly about *contrast*: a room feels warm in winter because something about it is set against the cold outside, not because it contains soft objects.
@@ -46,6 +46,21 @@ The hard element is the one people leave out, and it is the one that makes the s
 A rug in winter is thermal as well as visual — bare floor pulls heat out of a room through your feet, and the perceived temperature difference between a rug and a cold board is genuinely a couple of degrees.
 
 If you have hard floors, this is the highest-value winter purchase. Layering a smaller wool or sheepskin rug over a larger flat-weave gives you the texture contrast and the insulation in one move.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4h7mi0J" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for yescool Weighted Blanket for Adults 20lbs Queen, Grey on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this bedroom piece</small>
+      <strong>yescool Weighted Blanket for Adults 20lbs Queen, Grey</strong>
+      <span class="shop-look__meta">A grey 20 lb queen weighted blanket; check care instructions and the recommended weight.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## Lever three: scent, used sparingly
 

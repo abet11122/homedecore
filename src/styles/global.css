@@ -490,7 +490,7 @@
   @apply text-clay;
 }
 
-/* Halloween shopping cards: the entire card is one affiliate link. */
+/* Product shopping cards: the entire card is one affiliate link. */
 .article .shop-look-wrap {
   container-type: inline-size;
   margin-block: 1.75rem 0;

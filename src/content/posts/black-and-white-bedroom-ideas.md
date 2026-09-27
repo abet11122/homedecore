@@ -7,7 +7,7 @@ publishDate: 2026-08-18
 heroImage: "photo-1651336259530-362bce65fffe"
 pinImage: "photo-1612365416820-33b8d140f476"
 featured: false
-affiliateDisclosure: false
+affiliateDisclosure: true
 ---
 
 Black and white is the most striking bedroom palette and the easiest to get cold. Done badly it looks like a showroom nobody sleeps in. Done well it's the most timeless scheme there is.
@@ -73,6 +73,21 @@ Black works best as one large gesture plus small repeats, rather than scattered 
 **Then repeat it small:** picture frames, a lamp base, curtain rod, drawer handles, a cushion, the legs on a chair.
 
 That repetition is what makes the scheme read as deliberate rather than accidental.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/47b3A2h" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Liiwepo Queen Size Headboard Only on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this bedroom piece</small>
+      <strong>Liiwepo Queen Size Headboard Only</strong>
+      <span class="shop-look__meta">A black queen headboard; confirm its width and mounting requirements.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## Texture stops it feeling flat
 

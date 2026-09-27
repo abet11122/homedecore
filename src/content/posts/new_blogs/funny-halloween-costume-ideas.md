@@ -212,6 +212,40 @@ Each person wears a different color outfit and a sign that says their jelly bean
 
 Use large, readable labels — the pun needs to be visible from across the room.
 
+## More ready-made funny looks
+
+A one-piece outfit can carry the joke when you do not have time for a DIY build.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4h401Rq" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Rasta Imposta Lightweight Hot Dog Costume on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Rasta Imposta Lightweight Hot Dog Costume</strong>
+      <span class="shop-look__meta">An adult hot dog costume for a food-themed joke.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4iEwGOy" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Funziez! Slim Fit Adult Animal Onesie (Panda / 40+ colors) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Funziez! Slim Fit Adult Animal Onesie (Panda / 40+ colors)</strong>
+      <span class="shop-look__meta">An adult animal onesie for an easy group animal theme; choose the animal before ordering.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ## Final Thoughts
 
 The best funny Halloween costumes are the ones with a single, clear joke that lands immediately. Choose a pun or a concept you find genuinely funny, commit to it completely, and be prepared to explain it to the people who do not get it — that is part of the fun. A costume that makes you laugh is always the right choice.
