@@ -7,7 +7,7 @@ publishDate: 2024-08-05
 heroImage: "photo-1484154218962-a197022b5858"
 pinImage: "photo-1560185007-cde436f6a4d0"
 featured: false
-affiliateDisclosure: false
+affiliateDisclosure: true
 ---
 
 ## The Open Shelving Question: Beautiful or Chaotic?
@@ -89,6 +89,23 @@ Display 2-4 books standing upright (spines out if they're beautiful, or facing o
 
 ### Small Appliances
 A sleek coffee maker or stand mixer is fine on open shelves *if* it's an appliance you actually use and love the look of. A cluttered toaster oven? Cabinet time.
+
+A freestanding rack can make a separate appliance and coffee zone so your wall shelves stay easier to style and use.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4AzKLmL" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Grey; 31.5 in microwave stand) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Product pick</small>
+      <strong>Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Grey; 31.5 in microwave stand)</strong>
+      <span class="shop-look__meta">Grey 31.5-inch four-tier microwave rack with a reversible power outlet, top shelf and six S-hooks.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">View &amp; buy on Amazon <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ### Textiles (Linen, Tea Towels)
 Fold neatly (thirds or quarters) and stack 2-3 cloths in the corner of a shelf. This adds color and softness without mess.

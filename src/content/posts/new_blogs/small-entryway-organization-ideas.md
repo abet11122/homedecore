@@ -7,6 +7,7 @@ publishDate: 2026-09-20
 heroImage: "photo-1600585154340-be6161a56a0c"
 pinImage: "photo-1558618666-fcd25c85cd64"
 featured: false
+affiliateDisclosure: true
 keyTakeaways:
   - "Start with a clear drop zone for keys, bags, and shoes before adding any decor."
   - "Use wall hooks at useful heights to keep coats and bags off the floor."
@@ -101,6 +102,21 @@ Before buying anything, measure the available area and think about how the item 
 A runner rug in the entryway protects the floor and defines the space. Choose a washable option so it can be cleaned easily when it gets dirty.
 
 Before buying anything, measure the available area and think about how the item will be used every day.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4z3tQHW" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy DUIDY Washable Kitchen Runner Rug on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Product pick</small>
+      <strong>DUIDY Washable Kitchen Runner Rug</strong>
+      <span class="shop-look__meta">Dark-green, low-pile 2 x 6 ft washable runner; measure your entryway before choosing this size.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">View &amp; buy on Amazon <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## 15. Keep Only In-Season Shoes Near the Door
 

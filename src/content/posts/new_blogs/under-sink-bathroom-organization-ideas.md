@@ -8,6 +8,7 @@ heroImage: "/images/posts/under-sink-bathroom-organization-ideas/hero.webp"
 heroImageAlt: "Bathroom sink with a compact storage cabinet beneath it."
 pinImage: "/images/posts/under-sink-bathroom-organization-ideas/pin.webp"
 featured: false
+affiliateDisclosure: true
 keyTakeaways:
   - "Measure around the pipes first before buying any under-sink organizers."
   - "Use U-shaped drawers or shelves designed to fit around plumbing."
@@ -66,6 +67,23 @@ Use labels only where they genuinely help.
 Stackable plastic or acrylic drawers make efficient use of vertical space inside the cabinet. Use them for makeup, skincare, or small bathroom accessories.
 
 Measure width, depth, and height before choosing containers.
+
+A pull-out organizer can make the back of a deep cabinet easier to reach. Check the available height and plumbing clearance first.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4yTJMfE" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy Delamu 2 Sets of 3-Tier Bathroom Under Sink Organizers on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Product pick</small>
+      <strong>Delamu 2 Sets of 3-Tier Bathroom Under Sink Organizers</strong>
+      <span class="shop-look__meta">Two clear three-tier pull-out organizers with movable dividers for small bathroom supplies.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">View &amp; buy on Amazon <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## 9. Install Storage Above the Toilet
 

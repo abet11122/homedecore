@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-kitchen-storage-ideas/hero.webp"
 heroImageAlt: "Open kitchen cabinet with neatly stacked dishes and glassware."
 pinImage: "/images/posts/small-kitchen-storage-ideas/pin.webp"
 featured: false
+affiliateDisclosure: true
 keyTakeaways:
   - "Use toe-kick or low drawer space where available for rarely used items."
   - "Add narrow pull-out storage beside appliances or in slim gaps."
@@ -114,6 +115,38 @@ Keep walking paths, doors, drawers, and frequently used surfaces easy to access.
 A slim rolling cart can move between the kitchen and dining area as needed. It is especially useful in rentals where you cannot add permanent storage.
 
 Before buying anything, measure the available area and think about how the item will be used every day.
+
+If a stationary coffee or microwave area suits your layout better than a cart, a baker's rack can move appliances off the preparation counter. Measure its floor footprint and keep the walkway open.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4AyEvMb" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy 3IngSeagulls 4-Tier Bakers Rack with Storage on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Product pick</small>
+      <strong>3IngSeagulls 4-Tier Bakers Rack with Storage</strong>
+      <span class="shop-look__meta">Rustic-brown four-tier rack with an adjustable shelf and six S-hooks for kitchen equipment.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">View &amp; buy on Amazon <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4ydcyI9" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Rustic brown; 31.5 in microwave stand) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Product pick</small>
+      <strong>Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Rustic brown; 31.5 in microwave stand)</strong>
+      <span class="shop-look__meta">Wider 31.5-inch rustic-brown four-tier microwave rack with a reversible power outlet and six S-hooks.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">View &amp; buy on Amazon <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## 17. Store Cutting Boards Vertically
 

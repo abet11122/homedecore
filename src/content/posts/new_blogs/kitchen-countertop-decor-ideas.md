@@ -7,6 +7,7 @@ publishDate: 2026-11-08
 heroImage: "photo-1556909114-f6e7ad7d3136"
 pinImage: "photo-1556909172-54557c7e4fb7"
 featured: false
+affiliateDisclosure: true
 keyTakeaways:
   - "Keep decor to one or two zones and leave the rest of the counter clear."
   - "Use a tray for oils and salt to group everyday items and make them easy to move."
@@ -23,6 +24,23 @@ The ideas below are designed to be practical for real homes. You do not need to 
 Rather than decorating the entire counter, choose one or two areas — beside the hob or near the window — and keep the rest clear. This makes the kitchen easier to clean and use.
 
 Before buying anything, measure the available area and think about how the item will be used every day.
+
+A dedicated coffee station on a freestanding rack can leave more of the counter clear for cooking.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/47kiZNL" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Rustic brown; 23.6 in microwave stand) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Product pick</small>
+      <strong>Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Rustic brown; 23.6 in microwave stand)</strong>
+      <span class="shop-look__meta">Rustic-brown 23.6-inch four-tier microwave rack with a reversible power outlet, top shelf and six S-hooks.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">View &amp; buy on Amazon <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## 2. Use a Tray for Oils and Salt
 
@@ -47,6 +65,23 @@ Before buying anything, measure the available area and think about how the item 
 Remove everything from the counter before deciding what should live there. This prevents the habit of organizing around existing clutter.
 
 Group a small number of items together and leave visible empty space so the surface can still do its real job.
+
+Keep the few things you use at the sink together rather than spreading them along the worktop.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/46NCQoo" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy Cisily Sink Caddy Sponge Holder with Self-Drain Tray on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Product pick</small>
+      <strong>Cisily Sink Caddy Sponge Holder with Self-Drain Tray</strong>
+      <span class="shop-look__meta">Stainless-steel sink caddy with a self-draining tray and brush holder for sponges, soap and cleaning tools.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">View &amp; buy on Amazon <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## 6. Create Zones for Cooking and Prep
 

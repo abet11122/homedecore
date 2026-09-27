@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-kitchen-organization-ideas/hero.webp"
 heroImageAlt: "Neatly sorted cooking utensils in a kitchen drawer."
 pinImage: "/images/posts/small-kitchen-organization-ideas/pin.webp"
 featured: false
+affiliateDisclosure: true
 keyTakeaways:
   - "Clear the counter completely before organizing — start from a blank surface."
   - "Store pans vertically and use shelf risers to double cabinet capacity."
@@ -36,6 +37,23 @@ Measure the wall before drilling or ordering storage.
 Decide how many appliances can live on the counter and store the rest in a cabinet. A clear counter makes a small kitchen feel larger and easier to work in.
 
 Group a small number of items together and leave visible empty space so the surface can still do its real job.
+
+Where floor space allows, a freestanding rack can give the microwave and coffee supplies their own zone without filling the preparation counter.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4xM4Kfq" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Rustic brown; 23.6 in microwave stand) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Product pick</small>
+      <strong>Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Rustic brown; 23.6 in microwave stand)</strong>
+      <span class="shop-look__meta">Rustic-brown 23.6-inch four-tier microwave rack with a reversible power outlet, top shelf and six S-hooks.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">View &amp; buy on Amazon <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## 4. Use Pull-Out Storage in Deep Cabinets
 
