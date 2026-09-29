@@ -22,6 +22,8 @@ export const SITE = {
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */
   googleVerification: 'TnMLs9NaIrs9_XiBl7Y_KbP7N8XfH5FxyUWXRRBnq4A',
+  /** Google Analytics 4 measurement ID. */
+  googleAnalyticsId: 'G-T9NG3EPSQ6',
   /** Slug for the author hub page at /author/<slug>/. */
   authorSlug: 'elena-marsh',
   /** Public profiles for the author — feeds Person.sameAs (E-E-A-T). */
