@@ -21,7 +21,7 @@ export const SITE = {
   /** Paste your Pinterest domain-verification code here (Settings → Claim). */
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */
-  googleVerification: '',
+  googleVerification: 'TnMLs9NaIrs9_XiBl7Y_KbP7N8XfH5FxyUWXRRBnq4A',
   /** Slug for the author hub page at /author/<slug>/. */
   authorSlug: 'elena-marsh',
   /** Public profiles for the author — feeds Person.sameAs (E-E-A-T). */
