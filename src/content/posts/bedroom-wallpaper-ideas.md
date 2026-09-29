@@ -7,7 +7,7 @@ publishDate: 2026-08-19
 heroImage: "photo-1697462247864-338e7eba8c4c"
 pinImage: "photo-1758448755969-8791367cf5c5"
 featured: false
-affiliateDisclosure: false
+affiliateDisclosure: true
 ---
 
 Wallpaper is the fastest way to give a plain bedroom character, and the decision that people most often get wrong — usually by papering the wrong wall or choosing a pattern that overwhelms the room.
@@ -60,6 +60,21 @@ Good for: a lasting result, better print quality, and a much wider choice of des
 Reality: more work, but paste-the-wall (rather than paste-the-paper) is far more beginner-friendly than it used to be. Removal is harder.
 
 For a feature wall you plan to keep, traditional is usually the better choice. For a rental or a child's room, peel-and-stick.
+
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4rzHhgd" target="_blank" rel="sponsored nofollow noopener" aria-label="View Sage Green Floral Peel and Stick Wallpaper on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Wallpaper pick</small>
+      <strong>Akodm Sage Green Floral Peel and Stick Wallpaper</strong>
+      <span class="shop-look__meta">Removable watercolor floral print in sage green; check wall condition and test a sample before covering the full surface.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">View product on Amazon <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
 
 ## Patterns that suit small bedrooms
 

@@ -216,7 +216,7 @@ const today = new Date().toLocaleDateString('en-US', {
               <span class="min-w-0">
                 <span class="eyebrow-muted">{categoryName(post.data.category)}</span>
                 {post.id.startsWith('new_blogs/') && (
-                  <span class="ml-2 inline-block bg-clay px-1.5 py-0.5 text-[0.6rem] font-semibold uppercase tracking-widest text-white align-middle">New</span>
+                  <span class="ml-2 inline-block bg-clay px-1.5 py-0.5 text-[0.6rem] font-semibold uppercase tracking-widest text-white align-middle"><span aria-hidden="true" class="mr-1">★</span>New</span>
                 )}
                 <span class="mt-2 block font-display text-title text-ink transition-colors duration-250 group-hover:text-clay sm:text-title-lg">
                   {post.data.title}

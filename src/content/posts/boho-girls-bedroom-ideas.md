@@ -117,6 +117,21 @@ Good faux plants are fine and nobody will know.
 
 Pick two or three of these, not all six. The wall above the bed and one other wall is plenty.
 
+<div class="shop-look-wrap">
+  <a class="shop-look" href="https://amzn.to/4z0kX1N" target="_blank" rel="sponsored nofollow noopener" aria-label="View 12 Sheet Daisy Wall Sticker Decals on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Wall decor pick</small>
+      <strong>TaoBary Pink and White Daisy Wall Sticker Decals</strong>
+      <span class="shop-look__meta">Removable floral decals for a light, playful wall detail; test a small decal first and check the surface before applying.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">View product on Amazon <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
 ## Lighting
 
 Boho lighting is warm and soft, never bright and overhead.
