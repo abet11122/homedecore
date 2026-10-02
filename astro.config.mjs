@@ -1,7 +1,32 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { SITE } from './src/site.ts';
+
+function styledSitemaps() {
+  return {
+    name: 'styled-sitemaps',
+    hooks: {
+      'astro:build:done': async ({ dir }) => {
+        const files = (await readdir(dir)).filter((name) => /^sitemap.*\.xml$/.test(name));
+        const instruction = '<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>';
+
+        await Promise.all(
+          files.map(async (name) => {
+            const file = new URL(name, dir);
+            const xml = await readFile(file, 'utf8');
+            if (xml.includes('<?xml-stylesheet')) return;
+            const styled = xml.startsWith('<?xml')
+              ? xml.replace(/^(<\?xml[^?]*\?>)/, `$1\n${instruction}`)
+              : `${instruction}\n${xml}`;
+            await writeFile(file, styled, 'utf8');
+          })
+        );
+      },
+    },
+  };
+}
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,6 +42,7 @@ export default defineConfig({
       // routes remain discoverable. Thin tag archives stay excluded.
       filter: (page) => !page.includes('/tag/'),
     }),
+    styledSitemaps(),
   ],
   build: {
     inlineStylesheets: 'auto',
