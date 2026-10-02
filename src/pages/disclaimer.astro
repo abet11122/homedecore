@@ -1,0 +1,70 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../site';
+---
+
+<PageLayout
+  title="Disclaimer"
+  eyebrow="Legal"
+  description={`Disclaimer for ${SITE.name} — the nature and limitations of the content on this site.`}
+  lede="What this site is, what it is not, and the limits of the advice it contains."
+  updated="June 2025"
+>
+  <p>
+    The information published on {SITE.name} is intended for general home decorating inspiration
+    and guidance only. It does not constitute professional interior design, structural, electrical,
+    plumbing or legal advice.
+  </p>
+
+  <h2>No professional advice</h2>
+  <p>
+    Nothing on this site should be treated as a substitute for qualified professional advice. Before
+    undertaking any structural work, electrical installation, plumbing or significant renovation,
+    consult a licensed professional in your area. Local building codes, regulations and safety
+    requirements vary and are your responsibility to verify.
+  </p>
+
+  <h2>DIY and home improvement projects</h2>
+  <p>
+    DIY guides on this site are written to be helpful and accurate, but results will vary depending
+    on your skill level, tools, materials and the specific conditions of your home. {SITE.name}
+    accepts no responsibility for any injury, damage or loss arising from following instructions
+    published on this site. Always follow manufacturer instructions and relevant safety guidelines.
+  </p>
+
+  <h2>Product recommendations</h2>
+  <p>
+    Products mentioned or linked on this site are included for illustrative purposes or because we
+    believe they represent good value. We cannot guarantee their quality, safety, availability or
+    suitability for your specific situation. Always read product specifications and reviews before
+    purchasing. See our <a href="/disclosure/">disclosure policy</a> for information about affiliate
+    relationships.
+  </p>
+
+  <h2>Accuracy and completeness</h2>
+  <p>
+    We make reasonable efforts to ensure the information on this site is accurate at the time of
+    publication. However, we make no warranties or representations about the accuracy, reliability
+    or completeness of any content. Information may become outdated and we are not obligated to
+    update it. Prices, product availability and specifications change frequently.
+  </p>
+
+  <h2>Limitation of liability</h2>
+  <p>
+    To the fullest extent permitted by law, {SITE.name} and its contributors shall not be liable
+    for any direct, indirect, incidental, consequential or punitive damages arising from your use
+    of this site or reliance on its content. Your use of this site is entirely at your own risk.
+  </p>
+
+  <h2>External websites</h2>
+  <p>
+    Links to third-party websites are provided for convenience. We have no control over those sites
+    and are not responsible for their content, accuracy or practices.
+  </p>
+
+  <h2>Questions</h2>
+  <p>
+    If you have any questions about this disclaimer, please use the form on our
+    <a href="/contact/">contact page</a>.
+  </p>
+</PageLayout>

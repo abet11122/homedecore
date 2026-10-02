@@ -6,7 +6,7 @@ import { SITE } from '../site';
 
 <Layout
   title="Contact"
-  description={`Contact information for ${SITE.name}. Our direct contact channel is being set up.`}
+  description={`Get in touch with ${SITE.name} for editorial notes, corrections, or partnership enquiries.`}
 >
   <header class="border-b border-rule bg-sand/50">
     <div class="wrap py-12 lg:py-20">
@@ -16,20 +16,80 @@ import { SITE } from '../site';
         A conversation starts here.
       </h1>
       <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-60">
-        We are setting up a direct contact address for editorial notes, corrections, partnerships and privacy requests. We will publish it here when it is ready.
+        For editorial notes, corrections, partnership enquiries and privacy requests, use the form below or explore the archive.
       </p>
     </div>
   </header>
 
-  <section class="wrap grid gap-12 py-14 lg:grid-cols-12 lg:gap-16 lg:py-20" aria-labelledby="meanwhile-heading">
+  <section class="wrap grid gap-12 py-14 lg:grid-cols-12 lg:gap-16 lg:py-20" aria-labelledby="contact-heading">
     <div class="lg:col-span-5">
-      <p class="eyebrow text-clay">In the meantime</p>
-      <h2 id="meanwhile-heading" class="mt-4 font-display text-3xl leading-tight text-ink sm:text-4xl">
-        There is plenty to explore.
+      <p class="eyebrow text-clay">Send a message</p>
+      <h2 id="contact-heading" class="mt-4 font-display text-3xl leading-tight text-ink sm:text-4xl">
+        We read every note.
       </h2>
       <p class="mt-5 max-w-md leading-relaxed text-ink-60">
-        Find a room guide, search for a specific idea, or follow new stories in the RSS feed.
+        Whether you have spotted an error, want to suggest a topic, or have a partnership idea — we would love to hear from you.
       </p>
+    </div>
+    <div class="lg:col-span-7">
+      <form
+        name="contact"
+        method="POST"
+        action="/contact/?sent=1"
+        class="grid gap-6"
+        aria-label="Contact form"
+      >
+        <div>
+          <label for="contact-name" class="block text-sm font-semibold text-ink mb-2">Name</label>
+          <input
+            id="contact-name"
+            name="name"
+            type="text"
+            required
+            autocomplete="name"
+            class="w-full border border-rule bg-white px-4 py-3 text-sm text-ink placeholder:text-ink-40 focus:outline-none focus:ring-2 focus:ring-clay/40"
+            placeholder="Your name"
+          />
+        </div>
+        <div>
+          <label for="contact-email" class="block text-sm font-semibold text-ink mb-2">Email</label>
+          <input
+            id="contact-email"
+            name="email"
+            type="email"
+            required
+            autocomplete="email"
+            class="w-full border border-rule bg-white px-4 py-3 text-sm text-ink placeholder:text-ink-40 focus:outline-none focus:ring-2 focus:ring-clay/40"
+            placeholder="you@example.com"
+          />
+        </div>
+        <div>
+          <label for="contact-message" class="block text-sm font-semibold text-ink mb-2">Message</label>
+          <textarea
+            id="contact-message"
+            name="message"
+            rows="5"
+            required
+            class="w-full border border-rule bg-white px-4 py-3 text-sm text-ink placeholder:text-ink-40 focus:outline-none focus:ring-2 focus:ring-clay/40 resize-y"
+            placeholder="What would you like to say?"
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="self-start bg-clay px-7 py-3 text-sm font-semibold uppercase tracking-widest text-white transition-colors hover:bg-clay-deep"
+        >
+          Send message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <section class="wrap grid gap-12 py-14 border-t border-rule lg:grid-cols-12 lg:gap-16 lg:py-20" aria-labelledby="meanwhile-heading">
+    <div class="lg:col-span-5">
+      <p class="eyebrow text-clay">Explore</p>
+      <h2 id="meanwhile-heading" class="mt-4 font-display text-3xl leading-tight text-ink sm:text-4xl">
+        There is plenty to read.
+      </h2>
     </div>
     <div class="divide-y divide-rule border-y border-rule lg:col-span-7">
       <a href="/search/" class="group flex items-center justify-between gap-5 py-6">

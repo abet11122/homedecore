@@ -1,0 +1,78 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../site';
+---
+
+<PageLayout
+  title="Terms & Conditions"
+  eyebrow="Legal"
+  description={`The terms and conditions for using ${SITE.name} at ${SITE.url}.`}
+  lede={`Please read these terms carefully before using ${SITE.name}.`}
+  updated="June 2025"
+>
+  <p>
+    By accessing and using <strong>{SITE.url}</strong> you accept and agree to be bound by these
+    terms and conditions. If you do not agree, please do not use this site.
+  </p>
+
+  <h2>Use of this site</h2>
+  <p>
+    The content on {SITE.name} is provided for general information and inspiration purposes only.
+    You may browse, read and share articles for personal, non-commercial use. You may not reproduce,
+    republish, scrape or redistribute our content without prior written permission.
+  </p>
+
+  <h2>Intellectual property</h2>
+  <p>
+    All original written content, design and code on this site is the property of {SITE.name} unless
+    otherwise stated. Photography sourced from Unsplash and Pexels is used under their respective
+    free licences; product images belong to their respective retailers.
+  </p>
+
+  <h2>Affiliate links and advertising</h2>
+  <p>
+    Some articles contain affiliate links and the site displays advertising. Full details are in our
+    <a href="/disclosure/">disclosure policy</a>. We are not responsible for the content, pricing or
+    availability of third-party websites linked from this site.
+  </p>
+
+  <h2>Accuracy of information</h2>
+  <p>
+    We make every effort to keep information accurate and up to date, but we cannot guarantee that
+    all content is complete, current or error-free. Product prices, availability and specifications
+    change frequently. Always verify details directly with the retailer or manufacturer before
+    making a purchase.
+  </p>
+
+  <h2>Limitation of liability</h2>
+  <p>
+    {SITE.name} is not liable for any loss or damage arising from your use of this site or reliance
+    on its content. This includes, without limitation, direct, indirect or consequential loss. See
+    our <a href="/disclaimer/">disclaimer</a> for further detail.
+  </p>
+
+  <h2>External links</h2>
+  <p>
+    This site links to external websites for your convenience. We have no control over the content
+    of those sites and accept no responsibility for them or for any loss or damage that may arise
+    from your use of them.
+  </p>
+
+  <h2>Changes to these terms</h2>
+  <p>
+    We may update these terms from time to time. Continued use of the site after any changes
+    constitutes your acceptance of the new terms. The date above reflects the most recent revision.
+  </p>
+
+  <h2>Governing law</h2>
+  <p>
+    These terms are governed by and construed in accordance with applicable law. Any disputes
+    relating to these terms shall be subject to the exclusive jurisdiction of the relevant courts.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    If you have any questions about these terms, please use the form on our
+    <a href="/contact/">contact page</a>.
+  </p>
+</PageLayout>

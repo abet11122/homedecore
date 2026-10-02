@@ -43,12 +43,6 @@ A bed with drawers, a storage ottoman, or a coffee table with a lift-top all add
 
 Measure the furniture footprint and the path around it before buying.
 
-## 5. Create Clear Zones in One Room
-
-Even in a single room, grouping activities together reduces clutter. Keep work items near the desk, kitchen items near the kitchen, and relaxation items near the sofa.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 6. Use Furniture With More Than One Job
 
 A dining table that folds against the wall, a bench that opens for storage, or a desk that doubles as a console all help a small apartment work harder without filling it with extra pieces.
@@ -66,12 +60,6 @@ In rentals, freestanding tall units are a good alternative to wall-mounted shelv
 Under-bed storage is one of the most underused areas in a small apartment. Group similar items together so the space does not become a hidden pile that is difficult to maintain.
 
 Use low or pull-out bins when possible so items at the back remain easy to reach.
-
-## 9. Add Storage Above Doors
-
-A shelf above every interior door adds useful storage without taking any floor space. Use it for books, baskets, or items you reach for only occasionally.
-
-Check that doors, cabinets, and people can still move comfortably.
 
 ## 10. Use Baskets on Open Shelves
 
@@ -95,8 +83,6 @@ Start with what you already own, then make one small change at a time.
 
 Over-door organizers, hooks, and pocket organizers turn the back of every door into useful storage. This works especially well in bathrooms, kitchens, and bedroom closets.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 14. Try a Storage Ottoman
 
 A storage ottoman in the living area holds blankets, magazines, or remote controls while doubling as a coffee table or extra seating.
@@ -106,8 +92,6 @@ Measure the furniture footprint and the path around it before buying.
 ## 15. Add a Tall Bookcase
 
 A tall bookcase uses vertical space efficiently and can hold far more than books. Use baskets on lower shelves to hide items that do not look tidy on open display.
-
-A slightly slimmer piece that leaves breathing room often looks better than a larger item with more storage but poor circulation.
 
 ## 16. Keep Large Surfaces Visually Clear
 
@@ -123,21 +107,15 @@ Use labels only where they genuinely help.
 
 ## 18. Store Seasonal Items High
 
-Seasonal clothing, holiday decorations, and rarely used items belong at the top of wardrobes or on high shelves. Keep everyday items at an easy height.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
+Seasonal clothing, holiday decorations, and rarely used items belong at the top of wardrobes or on high shelves. Keep everyday items at an easy height and use vacuum storage bags for bulky items like duvets.
 
 ## 19. Choose a Sofa With Storage
 
-Some sofas have a lift-up base or drawers underneath. In a small apartment, this can replace a separate storage unit entirely.
-
-Measure the furniture footprint and the path around it before buying.
+Some sofas have a lift-up base or drawers underneath. In a small apartment, this can replace a separate storage unit entirely. Measure the footprint and the path around it before buying.
 
 ## 20. Use a Rolling Cart Where Cabinets Are Limited
 
-A slim rolling cart can move between the kitchen, bathroom, or bedroom as needed. It is especially useful in rentals where you cannot add permanent storage.
-
-Use labels only where they genuinely help.
+A slim rolling cart can move between the kitchen, bathroom, or bedroom as needed. It is especially useful in rentals where you cannot add permanent storage. A three-tier cart fits in most gaps beside a vanity or under a kitchen counter.
 
 ## 21. Add Wall Hooks
 
