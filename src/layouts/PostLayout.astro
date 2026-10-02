@@ -12,8 +12,7 @@ import RelatedPosts from '../components/RelatedPosts.astro';
 import PostNav from '../components/PostNav.astro';
 import PinterestButton from '../components/PinterestButton.astro';
 import ExploreMore from '../components/ExploreMore.astro';
-import AdSlot from '../components/AdSlot.astro';
-import { SITE, categoryName, formatDate, collectTags, tagSlug, wordCount } from '../site';
+import { SITE, categoryName, formatDate, collectTags, tagSlug, wordCount, isEditoriallyApproved } from '../site';
 
 interface Props {
   post: any;
@@ -23,8 +22,9 @@ interface Props {
 
 const { post, headings, minutes } = Astro.props;
 const d = post.data;
+const approved = isEditoriallyApproved(post);
 
-const all = (await getCollection('posts')).sort(
+const all = (await getCollection('posts')).filter(isEditoriallyApproved).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
 );
 
@@ -48,7 +48,7 @@ const next = at >= 0 && at < sequence.length - 1 ? sequence[at + 1] : undefined;
    plain labels. A link to a 404 is worse than no link, and a link to a
    one-post page is close behind.
 ------------------------------------------------------------------- */
-const hubs = new Set(collectTags(all).map((t) => t.slug));
+const hubs = new Set(collectTags(all, 3).map((t) => t.slug));
 const tags = [...new Set((d.tags ?? []).map(tagSlug))]
   .filter(Boolean)
   .map((slug: string) => ({
@@ -92,6 +92,7 @@ const faqSchema = d.faqs?.length
   words={words}
   minutes={minutes}
   schemas={faqSchema ? [faqSchema] : []}
+  noindex={!approved}
 >
   <div id="progress" aria-hidden="true"></div>
 
@@ -182,8 +183,6 @@ const faqSchema = d.faqs?.length
         {/* The rail carries the contents from xl up; below that it sits inline. */}
         <TableOfContents headings={headings} class="xl:hidden" />
 
-        <AdSlot placement="in-article-top" class="my-10" />
-
         <div class="article">
           <slot />
         </div>
@@ -200,8 +199,6 @@ const faqSchema = d.faqs?.length
             )}
           </div>
         )}
-
-        <AdSlot placement="in-article-mid" class="my-12" />
 
         <Faq items={d.faqs ?? []} />
 
@@ -229,13 +226,11 @@ const faqSchema = d.faqs?.length
       */}
       <aside class="post-aside hidden 2xl:block">
         <div class="sticky top-28">
-          <AdSlot placement="sidebar" />
         </div>
       </aside>
     </div>
 
     <div class="mx-auto max-w-[72rem]">
-      <AdSlot placement="before-related" class="mt-14" />
       <RelatedPosts category={d.category} currentId={post.id} />
     </div>
   </article>
@@ -245,19 +240,7 @@ const faqSchema = d.faqs?.length
   </div>
 
   {/* Sticky mobile anchor ad. Body gets bottom padding so it never covers text. */}
-  <div class="anchor-ad" slot="after-footer">
-    <AdSlot placement="anchor" />
-  </div>
 </Layout>
-
-<style is:global>
-  /* Room for the mobile anchor ad */
-  @media (max-width: 767px) {
-    body {
-      padding-bottom: 60px;
-    }
-  }
-</style>
 
 <script is:inline>
   (function () {

@@ -94,7 +94,7 @@ Two shelves need a considered gap or they look like an accident.
 
 ## Styling them so they do not look cluttered
 
-The same rules from our [open shelving guide](/post/kitchen-open-shelving-styling/) apply: cluster in odd groups, leave roughly a third of the run empty, vary the height.
+The same rules from our [open shelving guide](/post/new_blogs/kitchen-open-shelving-styling/) apply: cluster in odd groups, leave roughly a third of the run empty, vary the height.
 
 The quick version for a two-shelf run:
 
@@ -124,4 +124,4 @@ The quick version for a two-shelf run:
 
 ---
 
-*Once they are up, the hard part is not filling them. Our [open shelving styling guide](/post/kitchen-open-shelving-styling/) covers the 70/30 rule that keeps a shelf looking curated.*
+*Once they are up, the hard part is not filling them. Our [open shelving styling guide](/post/new_blogs/kitchen-open-shelving-styling/) covers the 70/30 rule that keeps a shelf looking curated.*

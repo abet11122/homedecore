@@ -3,9 +3,8 @@ import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import PostCard from '../../components/PostCard.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import AdSlot from '../../components/AdSlot.astro';
 import ExploreMore from '../../components/ExploreMore.astro';
-import { SITE, CATEGORIES, categoryName, collectTags, postHasTag, tagSlug } from '../../site';
+import { SITE, CATEGORIES, categoryName, collectTags, postHasTag, tagSlug, isEditoriallyApproved } from '../../site';
 
 /**
  * Tag hubs.
@@ -20,8 +19,8 @@ import { SITE, CATEGORIES, categoryName, collectTags, postHasTag, tagSlug } from
  * content, and thin pages drag the whole domain down.
  */
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
-  const tags = collectTags(posts);
+  const posts = (await getCollection('posts')).filter(isEditoriallyApproved);
+  const tags = collectTags(posts, 3);
   // Only these slugs get a page built, so only these may be linked to.
   const hubs = new Set(tags.map((t) => t.slug));
 
@@ -44,6 +43,7 @@ export async function getStaticPaths() {
 const { tag, siblings } = Astro.props;
 
 const posts = (await getCollection('posts'))
+  .filter(isEditoriallyApproved)
   .filter((p) => postHasTag(p, tag.slug))
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
 
@@ -83,6 +83,7 @@ const listSchema = {
   image={lead?.data.pinImage}
   imageWide={lead?.data.heroImage}
   schemas={[listSchema]}
+  noindex
 >
   <header class="border-b border-rule bg-sand/40">
     <div class="wrap py-10 lg:py-14">
@@ -118,10 +119,6 @@ const listSchema = {
       </div>
     )}
   </section>
-
-  <div class="wrap">
-    <AdSlot placement="feed" class="mb-14" />
-  </div>
 
   {rooms.length > 0 && (
     <section class="wrap border-t border-rule pt-10" aria-labelledby="tag-rooms">

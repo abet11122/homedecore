@@ -86,7 +86,7 @@ Cluster them at one end. The other two-thirds stays empty and available. That em
 
 ### The material story
 
-Keep the island's objects in the same material family as the rest of the kitchen. If your shelves are ceramic-and-wood, the island is ceramic-and-wood — the same logic we set out in our [open shelving guide](/post/kitchen-open-shelving-styling/). Mixing chrome, brass, plastic and stone on one surface reads as unresolved.
+Keep the island's objects in the same material family as the rest of the kitchen. If your shelves are ceramic-and-wood, the island is ceramic-and-wood — the same logic we set out in our [open shelving guide](/post/new_blogs/kitchen-open-shelving-styling/). Mixing chrome, brass, plastic and stone on one surface reads as unresolved.
 
 ## Making it survive real life
 
@@ -110,4 +110,4 @@ Get one with a solid top, locking castors and a shelf underneath. It is not a co
 
 ---
 
-*Working out the surfaces around it? Our [open shelving guide](/post/kitchen-open-shelving-styling/) covers the 70/30 rule for everything on display.*
+*Working out the surfaces around it? Our [open shelving guide](/post/new_blogs/kitchen-open-shelving-styling/) covers the 70/30 rule for everything on display.*

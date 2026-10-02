@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import PostCard from './PostCard.astro';
 import SectionHead from './SectionHead.astro';
-import { categoryName } from '../site';
+import { categoryName, isEditoriallyApproved } from '../site';
 
 interface Props {
   category: string;
@@ -12,7 +12,7 @@ interface Props {
 
 const { category, currentId, limit = 3 } = Astro.props;
 
-const all = await getCollection('posts');
+const all = (await getCollection('posts')).filter(isEditoriallyApproved);
 
 // Prefer posts from the same category; top up with the newest from elsewhere
 // so the block is never half-empty on a thin category.

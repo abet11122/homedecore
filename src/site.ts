@@ -258,3 +258,15 @@ export function postHasTag(post: { data: { tags?: string[] } }, slug: string): b
 export function wordCount(body: string): number {
   return body.trim().split(/\s+/).filter(Boolean).length;
 }
+
+/**
+ * Only reviewed articles belong in discovery surfaces and advertising.
+ *
+ * The `new_blogs` import contains a large set of near-duplicate drafts. Their
+ * existing routes stay live so old Pinterest pins never break, but they are
+ * deliberately kept out of indexes, feeds, recommendations and ad inventory
+ * until each article has received a substantive editorial review.
+ */
+export function isEditoriallyApproved(post: { id: string }): boolean {
+  return !post.id.startsWith('new_blogs/');
+}

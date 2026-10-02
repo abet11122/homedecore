@@ -110,4 +110,4 @@ Keeping autumn up until January is the single fastest way to make a house feel n
 
 ---
 
-*For a room that feels considered beyond the season, explore our [minimalist living room guide](/post/minimalist-living-room-guide/).*
+*For a room that feels considered beyond the season, explore our [minimalist living room guide](/post/new_blogs/minimalist-living-room-guide/).*

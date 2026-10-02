@@ -105,7 +105,7 @@ Instead, **break the room into two zones across its width**:
 - A second function at the other end — a small dining table, a desk, a reading chair
 - A console table, an open shelf or the back of the sofa marking the division
 
-Two square-ish zones read far better than one long thin one. The zoning principles are much the same as in our [studio zoning guide](/post/studio-apartment-zoning/), just with fewer functions to fit.
+Two square-ish zones read far better than one long thin one. The zoning principles are much the same as in our [studio zoning guide](/post/new_blogs/studio-apartment-zoning/), just with fewer functions to fit.
 
 ## The test
 

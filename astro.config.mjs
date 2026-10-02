@@ -9,7 +9,15 @@ export default defineConfig({
   site: SITE.url,
   output: 'static',
   trailingSlash: 'always',
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      // Tag hubs are useful navigation for readers, but most are short archive
+      // pages. Keep the sitemap focused on original articles and core pages.
+      // Keep every article URL in the sitemap so existing Pinterest-linked
+      // routes remain discoverable. Thin tag archives stay excluded.
+      filter: (page) => !page.includes('/tag/'),
+    }),
+  ],
   build: {
     inlineStylesheets: 'auto',
   },
