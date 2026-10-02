@@ -35,6 +35,22 @@ let missingDescriptions = 0;
 let missingCanonicals = 0;
 const badCanonicals = [];
 const brokenLinks = new Set();
+const metadata = {
+  titles: new Map(),
+  descriptions: new Map(),
+  canonicals: new Map(),
+};
+const badH1Pages = [];
+const invalidJsonLd = [];
+const imagesWithoutAlt = new Set();
+const futureDatedPages = new Set();
+
+function record(map, value, file) {
+  if (!value) return;
+  const files = map.get(value) ?? [];
+  files.push(file);
+  map.set(value, files);
+}
 
 function localUrlExists(url) {
   const pathname = url.split(/[?#]/)[0];
@@ -50,12 +66,35 @@ function localUrlExists(url) {
 
 for (const file of htmlFiles) {
   const html = fs.readFileSync(file, 'utf8');
-  if (!/<title>[^<]+<\/title>/.test(html)) missingTitles += 1;
-  if (!/<meta name="description" content="[^"]+"/.test(html)) missingDescriptions += 1;
+  const title = html.match(/<title>([^<]+)<\/title>/);
+  const description = html.match(/<meta name="description" content="([^"]+)"/);
+  if (!title) missingTitles += 1;
+  else record(metadata.titles, title[1], file);
+  if (!description) missingDescriptions += 1;
+  else record(metadata.descriptions, description[1], file);
   const canonical = html.match(/<link rel="canonical" href="([^"]+)"/);
   if (!canonical) missingCanonicals += 1;
-  else if (!canonical[1].startsWith('https://www.cozynestideas.online/')) {
-    badCanonicals.push(`${file}: ${canonical[1]}`);
+  else {
+    record(metadata.canonicals, canonical[1], file);
+    if (!canonical[1].startsWith('https://www.cozynestideas.online/')) {
+      badCanonicals.push(`${file}: ${canonical[1]}`);
+    }
+  }
+  const h1Count = [...html.matchAll(/<h1(?:\s|>)/g)].length;
+  if (h1Count !== 1 && !file.endsWith(`${path.sep}404.html`)) badH1Pages.push(`${file}: ${h1Count}`);
+  for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    try {
+      JSON.parse(match[1]);
+    } catch (error) {
+      invalidJsonLd.push(`${file}: ${error.message}`);
+    }
+  }
+  for (const match of html.matchAll(/<img\s[\s\S]*?>/g)) {
+    // Astro serializes alt="" as the valid empty attribute `alt`.
+    if (!/\balt(?:=|\s|>)/.test(match[0])) imagesWithoutAlt.add(`${file}: ${match[0].slice(0, 240)}`);
+  }
+  for (const match of html.matchAll(/<time datetime="([^"]+)"/g)) {
+    if (new Date(match[1]) > new Date()) futureDatedPages.add(`${file}: ${match[1]}`);
   }
   for (const match of html.matchAll(/href="([^"]+)"/g)) {
     const url = match[1];
@@ -87,6 +126,13 @@ const report = {
   badCanonicals,
   brokenInternalLinks: [...brokenLinks],
   missingLocalImages: missingImages,
+  duplicateTitles: [...metadata.titles].filter(([, files]) => files.length > 1),
+  duplicateDescriptions: [...metadata.descriptions].filter(([, files]) => files.length > 1),
+  duplicateCanonicals: [...metadata.canonicals].filter(([, files]) => files.length > 1),
+  badH1Pages,
+  invalidJsonLd,
+  imagesWithoutAlt: [...imagesWithoutAlt],
+  futureDatedPages: [...futureDatedPages],
 };
 
 console.log(JSON.stringify(report, null, 2));
@@ -98,7 +144,13 @@ if (
   missingCanonicals ||
   badCanonicals.length ||
   brokenLinks.size ||
-  missingImages.length
+  missingImages.length ||
+  report.duplicateTitles.length ||
+  report.duplicateDescriptions.length ||
+  report.duplicateCanonicals.length ||
+  badH1Pages.length ||
+  invalidJsonLd.length ||
+  imagesWithoutAlt.size
 ) {
   process.exitCode = 1;
 }
