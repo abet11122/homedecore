@@ -56,6 +56,8 @@ const badH1Pages = [];
 const invalidJsonLd = [];
 const imagesWithoutAlt = new Set();
 const futureDatedPages = new Set();
+const publishedPostsMarkedNoindex = [];
+const scheduledPostsMissingNoindex = [];
 
 function record(map, value, file) {
   if (!value) return;
@@ -114,6 +116,18 @@ for (const file of htmlFiles) {
   }
 }
 
+for (const post of sourcePosts) {
+  const pathname = new URL(post.url).pathname;
+  const file = path.join('dist', ...pathname.split('/').filter(Boolean), 'index.html');
+  if (!fs.existsSync(file)) continue;
+
+  const html = fs.readFileSync(file, 'utf8');
+  const isScheduled = new Date(`${post.publishDate}T00:00:00.000Z`) > new Date();
+  const isNoindex = /<meta name="robots" content="noindex, follow"/.test(html);
+  if (isScheduled && !isNoindex) scheduledPostsMissingNoindex.push(post.url);
+  if (!isScheduled && isNoindex) publishedPostsMarkedNoindex.push(post.url);
+}
+
 const missingImages = [];
 for (const file of markdown) {
   const source = fs.readFileSync(file, 'utf8');
@@ -147,6 +161,8 @@ const report = {
   badH1Pages,
   invalidJsonLd,
   imagesWithoutAlt: [...imagesWithoutAlt],
+  publishedPostsMarkedNoindex,
+  scheduledPostsMissingNoindex,
   futureDatedPages: [...futureDatedPages],
 };
 
@@ -166,7 +182,9 @@ if (
   report.duplicateCanonicals.length ||
   badH1Pages.length ||
   invalidJsonLd.length ||
-  imagesWithoutAlt.size
+  imagesWithoutAlt.size ||
+  publishedPostsMarkedNoindex.length ||
+  scheduledPostsMissingNoindex.length
 ) {
   process.exitCode = 1;
 }
