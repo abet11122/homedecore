@@ -264,9 +264,6 @@ export function wordCount(body: string): number {
  * or indexing them before their publish date. The folder a post lives in is
  * deliberately irrelevant: moving a Markdown file would change its public URL.
  */
-export function isPublished(
-  post: { data: { publishDate: Date } },
-  now = new Date()
-): boolean {
-  return post.data.publishDate.getTime() <= now.getTime();
+export function isPublished(post: { data: { publishDate: Date } }): boolean {
+  return post.data.publishDate.getTime() <= Date.now();
 }
