@@ -11,10 +11,10 @@ import {
   SECONDARY_CATEGORIES,
   categoryName,
   formatDateShort,
-  isEditoriallyApproved,
+  isPublished,
 } from '../site';
 
-const posts = (await getCollection('posts')).filter(isEditoriallyApproved).sort(
+const posts = (await getCollection('posts')).filter(isPublished).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
 );
 
@@ -22,7 +22,8 @@ const featured = posts.find((p) => p.data.featured) ?? posts[0];
 const rest = posts.filter((p) => p.id !== featured?.id);
 const secondary = rest.slice(0, 2);
 const grid = rest.slice(2, 8);
-const listed = rest.slice(8, 13);
+const listed = rest.slice(8, 16);
+const archive = rest.slice(16, 28);
 
 const christmasPosts = posts.filter((p) =>
   p.id.toLowerCase().includes('christmas')
@@ -40,7 +41,7 @@ const today = new Date().toLocaleDateString('en-US', {
   <div class="issue-strip border-b border-rule bg-sand/60">
     <div class="wrap flex items-center justify-between py-2.5">
       <p class="text-eyebrow font-semibold uppercase text-ink-40">{today}</p>
-      <p class="hidden text-eyebrow font-semibold uppercase text-ink-40 sm:block">Ideas for a home that feels like yours</p>
+      <p class="hidden text-eyebrow font-semibold uppercase text-ink-40 sm:block">{posts.length} practical ideas for a home that feels like yours</p>
     </div>
   </div>
 
@@ -211,9 +212,6 @@ const today = new Date().toLocaleDateString('en-US', {
               </span>
               <span class="min-w-0">
                 <span class="eyebrow-muted">{categoryName(post.data.category)}</span>
-                {post.id.startsWith('new_blogs/') && (
-                  <span class="ml-2 inline-block bg-clay px-1.5 py-0.5 text-[0.6rem] font-semibold uppercase tracking-widest text-white align-middle"><span aria-hidden="true" class="mr-1">★</span>New</span>
-                )}
                 <span class="mt-2 block font-display text-title text-ink transition-colors duration-250 group-hover:text-clay sm:text-title-lg">
                   {post.data.title}
                 </span>
@@ -225,6 +223,23 @@ const today = new Date().toLocaleDateString('en-US', {
           </li>
         ))}
       </ol>
+    </section>
+  )}
+
+  {archive.length > 0 && (
+    <section class="wrap mt-16 lg:mt-24" aria-labelledby="archive-heading">
+      <SectionHead
+        id="archive-heading"
+        kicker={`${posts.length} published stories`}
+        title="Explore the archive"
+        href="/search/"
+        hrefLabel="Search every story"
+      />
+      <div class="mt-10 grid gap-x-12 gap-y-7 border-y border-rule py-10 md:grid-cols-2">
+        {archive.map((post) => (
+          <PostCard post={post} variant="compact" />
+        ))}
+      </div>
     </section>
   )}
 

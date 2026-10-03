@@ -2,7 +2,38 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { readdir, readFile, writeFile } from 'node:fs/promises';
+import { readdirSync, readFileSync } from 'node:fs';
+import { extname, join, relative, sep } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { SITE } from './src/site.ts';
+
+const postsDirectory = fileURLToPath(new URL('./src/content/posts/', import.meta.url));
+
+function markdownFiles(directory) {
+  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const path = join(directory, entry.name);
+    return entry.isDirectory() ? markdownFiles(path) : extname(path) === '.md' ? [path] : [];
+  });
+}
+
+// Scheduled posts keep their permanent route, but stay out of discovery and
+// the sitemap until their publish date. This keeps every Pinterest URL stable
+// without sending crawlers conflicting `noindex` and sitemap signals.
+const publishedPostPaths = new Set(
+  markdownFiles(postsDirectory)
+    .filter((file) => {
+      const source = readFileSync(file, 'utf8');
+      const value = source.match(/^publishDate:\s*["']?(\d{4}-\d{2}-\d{2})["']?\s*$/m)?.[1];
+      return value ? new Date(`${value}T00:00:00.000Z`).getTime() <= Date.now() : false;
+    })
+    .map((file) => {
+      const id = relative(postsDirectory, file)
+        .split(sep)
+        .join('/')
+        .replace(/\.md$/, '');
+      return `/post/${id}/`;
+    })
+);
 
 function styledSitemaps() {
   return {
@@ -40,7 +71,12 @@ export default defineConfig({
       // pages. Keep the sitemap focused on original articles and core pages.
       // Keep every article URL in the sitemap so existing Pinterest-linked
       // routes remain discoverable. Thin tag archives stay excluded.
-      filter: (page) => !page.includes('/tag/'),
+      filter: (page) => {
+        const path = new URL(page).pathname;
+        if (path.startsWith('/tag/')) return false;
+        if (path.startsWith('/post/')) return publishedPostPaths.has(path);
+        return true;
+      },
     }),
     styledSitemaps(),
   ],

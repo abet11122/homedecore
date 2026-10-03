@@ -12,7 +12,7 @@ import RelatedPosts from '../components/RelatedPosts.astro';
 import PostNav from '../components/PostNav.astro';
 import PinterestButton from '../components/PinterestButton.astro';
 import ExploreMore from '../components/ExploreMore.astro';
-import { SITE, categoryName, formatDate, collectTags, tagSlug, wordCount, isEditoriallyApproved } from '../site';
+import { SITE, categoryName, formatDate, collectTags, tagSlug, wordCount, isPublished } from '../site';
 
 interface Props {
   post: any;
@@ -22,9 +22,9 @@ interface Props {
 
 const { post, headings, minutes } = Astro.props;
 const d = post.data;
-const approved = isEditoriallyApproved(post);
+const published = isPublished(post);
 
-const all = (await getCollection('posts')).filter(isEditoriallyApproved).sort(
+const all = (await getCollection('posts')).filter(isPublished).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
 );
 
@@ -92,7 +92,7 @@ const faqSchema = d.faqs?.length
   words={words}
   minutes={minutes}
   schemas={faqSchema ? [faqSchema] : []}
-  noindex={!approved}
+  noindex={!published}
 >
   <div id="progress" aria-hidden="true"></div>
 

@@ -4,7 +4,7 @@ import Layout from '../../layouts/Layout.astro';
 import PostCard from '../../components/PostCard.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ExploreMore from '../../components/ExploreMore.astro';
-import { SITE, CATEGORIES, categoryName, collectTags, postHasTag, tagSlug, isEditoriallyApproved } from '../../site';
+import { SITE, CATEGORIES, categoryName, collectTags, postHasTag, tagSlug, isPublished } from '../../site';
 
 /**
  * Tag hubs.
@@ -19,7 +19,7 @@ import { SITE, CATEGORIES, categoryName, collectTags, postHasTag, tagSlug, isEdi
  * content, and thin pages drag the whole domain down.
  */
 export async function getStaticPaths() {
-  const posts = (await getCollection('posts')).filter(isEditoriallyApproved);
+  const posts = (await getCollection('posts')).filter(isPublished);
   const tags = collectTags(posts, 3);
   // Only these slugs get a page built, so only these may be linked to.
   const hubs = new Set(tags.map((t) => t.slug));
@@ -43,7 +43,7 @@ export async function getStaticPaths() {
 const { tag, siblings } = Astro.props;
 
 const posts = (await getCollection('posts'))
-  .filter(isEditoriallyApproved)
+  .filter(isPublished)
   .filter((p) => postHasTag(p, tag.slug))
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
 

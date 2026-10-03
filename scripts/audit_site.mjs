@@ -7,13 +7,21 @@ const walk = (dir) =>
   );
 
 const markdown = walk('src/content/posts').filter((file) => file.endsWith('.md'));
-const expectedPosts = new Set(
-  markdown.map((file) =>
-    `https://www.cozynestideas.online/post/${path
-      .relative('src/content/posts', file)
-      .replaceAll('\\', '/')
-      .replace(/\.md$/, '')}/`
-  )
+const sourcePosts = markdown.map((file) => {
+  const source = fs.readFileSync(file, 'utf8');
+  const publishDate = source.match(/^publishDate:\s*["']?(\d{4}-\d{2}-\d{2})["']?\s*$/m)?.[1];
+  const url = `https://www.cozynestideas.online/post/${path
+    .relative('src/content/posts', file)
+    .replaceAll('\\', '/')
+    .replace(/\.md$/, '')}/`;
+  return { file, publishDate, url };
+});
+
+const expectedPostRoutes = new Set(sourcePosts.map((post) => post.url));
+const expectedIndexedPosts = new Set(
+  sourcePosts
+    .filter((post) => post.publishDate && new Date(`${post.publishDate}T00:00:00.000Z`) <= new Date())
+    .map((post) => post.url)
 );
 
 const sitemapXml = walk('dist')
@@ -26,8 +34,12 @@ const sitemapPosts = new Set(
     .filter((url) => url.includes('/post/'))
 );
 
-const missingFromSitemap = [...expectedPosts].filter((url) => !sitemapPosts.has(url));
-const extraPostUrls = [...sitemapPosts].filter((url) => !expectedPosts.has(url));
+const missingFromSitemap = [...expectedIndexedPosts].filter((url) => !sitemapPosts.has(url));
+const extraPostUrls = [...sitemapPosts].filter((url) => !expectedIndexedPosts.has(url));
+const missingPostRoutes = [...expectedPostRoutes].filter((url) => {
+  const pathname = new URL(url).pathname;
+  return !localUrlExists(pathname);
+});
 
 const htmlFiles = walk('dist').filter((file) => file.endsWith('.html'));
 let missingTitles = 0;
@@ -115,10 +127,13 @@ for (const file of markdown) {
 }
 
 const report = {
-  sourcePosts: expectedPosts.size,
+  sourcePosts: expectedPostRoutes.size,
+  publishedPosts: expectedIndexedPosts.size,
+  scheduledPosts: expectedPostRoutes.size - expectedIndexedPosts.size,
   sitemapPosts: sitemapPosts.size,
   missingFromSitemap,
   extraPostUrls,
+  missingPostRoutes,
   htmlPages: htmlFiles.length,
   missingTitles,
   missingDescriptions,
@@ -139,6 +154,7 @@ console.log(JSON.stringify(report, null, 2));
 if (
   missingFromSitemap.length ||
   extraPostUrls.length ||
+  missingPostRoutes.length ||
   missingTitles ||
   missingDescriptions ||
   missingCanonicals ||

@@ -171,7 +171,12 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    {noindex && <meta name="robots" content="noindex, follow" />}
+    <meta
+      name="robots"
+      content={noindex
+        ? 'noindex, follow'
+        : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'}
+    />
     <meta name="theme-color" content="#FBF8F4" />
     <meta name="generator" content={Astro.generator} />
 
@@ -338,6 +343,13 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
                 </a>
               </div>
             </details>
+
+            <a
+              href="/search/"
+              class="link-underline whitespace-nowrap font-body text-[0.8125rem] font-medium uppercase tracking-[0.11em] text-ink-60 hover:text-ink"
+            >
+              All stories
+            </a>
           </nav>
 
           <div class="flex items-center gap-2">
@@ -382,6 +394,9 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
                   ))}
                   <a href="/tags/" class="border-b border-rule/70 py-3.5 font-display text-lg text-ink">
                     All topics
+                  </a>
+                  <a href="/search/" class="border-b border-rule/70 py-3.5 font-display text-lg text-ink">
+                    All stories
                   </a>
                   <a href="/about/" class="py-3.5 font-body text-sm uppercase tracking-[0.1em] text-ink-40">
                     About

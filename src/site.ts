@@ -260,13 +260,13 @@ export function wordCount(body: string): number {
 }
 
 /**
- * Only reviewed articles belong in discovery surfaces and advertising.
- *
- * The `new_blogs` import contains a large set of near-duplicate drafts. Their
- * existing routes stay live so old Pinterest pins never break, but they are
- * deliberately kept out of indexes, feeds, recommendations and ad inventory
- * until each article has received a substantive editorial review.
+ * Keep scheduled stories reachable at their permanent URL without promoting
+ * or indexing them before their publish date. The folder a post lives in is
+ * deliberately irrelevant: moving a Markdown file would change its public URL.
  */
-export function isEditoriallyApproved(post: { id: string }): boolean {
-  return !post.id.startsWith('new_blogs/');
+export function isPublished(
+  post: { data: { publishDate: Date } },
+  now = new Date()
+): boolean {
+  return post.data.publishDate.getTime() <= now.getTime();
 }
