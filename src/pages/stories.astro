@@ -1,0 +1,180 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PostCard from '../components/PostCard.astro';
+import { SITE, CATEGORIES, categoryName, isPublished } from '../site';
+
+const posts = (await getCollection('posts')).filter(isPublished).sort(
+  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
+);
+
+const searchablePosts = posts.map((post) => ({
+  id: post.id,
+  text: [
+    post.data.title,
+    post.data.description,
+    categoryName(post.data.category),
+    ...(post.data.tags ?? []),
+  ]
+    .join(' ')
+    .toLowerCase(),
+}));
+
+const origin = (Astro.site ?? new URL(SITE.url)).origin;
+const collectionSchema = {
+  '@type': 'CollectionPage',
+  '@id': `${origin}/stories/#collection`,
+  name: 'All home decor stories',
+  description: 'Browse every published home decor guide from Cozy Nest Ideas.',
+  isPartOf: { '@id': `${origin}/#website` },
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: posts.length,
+    itemListElement: posts.map((post, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      url: new URL(`/post/${post.id}/`, origin).href,
+      name: post.data.title,
+    })),
+  },
+};
+---
+
+<Layout
+  title="All Home Decor Ideas"
+  description="Browse every Cozy Nest Ideas story by room, topic or title, from small-space storage to seasonal decorating."
+  schemas={[collectionSchema]}
+>
+  <header class="archive-hero border-b border-rule">
+    <div class="wrap py-10 lg:py-16">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'All stories' }]} />
+
+      <div class="mt-8 grid gap-8 lg:grid-cols-12 lg:items-end">
+        <div class="lg:col-span-7">
+          <p class="eyebrow">The complete collection</p>
+          <h1 class="mt-4 max-w-[13ch] font-display text-display-1 text-ink">Every idea, in one place</h1>
+          <p class="mt-5 max-w-2xl text-lead text-ink-60">
+            Browse {posts.length} published guides for practical, beautiful rooms. Search by topic or choose a space to narrow the collection.
+          </p>
+        </div>
+
+        <div class="lg:col-span-5">
+          <label for="story-search" class="eyebrow-muted">Search the archive</label>
+          <div class="relative mt-3">
+            <svg
+              class="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink-40"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.75"
+              aria-hidden="true"
+            >
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m20 20-3.5-3.5"></path>
+            </svg>
+            <input
+              id="story-search"
+              type="search"
+              autocomplete="off"
+              placeholder="Try small bedroom or renter-friendly"
+              class="field py-4 pl-12"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap py-10 lg:py-14">
+    <div class="flex gap-2 overflow-x-auto pb-3" aria-label="Filter stories by room">
+      <button type="button" data-category="" class="archive-filter is-active">All rooms</button>
+      {CATEGORIES.map((category) => (
+        <button type="button" data-category={category.slug} class="archive-filter">{category.name}</button>
+      ))}
+    </div>
+
+    <div class="mt-6 flex items-end justify-between gap-5 border-b border-ink pb-4">
+      <div>
+        <p class="eyebrow">Browse the archive</p>
+        <h2 class="mt-2 font-display text-display-4 text-ink">Newest stories first</h2>
+      </div>
+      <p id="story-count" class="shrink-0 text-sm text-ink-40" aria-live="polite">
+        {posts.length} stories
+      </p>
+    </div>
+
+    <div id="story-grid" class="mt-10 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
+      {posts.map((post) => (
+        <div class="archive-story" data-story-id={post.id} data-category={post.data.category}>
+          <PostCard post={post} />
+        </div>
+      ))}
+    </div>
+
+    <div id="story-empty" class="hidden border-y border-rule py-16 text-center">
+      <p class="font-display text-2xl text-ink">No stories match that search.</p>
+      <p class="mt-3 text-ink-60">Try a shorter phrase or choose another room.</p>
+    </div>
+  </div>
+</Layout>
+
+<script is:inline define:vars={{ searchablePosts }}>
+  (function () {
+    var input = document.getElementById('story-search');
+    var count = document.getElementById('story-count');
+    var empty = document.getElementById('story-empty');
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.archive-story'));
+    var filters = Array.prototype.slice.call(document.querySelectorAll('.archive-filter'));
+    var textById = {};
+    var query = '';
+    var category = '';
+
+    searchablePosts.forEach(function (post) {
+      textById[post.id] = post.text;
+    });
+
+    function update() {
+      var terms = query.split(/\s+/).filter(Boolean);
+      var visible = 0;
+
+      cards.forEach(function (card) {
+        var matchesCategory = !category || card.dataset.category === category;
+        var text = textById[card.dataset.storyId] || '';
+        var matchesQuery = terms.every(function (term) {
+          return text.indexOf(term) !== -1;
+        });
+        var show = matchesCategory && matchesQuery;
+        card.hidden = !show;
+        if (show) visible += 1;
+      });
+
+      count.textContent = visible + (visible === 1 ? ' story' : ' stories');
+      empty.classList.toggle('hidden', visible !== 0);
+    }
+
+    input.addEventListener('input', function () {
+      query = input.value.trim().toLowerCase();
+      update();
+    });
+
+    filters.forEach(function (filter) {
+      filter.addEventListener('click', function () {
+        filters.forEach(function (item) {
+          item.classList.remove('is-active');
+          item.setAttribute('aria-pressed', 'false');
+        });
+        filter.classList.add('is-active');
+        filter.setAttribute('aria-pressed', 'true');
+        category = filter.dataset.category || '';
+        update();
+      });
+    });
+
+    filters.forEach(function (filter) {
+      filter.setAttribute('aria-pressed', filter.classList.contains('is-active') ? 'true' : 'false');
+    });
+  })();
+</script>

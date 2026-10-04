@@ -6,6 +6,7 @@ import PostCard from '../components/PostCard.astro';
 import SectionHead from '../components/SectionHead.astro';
 import ExploreMore from '../components/ExploreMore.astro';
 import {
+  SITE,
   CATEGORIES,
   PRIMARY_CATEGORIES,
   SECONDARY_CATEGORIES,
@@ -18,227 +19,230 @@ const posts = (await getCollection('posts')).filter(isPublished).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
 );
 
-const featured = posts.find((p) => p.data.featured) ?? posts[0];
-const rest = posts.filter((p) => p.id !== featured?.id);
-const secondary = rest.slice(0, 2);
-const grid = rest.slice(2, 8);
-const listed = rest.slice(8, 16);
-const archive = rest.slice(16, 28);
-
-const christmasPosts = posts.filter((p) =>
-  p.id.toLowerCase().includes('christmas')
-).slice(0, 6);
+const featured = posts.find((post) => post.data.featured) ?? posts[0];
+const rest = posts.filter((post) => post.id !== featured?.id);
+const freshStories = rest.slice(0, 6);
+const freshIds = new Set(freshStories.map((post) => post.id));
+const seasonalStories = posts
+  .filter(
+    (post) =>
+      post.data.category === 'seasonal' &&
+      post.id !== featured?.id &&
+      !freshIds.has(post.id)
+  )
+  .slice(0, 4);
+const usedIds = new Set([
+  featured?.id,
+  ...freshStories.map((post) => post.id),
+  ...seasonalStories.map((post) => post.id),
+]);
+const archivePreview = posts.filter((post) => !usedIds.has(post.id)).slice(0, 10);
 
 const today = new Date().toLocaleDateString('en-US', {
   weekday: 'long',
   month: 'long',
   day: 'numeric',
 });
+
+const origin = (Astro.site ?? new URL(SITE.url)).origin;
+const collectionSchema = {
+  '@type': 'CollectionPage',
+  '@id': `${origin}/#home`,
+  name: 'Practical home decor ideas for real homes',
+  description: SITE.description,
+  isPartOf: { '@id': `${origin}/#website` },
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: posts.length,
+    itemListElement: posts.map((post, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      url: new URL(`/post/${post.id}/`, origin).href,
+      name: post.data.title,
+    })),
+  },
+};
 ---
 
-<Layout>
-  {/* ── Masthead strip ─────────────────────────────────────────── */}
+<Layout
+  title="Home Decor Ideas for Real Homes"
+  description="Practical home decor ideas, small-space solutions and room-by-room guides designed for beautiful, comfortable everyday living."
+  imageWide={featured?.data.heroImage}
+  schemas={[collectionSchema]}
+>
   <div class="issue-strip border-b border-rule bg-sand/60">
-    <div class="wrap flex items-center justify-between py-2.5">
+    <div class="wrap flex items-center justify-between gap-5 py-2.5">
       <p class="text-eyebrow font-semibold uppercase text-ink-40">{today}</p>
-      <p class="hidden text-eyebrow font-semibold uppercase text-ink-40 sm:block">{posts.length} practical ideas for a home that feels like yours</p>
+      <a href="/stories/" class="text-eyebrow font-semibold uppercase text-ink-60 transition-colors hover:text-clay">
+        Browse all {posts.length} stories
+      </a>
     </div>
   </div>
 
-  {/* ── Lead story ─────────────────────────────────────────────── */}
   {featured && (
-    <section class="hero-section wrap pb-14 pt-8 lg:pb-20 lg:pt-12">
-      <div class="hero-intro mb-6 flex items-center justify-between gap-6 lg:mb-8">
-        <p class="eyebrow">Welcome to Cozy Nest Ideas</p>
-        <span class="hidden h-px flex-1 bg-rule sm:block"></span>
-        <p class="hidden text-eyebrow uppercase tracking-[0.14em] text-ink-40 sm:block">Comfort, room by room</p>
-      </div>
-      <div class="grid items-center gap-9 lg:grid-cols-12 lg:gap-16">
-        <div class="lg:col-span-7">
-          <a href={`/post/${featured.id}/`} class="lead-image-wrap group block">
-            <div class="frame lead-photo aspect-[4/3] lg:aspect-[7/5]">
-              <Img
-                src={featured.data.heroImage}
-                alt={featured.data.heroImageAlt ?? featured.data.title}
-                width={1120}
-                height={800}
-                loading="eager"
-                fetchpriority="high"
-                sizes="(min-width: 1024px) 58vw, 100vw"
-              />
+    <section class="home-hero" aria-labelledby="featured-story">
+      <div class="wrap grid lg:grid-cols-12 lg:items-stretch">
+        <a
+          href={`/post/${featured.id}/`}
+          class="group block overflow-hidden bg-sand lg:col-span-7"
+          aria-label={`Read ${featured.data.title}`}
+        >
+          <div class="lead-photo aspect-[4/3] h-full min-h-[22rem] overflow-hidden lg:aspect-auto lg:min-h-[38rem]">
+            <Img
+              src={featured.data.heroImage}
+              alt={featured.data.heroImageAlt ?? featured.data.title}
+              width={1120}
+              height={900}
+              loading="eager"
+              fetchpriority="high"
+              sizes="(min-width: 1024px) 58vw, 100vw"
+              class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.025]"
+            />
+          </div>
+        </a>
+
+        <div class="home-hero-copy lg:col-span-5">
+          <div>
+            <p class="home-kicker">The considered home</p>
+            <p class="mt-4 max-w-md text-sm leading-relaxed text-paper/70">
+              Practical design guidance for rooms that feel collected, comfortable and entirely your own.
+            </p>
+          </div>
+
+          <div class="my-10 h-px w-16 bg-clay lg:my-auto"></div>
+
+          <div>
+            <p class="text-eyebrow font-semibold uppercase tracking-[0.16em] text-clay-soft">
+              Featured · {categoryName(featured.data.category)}
+            </p>
+            <h1 id="featured-story" class="mt-5 max-w-[15ch] font-display text-display-1 text-paper">
+              <a href={`/post/${featured.id}/`} class="transition-colors hover:text-clay-soft">
+                {featured.data.title}
+              </a>
+            </h1>
+            <p class="mt-6 max-w-lg text-lead text-paper/75">{featured.data.description}</p>
+            <div class="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
+              <a href={`/post/${featured.id}/`} class="btn bg-paper text-ink hover:bg-clay-soft">
+                Read the story
+              </a>
+              <span class="text-xs uppercase tracking-[0.1em] text-paper/55">
+                {formatDateShort(featured.data.publishDate)}
+              </span>
             </div>
-          </a>
-        </div>
-
-        <div class="hero-copy lg:col-span-5">
-          <div class="flex items-center gap-3">
-            <span class="rule-draw h-px w-8 bg-clay"></span>
-            <p class="eyebrow">Featured · {categoryName(featured.data.category)}</p>
-          </div>
-
-          <h1 class="mt-5 max-w-[18ch] font-display text-display-1 text-ink">
-            <a href={`/post/${featured.id}/`} class="transition-colors duration-250 hover:text-clay">
-              {featured.data.title}
-            </a>
-          </h1>
-
-          <p class="mt-6 text-lead text-ink-60">{featured.data.description}</p>
-
-          <div class="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3 border-t border-rule pt-5">
-            <a href={`/post/${featured.id}/`} class="link-arrow">
-              Read the story
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-                <path d="M5 12h14M13 6l6 6-6 6"></path>
-              </svg>
-            </a>
-            <a href="#rooms-heading" class="text-sm font-semibold text-clay underline decoration-clay/50 underline-offset-4 hover:text-clay-deep">Explore rooms</a>
-            <span class="text-xs uppercase tracking-[0.1em] text-ink-40">
-              {formatDateShort(featured.data.publishDate)}
-            </span>
           </div>
         </div>
-      </div>
-
-      {secondary.length > 0 && (
-        <div class="mt-16 grid gap-x-12 gap-y-12 border-t border-rule pt-12 lg:grid-cols-2">
-          {/*
-            Two wide cards side by side need real width: each one splits again
-            into image and text, and between 640px and 1024px that left the
-            photograph at ~150px with the headline breaking every second word.
-            They stack until there is room for the pair.
-          */}
-          {secondary.map((post) => (
-            <PostCard post={post} variant="wide" sizes="(min-width: 1024px) 24vw, (min-width: 640px) 45vw, 90vw" />
-          ))}
-        </div>
-      )}
-    </section>
-  )}
-
-  {/* ── Christmas ─────────────────────────────────────────────── */}
-  {christmasPosts.length > 0 && (
-    <section class="wrap mt-16 lg:mt-24" aria-labelledby="christmas-heading">
-      <div class="flex items-center gap-4 border-b border-rule pb-6">
-        <span class="text-2xl" aria-hidden="true">🎄</span>
-        <div>
-          <p class="eyebrow text-clay">Seasonal · Christmas</p>
-          <h2 id="christmas-heading" class="mt-1 font-display text-display-3 text-ink">Christmas at Home</h2>
-        </div>
-      </div>
-      <div class="mt-10 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
-        {christmasPosts.map((post) => (
-          <PostCard post={post} />
-        ))}
       </div>
     </section>
   )}
 
-  {/* ── Rooms ──────────────────────────────────────────────────── */}
-  <section class="wrap" aria-labelledby="rooms-heading">
+  <section class="wrap mt-16 lg:mt-24" aria-labelledby="rooms-heading">
     <SectionHead
       id="rooms-heading"
-      kicker={`${CATEGORIES.length} rooms`}
-      title="Browse by room"
+      kicker="Find your starting point"
+      title="Ideas for every room"
+      href="/stories/"
+      hrefLabel="View all stories"
     />
 
-    {/*
-      The six main rooms run as photographic tiles — exactly one full row at
-      every breakpoint, so the grid never leaves an orphaned last row. The
-      remaining rooms sit below as type, mirroring the header's primary/More
-      split so the same hierarchy reads on the page and in the nav.
-    */}
-    <div class="reveal-group mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
-      {PRIMARY_CATEGORIES.map((c) => (
-        <a href={`/category/${c.slug}/`} class="tile aspect-[3/4]">
+    <div class="mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
+      {PRIMARY_CATEGORIES.map((category) => (
+        <a href={`/category/${category.slug}/`} class="tile aspect-[3/4]">
           <Img
-            src={c.image}
+            src={category.image}
             alt=""
             width={340}
             height={453}
             sizes="(min-width: 1024px) 15vw, (min-width: 768px) 30vw, 45vw"
           />
-          <span class="tile-label">{c.name}</span>
+          <span class="tile-label">{category.name}</span>
         </a>
       ))}
     </div>
 
     {SECONDARY_CATEGORIES.length > 0 && (
-      <div class="mt-7 flex flex-wrap items-baseline gap-x-8 gap-y-3 border-t border-rule pt-6">
-        <span class="eyebrow-muted shrink-0">Also</span>
-        {SECONDARY_CATEGORIES.map((c) => (
+      <div class="mt-7 flex flex-wrap items-center gap-x-7 gap-y-3 border-t border-rule pt-6">
+        <span class="eyebrow-muted shrink-0">More spaces</span>
+        {SECONDARY_CATEGORIES.map((category) => (
           <a
-            href={`/category/${c.slug}/`}
-            class="link-underline font-display text-title-lg text-ink hover:text-clay"
+            href={`/category/${category.slug}/`}
+            class="link-underline font-display text-title text-ink hover:text-clay"
           >
-            {c.name}
+            {category.name}
           </a>
         ))}
       </div>
     )}
   </section>
 
-  {/* ── Latest ─────────────────────────────────────────────────── */}
-  {grid.length > 0 && (
+  {freshStories.length > 0 && (
     <section class="wrap mt-16 lg:mt-24" aria-labelledby="latest-heading">
-      <SectionHead id="latest-heading" kicker="Find your next idea" title="Latest stories" />
-
-      <div class="mt-12 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
-        {grid.map((post) => (
-          <PostCard post={post} />
-        ))}
+      <SectionHead
+        id="latest-heading"
+        kicker="New this week"
+        title="Fresh ideas to make your own"
+        href="/stories/"
+        hrefLabel="See the full archive"
+      />
+      <div class="mt-10 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
+        {freshStories.map((post) => <PostCard post={post} />)}
       </div>
     </section>
   )}
 
-  {/* ── Numbered list — keeps readers moving to a second page ──── */}
-  {listed.length > 0 && (
-    <section class="wrap mt-16 lg:mt-24" aria-labelledby="more-heading">
-      <SectionHead
-        id="more-heading"
-        kicker="Keep reading"
-        title="More from the archive"
-        href="/search/"
-        hrefLabel="Browse all"
-      />
-      <ol class="mt-2">
-        {listed.map((post, i) => (
-          <li class="reveal group border-b border-rule">
-            <a
-              href={`/post/${post.id}/`}
-              class="grid grid-cols-[2.75rem_1fr_auto] items-center gap-5 py-6 sm:gap-8"
-            >
-              <span class="font-display text-2xl leading-none tabular-nums text-ink-20 transition-colors duration-250 group-hover:text-clay">
-                {String(i + 1).padStart(2, '0')}
-              </span>
-              <span class="min-w-0">
-                <span class="eyebrow-muted">{categoryName(post.data.category)}</span>
-                <span class="mt-2 block font-display text-title text-ink transition-colors duration-250 group-hover:text-clay sm:text-title-lg">
-                  {post.data.title}
-                </span>
-              </span>
-              <span class="frame hidden aspect-square w-20 shrink-0 sm:block">
-                <Img src={post.data.heroImage} alt="" width={160} height={160} sizes="80px" />
-              </span>
-            </a>
-          </li>
-        ))}
-      </ol>
+  {seasonalStories.length > 0 && (
+    <section class="seasonal-edit mt-16 border-y border-rule bg-sand/65 py-16 lg:mt-24 lg:py-20" aria-labelledby="seasonal-heading">
+      <div class="wrap">
+        <div class="grid gap-8 lg:grid-cols-12 lg:items-end">
+          <div class="lg:col-span-5">
+            <p class="eyebrow">The seasonal edit</p>
+            <h2 id="seasonal-heading" class="mt-3 max-w-[13ch] font-display text-display-2 text-ink">
+              Timely details, thoughtfully done
+            </h2>
+          </div>
+          <div class="lg:col-span-7 lg:pb-1">
+            <p class="max-w-2xl text-lead text-ink-60">
+              Simple ways to mark the season without losing the calm, lived-in character of your home.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-10 grid gap-x-7 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+          {seasonalStories.map((post) => <PostCard post={post} />)}
+        </div>
+      </div>
     </section>
   )}
 
-  {archive.length > 0 && (
+  {archivePreview.length > 0 && (
     <section class="wrap mt-16 lg:mt-24" aria-labelledby="archive-heading">
-      <SectionHead
-        id="archive-heading"
-        kicker={`${posts.length} published stories`}
-        title="Explore the archive"
-        href="/search/"
-        hrefLabel="Search every story"
-      />
-      <div class="mt-10 grid gap-x-12 gap-y-7 border-y border-rule py-10 md:grid-cols-2">
-        {archive.map((post) => (
-          <PostCard post={post} variant="compact" />
-        ))}
+      <div class="archive-callout">
+        <div class="archive-callout-copy">
+          <p class="eyebrow text-clay-soft">The complete collection</p>
+          <h2 id="archive-heading" class="mt-3 font-display text-display-3 text-paper">
+            All {posts.length} published stories are now easy to find
+          </h2>
+          <p class="mt-4 max-w-xl text-paper/65">
+            Search by room, topic or title, or simply browse every guide from newest to oldest.
+          </p>
+          <a href="/stories/" class="btn mt-7 bg-paper text-ink hover:bg-clay-soft">
+            Explore all stories
+          </a>
+        </div>
+
+        <div class="grid gap-x-8 gap-y-6 border-t border-paper/15 pt-8 lg:grid-cols-2 lg:border-l lg:border-t-0 lg:pl-10 lg:pt-0">
+          {archivePreview.map((post) => (
+            <article class="group border-b border-paper/15 pb-5">
+              <p class="text-eyebrow font-semibold uppercase tracking-[0.15em] text-clay-soft">
+                {categoryName(post.data.category)}
+              </p>
+              <h3 class="mt-2 font-display text-title-sm text-paper">
+                <a href={`/post/${post.id}/`} class="transition-colors group-hover:text-clay-soft">
+                  {post.data.title}
+                </a>
+              </h3>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   )}

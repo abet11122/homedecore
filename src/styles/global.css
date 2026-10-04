@@ -1058,6 +1058,101 @@
 }
 
 /* ------------------------------------------------------------------
+   Home and archive
+
+   A deep editorial panel gives the lead story a distinct identity while
+   the archive remains light, searchable and easy to scan at any width.
+------------------------------------------------------------------- */
+.home-hero {
+  background: linear-gradient(to bottom, #f4eee6 0, #f4eee6 72%, transparent 72%);
+  padding-block: clamp(2rem, 5vw, 4.5rem);
+}
+
+.home-hero .wrap {
+  box-shadow: 0 28px 70px -42px rgb(31 27 23 / 0.55);
+}
+
+.home-hero-copy {
+  display: flex;
+  flex-direction: column;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  background:
+    radial-gradient(circle at 100% 0, rgb(176 91 56 / 0.2), transparent 17rem),
+    #173b32;
+}
+
+.home-kicker {
+  color: #f1e2da;
+  font-family: Inter, 'Inter Fallback', system-ui, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.17em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.archive-callout {
+  display: grid;
+  gap: 2.5rem;
+  padding: clamp(2rem, 5vw, 4rem);
+  background:
+    radial-gradient(circle at 8% 0, rgb(176 91 56 / 0.24), transparent 24rem),
+    #173b32;
+  box-shadow: 0 24px 60px -40px rgb(31 27 23 / 0.65);
+}
+
+.archive-hero {
+  background:
+    radial-gradient(circle at 85% 20%, rgb(176 91 56 / 0.12), transparent 21rem),
+    linear-gradient(145deg, #fbf8f4, #f4eee6);
+}
+
+.archive-filter {
+  flex: 0 0 auto;
+  border: 1px solid #d7ccbf;
+  border-radius: 999px;
+  background: #fbf8f4;
+  padding: 0.65rem 1rem;
+  color: #4a423a;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1;
+  transition: border-color 180ms var(--ease), background-color 180ms var(--ease), color 180ms var(--ease);
+}
+
+.archive-filter:hover {
+  border-color: #173b32;
+  color: #173b32;
+}
+
+.archive-filter.is-active {
+  border-color: #173b32;
+  background: #173b32;
+  color: #fbf8f4;
+}
+
+.archive-story[hidden] {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .archive-callout {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    align-items: start;
+  }
+}
+
+@media (max-width: 639px) {
+  .home-hero {
+    padding-top: 1.25rem;
+  }
+
+  .home-hero-copy {
+    min-height: 31rem;
+  }
+}
+
+/* ------------------------------------------------------------------
    Print
 
    Long how-to pieces get printed and taped inside cupboard doors. Strip
