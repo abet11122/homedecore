@@ -1114,7 +1114,7 @@
   background: #fbf8f4;
   padding: 0.65rem 1rem;
   color: #4a423a;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: 600;
   line-height: 1;
   transition: border-color 180ms var(--ease), background-color 180ms var(--ease), color 180ms var(--ease);

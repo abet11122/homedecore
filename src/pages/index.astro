@@ -73,8 +73,9 @@ const collectionSchema = {
   <div class="issue-strip border-b border-rule bg-sand/60">
     <div class="wrap flex items-center justify-between gap-5 py-2.5">
       <p class="text-eyebrow font-semibold uppercase text-ink-40">{today}</p>
-      <a href="/stories/" class="text-eyebrow font-semibold uppercase text-ink-60 transition-colors hover:text-clay">
-        Browse all {posts.length} stories
+      <a href="/stories/" class="whitespace-nowrap text-eyebrow font-semibold uppercase text-ink-60 transition-colors hover:text-clay">
+        <span class="sm:hidden">{posts.length} stories</span>
+        <span class="hidden sm:inline">Browse all {posts.length} stories</span>
       </a>
     </div>
   </div>

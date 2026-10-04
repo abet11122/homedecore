@@ -89,7 +89,7 @@ const collectionSchema = {
   </header>
 
   <div class="wrap py-10 lg:py-14">
-    <div class="flex gap-2 overflow-x-auto pb-3" aria-label="Filter stories by room">
+    <div class="flex gap-2 overflow-x-auto pb-3 sm:flex-wrap sm:overflow-visible" aria-label="Filter stories by room">
       <button type="button" data-category="" class="archive-filter is-active">All rooms</button>
       {CATEGORIES.map((category) => (
         <button type="button" data-category={category.slug} class="archive-filter">{category.name}</button>
