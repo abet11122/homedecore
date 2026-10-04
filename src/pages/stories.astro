@@ -89,10 +89,10 @@ const collectionSchema = {
   </header>
 
   <div class="wrap py-10 lg:py-14">
-    <div class="flex gap-2 overflow-x-auto pb-3 sm:flex-wrap sm:overflow-visible" aria-label="Filter stories by room">
-      <button type="button" data-category="" class="archive-filter is-active">All rooms</button>
+    <div class="flex gap-2 overflow-x-auto pb-3 sm:grid sm:grid-cols-3 sm:overflow-visible lg:grid-cols-4 xl:grid-cols-6" aria-label="Filter stories by room">
+      <button type="button" data-category="" class="archive-filter is-active sm:w-full">All rooms</button>
       {CATEGORIES.map((category) => (
-        <button type="button" data-category={category.slug} class="archive-filter">{category.name}</button>
+        <button type="button" data-category={category.slug} class="archive-filter sm:w-full">{category.name}</button>
       ))}
     </div>
 
