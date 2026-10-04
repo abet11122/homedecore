@@ -1064,21 +1064,97 @@
    the archive remains light, searchable and easy to scan at any width.
 ------------------------------------------------------------------- */
 .home-hero {
-  background: linear-gradient(to bottom, #f4eee6 0, #f4eee6 72%, transparent 72%);
-  padding-block: clamp(2rem, 5vw, 4.5rem);
+  padding-block: clamp(1.5rem, 3vw, 3rem) 0;
 }
 
 .home-hero .wrap {
-  box-shadow: 0 28px 70px -42px rgb(31 27 23 / 0.55);
+  align-items: center;
 }
 
 .home-hero-copy {
   display: flex;
   flex-direction: column;
-  padding: clamp(2rem, 5vw, 4.5rem);
-  background:
-    radial-gradient(circle at 100% 0, rgb(176 91 56 / 0.2), transparent 17rem),
-    #173b32;
+  justify-content: center;
+  padding: clamp(1.75rem, 3.5vw, 3.25rem);
+  background: #173b32;
+  position: relative;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.home-hero-copy h1 {
+  font-size: clamp(2rem, 3.5vw, 3.25rem);
+  line-height: 1.13;
+  letter-spacing: -0.035em;
+}
+
+.home-hero .lead-photo {
+  border-radius: 1rem;
+}
+
+.home-hero-copy > div > p:nth-of-type(2) {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.room-card { min-width: 0; }
+.room-card .frame { border-radius: 6rem 6rem 0.5rem 0.5rem; box-shadow: none; }
+.room-name {
+  display: block;
+  margin-top: 1rem;
+  color: #173b32;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+}
+.room-count { display: block; margin-top: 0.25rem; text-align: center; font-size: 0.8125rem; color: #736758; }
+.story-card { min-width: 0; }
+.story-card > a {
+  overflow: hidden;
+  background: #fffdfb;
+  border: 1px solid #e5dcd0;
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 16px -12px rgb(31 27 23 / 0.2);
+}
+.story-card .frame { border-radius: 0; box-shadow: none; }
+.story-card-copy { padding: 1.5rem; }
+.story-card h3 { line-height: 1.35; text-wrap: pretty; }
+.story-card .eyebrow { font-size: 0.75rem; line-height: 1.4; letter-spacing: 0.1em; }
+.story-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5dcd0;
+  color: #736758;
+  font-size: 0.8125rem;
+}
+.section-head { flex-wrap: wrap; row-gap: 1rem; }
+.section-head .link-arrow { font-size: 0.875rem; }
+.section-head .link-arrow svg { display: none; }
+.section-head .link-arrow { text-decoration: underline; text-underline-offset: 0.3rem; }
+.archive-story { min-width: 0; }
+.archive-hero .field { border-radius: 0.65rem; box-shadow: none; }
+.archive-filter { min-height: 2.75rem; }
+.masthead .nav-panel { max-height: calc(100dvh - 6rem); overflow-y: auto; }
+.masthead .brand-mark { background: #173b32; color: #fbf8f4; border-color: #173b32; box-shadow: none; }
+.masthead .brand:hover .brand-mark { background: #245245; }
+
+@media (min-width: 1024px) {
+  .home-hero-copy { margin-left: -2.5rem; margin-block: 2rem; }
+  .home-hero .lead-photo { min-height: 35rem; }
+  .masthead .nav-panel { top: calc(5.25rem + 3px); }
+}
+
+@media (max-width: 639px) {
+  .home-hero-copy { border-radius: 0 0 0.8rem 0.8rem; }
+  .home-hero .lead-photo { border-radius: 0.8rem 0.8rem 0 0; }
+  .story-card-copy { padding: 1.25rem; }
+  .masthead .brand-type > span:first-child { font-size: clamp(1.125rem, 5vw, 1.5rem); }
+  .masthead .brand { gap: 0.5rem; }
+  .masthead .wrap > div { gap: 0.5rem; }
 }
 
 .home-kicker {
@@ -1095,10 +1171,8 @@
   display: grid;
   gap: 2.5rem;
   padding: clamp(2rem, 5vw, 4rem);
-  background:
-    radial-gradient(circle at 8% 0, rgb(176 91 56 / 0.24), transparent 24rem),
-    #173b32;
-  box-shadow: 0 24px 60px -40px rgb(31 27 23 / 0.65);
+  background: #173b32;
+  border-radius: 1rem;
 }
 
 .archive-hero {
@@ -1148,7 +1222,7 @@
   }
 
   .home-hero-copy {
-    min-height: 31rem;
+    min-height: 0;
   }
 }
 

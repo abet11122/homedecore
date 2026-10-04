@@ -299,7 +299,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
             flat nav. Everything else lives in the CSS-only "More" panel below,
             so the masthead stays on one line at every width.
           */}
-          <nav class="hidden items-center gap-6 xl:gap-7 lg:flex" aria-label="Primary">
+          <nav class="hidden items-center gap-6 xl:gap-7 min-[1400px]:flex" aria-label="Primary">
             {PRIMARY_CATEGORIES.map((c) => (
               <a
                 href={`/category/${c.slug}/`}
@@ -364,7 +364,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
             </a>
 
             {/* CSS-only mobile menu — no JavaScript shipped */}
-            <details class="lg:hidden [&_svg.close]:hidden [&[open]_svg.close]:block [&[open]_svg.open]:hidden">
+            <details class="min-[1400px]:hidden [&_svg.close]:hidden [&[open]_svg.close]:block [&[open]_svg.open]:hidden">
               <summary
                 class="grid h-10 w-10 cursor-pointer list-none place-items-center text-ink [&::-webkit-details-marker]:hidden"
                 aria-label="Menu"

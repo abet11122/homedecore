@@ -1,6 +1,6 @@
 ---
 import Img from './Img.astro';
-import { categoryName, formatDateShort } from '../site';
+import { categoryName, formatDateShort, readingTime } from '../site';
 
 interface Props {
   post: any;
@@ -16,24 +16,29 @@ const d = post.data;
 ---
 
 {variant === 'default' && (
-  <article class="reveal group">
-    <a href={href} class="card-lift block">
-      <div class="frame aspect-[4/5] relative">
+  <article class="story-card group">
+    <a href={href} class="card-lift block h-full">
+      <div class="frame aspect-[4/3] relative">
         <Img
           src={d.heroImage}
           alt={d.heroImageAlt ?? d.title}
           width={640}
-          height={800}
+          height={480}
           loading={eager ? 'eager' : 'lazy'}
           sizes={sizes ?? '(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 90vw'}
         />
       </div>
-      <p class="eyebrow mt-5 border-t border-rule pt-4">{categoryName(d.category)}</p>
+      <div class="story-card-copy">
+      <p class="eyebrow">{categoryName(d.category)}</p>
       <h3 class="mt-2.5 font-display text-title-lg text-ink transition-colors duration-250 group-hover:text-clay">
         {d.title}
       </h3>
-      <p class="clamp-2 mt-3 text-[0.9375rem] leading-relaxed text-ink-60">{d.description}</p>
-      <p class="mt-4 text-xs uppercase tracking-[0.1em] text-ink-40">{formatDateShort(d.publishDate)}</p>
+      <p class="clamp-2 mt-3 text-base leading-relaxed text-ink-60">{d.description}</p>
+      <div class="story-card-meta">
+        <time datetime={d.publishDate.toISOString()}>{formatDateShort(d.publishDate)}</time>
+        <span>{readingTime(post.body ?? '')} min read</span>
+      </div>
+      </div>
     </a>
   </article>
 )}
