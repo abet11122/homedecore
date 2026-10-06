@@ -1,6 +1,32 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+const vercelConfig = JSON.parse(fs.readFileSync('vercel.json', 'utf8'));
+const legacyRedirect = vercelConfig.redirects?.find(
+  (rule) =>
+    rule.source === '/:path*' &&
+    rule.destination === 'https://www.cozynestideas.online/:path*' &&
+    rule.permanent === true &&
+    rule.has?.some(
+      (condition) =>
+        condition.type === 'host' && condition.value === 'homedecore-neon.vercel.app'
+    )
+);
+const configuredSecurityHeaders = new Set(
+  (vercelConfig.headers ?? [])
+    .flatMap((rule) => rule.headers ?? [])
+    .map((header) => header.key.toLowerCase())
+);
+const requiredSecurityHeaders = [
+  'x-content-type-options',
+  'referrer-policy',
+  'x-frame-options',
+  'permissions-policy',
+];
+const missingSecurityHeaders = requiredSecurityHeaders.filter(
+  (header) => !configuredSecurityHeaders.has(header)
+);
+
 const walk = (dir) =>
   fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) =>
     entry.isDirectory() ? walk(path.join(dir, entry.name)) : [path.join(dir, entry.name)]
@@ -45,6 +71,7 @@ const htmlFiles = walk('dist').filter((file) => file.endsWith('.html'));
 let missingTitles = 0;
 let missingDescriptions = 0;
 let missingCanonicals = 0;
+let missingLanguageAlternates = 0;
 const badCanonicals = [];
 const brokenLinks = new Set();
 const metadata = {
@@ -94,6 +121,12 @@ for (const file of htmlFiles) {
       badCanonicals.push(`${file}: ${canonical[1]}`);
     }
   }
+  if (!/<link rel="alternate" hreflang="en" href="[^"]+"/.test(html)) {
+    missingLanguageAlternates += 1;
+  }
+  if (!/<link rel="alternate" hreflang="x-default" href="[^"]+"/.test(html)) {
+    missingLanguageAlternates += 1;
+  }
   const h1Count = [...html.matchAll(/<h1(?:\s|>)/g)].length;
   if (h1Count !== 1 && !file.endsWith(`${path.sep}404.html`)) badH1Pages.push(`${file}: ${h1Count}`);
   for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
@@ -141,6 +174,8 @@ for (const file of markdown) {
 }
 
 const report = {
+  validLegacyDomainRedirect: Boolean(legacyRedirect),
+  missingSecurityHeaders,
   sourcePosts: expectedPostRoutes.size,
   publishedPosts: expectedIndexedPosts.size,
   scheduledPosts: expectedPostRoutes.size - expectedIndexedPosts.size,
@@ -152,6 +187,7 @@ const report = {
   missingTitles,
   missingDescriptions,
   missingCanonicals,
+  missingLanguageAlternates,
   badCanonicals,
   brokenInternalLinks: [...brokenLinks],
   missingLocalImages: missingImages,
@@ -168,12 +204,15 @@ const report = {
 
 console.log(JSON.stringify(report, null, 2));
 if (
+  !legacyRedirect ||
+  missingSecurityHeaders.length ||
   missingFromSitemap.length ||
   extraPostUrls.length ||
   missingPostRoutes.length ||
   missingTitles ||
   missingDescriptions ||
   missingCanonicals ||
+  missingLanguageAlternates ||
   badCanonicals.length ||
   brokenLinks.size ||
   missingImages.length ||

@@ -41,7 +41,14 @@ const {
   schemas = [],
 } = Astro.props;
 
-const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+// Article headlines already carry the query intent. Appending the site name to
+// every one makes long editorial titles more likely to be truncated in search.
+// Keep the brand suffix for utility and archive pages, where it adds context.
+const pageTitle = title
+  ? type === 'article'
+    ? title
+    : `${title} — ${SITE.name}`
+  : `${SITE.name} — ${SITE.tagline}`;
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
 
@@ -96,6 +103,7 @@ const isCurrent = (slug: string) => slug === currentCategory;
 const ORG_ID = `${origin}/#organization`;
 const SITE_ID = `${origin}/#website`;
 const AUTHOR_ID = `${origin}/author/${SITE.authorSlug}/#person`;
+const PAGE_ID = `${canonical}#webpage`;
 
 const orgNode = {
   '@type': 'Organization',
@@ -134,11 +142,33 @@ const authorNode = {
   ...(SITE.authorLinks.length ? { sameAs: [...SITE.authorLinks] } : {}),
 };
 
+const pageNode = {
+  '@type': 'WebPage',
+  '@id': PAGE_ID,
+  url: canonical,
+  name: title || SITE.name,
+  description,
+  isPartOf: { '@id': SITE_ID },
+  inLanguage: SITE.lang,
+  ...(ogImage
+    ? {
+        primaryImageOfPage: {
+          '@type': 'ImageObject',
+          url: ogImage,
+          width: ogW,
+          height: ogH,
+          caption: title || SITE.name,
+        },
+      }
+    : {}),
+};
+
 const articleNode =
   type === 'article'
     ? {
         '@type': 'BlogPosting',
         '@id': `${canonical}#article`,
+        url: canonical,
         headline: title,
         description,
         // Both crops: search engines pick whichever aspect ratio the
@@ -149,7 +179,7 @@ const articleNode =
         author: { '@id': AUTHOR_ID },
         publisher: { '@id': ORG_ID },
         isPartOf: { '@id': SITE_ID },
-        mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+        mainEntityOfPage: { '@id': PAGE_ID },
         inLanguage: SITE.lang,
         isAccessibleForFree: true,
         ...(section ? { articleSection: section } : {}),
@@ -159,7 +189,7 @@ const articleNode =
       }
     : null;
 
-const graph = [orgNode, siteNode, authorNode, articleNode, ...schemas].filter(Boolean);
+const graph = [orgNode, siteNode, authorNode, pageNode, articleNode, ...schemas].filter(Boolean);
 const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 ---
 
@@ -171,6 +201,8 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang={SITE.lang} href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={canonical} />
     <meta
       name="robots"
       content={noindex
@@ -213,7 +245,9 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     {type === 'article' && updatedDate && (
       <meta property="article:modified_time" content={updatedDate} />
     )}
-    {type === 'article' && <meta property="article:author" content={SITE.author} />}
+    {type === 'article' && (
+      <meta property="article:author" content={abs(`/author/${SITE.authorSlug}/`)} />
+    )}
     {type === 'article' && section && <meta property="article:section" content={section} />}
     {type === 'article' && keywords.map((k) => <meta property="article:tag" content={k} />)}
 
