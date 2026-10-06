@@ -32,6 +32,14 @@ const { publishDate, updatedDate } = Astro.props;
           </>
         )}
       </p>
+      <div class="mt-5 flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold">
+        <a href={`/author/${SITE.authorSlug}/`} class="link-underline text-ink hover:text-clay">
+          More from {SITE.author}
+        </a>
+        <a href="/about/" class="link-underline text-ink hover:text-clay">
+          Editorial approach
+        </a>
+      </div>
     </div>
   </div>
 </aside>

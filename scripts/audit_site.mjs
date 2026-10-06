@@ -85,6 +85,8 @@ const imagesWithoutAlt = new Set();
 const futureDatedPages = new Set();
 const publishedPostsMarkedNoindex = [];
 const scheduledPostsMissingNoindex = [];
+const unexpectedAdLoaderPages = [];
+const publishedPostsMissingAdLoader = [];
 
 function record(map, value, file) {
   if (!value) return;
@@ -147,6 +149,12 @@ for (const file of htmlFiles) {
     const url = match[1];
     if (url.startsWith('/') && !localUrlExists(url)) brokenLinks.add(`${file} -> ${url}`);
   }
+  if (
+    html.includes('pagead2.googlesyndication.com') &&
+    !file.includes(`${path.sep}post${path.sep}`)
+  ) {
+    unexpectedAdLoaderPages.push(file);
+  }
 }
 
 for (const post of sourcePosts) {
@@ -159,6 +167,9 @@ for (const post of sourcePosts) {
   const isNoindex = /<meta name="robots" content="noindex, follow"/.test(html);
   if (isScheduled && !isNoindex) scheduledPostsMissingNoindex.push(post.url);
   if (!isScheduled && isNoindex) publishedPostsMarkedNoindex.push(post.url);
+  if (!isScheduled && !html.includes('pagead2.googlesyndication.com')) {
+    publishedPostsMissingAdLoader.push(post.url);
+  }
 }
 
 const missingImages = [];
@@ -199,6 +210,8 @@ const report = {
   imagesWithoutAlt: [...imagesWithoutAlt],
   publishedPostsMarkedNoindex,
   scheduledPostsMissingNoindex,
+  unexpectedAdLoaderPages,
+  publishedPostsMissingAdLoader,
   futureDatedPages: [...futureDatedPages],
 };
 
@@ -223,7 +236,9 @@ if (
   invalidJsonLd.length ||
   imagesWithoutAlt.size ||
   publishedPostsMarkedNoindex.length ||
-  scheduledPostsMissingNoindex.length
+  scheduledPostsMissingNoindex.length ||
+  unexpectedAdLoaderPages.length ||
+  publishedPostsMissingAdLoader.length
 ) {
   process.exitCode = 1;
 }

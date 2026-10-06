@@ -78,6 +78,11 @@ const adsenseId =
   import.meta.env.PUBLIC_ADSENSE_CLIENT_ID ||
   import.meta.env.ADSENSE_CLIENT_ID ||
   'ca-pub-8497285724891966';
+// Keep ads off navigation, search, legal, tag and scheduled pages. Those
+// pages support the publication but are not the substantial content a reader
+// came for; limiting monetization to published articles keeps that distinction
+// clear for both visitors and AdSense review.
+const shouldLoadAds = type === 'article' && !noindex;
 
 /*
   Which room the reader is standing in. A category page marks its own item;
@@ -224,7 +229,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap"
     />
-    {!noindex && (
+    {shouldLoadAds && (
       <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`} crossorigin="anonymous"></script>
     )}
 
