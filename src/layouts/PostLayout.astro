@@ -12,7 +12,7 @@ import RelatedPosts from '../components/RelatedPosts.astro';
 import PostNav from '../components/PostNav.astro';
 import PinterestButton from '../components/PinterestButton.astro';
 import ExploreMore from '../components/ExploreMore.astro';
-import { SITE, categoryName, formatDate, collectTags, tagSlug, wordCount, isPublished } from '../site';
+import { SITE, categoryName, formatDate, collectTags, tagSlug, tagLabel, wordCount, isPublished } from '../site';
 
 interface Props {
   post: any;
@@ -54,7 +54,7 @@ const tags = [...new Set((d.tags ?? []).map(tagSlug))]
   .filter(Boolean)
   .map((slug: string) => ({
     slug,
-    label: (d.tags as string[]).find((t) => tagSlug(t) === slug) ?? slug,
+    label: slug === 'onthecorner' ? tagLabel(slug) : ((d.tags as string[]).find((t) => tagSlug(t) === slug) ?? slug),
     linked: hubs.has(slug),
   }));
 

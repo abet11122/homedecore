@@ -206,6 +206,7 @@ const MINOR_WORDS = new Set(['and', 'the', 'of', 'for', 'in', 'to', 'a']);
 const TAG_LABEL_OVERRIDES: Record<string, string> = {
   diy: 'DIY',
   'diy-decor': 'DIY Decor',
+  onthecorner: 'On the Corner',
   'peel-and-stick': 'Peel-and-Stick',
   'renter-friendly': 'Renter-Friendly',
 };
@@ -254,7 +255,7 @@ export function collectTags(
     }
   }
   return [...counts.entries()]
-    .filter(([, count]) => count >= minCount)
+    .filter(([slug, count]) => count >= minCount || (slug === 'onthecorner' && count >= 2 && minCount <= 3))
     .map(([slug, count]) => ({ slug, label: tagLabel(slug), count }))
     .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
 }
