@@ -12,6 +12,7 @@ import {
   categoryName,
   formatDateShort,
   isPublished,
+  postPath,
 } from '../site';
 
 const posts = (await getCollection('posts')).filter(isPublished).sort(
@@ -26,6 +27,7 @@ const seasonalStories = posts
   .filter(
     (post) =>
       post.data.category === 'seasonal' &&
+      !post.id.includes('costume') &&
       post.id !== featured?.id &&
       !freshIds.has(post.id)
   )
@@ -56,7 +58,7 @@ const collectionSchema = {
     itemListElement: posts.map((post, index) => ({
       '@type': 'ListItem',
       position: index + 1,
-      url: new URL(`/post/${post.id}/`, origin).href,
+      url: new URL(postPath(post), origin).href,
       name: post.data.title,
     })),
   },
@@ -83,7 +85,7 @@ const collectionSchema = {
     <section class="home-hero" aria-labelledby="featured-story">
       <div class="wrap grid grid-cols-1 lg:grid-cols-12 lg:items-stretch">
         <a
-          href={`/post/${featured.id}/`}
+          href={postPath(featured)}
           class="group block min-w-0 overflow-hidden bg-sand lg:col-span-7"
           aria-label={`Read ${featured.data.title}`}
         >
@@ -107,13 +109,13 @@ const collectionSchema = {
               Featured · {categoryName(featured.data.category)}
             </p>
             <h1 id="featured-story" class="mt-5 font-display text-display-1 text-paper">
-              <a href={`/post/${featured.id}/`} class="transition-colors hover:text-clay-soft">
+              <a href={postPath(featured)} class="transition-colors hover:text-clay-soft">
                 {featured.data.title}
               </a>
             </h1>
             <p class="mt-6 max-w-lg text-lead text-paper/75">{featured.data.description}</p>
             <div class="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
-              <a href={`/post/${featured.id}/`} class="btn bg-paper text-ink hover:bg-clay-soft">
+              <a href={postPath(featured)} class="btn bg-paper text-ink hover:bg-clay-soft">
                 Read the story
               </a>
               <span class="text-xs uppercase tracking-[0.1em] text-paper/55">
@@ -260,7 +262,7 @@ const collectionSchema = {
                 {categoryName(post.data.category)}
               </p>
               <h3 class="mt-2 font-display text-title-sm text-paper">
-                <a href={`/post/${post.id}/`} class="transition-colors group-hover:text-clay-soft">
+                <a href={postPath(post)} class="transition-colors group-hover:text-clay-soft">
                   {post.data.title}
                 </a>
               </h3>

@@ -1,6 +1,6 @@
 ---
 import Img from './Img.astro';
-import { categoryName, formatDateShort, readingTime } from '../site';
+import { categoryName, formatDateShort, postPath, readingTime } from '../site';
 
 interface Props {
   post: any;
@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { post, variant = 'default', eager = false, sizes } = Astro.props;
-const href = `/post/${post.id}/`;
+const href = postPath(post);
 const d = post.data;
 ---
 

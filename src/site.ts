@@ -156,6 +156,16 @@ export function categoryName(slug: string): string {
   return categoryBySlug(slug)?.name ?? slug.replace(/-/g, ' ');
 }
 
+/** Public article URLs are independent of the content file's folder. */
+export function postSlug(id: string): string {
+  return id.split('/').filter(Boolean).at(-1) ?? id;
+}
+
+export function postPath(post: { id: string } | string): string {
+  const id = typeof post === 'string' ? post : post.id;
+  return `/post/${postSlug(id)}/`;
+}
+
 /** Rough reading time from a Markdown body. */
 export function readingTime(body: string): number {
   const words = body.trim().split(/\s+/).length;

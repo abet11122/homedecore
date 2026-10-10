@@ -111,4 +111,4 @@ Late February, when the light starts changing. Heavy textures held into spring m
 
 ---
 
-*Working the other direction? Our [autumn mantel guide](/post/new_blogs/autumn-mantel-styling/) covers the seasonal step just before this one.*
+*Working the other direction? Our [autumn mantel guide](/post/autumn-mantel-styling/) covers the seasonal step just before this one.*

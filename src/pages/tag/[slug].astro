@@ -4,7 +4,7 @@ import Layout from '../../layouts/Layout.astro';
 import PostCard from '../../components/PostCard.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ExploreMore from '../../components/ExploreMore.astro';
-import { SITE, CATEGORIES, categoryName, collectTags, postHasTag, tagSlug, isPublished } from '../../site';
+import { SITE, CATEGORIES, categoryName, collectTags, postHasTag, tagSlug, isPublished, postPath } from '../../site';
 
 /**
  * Tag hubs.
@@ -70,7 +70,7 @@ const listSchema = {
     itemListElement: posts.map((post, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      url: new URL(`/post/${post.id}/`, origin).href,
+      url: new URL(postPath(post), origin).href,
       name: post.data.title,
     })),
   },

@@ -90,7 +90,7 @@ Choose one main focal point such as a mirror or artwork, then add a few supporti
 
 Leave some empty space. A crowded mantel can make the whole living room feel visually heavy.
 
-For a closer look at arranging this focal point, see our [autumn mantel styling guide](/post/new_blogs/autumn-mantel-styling/).
+For a closer look at arranging this focal point, see our [autumn mantel styling guide](/post/autumn-mantel-styling/).
 
 ## 12. Store Extra Throws in a Woven Basket
 
@@ -162,7 +162,7 @@ The goal is warmth, not maximum seasonal coverage. Once the sofa feels layered, 
 
 Leaving empty space makes seasonal details more noticeable and keeps the living room easy to live in.
 
-Keep the room feeling calm with the principles in our [minimalist living room guide](/post/new_blogs/minimalist-living-room-guide/).
+Keep the room feeling calm with the principles in our [minimalist living room guide](/post/minimalist-living-room-guide/).
 
 ## Final Thoughts
 

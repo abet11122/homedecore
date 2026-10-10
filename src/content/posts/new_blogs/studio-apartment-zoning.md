@@ -91,7 +91,7 @@ Walk your actual routes before you commit to a layout: door to bed, bed to bathr
 - **One closed unit per zone**, so each area can be tidied independently. Open storage everywhere means the whole flat looks messy when one corner is.
 - **Furniture that stores:** ottoman with a lid, bed with drawers, a bench at the table with a hinged seat.
 
-For a compact sleeping area, our [small bedroom ideas](/post/new_blogs/small-bedroom-ideas-that-look-expensive/) offer ways to layer bedding, lighting and storage without crowding the room.
+For a compact sleeping area, our [small bedroom ideas](/post/small-bedroom-ideas-that-look-expensive/) offer ways to layer bedding, lighting and storage without crowding the room.
 
 ## A worked example: 32m² studio, window on one wall
 
@@ -111,4 +111,4 @@ In a house with doors you can close a mess away. In a studio, every surface is o
 
 ---
 
-*Working with a compact bedroom? Try our [small bedroom ideas](/post/new_blogs/small-bedroom-ideas-that-look-expensive/) next.*
+*Working with a compact bedroom? Try our [small bedroom ideas](/post/small-bedroom-ideas-that-look-expensive/) next.*

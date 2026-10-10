@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import PostCard from '../components/PostCard.astro';
-import { SITE, CATEGORIES, categoryName, isPublished } from '../site';
+import { SITE, CATEGORIES, categoryName, isPublished, postPath } from '../site';
 
 const posts = (await getCollection('posts')).filter(isPublished).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
@@ -34,7 +34,7 @@ const collectionSchema = {
     itemListElement: posts.map((post, index) => ({
       '@type': 'ListItem',
       position: index + 1,
-      url: new URL(`/post/${post.id}/`, origin).href,
+      url: new URL(postPath(post), origin).href,
       name: post.data.title,
     })),
   },

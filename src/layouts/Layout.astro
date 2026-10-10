@@ -41,14 +41,7 @@ const {
   schemas = [],
 } = Astro.props;
 
-// Article headlines already carry the query intent. Appending the site name to
-// every one makes long editorial titles more likely to be truncated in search.
-// Keep the brand suffix for utility and archive pages, where it adds context.
-const pageTitle = title
-  ? type === 'article'
-    ? title
-    : `${title} — ${SITE.name}`
-  : `${SITE.name} — ${SITE.tagline}`;
+const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
 
@@ -215,7 +208,6 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
         : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'}
     />
     <meta name="theme-color" content="#FBF8F4" />
-    <meta name="generator" content={Astro.generator} />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
@@ -235,7 +227,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 
     {/* Open Graph — og:image is the vertical 2:3 pin on post pages */}
     <meta property="og:type" content={type} />
-    <meta property="og:title" content={title || SITE.name} />
+    <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content={String(ogW)} />
@@ -247,8 +239,8 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     {type === 'article' && publishDate && (
       <meta property="article:published_time" content={publishDate} />
     )}
-    {type === 'article' && updatedDate && (
-      <meta property="article:modified_time" content={updatedDate} />
+    {type === 'article' && publishDate && (
+      <meta property="article:modified_time" content={updatedDate || publishDate} />
     )}
     {type === 'article' && (
       <meta property="article:author" content={abs(`/author/${SITE.authorSlug}/`)} />
@@ -257,7 +249,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     {type === 'article' && keywords.map((k) => <meta property="article:tag" content={k} />)}
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title || SITE.name} />
+    <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={twitterImage} />
     <meta name="twitter:image:alt" content={title || SITE.name} />

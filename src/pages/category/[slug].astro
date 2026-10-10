@@ -5,7 +5,7 @@ import PostCard from '../../components/PostCard.astro';
 import Img from '../../components/Img.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ExploreMore from '../../components/ExploreMore.astro';
-import { SITE, CATEGORIES, categoryBySlug, collectTags, isPublished } from '../../site';
+import { SITE, CATEGORIES, categoryBySlug, collectTags, isPublished, postPath } from '../../site';
 
 export async function getStaticPaths() {
   return CATEGORIES.map((c) => ({ params: { slug: c.slug } }));
@@ -53,7 +53,7 @@ const listSchema = {
     itemListElement: posts.map((post, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      url: new URL(`/post/${post.id}/`, origin).href,
+      url: new URL(postPath(post), origin).href,
       name: post.data.title,
     })),
   },

@@ -38,8 +38,9 @@ const all = (await getCollection('posts')).filter(isPublished).sort(
 const sameRoom = all.filter((p) => p.data.category === d.category);
 const sequence = sameRoom.length > 1 ? sameRoom : all;
 const at = sequence.findIndex((p) => p.id === post.id);
-const prev = at > 0 ? sequence[at - 1] : undefined;
-const next = at >= 0 && at < sequence.length - 1 ? sequence[at + 1] : undefined;
+// The sequence is newest-first: "previous" is older and "next" is newer.
+const prev = at >= 0 && at < sequence.length - 1 ? sequence[at + 1] : undefined;
+const next = at > 0 ? sequence[at - 1] : undefined;
 
 /* ------------------------------------------------------------------
    Tags
@@ -205,7 +206,7 @@ const faqSchema = d.faqs?.length
         <section class="mt-14 border-t border-rule pt-10">
           <div class="text-center">
             <p class="eyebrow-muted">Save it</p>
-            <h2 class="mt-3 font-display text-2xl text-ink sm:text-3xl">Pin this for your board</h2>
+            <p class="mt-3 font-display text-2xl text-ink sm:text-3xl">Pin this for your board</p>
             <p class="mx-auto mt-3 max-w-md text-[0.9375rem] leading-relaxed text-ink-60">
               Tap the image to save it to Pinterest and come back to it when you are ready to start.
             </p>
@@ -231,7 +232,7 @@ const faqSchema = d.faqs?.length
     </div>
 
     <div class="mx-auto max-w-[72rem]">
-      <RelatedPosts category={d.category} currentId={post.id} />
+      <RelatedPosts category={d.category} currentId={post.id} tags={d.tags ?? []} />
     </div>
   </article>
 

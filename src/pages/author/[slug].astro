@@ -5,7 +5,7 @@ import PostCard from '../../components/PostCard.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import SectionHead from '../../components/SectionHead.astro';
 import ExploreMore from '../../components/ExploreMore.astro';
-import { SITE, CATEGORIES, categoryName, formatDateShort, isPublished } from '../../site';
+import { SITE, CATEGORIES, categoryName, formatDateShort, isPublished, postPath } from '../../site';
 
 /**
  * Author hub.
@@ -52,7 +52,7 @@ const profileSchema = {
     itemListElement: posts.slice(0, 20).map((post, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      url: new URL(`/post/${post.id}/`, origin).href,
+      url: new URL(postPath(post), origin).href,
       name: post.data.title,
     })),
   },
@@ -159,7 +159,7 @@ const profileSchema = {
         {recent.map((post, i) => (
           <li class="group border-b border-rule">
             <a
-              href={`/post/${post.id}/`}
+              href={postPath(post)}
               class="grid grid-cols-[2.75rem_1fr] items-baseline gap-5 py-6 sm:gap-8"
             >
               <span class="font-display text-2xl leading-none text-ink-20 transition-colors duration-250 group-hover:text-clay">

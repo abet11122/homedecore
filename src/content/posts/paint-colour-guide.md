@@ -116,4 +116,4 @@ Buy 10% more than the calculation. Touch-ups two years later never match a fresh
 
 ---
 
-*Once the walls are settled, the furniture matters less than you think. See our [minimalist living room guide](/post/new_blogs/minimalist-living-room-guide/) for the ratios that make a room feel finished.*
+*Once the walls are settled, the furniture matters less than you think. See our [minimalist living room guide](/post/minimalist-living-room-guide/) for the ratios that make a room feel finished.*

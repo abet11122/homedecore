@@ -1,5 +1,5 @@
 import { getCollection } from 'astro:content';
-import { SITE, CATEGORIES, categoryName, collectTags, isPublished } from '../site';
+import { SITE, CATEGORIES, categoryName, collectTags, isPublished, postPath } from '../site';
 import type { APIContext } from 'astro';
 
 /**
@@ -36,7 +36,7 @@ export async function GET(context: APIContext) {
 
     lines.push(`## ${category.name}`, '', `${category.blurb}`, '');
     for (const post of inRoom) {
-      lines.push(`- [${post.data.title}](${url(`/post/${post.id}/`)}): ${post.data.description}`);
+      lines.push(`- [${post.data.title}](${url(postPath(post))}): ${post.data.description}`);
     }
     lines.push('');
   }

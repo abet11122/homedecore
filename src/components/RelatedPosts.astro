@@ -2,37 +2,38 @@
 import { getCollection } from 'astro:content';
 import PostCard from './PostCard.astro';
 import SectionHead from './SectionHead.astro';
-import { categoryName, isPublished } from '../site';
+import { categoryName, isPublished, tagSlug } from '../site';
 
 interface Props {
   category: string;
   currentId: string;
+  tags?: string[];
   limit?: number;
 }
 
-const { category, currentId, limit = 3 } = Astro.props;
+const { category, currentId, tags = [], limit = 3 } = Astro.props;
 
 const all = (await getCollection('posts')).filter(isPublished);
 
-// Prefer posts from the same category; top up with the newest from elsewhere
-// so the block is never half-empty on a thin category.
-const sameCategory = all
-  .filter((p) => p.data.category === category && p.id !== currentId)
-  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
-
-const fillers = all
-  .filter((p) => p.data.category !== category && p.id !== currentId)
-  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
-
-const related = [...sameCategory, ...fillers].slice(0, limit);
+const currentTags = new Set(tags.map(tagSlug));
+const related = all
+  .filter((p) => p.id !== currentId)
+  .map((post) => {
+    const sharedTags = (post.data.tags ?? []).filter((tag) => currentTags.has(tagSlug(tag))).length;
+    const score = sharedTags * 10 + (post.data.category === category ? 2 : 0);
+    return { post, score };
+  })
+  .sort((a, b) => b.score - a.score || b.post.data.publishDate.getTime() - a.post.data.publishDate.getTime())
+  .slice(0, limit)
+  .map(({ post }) => post);
 ---
 
 {related.length > 0 && (
   <section class="mt-16 border-t border-rule pt-10" aria-labelledby="related-heading">
     <SectionHead
       id="related-heading"
-      kicker="Keep reading"
-      title={`More in ${categoryName(category)}`}
+      kicker="Related reading"
+      title="Continue with a connected idea"
       href={`/category/${category}/`}
     />
 

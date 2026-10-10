@@ -36,10 +36,7 @@ const markdown = walk('src/content/posts').filter((file) => file.endsWith('.md')
 const sourcePosts = markdown.map((file) => {
   const source = fs.readFileSync(file, 'utf8');
   const publishDate = source.match(/^publishDate:\s*["']?(\d{4}-\d{2}-\d{2})["']?\s*$/m)?.[1];
-  const url = `https://www.cozynestideas.online/post/${path
-    .relative('src/content/posts', file)
-    .replaceAll('\\', '/')
-    .replace(/\.md$/, '')}/`;
+  const url = `https://www.cozynestideas.online/post/${path.basename(file, '.md')}/`;
   return { file, publishDate, url };
 });
 

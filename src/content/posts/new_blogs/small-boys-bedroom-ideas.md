@@ -39,7 +39,7 @@ A common mistake is using too many strong colors on every surface. In a small ro
 
 ## 4. Add Floating Shelves Instead of Another Cabinet
 
-[Floating shelves](/post/new_blogs/diy-floating-shelves/) keep books and small objects off the floor without adding the visual weight of a full bookcase. Use them above a desk, beside the bed, or on a short empty wall.
+[Floating shelves](/post/diy-floating-shelves/) keep books and small objects off the floor without adding the visual weight of a full bookcase. Use them above a desk, beside the bed, or on a short empty wall.
 
 Keep heavier items low and avoid placing a shelf directly where a child may bump into it when getting out of bed.
 
@@ -136,7 +136,7 @@ Children outgrow clothes, toys, and interests quickly. Review the room every few
 
 The cheapest small-space upgrade is often removing unnecessary things rather than buying another organizer.
 
-For more finishing touches, explore our [small bedroom styling ideas](/post/new_blogs/small-bedroom-ideas-that-look-expensive/).
+For more finishing touches, explore our [small bedroom styling ideas](/post/small-bedroom-ideas-that-look-expensive/).
 
 ## Final Thoughts
 

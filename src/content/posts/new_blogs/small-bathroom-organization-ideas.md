@@ -136,7 +136,7 @@ If the same item appears on the counter every day, it probably does not have an 
 
 A good organization system should make putting things away almost as easy as leaving them out.
 
-For more ways to use awkward corners, explore our [small bathroom storage guide](/post/new_blogs/bathroom-storage-ideas-small-spaces/). If you rent, our [budget apartment ideas](/post/new_blogs/apartment-decor-ideas-budget/) offer more flexible updates.
+For more ways to use awkward corners, explore our [small bathroom storage guide](/post/bathroom-storage-ideas-small-spaces/). If you rent, our [budget apartment ideas](/post/apartment-decor-ideas-budget/) offer more flexible updates.
 
 ## Final Thoughts
 

@@ -5,7 +5,7 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { readdirSync, readFileSync } from 'node:fs';
 import { extname, join, relative, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { SITE } from './src/site.ts';
+import { SITE, postSlug } from './src/site.ts';
 
 const postsDirectory = fileURLToPath(new URL('./src/content/posts/', import.meta.url));
 
@@ -31,7 +31,7 @@ const publishedPostPaths = new Set(
         .split(sep)
         .join('/')
         .replace(/\.md$/, '');
-      return `/post/${id}/`;
+      return `/post/${postSlug(id)}/`;
     })
 );
 
