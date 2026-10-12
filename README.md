@@ -12,7 +12,7 @@ cp .env.example .env
 npx astro dev --background
 ```
 
-Use `npx astro dev status`, `npx astro dev logs`, and `npx astro dev stop` to manage the background server. Run `npm run build` to produce the static site in `dist/`.
+Use `npx astro dev status`, `npx astro dev logs`, and `npx astro dev stop` to manage the background server. Run `npm run build` to produce the static site in `dist/` and check its sitemap, links, metadata, indexing and ad-loader rules. The build exits with an error if the audit finds a problem.
 
 ## Site settings
 

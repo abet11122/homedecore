@@ -64,6 +64,20 @@ const missingPostRoutes = [...expectedPostRoutes].filter((url) => {
   const pathname = new URL(url).pathname;
   return !localUrlExists(pathname);
 });
+const errorPage = fs.readFileSync(path.join('dist', '404.html'), 'utf8');
+const unpublished404Links = [...errorPage.matchAll(/href="(\/post\/[^"?#]+)"/g)]
+  .map((match) => new URL(match[1], 'https://www.cozynestideas.online').href)
+  .filter((url) => !expectedIndexedPosts.has(url));
+const homeHtml = fs.readFileSync(path.join('dist', 'index.html'), 'utf8');
+const homeJsonLd = homeHtml.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
+const homeGraph = homeJsonLd ? JSON.parse(homeJsonLd)['@graph'] : [];
+const homeCollection = homeGraph.find((node) => node['@type'] === 'CollectionPage');
+const homeSchemaUrls = homeCollection?.mainEntity?.itemListElement?.map((item) => item.url) ?? [];
+const badHomeSchemaUrls = homeSchemaUrls.filter((url) => {
+  const pathname = new URL(url).pathname;
+  return !expectedIndexedPosts.has(url) || !homeHtml.includes(`href="${pathname}"`);
+});
+const badHomeSchemaCount = homeCollection?.mainEntity?.numberOfItems !== homeSchemaUrls.length;
 
 const htmlFiles = walk('dist').filter((file) => file.endsWith('.html'));
 let missingTitles = 0;
@@ -107,6 +121,7 @@ function localUrlExists(url) {
 
 for (const file of htmlFiles) {
   const html = fs.readFileSync(file, 'utf8');
+  const isNoindexPage = /<meta name="robots" content="noindex, follow"/.test(html);
   const title = html.match(/<title>([^<]+)<\/title>/);
   const description = html.match(/<meta name="description" content="([^"]+)"/);
   if (!title) missingTitles += 1;
@@ -141,7 +156,9 @@ for (const file of htmlFiles) {
     if (!/\balt(?:=|\s|>)/.test(match[0])) imagesWithoutAlt.add(`${file}: ${match[0].slice(0, 240)}`);
   }
   for (const match of html.matchAll(/<time datetime="([^"]+)"/g)) {
-    if (new Date(match[1]) > new Date()) futureDatedPages.add(`${file}: ${match[1]}`);
+    if (!isNoindexPage && new Date(match[1]) > new Date()) {
+      futureDatedPages.add(`${file}: ${match[1]}`);
+    }
   }
   for (const match of html.matchAll(/href="([^"]+)"/g)) {
     const url = match[1];
@@ -193,6 +210,9 @@ const report = {
   missingFromSitemap,
   extraPostUrls,
   missingPostRoutes,
+  unpublished404Links,
+  badHomeSchemaUrls,
+  badHomeSchemaCount,
   htmlPages: htmlFiles.length,
   missingTitles,
   missingDescriptions,
@@ -221,6 +241,9 @@ if (
   missingFromSitemap.length ||
   extraPostUrls.length ||
   missingPostRoutes.length ||
+  unpublished404Links.length ||
+  badHomeSchemaUrls.length ||
+  badHomeSchemaCount ||
   missingTitles ||
   missingDescriptions ||
   missingCanonicals ||
@@ -237,7 +260,8 @@ if (
   publishedPostsMarkedNoindex.length ||
   scheduledPostsMissingNoindex.length ||
   unexpectedAdLoaderPages.length ||
-  publishedPostsMissingAdLoader.length
+  publishedPostsMissingAdLoader.length ||
+  futureDatedPages.size
 ) {
   process.exitCode = 1;
 }

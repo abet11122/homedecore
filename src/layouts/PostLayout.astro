@@ -61,12 +61,8 @@ const tags = [...new Set((d.tags ?? []).map(tagSlug))]
 const words = wordCount(post.body ?? '');
 const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
 
-/*
-  FAQPage markup. Google narrowed the *rich result* to health and government
-  sites in 2023, but the markup still tells every answer engine — AI Overviews,
-  ChatGPT search, Perplexity — exactly which passage answers which question,
-  and those are the surfaces citing this kind of content now.
-*/
+// Mark up only the FAQ answers visible on this article. Google generally
+// limits FAQ rich results to eligible government and health sites.
 const faqSchema = d.faqs?.length
   ? {
       '@type': 'FAQPage',

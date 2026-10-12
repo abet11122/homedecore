@@ -114,6 +114,9 @@ const orgNode = {
     url: abs(SITE.logo),
     caption: SITE.name,
   },
+  ...(SITE.email
+    ? { contactPoint: { '@type': 'ContactPoint', contactType: 'editorial and privacy enquiries', email: SITE.email } }
+    : {}),
   sameAs: [SITE.pinterest, SITE.instagram].filter(Boolean),
 };
 
