@@ -7,6 +7,7 @@ publishDate: 2026-11-15
 heroImage: "photo-1555041469-a586c61ea9bc"
 pinImage: "photo-1616486338812-3dadae4b4ace"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Use under-bed drawers for toys, sports gear, and seasonal clothing."
   - "Add toy bins with simple labels so putting things away is fast enough to stick."

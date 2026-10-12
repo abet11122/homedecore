@@ -8,6 +8,7 @@ heroImage: "/images/posts/teenage-boy-bedroom-ideas/hero.webp"
 heroImageAlt: "Blue accent wall and simple bed in a modern teenage bedroom."
 pinImage: "/images/posts/teenage-boy-bedroom-ideas/pin.webp"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Create a dedicated desk zone for study and gaming before adding any decor."
   - "Use a more grown-up color palette: navy, charcoal, sage, or warm white."

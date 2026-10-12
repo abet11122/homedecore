@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-studio-apartment-ideas/hero.webp"
 heroImageAlt: "Studio apartment living area with a compact sofa and window."
 pinImage: "/images/posts/small-studio-apartment-ideas/pin.webp"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Define sleeping and living zones before buying any furniture or storage."
   - "Use an open shelf as a light room divider to separate zones without blocking light."

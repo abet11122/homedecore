@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-pantry-organization-ideas/hero.webp"
 heroImageAlt: "Glass jars of dry ingredients on shelves in a home pantry."
 pinImage: "/images/posts/small-pantry-organization-ideas/pin.webp"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Group food by meal or use rather than by food type for a more practical pantry."
   - "Use shelf risers for cans to create a second level and double the visible storage."

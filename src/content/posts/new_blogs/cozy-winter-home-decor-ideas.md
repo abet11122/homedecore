@@ -8,6 +8,7 @@ heroImage: "/images/posts/cozy-winter-home-decor-ideas/hero.webp"
 heroImageAlt: "Soft sofa in a warmly lit living room with an evening lamp."
 pinImage: "/images/posts/cozy-winter-home-decor-ideas/pin.webp"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Add more texture rather than more objects — wool, boucle, and knit create warmth."
   - "Use warm lamps in dark corners to create a cozy atmosphere without overhead lighting."

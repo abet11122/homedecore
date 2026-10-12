@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-bedroom-storage-ideas/hero.webp"
 heroImageAlt: "Floating shelf above a compact bed."
 pinImage: "/images/posts/small-bedroom-storage-ideas/pin.webp"
 featured: false
+editorialReady: false
 affiliateDisclosure: true
 keyTakeaways:
   - "Start with a full declutter before buying any storage products."

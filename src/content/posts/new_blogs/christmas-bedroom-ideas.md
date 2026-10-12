@@ -7,6 +7,7 @@ publishDate: 2026-10-18
 heroImage: "photo-1512389142860-9c449e58a543"
 pinImage: "photo-1543589077-47d81606c1bf"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Add a small bedside tree for a festive touch without taking up much space."
   - "Use warm string lights safely — keep them away from bedding and curtains."

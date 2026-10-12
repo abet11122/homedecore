@@ -8,6 +8,7 @@ heroImage: "/images/posts/under-sink-bathroom-organization-ideas/hero.webp"
 heroImageAlt: "Bathroom sink with a compact storage cabinet beneath it."
 pinImage: "/images/posts/under-sink-bathroom-organization-ideas/pin.webp"
 featured: false
+editorialReady: false
 affiliateDisclosure: true
 keyTakeaways:
   - "Measure around the pipes first before buying any under-sink organizers."

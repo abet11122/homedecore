@@ -7,6 +7,7 @@ publishDate: 2026-11-01
 heroImage: "photo-1616594039964-ae9021a400a0"
 pinImage: "photo-1540518614846-7eded433c457"
 featured: false
+editorialReady: false
 affiliateDisclosure: true
 keyTakeaways:
   - "Use clay, sand, olive, and warm brown as the foundation of the color palette."

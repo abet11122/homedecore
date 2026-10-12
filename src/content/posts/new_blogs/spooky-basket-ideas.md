@@ -46,9 +46,9 @@ This theme works for anyone who enjoys horror films.
 
 ### 4. Pumpkin Spice Everything
 
-Fill a basket with pumpkin spice coffee, pumpkin spice cookies, a pumpkin-scented candle, a pumpkin-print mug, and a small ceramic pumpkin decoration. This is a cheerful, seasonal theme that suits a pumpkin spice enthusiast.
+Build this as an evening-at-home kit for someone who genuinely likes the scent: pair their preferred warm drink with one edible treat and one scented item, then add a card suggesting a quiet autumn night in. A washable tray or lidded box can hold the set and be used again after Halloween.
 
-Add a bag of pumpkin seeds for a savory element.
+Avoid stacking several competing fragrances. If you do not know the recipient's scent preferences or food restrictions, choose the more flexible [gift basket guide by recipient](/post/halloween-gift-baskets/) instead.
 
 <div class="shop-look-wrap">
   <a class="shop-look" href="https://amzn.to/3VkX0na" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween-Themed Fairy Lights on Amazon (opens in a new tab)">

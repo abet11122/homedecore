@@ -16,15 +16,15 @@ function markdownFiles(directory) {
   });
 }
 
-// Scheduled posts keep their permanent route, but stay out of discovery and
-// the sitemap until their publish date. This keeps every Pinterest URL stable
-// without sending crawlers conflicting `noindex` and sitemap signals.
+// Scheduled and editorial-hold posts keep their route, but stay out of the
+// sitemap until their publish date and editorial review are complete.
 const publishedPostPaths = new Set(
   markdownFiles(postsDirectory)
     .filter((file) => {
       const source = readFileSync(file, 'utf8');
       const value = source.match(/^publishDate:\s*["']?(\d{4}-\d{2}-\d{2})["']?\s*$/m)?.[1];
-      return value ? new Date(`${value}T00:00:00.000Z`).getTime() <= Date.now() : false;
+      const held = /^editorialReady:\s*false\s*$/m.test(source);
+      return value && !held ? new Date(`${value}T00:00:00.000Z`).getTime() <= Date.now() : false;
     })
     .map((file) => {
       const id = relative(postsDirectory, file)
@@ -69,8 +69,8 @@ export default defineConfig({
     sitemap({
       // Tag hubs are useful navigation for readers, but most are short archive
       // pages. Keep the sitemap focused on original articles and core pages.
-      // Published article URLs stay discoverable; future-scheduled routes and
-      // thin tag archives stay out until they are ready to be indexed.
+      // Reviewed article URLs stay discoverable; scheduled and held routes
+      // and thin tag archives stay out until ready to be indexed.
       filter: (page) => {
         const path = new URL(page).pathname;
         if (path.startsWith('/tag/')) return false;

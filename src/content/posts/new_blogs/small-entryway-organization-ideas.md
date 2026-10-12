@@ -7,6 +7,7 @@ publishDate: 2026-09-20
 heroImage: "photo-1600585154340-be6161a56a0c"
 pinImage: "photo-1558618666-fcd25c85cd64"
 featured: false
+editorialReady: false
 affiliateDisclosure: true
 keyTakeaways:
   - "Start with a clear drop zone for keys, bags, and shoes before adding any decor."

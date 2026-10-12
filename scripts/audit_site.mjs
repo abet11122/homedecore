@@ -36,14 +36,15 @@ const markdown = walk('src/content/posts').filter((file) => file.endsWith('.md')
 const sourcePosts = markdown.map((file) => {
   const source = fs.readFileSync(file, 'utf8');
   const publishDate = source.match(/^publishDate:\s*["']?(\d{4}-\d{2}-\d{2})["']?\s*$/m)?.[1];
+  const editorialReady = !/^editorialReady:\s*false\s*$/m.test(source);
   const url = `https://www.cozynestideas.online/post/${path.basename(file, '.md')}/`;
-  return { file, publishDate, url };
+  return { file, publishDate, editorialReady, url };
 });
 
 const expectedPostRoutes = new Set(sourcePosts.map((post) => post.url));
 const expectedIndexedPosts = new Set(
   sourcePosts
-    .filter((post) => post.publishDate && new Date(`${post.publishDate}T00:00:00.000Z`) <= new Date())
+    .filter((post) => post.editorialReady && post.publishDate && new Date(`${post.publishDate}T00:00:00.000Z`) <= new Date())
     .map((post) => post.url)
 );
 
@@ -160,7 +161,7 @@ for (const post of sourcePosts) {
   if (!fs.existsSync(file)) continue;
 
   const html = fs.readFileSync(file, 'utf8');
-  const isScheduled = new Date(`${post.publishDate}T00:00:00.000Z`) > new Date();
+  const isScheduled = !post.editorialReady || new Date(`${post.publishDate}T00:00:00.000Z`) > new Date();
   const isNoindex = /<meta name="robots" content="noindex, follow"/.test(html);
   if (isScheduled && !isNoindex) scheduledPostsMissingNoindex.push(post.url);
   if (!isScheduled && isNoindex) publishedPostsMarkedNoindex.push(post.url);
@@ -186,7 +187,8 @@ const report = {
   missingSecurityHeaders,
   sourcePosts: expectedPostRoutes.size,
   publishedPosts: expectedIndexedPosts.size,
-  scheduledPosts: expectedPostRoutes.size - expectedIndexedPosts.size,
+  nonIndexedPosts: expectedPostRoutes.size - expectedIndexedPosts.size,
+  editorialHoldPosts: sourcePosts.filter((post) => !post.editorialReady).length,
   sitemapPosts: sitemapPosts.size,
   missingFromSitemap,
   extraPostUrls,

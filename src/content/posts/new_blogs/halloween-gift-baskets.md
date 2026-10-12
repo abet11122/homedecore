@@ -177,9 +177,9 @@ Choose consumables rather than decorations — teachers have limited desk space.
 
 ### 16. Pumpkin Spice Basket
 
-Pumpkin spice coffee, pumpkin spice cookies, a pumpkin-scented candle, a pumpkin-print mug, and a small ceramic pumpkin decoration. This is a cheerful, universally appealing Halloween basket.
+For a neighbor or coworker, keep this version small and easy to carry: one sealed packet of pumpkin spice coffee or tea, one shelf-stable biscuit, and a handwritten note. Use a reusable mug as the container only if you know they will use it. Otherwise, a paper gift bag avoids adding another object to their home.
 
-Add a bag of pumpkin seeds for a savory element.
+Check for caffeine and food allergies before gifting; a nonfood alternative is a small candle with a clearly labelled scent. For a larger, theme-led version, see our [spooky basket ideas](/post/spooky-basket-ideas/).
 
 ### 17. Halloween Baking Kit
 

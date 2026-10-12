@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-kitchen-storage-ideas/hero.webp"
 heroImageAlt: "Open kitchen cabinet with neatly stacked dishes and glassware."
 pinImage: "/images/posts/small-kitchen-storage-ideas/pin.webp"
 featured: false
+editorialReady: false
 affiliateDisclosure: true
 keyTakeaways:
   - "Use toe-kick or low drawer space where available for rarely used items."

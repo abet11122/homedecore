@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-kitchen-organization-ideas/hero.webp"
 heroImageAlt: "Neatly sorted cooking utensils in a kitchen drawer."
 pinImage: "/images/posts/small-kitchen-organization-ideas/pin.webp"
 featured: false
+editorialReady: false
 affiliateDisclosure: true
 keyTakeaways:
   - "Clear the counter completely before organizing — start from a blank surface."

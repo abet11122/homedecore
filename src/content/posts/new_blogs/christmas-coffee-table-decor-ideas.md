@@ -8,6 +8,7 @@ heroImage: "/images/posts/christmas-coffee-table-decor-ideas/hero.webp"
 heroImageAlt: "Gold and evergreen Christmas centerpiece on a coffee table."
 pinImage: "/images/posts/christmas-coffee-table-decor-ideas/pin.webp"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Start with a tray to contain the seasonal display and make it easy to move."
   - "Use one small candle group rather than covering the whole table."

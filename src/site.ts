@@ -17,7 +17,7 @@ export const SITE = {
     'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&auto=format&q=70',
   pinterest: '',
   instagram: '',
-  email: '',
+  email: 'mmubasharshahzad40@gmail.com',
   /** Paste your Pinterest domain-verification code here (Settings → Claim). */
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */
@@ -271,10 +271,10 @@ export function wordCount(body: string): number {
 }
 
 /**
- * Keep scheduled stories reachable at their permanent URL without promoting
- * or indexing them before their publish date. The folder a post lives in is
- * deliberately irrelevant: moving a Markdown file would change its public URL.
+ * Keep scheduled and editorial-hold stories reachable at their permanent URL
+ * without promoting, indexing or monetizing them. The folder a post lives in
+ * is deliberately irrelevant: moving a Markdown file must not change its URL.
  */
-export function isPublished(post: { data: { publishDate: Date } }): boolean {
-  return post.data.publishDate.getTime() <= Date.now();
+export function isPublished(post: { data: { publishDate: Date; editorialReady?: boolean } }): boolean {
+  return post.data.publishDate.getTime() <= Date.now() && post.data.editorialReady !== false;
 }

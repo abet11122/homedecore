@@ -7,6 +7,7 @@ publishDate: 2026-10-04
 heroImage: "photo-1584622650111-993a426fbf0a"
 pinImage: "photo-1584622650111-993a426fbf0a"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Declutter before buying any organizers — removing unused items creates immediate space."
   - "Prioritize the vanity and under-sink area as the highest-impact storage zone."

@@ -8,6 +8,7 @@ heroImage: "/images/posts/modern-boys-bedroom-ideas/hero.webp"
 heroImageAlt: "Bright children's bedroom with a bunk bed, wardrobe and shelves."
 pinImage: "/images/posts/modern-boys-bedroom-ideas/pin.webp"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Use clean-lined furniture and a calm palette of navy, charcoal, sage, or warm white."
   - "Choose graphic art instead of character bedding for a look that ages well."

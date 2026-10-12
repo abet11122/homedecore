@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-bedroom-makeover-ideas/hero.webp"
 heroImageAlt: "Simple bedroom with pale bedding and a clean neutral palette."
 pinImage: "/images/posts/small-bedroom-makeover-ideas/pin.webp"
 featured: false
+editorialReady: false
 affiliateDisclosure: true
 keyTakeaways:
   - "Rework the layout before buying anything — moving furniture is free."

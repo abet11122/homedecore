@@ -8,6 +8,7 @@ heroImage: "/images/posts/cozy-christmas-bedroom-ideas/hero.webp"
 heroImageAlt: "White bed with green pillows and a small Christmas tree."
 pinImage: "/images/posts/cozy-christmas-bedroom-ideas/pin.webp"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Layer a soft throw at the foot of the bed for instant festive warmth."
   - "Use warm white string lights safely for a cozy holiday atmosphere."

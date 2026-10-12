@@ -18,6 +18,12 @@ keyTakeaways:
 
 A bathroom counter has to support a routine, stay hygienic, and remain easy to wipe down. It gets cluttered when every product is left out or when organizers take up more space than they save. These ideas keep the essentials accessible while leaving the sink usable.
 
+## Plan the usable space first
+
+Measure the clear surface on each side of the basin, then subtract the area needed to turn the faucet and set down a hand while washing. Measure to the nearest obstruction rather than relying on the vanity's advertised width. For example, a 60 cm vanity with a centered basin may leave two narrow strips, not one 60 cm storage area. Make a paper template of any tray or organizer before buying it and check that you can still wipe underneath and around the faucet.
+
+If several people share the counter, decide whether each person needs a small separate zone or whether daily essentials can go in a drawer. A tray helps only when it replaces loose items; adding a tray without removing anything creates another surface to clean.
+
 ## 1. Clear the Counter Before Sorting
 
 Take everything off the vanity and group it by use: morning routine, evening routine, hair care, and occasional products. Discard expired items and return anything that belongs in another room.
@@ -79,3 +85,5 @@ Store a cloth and suitable surface cleaner in a separate, closed caddy below the
 Return products to their assigned tray, drawer, or cabinet at the end of the day. A short reset prevents small items from accumulating and keeps the counter ready for the next routine.
 
 Leave enough open surface to use the sink and clean around it. A few well-chosen organizers work better than filling every inch of the vanity.
+
+For a counter with almost no clear surface, prioritize the wall-mounted holder and a shallow mirror cabinet over the tiered stand. For a wide double vanity, give each user a small tray and leave the center clear for shared soap and cleaning. These are layout starting points, so check the actual basin, sockets, mirror and splash zones in your room before buying storage.

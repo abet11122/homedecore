@@ -7,6 +7,7 @@ publishDate: 2026-10-18
 heroImage: "photo-1552321554-5fefe8c9ef14"
 pinImage: "photo-1584622650111-993a426fbf0a"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Install two shallow floating shelves for a clean, open look above the toilet."
   - "Use a freestanding over-toilet unit if you cannot drill into the wall."

@@ -7,6 +7,7 @@ publishDate: 2026-11-08
 heroImage: "photo-1556909114-f6e7ad7d3136"
 pinImage: "photo-1556909172-54557c7e4fb7"
 featured: false
+editorialReady: false
 affiliateDisclosure: true
 keyTakeaways:
   - "Keep decor to one or two zones and leave the rest of the counter clear."

@@ -7,6 +7,7 @@ publishDate: 2026-09-27
 heroImage: "photo-1558618666-fcd25c85cd64"
 pinImage: "photo-1484101403633-562f891dc89a"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Use the wall above the washer for shelving before looking for floor storage."
   - "Install a hanging rail for air-drying clothes to avoid a separate drying rack."

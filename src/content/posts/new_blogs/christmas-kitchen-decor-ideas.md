@@ -7,6 +7,7 @@ publishDate: 2026-10-25
 heroImage: "photo-1556909172-54557c7e4fb7"
 pinImage: "photo-1556909172-54557c7e4fb7"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Decorate the window instead of the counter to keep prep surfaces clear."
   - "Add a small wreath to a cabinet door for a festive touch with no surface space used."

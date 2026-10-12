@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-space-christmas-decor-ideas/hero.webp"
 heroImageAlt: "Compact Christmas tree in a bright apartment corner."
 pinImage: "/images/posts/small-space-christmas-decor-ideas/pin.webp"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Choose a tabletop or pencil tree to save floor space in a small apartment."
   - "Use window and wall space for lights and garlands instead of floor displays."

@@ -18,11 +18,13 @@ Use `npx astro dev status`, `npx astro dev logs`, and `npx astro dev stop` to ma
 
 The public name, canonical origin, categories and optional contact or social links live in `src/site.ts`. The canonical origin is fixed to `https://www.cozynestideas.online`; `astro.config.mjs` uses that value for the sitemap and metadata. `public/robots.txt` lists the same domain.
 
-The email, Pinterest and Instagram fields are currently empty. The layout hides those links until real addresses or profiles are added. The contact page states that a direct channel is being set up; it contains no demo form. Before enabling a contact form or newsletter, connect a real service and update the privacy policy to match.
+The contact email is set in `src/site.ts`; Pinterest and Instagram are still empty. The contact page links directly to the email address and does not display an unconnected form. Before enabling a contact form or newsletter, connect a real service and update the privacy policy to match.
 
 ## Posts and images
 
 Add an article as `src/content/posts/<slug>.md`. Its frontmatter is validated by `src/content.config.ts`. The `heroImage` and `pinImage` fields accept a local path such as `/images/posts/<slug>/hero.webp`, a full image URL, or an Unsplash photo ID. Set `heroImageAlt` to a description of the actual image. Use a horizontal image for the hero and a vertical 2:3 image for the Pinterest crop.
+
+Articles marked `editorialReady: false` remain reachable at their existing URLs but are excluded from navigation and the sitemap, marked `noindex`, and do not load AdSense. Set this field to `true` only after checking that the article provides distinct, accurate guidance and does not repeat other articles. Static sites require a fresh deployment after a scheduled publish date; the build cannot update an already deployed page by itself.
 
 The selected local Pexels image sources are recorded in `IMAGE_SOURCES.md`. To regenerate those WebP crops:
 

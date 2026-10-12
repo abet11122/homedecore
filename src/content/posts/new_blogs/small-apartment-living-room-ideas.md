@@ -7,6 +7,7 @@ publishDate: 2026-11-15
 heroImage: "photo-1484101403633-562f891dc89a"
 pinImage: "photo-1484101403633-562f891dc89a"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Choose a sofa that fits the wall rather than the largest one that fits the room."
   - "Use a round coffee table for easier movement in a tight space."

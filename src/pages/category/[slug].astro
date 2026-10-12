@@ -102,6 +102,26 @@ const listSchema = {
     </div>
   </header>
 
+  {slug === 'home-office' && (
+    <section class="wrap border-b border-rule py-10 lg:py-14" aria-labelledby="office-start">
+      <div class="max-w-reading">
+        <p class="eyebrow text-clay">Start with the room you have</p>
+        <h2 id="office-start" class="mt-3 font-display text-3xl text-ink">Choose a workable desk location</h2>
+        <p class="mt-4 leading-relaxed text-ink-60">
+          A small workspace needs room for the chair as well as the desk. Before choosing a corner,
+          mark the desk footprint on the floor and pull a chair back as you would to stand up. Check
+          where daylight falls on the screen, where a lamp can plug in and whether the setup blocks a
+          door or shared route through the room.
+        </p>
+        <p class="mt-4 leading-relaxed text-ink-60">
+          A closet is useful when work needs to disappear at the end of the day; a hallway console
+          works better for occasional laptop use than for a monitor. Our guide below compares those
+          layouts and gives starting dimensions to check against your own space.
+        </p>
+      </div>
+    </section>
+  )}
+
   {posts.length > 0 ? (
     <>
       <section class="wrap py-12 lg:py-16">

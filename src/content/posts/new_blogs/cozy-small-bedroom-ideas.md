@@ -7,6 +7,7 @@ publishDate: 2026-09-20
 heroImage: "photo-1540518614846-7eded433c457"
 pinImage: "photo-1540518614846-7eded433c457"
 featured: false
+editorialReady: false
 affiliateDisclosure: true
 keyTakeaways:
   - "Layer the bed with a duvet, throw, and two or three cushions for an inviting look."

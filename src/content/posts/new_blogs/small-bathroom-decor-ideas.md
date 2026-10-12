@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-bathroom-decor-ideas/hero.webp"
 heroImageAlt: "Bathroom mirror with greenery and warm decorative details."
 pinImage: "/images/posts/small-bathroom-decor-ideas/pin.webp"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Use a large mirror to make the bathroom feel bigger and brighter."
   - "Choose light, warm wall colors to open up a compact space."

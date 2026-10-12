@@ -8,6 +8,7 @@ heroImage: "/images/posts/small-apartment-storage-ideas/hero.webp"
 heroImageAlt: "Open clothing rack and shelves in an organized apartment."
 pinImage: "/images/posts/small-apartment-storage-ideas/pin.webp"
 featured: false
+editorialReady: false
 keyTakeaways:
   - "Use the top of wardrobes and above doors for seasonal and rarely used items."
   - "Choose furniture with hidden storage: drawer beds, storage ottomans, and lift-top tables."
