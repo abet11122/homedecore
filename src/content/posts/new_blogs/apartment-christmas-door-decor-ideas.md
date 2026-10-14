@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-space-christmas-decor-ideas/"
+disposition: merge
 title: "14 Apartment Christmas Door Decor Ideas for Renters"
 description: "Decorate your apartment door for Christmas with 14 renter-friendly ideas using wreaths, garlands, lights, and removable decor. No drilling required."
 category: seasonal

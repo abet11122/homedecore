@@ -1,8 +1,9 @@
 ---
+disposition: keep
 title: "18 Christmas Table Setting Ideas That Leave Room for Dinner"
 description: "Explore 18 Christmas table setting ideas, from simple spruce place cards to red linens and candlelit centerpieces, with practical hosting tips."
 category: seasonal
-tags: ["onthecorner", "christmas table setting", "christmas decor", "holiday entertaining"]
+tags: ["christmas table setting", "christmas decor", "holiday entertaining"]
 publishDate: 2026-10-10
 heroImage: "https://images.pexels.com/photos/5473341/pexels-photo-5473341.jpeg?auto=compress&cs=tinysrgb&w=1440"
 heroImageAlt: "Christmas dining table with dark linens, greenery, candles and gold cutlery."

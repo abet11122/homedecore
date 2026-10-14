@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bedroom-layout-ideas/"
+disposition: merge
 title: "Baddie Bedroom Ideas for Small Rooms"
 description: "Baddie bedroom ideas for small rooms — the glam palette, LED lighting done well, mirrors, vanity setups and how to get the look on a small budget."
 category: "bedroom"

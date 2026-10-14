@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/fall-living-room-decor-ideas/"
+disposition: merge
 title: "17 Fall Apartment Decor Ideas for a Cozy Seasonal Home"
 description: "Bring autumn warmth into a small space with 17 fall apartment decor ideas using seasonal textiles, natural accents, warm lighting, and renter-friendly styling."
 category: seasonal

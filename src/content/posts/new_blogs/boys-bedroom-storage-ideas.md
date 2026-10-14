@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-boys-bedroom-ideas/"
+disposition: merge
 title: "17 Boys Bedroom Storage Ideas That Keep the Room Tidy"
 description: "Create a bedroom that stays organized with 17 boys bedroom storage ideas covering under-bed drawers, toy bins, pegboards, school-bag zones, and vertical storage."
 category: bedroom

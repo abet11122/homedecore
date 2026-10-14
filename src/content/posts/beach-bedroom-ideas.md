@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "Beach Bedroom Ideas"
 description: "Beach bedroom ideas that feel coastal rather than themed — the right palette, natural textures, and how to avoid the nautical cliches."
 category: "bedroom"

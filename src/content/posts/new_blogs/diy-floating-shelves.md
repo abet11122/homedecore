@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "DIY Floating Shelves That Hold Real Weight"
 description: "Most floating shelf tutorials skip the part that matters: the bracket and the fixing. Here is how to build shelves that carry books, not just candles."
 category: "diy-decor"
@@ -94,7 +95,7 @@ Two shelves need a considered gap or they look like an accident.
 
 ## Styling them so they do not look cluttered
 
-The same rules from our [open shelving guide](/post/kitchen-open-shelving-styling/) apply: cluster in odd groups, leave roughly a third of the run empty, vary the height.
+The same rules from our [open shelving guide](/post/kitchen-island-styling/) apply: cluster in odd groups, leave roughly a third of the run empty, vary the height.
 
 The quick version for a two-shelf run:
 
@@ -124,4 +125,4 @@ The quick version for a two-shelf run:
 
 ---
 
-*Once they are up, the hard part is not filling them. Our [open shelving styling guide](/post/kitchen-open-shelving-styling/) covers the 70/30 rule that keeps a shelf looking curated.*
+*Once they are up, the hard part is not filling them. Our [open shelving styling guide](/post/kitchen-island-styling/) covers the 70/30 rule that keeps a shelf looking curated.*

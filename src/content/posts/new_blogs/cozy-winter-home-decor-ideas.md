@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/winter-hygge-guide/"
+disposition: merge
 title: "21 Cozy Winter Home Decor Ideas for a Warm January Home"
 description: "Keep your home feeling warm and inviting after the holidays with 21 cozy winter home decor ideas using texture, warm lighting, natural materials, and a calm palette."
 category: seasonal

@@ -1,6 +1,7 @@
 ---
 import Img from './Img.astro';
 import { SITE } from '../site';
+import { localImage } from '../images';
 
 /**
  * The vertical 2:3 pin image with a Save button.
@@ -17,9 +18,7 @@ interface Props {
 
 const { image, title, description } = Astro.props;
 
-const mediaUrl = image.startsWith('photo-')
-  ? `https://images.unsplash.com/${image}?w=1000&h=1500&fit=crop&auto=format&q=80`
-  : new URL(image, Astro.site ?? SITE.url).href;
+const mediaUrl = new URL(localImage(image), Astro.site ?? SITE.url).href;
 ---
 
 <figure class="mx-auto max-w-sm">
@@ -44,7 +43,7 @@ const mediaUrl = image.startsWith('photo-')
   </div>
 
   <figcaption class="mt-3 text-center text-xs text-ink-40">
-    Pin this for later — 1000×1500 vertical image, sized for Pinterest.
+    Illustrative stock photography. Save this decorating idea for later.
   </figcaption>
 </figure>
 

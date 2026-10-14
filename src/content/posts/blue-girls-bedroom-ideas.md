@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/boho-girls-bedroom-ideas/"
+disposition: merge
 title: "Blue Girls Bedroom Ideas"
 description: "Blue girls bedroom ideas beyond the obvious — dusty blue, teal and navy palettes with the warm pairings that stop a blue room feeling cold."
 category: "bedroom"

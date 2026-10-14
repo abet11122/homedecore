@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/boys-bedroom-paint-color-ideas/"
+disposition: merge
 title: "Blue Boys Bedroom Ideas"
 description: "Blue boys bedroom ideas that avoid looking babyish — which shades of blue work at every age, what to pair them with, and how much blue is too much."
 category: "bedroom"

@@ -1,4 +1,6 @@
 ---
+updatedDate: 2026-10-14
+disposition: keep
 title: "Winter at Home: Warmth That Is Not Just a Blanket on a Sofa"
 description: "Hygge is usually sold as throws and candles. The real levers are light temperature, texture contrast, scent and one properly warm corner. Here is the method."
 category: "seasonal"
@@ -48,6 +50,7 @@ A rug in winter is thermal as well as visual — bare floor pulls heat out of a 
 If you have hard floors, this is the highest-value winter purchase. Layering a smaller wool or sheepskin rug over a larger flat-weave gives you the texture contrast and the insulation in one move.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4h7mi0J" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for yescool Weighted Blanket for Adults 20lbs Queen, Grey on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">
@@ -111,4 +114,15 @@ Late February, when the light starts changing. Heavy textures held into spring m
 
 ---
 
-*Working the other direction? Our [autumn mantel guide](/post/autumn-mantel-styling/) covers the seasonal step just before this one.*
+*Working the other direction? Our [autumn mantel guide](/post/fall-living-room-decor-ideas/) covers the seasonal step just before this one.*
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from cozy-winter-home-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Keep the Post-Holiday Greenery Simple
+
+After Christmas, swap themed holiday greenery for simple evergreen branches, dried eucalyptus, or a single stem arrangement. This extends the seasonal feeling without looking festive.
+
+Start with what you already own, then make one small change at a time.

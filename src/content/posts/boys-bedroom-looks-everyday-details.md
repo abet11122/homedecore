@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/boys-bedroom-ideas-cool-livable/"
+disposition: merge
 title: "Boys Bedroom Looks with Smart Everyday Details"
 description: "The small everyday details that make a boys bedroom work — charging stations, laundry systems, morning routines and the fittings that quietly do the heavy lifting."
 category: "bedroom"

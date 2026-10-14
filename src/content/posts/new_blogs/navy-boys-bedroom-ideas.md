@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/boys-bedroom-paint-color-ideas/"
+disposition: merge
 title: "15 Navy Boys Bedroom Ideas That Feel Modern, Not Dark"
 description: "Use navy in a boys bedroom without making it feel heavy with 15 ideas covering paint, bedding, accent colors, lighting, and furniture that keep the room bright."
 category: bedroom

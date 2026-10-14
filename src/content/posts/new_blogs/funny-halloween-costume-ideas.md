@@ -1,4 +1,5 @@
 ---
+disposition: remove
 title: "22 Funny Halloween Costume Ideas That Will Actually Make People Laugh"
 description: "Get genuine laughs this Halloween with 22 funny costume ideas including puns, pop culture jokes, and clever concepts. Solo, duo, and group options included."
 category: seasonal
@@ -57,6 +58,7 @@ A white outfit with a yellow circle on the front and devil horns. This is a punn
 The yellow circle needs to be large enough to be readable from across the room.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4yHHTm7" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Zombie Temporary Tattoo Variety Pack on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -111,6 +113,7 @@ A pink outfit — pink polo shirt, pink shorts or trousers — with a "Ken" name
 The more pink, the better.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4ygCMte" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Two-Pack Halloween Fake Blood on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -159,6 +162,7 @@ A sensible outfit with a sign that says "Responsible Adult." This is a funny, se
 The more sensible and boring the outfit, the funnier.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4hltPI7" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 42-Color Costume Makeup Kit on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -217,6 +221,7 @@ Use large, readable labels — the pun needs to be visible from across the room.
 A one-piece outfit can carry the joke when you do not have time for a DIY build.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4h401Rq" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Rasta Imposta Lightweight Hot Dog Costume on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">
@@ -232,6 +237,7 @@ A one-piece outfit can carry the joke when you do not have time for a DIY build.
 </div>
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4iEwGOy" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Funziez! Slim Fit Adult Animal Onesie (Panda / 40+ colors) on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">

@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bathroom-organization-ideas/"
+disposition: merge
 title: "17 Bathroom Organization Ideas for Small Spaces"
 description: "Maximize every inch of a compact bathroom with 17 bathroom organization ideas for small spaces covering under-sink storage, vertical shelving, and decluttering."
 category: bathroom

@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/fall-living-room-decor-ideas/"
+disposition: merge
 title: "The Autumn Mantel, Without the Plastic Pumpkins"
 description: "A grown-up approach to autumn decorating: three heights, one palette and materials that look better as they dry. Works on a shelf if you have no fireplace."
 category: "seasonal"

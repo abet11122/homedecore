@@ -24,7 +24,8 @@ const publishedPostPaths = new Set(
       const source = readFileSync(file, 'utf8');
       const value = source.match(/^publishDate:\s*["']?(\d{4}-\d{2}-\d{2})["']?\s*$/m)?.[1];
       const held = /^editorialReady:\s*false\s*$/m.test(source);
-      return value && !held ? new Date(`${value}T00:00:00.000Z`).getTime() <= Date.now() : false;
+      const excluded = /^disposition:\s*(?:merge|remove)\s*$/m.test(source);
+      return value && !held && !excluded ? new Date(`${value}T00:00:00.000Z`).getTime() <= Date.now() : false;
     })
     .map((file) => {
       const id = relative(postsDirectory, file)
@@ -73,7 +74,7 @@ export default defineConfig({
       // and thin tag archives stay out until ready to be indexed.
       filter: (page) => {
         const path = new URL(page).pathname;
-        if (path.startsWith('/tag/')) return false;
+        if (path.startsWith('/tag/') || ['/tags/', '/search/', '/404/'].includes(path)) return false;
         if (path.startsWith('/post/')) return publishedPostPaths.has(path);
         return true;
       },

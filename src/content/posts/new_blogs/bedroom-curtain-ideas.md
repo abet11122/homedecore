@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "15 Bedroom Curtain Ideas That Make the Room Feel Finished"
 description: "Choose and hang bedroom curtains correctly with 15 ideas covering fabric, length, hanging height, blackout lining, and styles that make the room feel polished."
 category: bedroom

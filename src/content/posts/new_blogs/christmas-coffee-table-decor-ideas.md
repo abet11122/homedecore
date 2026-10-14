@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-space-christmas-decor-ideas/"
+disposition: merge
 title: "15 Christmas Coffee Table Decor Ideas That Stay Practical"
 description: "Style your coffee table for the holidays with 15 Christmas coffee table decor ideas using trays, candles, greenery, and seasonal accents that leave room for everyday use."
 category: seasonal

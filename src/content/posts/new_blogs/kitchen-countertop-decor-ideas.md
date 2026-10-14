@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/kitchen-island-styling/"
+disposition: merge
 title: "15 Kitchen Countertop Decor Ideas That Stay Practical"
 description: "Style your kitchen surfaces with 15 kitchen countertop decor ideas that balance visual appeal with everyday function using trays, plants, and vertical displays."
 category: kitchen
@@ -29,6 +31,7 @@ Before buying anything, measure the available area and think about how the item 
 A dedicated coffee station on a freestanding rack can leave more of the counter clear for cooking.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/47kiZNL" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Rustic brown; 23.6 in microwave stand) on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">
@@ -70,6 +73,7 @@ Group a small number of items together and leave visible empty space so the surf
 Keep the few things you use at the sink together rather than spreading them along the worktop.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/46NCQoo" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy Cisily Sink Caddy Sponge Holder with Self-Drain Tray on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">

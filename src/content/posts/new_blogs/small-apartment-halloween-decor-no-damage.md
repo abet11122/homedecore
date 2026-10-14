@@ -1,5 +1,7 @@
 ---
-title: "17 Small Apartment Halloween Decor Ideas — No Damage, No Drilling"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Small Apartment Halloween Decor Ideas — No Damage, No Drilling"
 description: "Decorate a small apartment for Halloween with 17 renter-friendly ideas using removable hooks, tabletop displays, wall decals, and a restrained seasonal palette."
 category: seasonal
 tags: ["halloween decor", "small apartment", "renter friendly", "seasonal decorating", "small spaces"]
@@ -42,6 +44,7 @@ Washi tape in black or dark orange can be used to create simple geometric frames
 ## Tabletop Displays
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/3VkX0na" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween-Themed Fairy Lights on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -78,6 +81,7 @@ A small pumpkin, a dark candle, and a skull soap dispenser or dish on the bathro
 ## Lighting
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4hCNlkw" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Orange Chenille Pillow Covers, Set of 4 on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -112,6 +116,7 @@ Replacing a standard lamp bulb with a warm amber one changes the entire mood of 
 A dark velvet or linen cushion cover in charcoal, deep plum, or forest green adds seasonal depth without any obvious Halloween imagery. Swap it back in November.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4h1gsxP" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Black Flameless Candles, Set of 9 on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -154,3 +159,50 @@ A bundle of dried sage or rosemary tied with dark ribbon and hung on a removable
 ## Final Thoughts
 
 Renter-friendly Halloween decor is about working with what you have and choosing removable solutions for everything else. Start with the tray display and the lighting, add one wall element using removable strips, and keep the palette restrained. A small apartment decorated with restraint looks more considered than one covered in seasonal products.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from halloween-bathroom-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Skull Soap Dish or Dispenser
+
+A skull-shaped soap dish or hand wash dispenser is the single most effective Halloween bathroom object. It is functional, seasonal, and immediately noticeable. Choose ceramic or resin rather than plastic for a more considered look.
+
+<!-- Consolidated existing section from halloween-bedroom-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Orange or Amber String Lights
+
+Warm orange or amber string lights draped along the headboard, around a mirror, or along a shelf are the single most effective Halloween bedroom element. They change the entire mood of the room without adding a single object.
+
+Use battery-powered lights to avoid visible cords.
+
+<!-- Consolidated existing section from halloween-kitchen-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Window Clings
+
+Removable Halloween window clings — bats, spiders, moons, cats — apply and remove without damage and add a seasonal note that is visible from the street. Use them on the lower half of the window so they do not block light.
+
+<!-- Consolidated existing section from halloween-living-room-ideas; see editorial worksheet for evidence checks. -->
+
+## Style the Mantel
+
+The mantel is the natural focal point of the living room. A garland along the shelf, three pumpkins of different sizes, two taper candles, and a few dried leaves create a complete Halloween display that anchors the whole room.
+
+Use flameless candles near dried materials and fabric garlands.
+
+<!-- Consolidated existing section from small-apartment-halloween-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Pick One Wall and Own It
+
+Choose a single wall — usually the one behind the sofa or the entryway — and make it the seasonal statement. Paper bats, a black garland, or a framed dark print on that one wall reads as intentional rather than scattered.
+
+Use removable adhesive strips so nothing damages the paint when you take it down.
+
+<!-- Consolidated existing section from small-space-halloween-decor; see editorial worksheet for evidence checks. -->
+
+## Choose Tabletop Pumpkins
+
+In a small space, tabletop pumpkins take up far less room than floor-standing ones. Group two or three on a tray on the coffee table or console.
+
+Keep walking paths, doors, drawers, and frequently used surfaces easy to access.

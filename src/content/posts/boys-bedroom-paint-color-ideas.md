@@ -1,4 +1,6 @@
 ---
+updatedDate: 2026-10-14
+disposition: keep
 title: "Boys Bedroom Paint Color Ideas"
 description: "Boys bedroom paint colour ideas with real shade names and pairings — navy, sage, charcoal and warm neutrals that work from age five to fifteen."
 category: "bedroom"
@@ -126,3 +128,30 @@ Buy sample pots first. Paint a large square on two different walls and look at i
 ---
 
 **If you want one recommendation:** navy accent wall behind the bed, warm white on the remaining three, satin finish, oak furniture. It's the combination that looks good at every age and never needs redoing.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from blue-boys-bedroom-ideas; see editorial worksheet for evidence checks. -->
+
+## Choose the right blue
+
+**Navy** — the strongest choice. Deep, grown-up, works from toddler to teenager. Never reads as childish.
+
+**Slate blue** — grey-blue, muted and calm. Sophisticated without being dark. Excellent in a room with limited natural light because it doesn't go murky the way saturated blues do.
+
+**Teal / petrol blue** — sits between blue and green. More interesting than plain blue and pairs with warm colours beautifully.
+
+**Denim blue** — mid-tone, slightly faded, casual. Works well with wood and white.
+
+**Powder blue** — the risky one. Lovely in a nursery, ages fast. If you want pale blue, choose one with grey in it rather than a pure pastel.
+
+**Avoid:** primary blue and bright sky blue. These are what make a room look like it was decorated for a five-year-old, and they're the fastest to date.
+
+<!-- Consolidated existing section from navy-boys-bedroom-ideas; see editorial worksheet for evidence checks. -->
+
+## Choose White or Cream Furniture
+
+White or cream furniture against a navy wall creates a clean contrast that prevents the room from feeling heavy. Avoid dark wood furniture on a navy wall in a small room — it absorbs too much light.
+
+A white bed frame, white desk, and white shelving create a cohesive look that lets the navy do the work.

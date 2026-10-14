@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "Bathroom Lighting Ideas That Actually Flatter"
 description: "Bathroom lighting ideas with the heights, temperatures and CRI ratings that matter — why overhead light is unflattering and what to use instead."
 category: "bathroom"

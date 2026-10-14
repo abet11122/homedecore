@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/neutral-bedroom-ideas/"
+disposition: merge
 title: "15 Cream Bedroom Ideas for a Soft, Calm Look"
 description: "Create a soft, calm bedroom with 15 cream bedroom ideas covering paint, bedding, furniture, texture, and accent colors that keep the room warm and inviting."
 category: bedroom

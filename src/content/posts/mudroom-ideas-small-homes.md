@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-entryway-ideas/"
+disposition: merge
 title: "Mudroom Ideas for Small Homes"
 description: "Small mudroom ideas that work in tight spaces — bench and hook layouts, cubby systems, flooring choices and how to build a mudroom where there isn't a room."
 category: "entryway"

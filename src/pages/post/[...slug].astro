@@ -5,7 +5,7 @@ import { postSlug, readingTime } from '../../site';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
-  return posts.map((post) => ({
+  return posts.filter((post) => post.data.disposition !== 'merge').map((post) => ({
     params: { slug: postSlug(post.id) },
     props: { post },
   }));

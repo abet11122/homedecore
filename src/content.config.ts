@@ -23,6 +23,8 @@ const posts = defineCollection({
     publishDate: z.date(),
     /** Hold a page out of navigation, the sitemap and ads until editorial review. */
     editorialReady: z.boolean().default(true),
+    disposition: z.enum(['keep', 'merge', 'remove']).default('keep'),
+    mergeInto: z.string().optional(),
     updatedDate: z.date().optional(),
     /** Unsplash photo id ("photo-1600210…") or an absolute URL. Horizontal. */
     heroImage: z.string(),

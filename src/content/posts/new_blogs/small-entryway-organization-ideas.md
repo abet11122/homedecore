@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-entryway-ideas/"
+disposition: merge
 title: "15 Small Entryway Organization Ideas for a Tidy Home"
 description: "Create a functional and welcoming entrance with 15 small entryway organization ideas covering hooks, shoe storage, drop zones, and slim furniture choices."
 category: small-spaces
@@ -105,6 +107,7 @@ A runner rug in the entryway protects the floor and defines the space. Choose a 
 Before buying anything, measure the available area and think about how the item will be used every day.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4z3tQHW" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy DUIDY Washable Kitchen Runner Rug on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">

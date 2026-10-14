@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "Minimalist Living Rooms: Less Is More"
 description: "Create a serene, clutter-free living room that prioritizes calm, function, and timeless beauty. A complete guide to minimalist design principles."
 category: "living-room"

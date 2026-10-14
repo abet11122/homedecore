@@ -43,14 +43,14 @@ const profileSchema = {
   '@type': 'ProfilePage',
   '@id': `${origin}/author/${SITE.authorSlug}/#profile`,
   isPartOf: { '@id': `${origin}/#website` },
-  mainEntity: { '@id': `${origin}/author/${SITE.authorSlug}/#person` },
+  mainEntity: { '@id': `${origin}/author/${SITE.authorSlug}/#editorial` },
   // Only mark up the bylines actually featured on this page.
   hasPart: [latest, ...recent].filter(Boolean).map((post) => ({
       '@type': 'BlogPosting',
       url: new URL(postPath(post), origin).href,
       headline: post.data.title,
       datePublished: post.data.publishDate.toISOString(),
-      author: { '@id': `${origin}/author/${SITE.authorSlug}/#person` },
+      author: { '@id': `${origin}/author/${SITE.authorSlug}/#editorial` },
     })),
 };
 ---
@@ -69,7 +69,7 @@ const profileSchema = {
         <div class="lg:col-span-2">
           <img
             src={SITE.authorAvatar}
-            alt={SITE.author}
+            alt="Cozy Nest Ideas publication mark"
             width="160"
             height="160"
             loading="eager"
@@ -97,7 +97,7 @@ const profileSchema = {
             </div>
             {oldest && (
               <div>
-                <dt class="eyebrow-muted">Writing since</dt>
+              <dt class="eyebrow-muted">Archive begins</dt>
                 <dd class="mt-1.5 font-display text-2xl text-ink">
                   {oldest.data.publishDate.getUTCFullYear()}
                 </dd>
@@ -118,7 +118,7 @@ const profileSchema = {
   </header>
 
   <section class="wrap py-12 lg:py-16" aria-labelledby="author-beats">
-    <h2 id="author-beats" class="eyebrow-muted">What Elena writes about</h2>
+    <h2 id="author-beats" class="eyebrow-muted">Topics in the archive</h2>
     <ul class="mt-5 flex flex-wrap items-baseline gap-x-7 gap-y-3">
       {beats.map((c) => (
         <li>
@@ -147,7 +147,7 @@ const profileSchema = {
       <SectionHead
         id="author-archive"
         kicker="The back catalogue"
-        title="More from Elena"
+        title="More from the publication"
         href="/tags/"
         hrefLabel="Browse all"
       />

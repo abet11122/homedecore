@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "Small Bedroom, Maximum Style: A Maximalist Guide"
 description: "Learn how to create a bold, layered look in a tiny bedroom without overwhelming the space. Interior designer tips for color, pattern, and texture."
 category: "small-spaces"

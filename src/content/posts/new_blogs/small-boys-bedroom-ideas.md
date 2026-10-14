@@ -1,5 +1,7 @@
 ---
-title: "17 Small Boys Bedroom Ideas for Small Rooms"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Small Boys Bedroom Ideas for Small Rooms"
 description: "Make the most of a small boys bedroom with 17 practical ideas for layouts, storage, color, furniture, study space, and cozy decor."
 category: bedroom
 tags: ["small bedrooms","boys bedrooms","storage","kids rooms","small spaces"]
@@ -136,8 +138,19 @@ Children outgrow clothes, toys, and interests quickly. Review the room every few
 
 The cheapest small-space upgrade is often removing unnecessary things rather than buying another organizer.
 
-For more finishing touches, explore our [small bedroom styling ideas](/post/small-bedroom-ideas-that-look-expensive/).
+For more finishing touches, explore our [small bedroom styling ideas](/post/small-bedroom-layout-ideas/).
 
 ## Final Thoughts
 
 The best small boys bedroom is not the one with the most storage products. It is the room where the bed, clothes, school items, and play things all have a sensible place. Start with the layout, use vertical and under-bed space, and then add personality through a limited color palette and a few meaningful details.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from boys-bedroom-storage-ideas; see editorial worksheet for evidence checks. -->
+
+## Use Under-Bed Drawers
+
+Under-bed drawers are one of the most efficient storage solutions in a boys bedroom. Use them for toys, sports gear, seasonal clothing, or extra bedding.
+
+Measure width, depth, and height before choosing containers, especially around bed frames.

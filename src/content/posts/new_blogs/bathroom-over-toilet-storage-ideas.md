@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bathroom-organization-ideas/"
+disposition: merge
 title: "15 Bathroom Over the Toilet Storage Ideas That Work"
 description: "Make the most of unused wall space with 15 bathroom over the toilet storage ideas covering floating shelves, freestanding units, closed cabinets, and baskets."
 category: bathroom

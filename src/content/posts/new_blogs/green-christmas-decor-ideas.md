@@ -1,8 +1,9 @@
 ---
+disposition: keep
 title: "20 Green Christmas Decor Ideas for a Natural, Layered Home"
 description: "Try 20 green Christmas decor ideas for the tree, mantel, front door, dining table and gifts, with practical ways to layer evergreen tones safely."
 category: seasonal
-tags: ["onthecorner", "green christmas decor", "christmas decor", "holiday greenery"]
+tags: ["green christmas decor", "christmas decor", "holiday greenery"]
 publishDate: 2026-10-10
 heroImage: "https://images.pexels.com/photos/6517713/pexels-photo-6517713.jpeg?auto=compress&cs=tinysrgb&w=1440"
 heroImageAlt: "Christmas dining room with a green tree and a dressed table."

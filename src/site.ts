@@ -9,12 +9,12 @@ export const SITE = {
   description:
     'An editorial guide to interiors: room-by-room design ideas, DIY projects and styling tips you can actually use.',
   url: 'https://www.cozynestideas.online',
-  author: 'Elena Marsh',
-  authorRole: 'Editor & Interior Stylist',
+  author: 'Editorial Team',
+  authorRole: 'Cozy Nest Ideas editorial byline',
   authorBio:
-    'Elena has spent twelve years styling homes and writing about them. She believes good rooms are built slowly, from things you actually love.',
+    'Editorial Team is the publication byline for Cozy Nest Ideas, not a claim about staff numbers or professional credentials. Our guides provide decorating inspiration; stock photographs do not document projects completed by us.',
   authorAvatar:
-    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&auto=format&q=70',
+    '/favicon.svg',
   pinterest: '',
   instagram: '',
   email: 'mmubasharshahzad40@gmail.com',
@@ -25,7 +25,7 @@ export const SITE = {
   /** Google Analytics 4 measurement ID. */
   googleAnalyticsId: 'G-T9NG3EPSQ6',
   /** Slug for the author hub page at /author/<slug>/. */
-  authorSlug: 'elena-marsh',
+  authorSlug: 'editorial-team',
   /** Public profiles for the author — feeds Person.sameAs (E-E-A-T). */
   authorLinks: [] as string[],
   locale: 'en_US',
@@ -206,7 +206,6 @@ const MINOR_WORDS = new Set(['and', 'the', 'of', 'for', 'in', 'to', 'a']);
 const TAG_LABEL_OVERRIDES: Record<string, string> = {
   diy: 'DIY',
   'diy-decor': 'DIY Decor',
-  onthecorner: 'On the Corner',
   'peel-and-stick': 'Peel-and-Stick',
   'renter-friendly': 'Renter-Friendly',
 };
@@ -250,12 +249,12 @@ export function collectTags(
   for (const post of posts) {
     // A post can carry two spellings of the same tag; count it once.
     for (const slug of new Set((post.data.tags ?? []).map(tagSlug))) {
-      if (!slug) continue;
+      if (!slug || slug === 'onthecorner') continue;
       counts.set(slug, (counts.get(slug) ?? 0) + 1);
     }
   }
   return [...counts.entries()]
-    .filter(([slug, count]) => count >= minCount || (slug === 'onthecorner' && count >= 2 && minCount <= 3))
+    .filter(([, count]) => count >= minCount)
     .map(([slug, count]) => ({ slug, label: tagLabel(slug), count }))
     .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
 }
@@ -275,6 +274,6 @@ export function wordCount(body: string): number {
  * without promoting, indexing or monetizing them. The folder a post lives in
  * is deliberately irrelevant: moving a Markdown file must not change its URL.
  */
-export function isPublished(post: { data: { publishDate: Date; editorialReady?: boolean } }): boolean {
-  return post.data.publishDate.getTime() <= Date.now() && post.data.editorialReady !== false;
+export function isPublished(post: { data: { publishDate: Date; editorialReady?: boolean; disposition?: string } }): boolean {
+  return (post.data.disposition ?? 'keep') === 'keep' && post.data.publishDate.getTime() <= Date.now() && post.data.editorialReady !== false;
 }

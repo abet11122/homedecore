@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bedroom-layout-ideas/"
+disposition: merge
 title: "Aesthetic Bedroom Ideas for Small Rooms"
 description: "Aesthetic bedroom ideas for small rooms — the lighting, palette and styling choices that make a tiny space photograph beautifully and still function."
 category: "bedroom"

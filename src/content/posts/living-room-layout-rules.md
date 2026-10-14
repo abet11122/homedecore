@@ -1,4 +1,6 @@
 ---
+updatedDate: 2026-10-14
+disposition: keep
 title: "Living Room Layout: The Measurements Nobody Tells You"
 description: "Why your furniture is pushed against the walls and why that is the problem. Conversation distances, rug sizes and the float that makes a room work."
 category: "living-room"
@@ -121,3 +123,14 @@ A room that fails any of those will quietly go unused, however good it looks in 
 ---
 
 *Next, the colour on the walls. Our guide to [choosing paint without regret](/post/paint-colour-guide/) covers undertones and the sampling method.*
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from small-apartment-living-room-ideas; see editorial worksheet for evidence checks. -->
+
+## Choose a Sofa That Fits the Wall
+
+In a small living room, the sofa should fit the wall it sits against rather than filling the entire room. A sofa that is too large makes the space feel cramped and difficult to move through.
+
+Measure the wall before drilling or ordering storage, and check that doors, cabinets, and people can still move comfortably.

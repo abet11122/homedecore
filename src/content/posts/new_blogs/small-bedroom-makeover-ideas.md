@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bedroom-layout-ideas/"
+disposition: merge
 title: "17 Small Bedroom Makeover Ideas on a Budget"
 description: "Refresh a compact room without a full renovation using 17 small bedroom makeover ideas covering layout changes, bedding updates, paint, and storage upgrades."
 category: bedroom
@@ -46,6 +48,7 @@ A large wardrobe or oversized chest of drawers can make a small bedroom feel cra
 Measure the furniture footprint and the path around it before buying.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4hEFdQv" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for LOAKEKEL Narrow End Table with Charging Station, 2 Fabric Drawers on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">

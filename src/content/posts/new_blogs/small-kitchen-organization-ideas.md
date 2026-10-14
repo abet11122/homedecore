@@ -1,5 +1,7 @@
 ---
-title: "17 Small Kitchen Organization Ideas That Free Up Counter Space"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Small Kitchen Organization Ideas That Free Up Counter Space"
 description: "Reclaim your kitchen with 17 small kitchen organization ideas covering cabinet storage, vertical pan storage, drawer dividers, and countertop management."
 category: kitchen
 tags: ["kitchen organization", "small kitchen", "kitchen storage", "organization", "small spaces"]
@@ -42,6 +44,7 @@ Group a small number of items together and leave visible empty space so the surf
 Where floor space allows, a freestanding rack can give the microwave and coffee supplies their own zone without filling the preparation counter.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4xM4Kfq" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Rustic brown; 23.6 in microwave stand) on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">
@@ -143,3 +146,36 @@ Measure the wall before drilling or ordering storage.
 ## Final Thoughts
 
 The strongest small kitchen organization ideas are the ones that make the room easier to cook in, not simply more decorated. Start with a clear counter, create zones, and use vertical and door storage to maximize every cabinet. Small, deliberate improvements are usually more successful than changing everything at once.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from kitchen-cabinet-organization-ideas; see editorial worksheet for evidence checks. -->
+
+## Empty the Cabinet Before Organizing
+
+Remove everything from the cabinet before deciding what should live there. This prevents the habit of organizing around existing clutter and makes it easier to see the available space clearly.
+
+Wipe the shelves while they are empty.
+
+<!-- Consolidated existing section from kitchen-corner-storage-ideas; see editorial worksheet for evidence checks. -->
+
+## Use a Narrow Freestanding Corner Shelf
+
+A small open shelf can fit into an unused wall corner for cookbooks, fruit, or a few everyday dishes. Keep its footprint out of the main path and secure tall furniture if children are in the home.
+
+<!-- Consolidated existing section from kitchen-drawer-organization-ideas; see editorial worksheet for evidence checks. -->
+
+## Use Adjustable Dividers
+
+Adjustable dividers let you customize the layout of each drawer to fit the items inside. They are more flexible than fixed inserts and can be repositioned as needs change.
+
+Measure the drawer interior before buying — dividers vary in length and height.
+
+<!-- Consolidated existing section from small-kitchen-storage-ideas; see editorial worksheet for evidence checks. -->
+
+## Use Toe-Kick or Low Drawer Space Where Available
+
+The toe-kick area at the base of kitchen cabinets is often unused. Some kitchens have pull-out drawers here that can hold flat items like baking trays, chopping boards, or rarely used equipment.
+
+Before buying anything, measure the available area and think about how the item will be used every day.

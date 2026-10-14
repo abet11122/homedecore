@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "Renter-Friendly Bathroom Ideas"
 description: "Renter-friendly bathroom ideas that leave no damage — peel-and-stick tile, removable storage, lighting swaps and what to check before you start."
 category: "bathroom"

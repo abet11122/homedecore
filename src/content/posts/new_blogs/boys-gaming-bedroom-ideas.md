@@ -1,5 +1,7 @@
 ---
-title: "17 Boys Gaming Bedroom Ideas With Smart Desk Setups"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Boys Gaming Bedroom Ideas With Smart Desk Setups"
 description: "Build a boys gaming bedroom that works for play and sleep with 17 ideas covering desk setups, cable management, lighting, and storage for gear."
 category: bedroom
 tags: ["boys bedroom", "gaming bedroom", "desk setup", "bedroom storage", "kids rooms"]
@@ -125,3 +127,18 @@ The best gaming bedrooms feel like a room that happens to have a great desk, not
 ## Final Thoughts
 
 A boys gaming bedroom works when the desk setup is functional, the cables are managed, and the sleep zone is kept separate. Start with the desk position and lighting, then add storage and personal details. A well-organized setup always looks better than an expensive one.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from boys-gamer-bedroom-ideas; see editorial worksheet for evidence checks. -->
+
+## Desk size — where most setups go wrong
+
+A gaming desk needs more depth than a normal desk because the monitor has to sit further back.
+
+- **Depth: 28–30 inches.** At 24 inches a monitor sits too close and he'll lean back all evening. This is the single most important number here.
+- **Width: 48 inches minimum**, 60 inches if there's a dual monitor setup or a full-size keyboard plus mouse pad.
+- **Height: 29–30 inches** standard. If his elbows aren't at roughly 90 degrees when typing, the chair needs adjusting, not the desk.
+
+A 60 x 30 inch desk is the sweet spot for a single-monitor setup with room to spare.

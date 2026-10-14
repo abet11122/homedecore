@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/boys-gaming-bedroom-ideas/"
+disposition: merge
 title: "Boys Gamer Bedroom Ideas with Sleek Desk Setups"
 description: "Gamer bedroom ideas for boys — desk sizes, monitor heights, cable management, LED lighting and layouts that look sleek instead of chaotic."
 category: "bedroom"

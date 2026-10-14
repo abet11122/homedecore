@@ -1,5 +1,7 @@
 ---
-title: "21 Small Apartment Organization Ideas That Actually Work"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Small Apartment Organization Ideas That Actually Work"
 description: "Tackle clutter in a compact home with 21 small apartment organization ideas covering zones, vertical storage, multi-purpose furniture, and daily habits."
 category: small-spaces
 tags: ["small apartment", "organization", "storage", "small spaces", "decluttering"]
@@ -126,3 +128,24 @@ In rentals, removable adhesive hooks are a good no-drill alternative.
 ## Final Thoughts
 
 The strongest small apartment organization ideas are the ones that make the space easier to live in, not simply more decorated. Start with zones and vertical storage, choose furniture that does more than one job, and keep enough empty space for the apartment to feel comfortable. Small, deliberate improvements are usually more successful than changing everything at once.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from apartment-decor-ideas-budget; see editorial worksheet for evidence checks. -->
+
+## Change every bulb — the cheapest transformation
+
+**2700K warm white**, everywhere.
+
+Rental apartments come with cool white bulbs because they're cheap in bulk. They're also what makes a flat feel institutional. Swapping them costs very little and changes every room instantly.
+
+If you do one thing on this list, do this one.
+
+<!-- Consolidated existing section from small-apartment-storage-ideas; see editorial worksheet for evidence checks. -->
+
+## Use the Top of Wardrobes
+
+The top of a wardrobe is often unused. Use it for seasonal items, luggage, or rarely used objects stored in labeled boxes or baskets.
+
+Before buying anything, measure the available area and think about how the item will be used every day.

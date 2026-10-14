@@ -1,5 +1,7 @@
 ---
-title: "17 Small Space Christmas Decor Ideas for Apartments"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Small Space Christmas Decor Ideas for Apartments"
 description: "Decorate a compact home for Christmas with 17 small space Christmas decor ideas using tabletop trees, wall space, renter-friendly options, and a simple palette."
 category: seasonal
 tags: ["christmas decor", "small spaces", "apartment decor", "seasonal decorating", "holiday decor"]
@@ -125,3 +127,48 @@ Choose pieces that are easy to store and that work with your normal decor.
 ## Final Thoughts
 
 The strongest small space Christmas decor ideas are the ones that make the space feel warm and festive without cluttering it. Start with lighting and one focal point, choose a simple palette, and keep enough open space for the apartment to feel comfortable. Small, deliberate improvements are usually more successful than changing everything at once.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from christmas-entryway-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## The rule for a small entry
+
+**Decorate the walls and vertical surfaces. Leave the floor alone.**
+
+A small entry can't afford a floor-standing tree, a basket of pinecones and a nutcracker beside the door. Everything goes up.
+
+Keep 30 inches of clear walkway. If people are stepping around your decorations while carrying shopping, they'll get knocked over.
+
+<!-- Consolidated existing section from apartment-christmas-door-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Classic Evergreen Wreath
+
+A simple evergreen wreath with a red, gold, or velvet ribbon bow is the most versatile Christmas door decoration. It suits almost any door color and works at every budget. Hang it on an over-the-door hook.
+
+Choose a wreath that stores flat in a bag rather than a rigid box.
+
+<!-- Consolidated existing section from christmas-coffee-table-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Start With a Tray
+
+A tray on the coffee table contains the seasonal display and makes it easy to move when you need the surface for everyday use. Choose a tray that fits the table without taking up more than half the surface.
+
+A tray is useful because the whole group can be moved at once.
+
+<!-- Consolidated existing section from christmas-entryway-ideas; see editorial worksheet for evidence checks. -->
+
+## Add a Wreath at Eye Level
+
+A wreath on the front door or inside wall at eye level creates a strong seasonal impression without using any surface space. Choose a size that suits the door or wall.
+
+Choose pieces that are easy to store and that work with your normal decor.
+
+<!-- Consolidated existing section from christmas-kitchen-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Decorate the Window Instead of the Counter
+
+A garland along the window frame, a small wreath hanging from the window latch, or string lights around the frame add festive warmth without using any counter space.
+
+Group a small number of items together and leave visible empty space so the surface can still do its real job.

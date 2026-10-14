@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-space-christmas-decor-ideas/"
+disposition: merge
 title: "17 Christmas Entryway Ideas for a Welcoming Holiday Home"
 description: "Create a warm and festive first impression with 17 Christmas entryway ideas using wreaths, garlands, warm lights, and seasonal accents that work in any size space."
 category: seasonal

@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-space-christmas-decor-ideas/"
+disposition: merge
 title: "17 Christmas Kitchen Decor Ideas That Keep the Counter Clear"
 description: "Decorate your kitchen for Christmas with 17 ideas that add festive warmth without cluttering work surfaces, using windows, cabinet doors, and natural accents."
 category: seasonal

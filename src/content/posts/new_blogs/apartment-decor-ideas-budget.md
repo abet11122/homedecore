@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-apartment-organization-ideas/"
+disposition: merge
 title: "Apartment Decor Ideas on a Budget"
 description: "Budget apartment decor ideas in order of impact — the cheap changes that transform a rental, what's worth spending on, and what to skip entirely."
 category: "renter"

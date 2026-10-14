@@ -1,5 +1,7 @@
 ---
-title: "17 Cozy Christmas Bedroom Ideas for a Festive Retreat"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Cozy Christmas Bedroom Ideas for a Festive Retreat"
 description: "Create a warm and restful holiday bedroom with 17 cozy Christmas bedroom ideas using soft throws, warm string lights, greenery, and a simple neutral palette."
 category: seasonal
 tags: ["christmas decor", "bedroom decor", "cozy bedroom", "seasonal decorating", "holiday decor"]
@@ -125,3 +127,14 @@ Choose pieces that are easy to store and that work with your normal decor.
 ## Final Thoughts
 
 The strongest cozy Christmas bedroom ideas are the ones that make the room feel warm and festive without disrupting sleep. Start with a soft throw and warm lights, add greenery to one surface, and keep the palette calm and neutral. Small, deliberate improvements are usually more successful than changing everything at once.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from christmas-bedroom-ideas; see editorial worksheet for evidence checks. -->
+
+## Add a Small Bedside Tree
+
+A small tabletop tree on a bedside table or dresser adds a festive touch without taking up much space. Decorate it with a few meaningful ornaments rather than covering it completely.
+
+Choose pieces that are easy to store and that work with your normal decor.

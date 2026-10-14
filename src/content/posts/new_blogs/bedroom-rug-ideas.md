@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "17 Bedroom Rug Ideas + Where to Place the Rug"
 description: "Choose the right bedroom rug and place it correctly with 17 ideas covering size, material, placement, and styling for every bedroom type and budget."
 category: bedroom

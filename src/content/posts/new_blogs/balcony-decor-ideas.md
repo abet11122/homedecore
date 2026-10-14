@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-patio-ideas-apartments/"
+disposition: merge
 title: "Balcony Decor Ideas for Small Spaces"
 description: "Balcony decor ideas for tiny spaces — railing solutions, vertical planting, seating that folds away, and how to style a narrow balcony properly."
 category: "outdoor"

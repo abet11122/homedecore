@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-patio-ideas-apartments/"
+disposition: merge
 title: "Backyard Seating Area Ideas"
 description: "Backyard seating area ideas with real dimensions — how much space you need, base materials, layouts, shade, lighting and fire pit clearances."
 category: "outdoor"

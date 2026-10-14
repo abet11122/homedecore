@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/boys-bedroom-ideas-cool-livable/"
+disposition: merge
 title: "Boys Bedroom Decor Ideas That Layer Style and Comfort"
 description: "Boys bedroom decor ideas built in layers — bedding, texture, wall decor, lighting and personal touches that make a room feel finished rather than furnished."
 category: "bedroom"

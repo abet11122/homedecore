@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/shared-boys-bedroom-ideas/"
+disposition: merge
 title: "Boys Bunk Bed Bedroom Ideas"
 description: "Boys bunk bed bedroom ideas with real measurements — ceiling height, clearances, safety rules, storage layouts and styling for shared rooms."
 category: "bedroom"

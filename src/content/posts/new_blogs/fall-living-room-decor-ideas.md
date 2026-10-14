@@ -1,5 +1,7 @@
 ---
-title: "21 Cozy Fall Living Room Decor Ideas for a Warm Home"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Cozy Fall Living Room Decor Ideas for a Warm Home"
 description: "Create a warm and inviting home with 21 cozy fall living room decor ideas using layered textiles, natural materials, warm lighting, and seasonal accents."
 category: seasonal
 tags: ["fall decor","living rooms","cozy home","seasonal decorating","natural materials"]
@@ -90,7 +92,7 @@ Choose one main focal point such as a mirror or artwork, then add a few supporti
 
 Leave some empty space. A crowded mantel can make the whole living room feel visually heavy.
 
-For a closer look at arranging this focal point, see our [autumn mantel styling guide](/post/autumn-mantel-styling/).
+For a closer look at arranging this focal point, see our [autumn mantel styling guide](/post/fall-living-room-decor-ideas/).
 
 ## 12. Store Extra Throws in a Woven Basket
 
@@ -167,3 +169,22 @@ Keep the room feeling calm with the principles in our [minimalist living room gu
 ## Final Thoughts
 
 A warm fall living room is mostly about atmosphere. Layer textiles, soften the lighting, introduce a few natural materials, and then add seasonal details only where they improve the room. The most successful fall decor still feels like your home - just a little warmer and more inviting.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from autumn-mantel-styling; see editorial worksheet for evidence checks. -->
+
+## Start by clearing it completely
+
+Take everything off. Every time. Styling around what is already there is why mantels end up as a slowly accreting shelf of objects nobody chose.
+
+Wipe it down, then stand back and look at the empty shelf against the wall behind it. That negative space is the thing you are composing against, and you want to keep roughly **40% of the mantel's length visibly empty** when you are done.
+
+<!-- Consolidated existing section from fall-apartment-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Use Decor That Stores Flat
+
+Prints, garlands, and fabric items store flat and take up almost no space between seasons. Choose pieces that are easy to store and that work with your normal decor.
+
+This keeps seasonal decorating affordable and makes setup and cleanup much faster.

@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/teenage-boy-bedroom-ideas/"
+disposition: merge
 title: "Bedroom Ideas for Small Teen Rooms"
 description: "Small teen bedroom ideas that handle sleeping, studying and hanging out in one room — zoning, desk setups, storage and letting them own the space."
 category: "bedroom"

@@ -1,5 +1,7 @@
 ---
-title: "18 Halloween Door Decor Ideas From Spooky to Sophisticated"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Halloween Door Decor Ideas From Spooky to Sophisticated"
 description: "Find the right Halloween door decor for your style with 18 ideas ranging from classic jack-o-lanterns to elegant black wreaths and gothic garlands."
 category: seasonal
 tags: ["halloween decor", "halloween door decor", "seasonal decorating", "front door decor", "home styling"]
@@ -51,6 +53,7 @@ A garland of felt or paper candy corn shapes hung across the top of the door fra
 Use a command strip hook at each end so there is no damage to the frame.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4hAAmjo" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Non-Slip Halloween Welcome Mat on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -99,6 +102,7 @@ A full-door skeleton decal creates a dramatic effect with almost no effort. They
 Measure the door before ordering — standard doors are 80 inches tall.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4h0lVVE" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 16-Piece Mini Pumpkin Decor Set on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -141,6 +145,7 @@ Arrange three white or cream pumpkins of different sizes on the porch, with no c
 Use ceramic or foam pumpkins for a display that lasts beyond Halloween.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/3VkX0na" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween-Themed Fairy Lights on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -189,3 +194,30 @@ Use spray paint to turn inexpensive lanterns copper — it takes one coat and dr
 ## Final Thoughts
 
 The best Halloween door decor matches the style of the rest of your exterior and commits to one clear idea. Whether you go playful, classic, or sophisticated, a single strong element executed well is always more effective than a door covered in competing decorations.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from halloween-door-decorations; see editorial worksheet for evidence checks. -->
+
+## Mummy Wrap
+
+Wrap the door in horizontal strips of white crepe paper or white fabric, leaving a gap for the peephole. Add two large googly eyes cut from black and white card. It takes about twenty minutes, costs almost nothing, and photographs extremely well.
+
+Use painter's tape to attach the strips so the door paint is not damaged.
+
+<!-- Consolidated existing section from halloween-entryway-ideas; see editorial worksheet for evidence checks. -->
+
+## A Halloween Wreath
+
+A wreath on the front door is the single most impactful Halloween entryway element. Choose a style that suits your door colour — a dark dried flower wreath for a neutral door, a classic orange and black for a dark door, or a more minimal black and white for a modern exterior.
+
+Hang it with a removable adhesive hook if you cannot use a nail.
+
+<!-- Consolidated existing section from halloween-porch-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Pumpkin Cluster
+
+A cluster of carved and uncarved pumpkins of different sizes arranged on the steps is the classic Halloween porch display. Use a mix of real, ceramic, and foam pumpkins to reduce yearly waste. Light the carved ones with battery tea lights.
+
+Use odd numbers — three, five, or seven pumpkins — for the most natural arrangement.

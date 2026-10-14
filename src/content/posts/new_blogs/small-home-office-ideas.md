@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "Small Home Office Ideas for Tiny Corners"
 description: "Small home office ideas for corners, closets, hallways and shared rooms — desk sizes, layouts, storage and lighting that make a tiny workspace usable."
 category: "home-office"

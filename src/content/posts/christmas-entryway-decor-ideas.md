@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-space-christmas-decor-ideas/"
+disposition: merge
 title: "Christmas Entryway Decor Ideas"
 description: "Christmas entryway decor ideas that fit a small hall — wreath sizing, garland lengths, what fits on a console, and keeping the space walkable."
 category: "seasonal"

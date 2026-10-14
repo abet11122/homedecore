@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-entryway-ideas/"
+disposition: merge
 title: "Narrow Hallway Decor Ideas for Tight Spaces"
 description: "Narrow hallway decor ideas that add warmth without blocking the walkway — lighting, art, colour, runners and shallow storage that works in tight corridors."
 category: "entryway"

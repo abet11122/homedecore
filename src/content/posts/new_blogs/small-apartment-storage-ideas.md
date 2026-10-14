@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-apartment-organization-ideas/"
+disposition: merge
 title: "15 Small Apartment Storage Ideas That Maximize Every Inch"
 description: "Make the most of a compact home with 15 small apartment storage ideas covering under-bed storage, vertical shelving, multi-purpose furniture, and hidden storage."
 category: small-spaces

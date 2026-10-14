@@ -1,5 +1,7 @@
 ---
-title: "17 Small Bathroom Decor Ideas for a Stylish Space"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Small Bathroom Decor Ideas for a Stylish Space"
 description: "Transform a compact bathroom with 17 small bathroom decor ideas covering mirrors, wall colors, shower curtains, plants, and storage that doubles as styling."
 category: bathroom
 tags: ["small bathroom", "bathroom decor", "bathroom styling", "small spaces", "bathroom organization"]
@@ -125,3 +127,26 @@ Before buying anything, measure the available area and think about how the item 
 ## Final Thoughts
 
 The strongest small bathroom decor ideas are the ones that make the room feel larger and easier to use, not simply more decorated. Start with a large mirror and light wall colors, keep the counter clear, and add one or two natural elements for texture. Small, deliberate improvements are usually more successful than changing everything at once.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from bathroom-vanity-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## The rule: three things on display
+
+Only three categories belong on a vanity surface:
+
+1. **Something functional and attractive** — a soap dispenser, a toothbrush holder
+2. **Something living or natural** — a plant, dried stems, a stone dish
+3. **Something soft** — a folded hand towel
+
+Everything else goes in a drawer or a cabinet. Toothpaste, razors, skincare, hairbrushes — none of it earns counter space.
+
+<!-- Consolidated existing section from bathroom-shelf-styling-ideas; see editorial worksheet for evidence checks. -->
+
+## Make the Layout Easy to Wipe
+
+Leave a small gap between objects and the wall, and avoid delicate pieces that need special care. A shelf that can be dusted and wiped quickly is easier to keep looking good.
+
+Before adding decor, make sure the shelf is secure and suited to the room's humidity. A useful arrangement with a little open space will stay attractive longer than one packed with accessories.

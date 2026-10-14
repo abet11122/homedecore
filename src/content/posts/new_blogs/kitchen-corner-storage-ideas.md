@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-kitchen-organization-ideas/"
+disposition: merge
 title: "17 Kitchen Corner Storage Ideas for Awkward Spaces"
 description: "Make awkward kitchen corners easier to use with 17 practical storage ideas, from lazy Susans and pull-outs to open shelves and better countertop zones."
 category: kitchen

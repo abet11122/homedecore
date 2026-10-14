@@ -1,5 +1,7 @@
 ---
-title: "17 Small Bathroom Organization Ideas for a Clutter-Free Space"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Small Bathroom Organization Ideas for a Clutter-Free Space"
 description: "Discover 17 small bathroom organization ideas that make better use of cabinets, walls, counters, doors, and under-sink storage."
 category: bathroom
 tags: ["small bathrooms","bathroom organization","storage","decluttering","small spaces"]
@@ -136,8 +138,55 @@ If the same item appears on the counter every day, it probably does not have an 
 
 A good organization system should make putting things away almost as easy as leaving them out.
 
-For more ways to use awkward corners, explore our [small bathroom storage guide](/post/bathroom-storage-ideas-small-spaces/). If you rent, our [budget apartment ideas](/post/apartment-decor-ideas-budget/) offer more flexible updates.
+For more ways to use awkward corners, explore our [small bathroom storage guide](/post/small-bathroom-organization-ideas/). If you rent, our [budget apartment ideas](/post/small-apartment-organization-ideas/) offer more flexible updates.
 
 ## Final Thoughts
 
 Small bathroom organization works best when it reduces daily friction. Start with decluttering and measurements, then improve one problem area at a time. A clear counter, a practical under-sink setup, and a few well-placed hooks or shelves can make a small bathroom feel much easier to use without a renovation.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from bathroom-counter-organization-ideas; see editorial worksheet for evidence checks. -->
+
+## Plan the usable space first
+
+Measure the clear surface on each side of the basin, then subtract the area needed to turn the faucet and set down a hand while washing. Measure to the nearest obstruction rather than relying on the vanity's advertised width. For example, a 60 cm vanity with a centered basin may leave two narrow strips, not one 60 cm storage area. Make a paper template of any tray or organizer before buying it and check that you can still wipe underneath and around the faucet.
+
+If several people share the counter, decide whether each person needs a small separate zone or whether daily essentials can go in a drawer. A tray helps only when it replaces loose items; adding a tray without removing anything creates another surface to clean.
+
+<!-- Consolidated existing section from bathroom-organization-ideas-small-spaces; see editorial worksheet for evidence checks. -->
+
+## Prioritize the Vanity and Under-Sink Area
+
+The vanity and under-sink cabinet are the highest-impact storage zones in a small bathroom. Measure the space carefully and choose containers that fit around the plumbing.
+
+Measure width, depth, and height before choosing containers, especially around plumbing. Use low or pull-out bins when possible so items at the back remain easy to reach.
+
+<!-- Consolidated existing section from bathroom-over-toilet-storage-ideas; see editorial worksheet for evidence checks. -->
+
+## Install Two Shallow Floating Shelves
+
+Two shallow floating shelves above the toilet create a clean, open look and provide useful storage for towels, plants, and bathroom accessories. Keep the lower shelf at a comfortable height.
+
+Measure the wall before drilling or ordering storage, and check that doors, cabinets, and people can still move comfortably.
+
+<!-- Consolidated existing section from bathroom-storage-ideas-small-spaces; see editorial worksheet for evidence checks. -->
+
+## The depths that work
+
+- **Over-toilet shelving:** 8–10 inches deep. Any more and you'll knock your head.
+- **Wall cabinet:** 6–8 inches. Enough for bottles, shallow enough not to intrude.
+- **Behind-door storage:** 4–5 inches
+- **Recessed niche:** 3.5 inches (a standard stud cavity) — invisible depth, since it sits inside the wall
+- **Narrow floor cabinet:** 10–12 inches
+
+**Clearance to protect:** 21 inches of clear floor in front of the toilet, and 30 inches in front of the vanity.
+
+<!-- Consolidated existing section from under-sink-bathroom-organization-ideas; see editorial worksheet for evidence checks. -->
+
+## Measure Around Pipes First
+
+Before buying any under-sink organizer, measure the available space carefully, including the height, width, and depth around the pipes. Many standard organizers will not fit without modification.
+
+Before buying anything, measure the available area and think about how the item will be used every day.

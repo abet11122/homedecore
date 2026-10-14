@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-entryway-ideas/"
+disposition: merge
 title: "Entryway Table Decor Ideas"
 description: "How to style an entryway table so it looks finished and still works — layouts, height rules, seasonal swaps and what to keep off the surface."
 category: "entryway"

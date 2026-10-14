@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "Renter-Friendly Wall Decor Ideas (No Damage)"
 description: "Renter-friendly wall decor ideas that leave no damage — adhesive strips and their real weight limits, leaning displays, removable wallpaper and how to repair small holes."
 category: "renter"
@@ -67,6 +68,7 @@ Fill and touch up the two holes at move-out in five minutes.
 **Removal:** warm it gently with a hairdryer and peel slowly from one corner at a low angle.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4heMq9U" target="_blank" rel="sponsored nofollow noopener" aria-label="View Laatse Vintage Floral Peel and Stick Wallpaper on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">

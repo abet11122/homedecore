@@ -2,6 +2,816 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/post/aesthetic-bedroom-ideas-small-rooms/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/aesthetic-bedroom-ideas-small-rooms/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/backyard-seating-area-ideas/",
+      "destination": "/post/small-patio-ideas-apartments/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/backyard-seating-area-ideas/",
+      "destination": "/post/small-patio-ideas-apartments/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/baddie-bedroom-ideas-small-rooms/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/baddie-bedroom-ideas-small-rooms/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bathroom-vanity-decor-ideas/",
+      "destination": "/post/small-bathroom-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bathroom-vanity-decor-ideas/",
+      "destination": "/post/small-bathroom-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bedroom-ideas-for-young-boys/",
+      "destination": "/post/boys-bedroom-ideas-cool-livable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bedroom-ideas-for-young-boys/",
+      "destination": "/post/boys-bedroom-ideas-cool-livable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bedroom-ideas-small-spaces-bigger/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bedroom-ideas-small-spaces-bigger/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bedroom-ideas-small-teen-rooms/",
+      "destination": "/post/teenage-boy-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bedroom-ideas-small-teen-rooms/",
+      "destination": "/post/teenage-boy-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/blue-boys-bedroom-ideas/",
+      "destination": "/post/boys-bedroom-paint-color-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/blue-boys-bedroom-ideas/",
+      "destination": "/post/boys-bedroom-paint-color-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/blue-girls-bedroom-ideas/",
+      "destination": "/post/boho-girls-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/blue-girls-bedroom-ideas/",
+      "destination": "/post/boho-girls-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bookshelf-ideas-small-bedrooms/",
+      "destination": "/post/small-bedroom-storage-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bookshelf-ideas-small-bedrooms/",
+      "destination": "/post/small-bedroom-storage-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/boys-bedroom-decor-ideas/",
+      "destination": "/post/boys-bedroom-ideas-cool-livable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/boys-bedroom-decor-ideas/",
+      "destination": "/post/boys-bedroom-ideas-cool-livable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/boys-bedroom-looks-everyday-details/",
+      "destination": "/post/boys-bedroom-ideas-cool-livable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/boys-bedroom-looks-everyday-details/",
+      "destination": "/post/boys-bedroom-ideas-cool-livable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/boys-bunk-bed-bedroom-ideas/",
+      "destination": "/post/shared-boys-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/boys-bunk-bed-bedroom-ideas/",
+      "destination": "/post/shared-boys-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/boys-gamer-bedroom-ideas/",
+      "destination": "/post/boys-gaming-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/boys-gamer-bedroom-ideas/",
+      "destination": "/post/boys-gaming-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-entryway-decor-ideas/",
+      "destination": "/post/small-space-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/christmas-entryway-decor-ideas/",
+      "destination": "/post/small-space-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/entryway-storage-ideas/",
+      "destination": "/post/small-entryway-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/entryway-storage-ideas/",
+      "destination": "/post/small-entryway-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/mudroom-ideas-small-homes/",
+      "destination": "/post/small-entryway-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/mudroom-ideas-small-homes/",
+      "destination": "/post/small-entryway-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/narrow-hallway-decor-ideas/",
+      "destination": "/post/small-entryway-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/narrow-hallway-decor-ideas/",
+      "destination": "/post/small-entryway-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/apartment-christmas-door-decor-ideas/",
+      "destination": "/post/small-space-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/apartment-christmas-door-decor-ideas/",
+      "destination": "/post/small-space-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/apartment-decor-ideas-budget/",
+      "destination": "/post/small-apartment-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/apartment-decor-ideas-budget/",
+      "destination": "/post/small-apartment-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/autumn-mantel-styling/",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/autumn-mantel-styling/",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/backyard-halloween-party-ideas/",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/backyard-halloween-party-ideas/",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/balcony-decor-ideas/",
+      "destination": "/post/small-patio-ideas-apartments/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/balcony-decor-ideas/",
+      "destination": "/post/small-patio-ideas-apartments/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bathroom-counter-organization-ideas/",
+      "destination": "/post/small-bathroom-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bathroom-counter-organization-ideas/",
+      "destination": "/post/small-bathroom-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bathroom-organization-ideas-small-spaces/",
+      "destination": "/post/small-bathroom-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bathroom-organization-ideas-small-spaces/",
+      "destination": "/post/small-bathroom-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bathroom-over-toilet-storage-ideas/",
+      "destination": "/post/small-bathroom-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bathroom-over-toilet-storage-ideas/",
+      "destination": "/post/small-bathroom-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bathroom-shelf-styling-ideas/",
+      "destination": "/post/small-bathroom-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bathroom-shelf-styling-ideas/",
+      "destination": "/post/small-bathroom-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bathroom-storage-ideas-small-spaces/",
+      "destination": "/post/small-bathroom-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bathroom-storage-ideas-small-spaces/",
+      "destination": "/post/small-bathroom-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bedroom-accent-wall-ideas/",
+      "destination": "/post/bedroom-wallpaper-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bedroom-accent-wall-ideas/",
+      "destination": "/post/bedroom-wallpaper-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bedroom-storage-ideas-small-rooms/",
+      "destination": "/post/small-bedroom-storage-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bedroom-storage-ideas-small-rooms/",
+      "destination": "/post/small-bedroom-storage-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/bedroom-wall-decor-above-bed/",
+      "destination": "/post/bedroom-wallpaper-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/bedroom-wall-decor-above-bed/",
+      "destination": "/post/bedroom-wallpaper-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/beige-bedroom-ideas/",
+      "destination": "/post/neutral-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/beige-bedroom-ideas/",
+      "destination": "/post/neutral-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/boys-bedroom-storage-ideas/",
+      "destination": "/post/small-boys-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/boys-bedroom-storage-ideas/",
+      "destination": "/post/small-boys-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-bedroom-ideas/",
+      "destination": "/post/cozy-christmas-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/christmas-bedroom-ideas/",
+      "destination": "/post/cozy-christmas-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-coffee-table-decor-ideas/",
+      "destination": "/post/small-space-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/christmas-coffee-table-decor-ideas/",
+      "destination": "/post/small-space-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-entryway-ideas/",
+      "destination": "/post/small-space-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/christmas-entryway-ideas/",
+      "destination": "/post/small-space-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/christmas-kitchen-decor-ideas/",
+      "destination": "/post/small-space-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/christmas-kitchen-decor-ideas/",
+      "destination": "/post/small-space-christmas-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/cozy-bedroom-lighting-ideas/",
+      "destination": "/post/bedroom-lighting-layers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/cozy-bedroom-lighting-ideas/",
+      "destination": "/post/bedroom-lighting-layers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/cozy-small-bedroom-ideas/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/cozy-small-bedroom-ideas/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/cozy-winter-home-decor-ideas/",
+      "destination": "/post/winter-hygge-guide/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/cozy-winter-home-decor-ideas/",
+      "destination": "/post/winter-hygge-guide/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/cream-bedroom-ideas/",
+      "destination": "/post/neutral-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/cream-bedroom-ideas/",
+      "destination": "/post/neutral-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/diy-halloween-decor-outdoor/",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/diy-halloween-decor-outdoor/",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/earthy-bedroom-ideas/",
+      "destination": "/post/neutral-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/earthy-bedroom-ideas/",
+      "destination": "/post/neutral-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/entryway-table-decor-ideas/",
+      "destination": "/post/small-entryway-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/entryway-table-decor-ideas/",
+      "destination": "/post/small-entryway-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/fall-apartment-decor-ideas/",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/fall-apartment-decor-ideas/",
+      "destination": "/post/fall-living-room-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/funny-outdoor-halloween-decorations/",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/funny-outdoor-halloween-decorations/",
+      "destination": "/post/halloween-yard-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/gothic-halloween-decor-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/gothic-halloween-decor-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-bathroom-decor-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/halloween-bathroom-decor-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-bedroom-decor-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/halloween-bedroom-decor-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-centerpieces/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/halloween-centerpieces/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-crafts-for-adults/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/halloween-crafts-for-adults/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-door-decorations/",
+      "destination": "/post/halloween-door-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/halloween-door-decorations/",
+      "destination": "/post/halloween-door-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-entryway-ideas/",
+      "destination": "/post/halloween-door-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/halloween-entryway-ideas/",
+      "destination": "/post/halloween-door-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-fireplace-decor-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/halloween-fireplace-decor-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-kitchen-decor-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/halloween-kitchen-decor-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-living-room-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/halloween-living-room-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/halloween-porch-decor-ideas/",
+      "destination": "/post/halloween-door-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/halloween-porch-decor-ideas/",
+      "destination": "/post/halloween-door-decor-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/kitchen-cabinet-organization-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/kitchen-cabinet-organization-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/kitchen-corner-storage-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/kitchen-corner-storage-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/kitchen-countertop-decor-ideas/",
+      "destination": "/post/kitchen-island-styling/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/kitchen-countertop-decor-ideas/",
+      "destination": "/post/kitchen-island-styling/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/kitchen-drawer-organization-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/kitchen-drawer-organization-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/kitchen-open-shelving-styling/",
+      "destination": "/post/kitchen-island-styling/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/kitchen-open-shelving-styling/",
+      "destination": "/post/kitchen-island-styling/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/modern-boys-bedroom-ideas/",
+      "destination": "/post/boys-bedroom-ideas-cool-livable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/modern-boys-bedroom-ideas/",
+      "destination": "/post/boys-bedroom-ideas-cool-livable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/navy-boys-bedroom-ideas/",
+      "destination": "/post/boys-bedroom-paint-color-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/navy-boys-bedroom-ideas/",
+      "destination": "/post/boys-bedroom-paint-color-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/pink-halloween-decor-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/pink-halloween-decor-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/pumpkin-painting-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/pumpkin-painting-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/renter-friendly-storage-ideas-no-drilling/",
+      "destination": "/post/small-apartment-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/renter-friendly-storage-ideas-no-drilling/",
+      "destination": "/post/small-apartment-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-apartment-halloween-decor-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/small-apartment-halloween-decor-ideas/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-apartment-living-room-ideas/",
+      "destination": "/post/living-room-layout-rules/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/small-apartment-living-room-ideas/",
+      "destination": "/post/living-room-layout-rules/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-apartment-storage-ideas/",
+      "destination": "/post/small-apartment-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/small-apartment-storage-ideas/",
+      "destination": "/post/small-apartment-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-bedroom-ideas-that-look-expensive/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/small-bedroom-ideas-that-look-expensive/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-bedroom-makeover-ideas/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/small-bedroom-makeover-ideas/",
+      "destination": "/post/small-bedroom-layout-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-entryway-organization-ideas/",
+      "destination": "/post/small-entryway-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/small-entryway-organization-ideas/",
+      "destination": "/post/small-entryway-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-kitchen-storage-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/small-kitchen-storage-ideas/",
+      "destination": "/post/small-kitchen-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-space-halloween-decor/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/small-space-halloween-decor/",
+      "destination": "/post/small-apartment-halloween-decor-no-damage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/small-studio-apartment-ideas/",
+      "destination": "/post/studio-apartment-zoning/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/small-studio-apartment-ideas/",
+      "destination": "/post/studio-apartment-zoning/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/under-sink-bathroom-organization-ideas/",
+      "destination": "/post/small-bathroom-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/under-sink-bathroom-organization-ideas/",
+      "destination": "/post/small-bathroom-organization-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/vintage-halloween-decor-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/vintage-halloween-decor-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/warm-neutral-bedroom-ideas/",
+      "destination": "/post/neutral-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/warm-neutral-bedroom-ideas/",
+      "destination": "/post/neutral-bedroom-ideas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/y2k-apocalypse-halloween-party-decor-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/new_blogs/y2k-apocalypse-halloween-party-decor-ideas/",
+      "destination": "/post/elegant-halloween-decor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/author/elena-marsh/",
+      "destination": "/author/editorial-team/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/onthecorner/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
       "source": "/post/new_blogs/:slug/",
       "destination": "/post/:slug/",
       "permanent": true

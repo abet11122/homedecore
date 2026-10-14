@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/boys-bedroom-ideas-cool-livable/"
+disposition: merge
 title: "Bedroom Ideas for Young Boys"
 description: "Bedroom ideas for young boys aged 3-8 — layouts, storage, paint colours and themes that grow with them instead of needing redoing in two years."
 category: "bedroom"

@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "How to Layer a Bed So It Actually Looks Like the Photographs"
 description: "Hotel beds look better than yours for five specific reasons. Here is the layering order, the sizing rules and the pillow maths that fix it."
 category: "bedroom"

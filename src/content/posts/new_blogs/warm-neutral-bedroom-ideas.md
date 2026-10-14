@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/neutral-bedroom-ideas/"
+disposition: merge
 title: "15 Warm Neutral Bedroom Ideas With Wood and Linen"
 description: "Create a warm, grounded bedroom with 15 ideas using wood tones, linen textures, natural materials, and layered neutrals that feel calm and inviting year-round."
 category: bedroom

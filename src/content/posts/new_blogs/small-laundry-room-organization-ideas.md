@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "15 Small Laundry Room Organization Ideas That Save Space"
 description: "Make a compact laundry room work harder with 15 small laundry room organization ideas covering vertical storage, sorting systems, folding surfaces, and slim carts."
 category: small-spaces

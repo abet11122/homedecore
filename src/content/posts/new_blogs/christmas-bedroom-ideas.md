@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/cozy-christmas-bedroom-ideas/"
+disposition: merge
 title: "17 Christmas Bedroom Ideas for a Cozy Holiday Retreat"
 description: "Create a festive and restful bedroom with 17 Christmas bedroom ideas using string lights, holiday bedding, wreaths, greenery, and a simple seasonal palette."
 category: seasonal

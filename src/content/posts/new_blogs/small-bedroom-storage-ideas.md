@@ -1,5 +1,7 @@
 ---
-title: "15 Small Bedroom Storage Ideas That Free Up Floor Space"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Small Bedroom Storage Ideas That Free Up Floor Space"
 description: "Reclaim space in a compact room with 15 small bedroom storage ideas covering under-bed storage, vertical shelving, decluttering, and smart furniture choices."
 category: bedroom
 tags: ["small bedrooms", "storage", "bedroom organization", "small spaces", "decluttering"]
@@ -40,6 +42,7 @@ A bedside cabinet with drawers stores more than an open shelf and keeps the surf
 Measure width, depth, and height before choosing, especially if the space beside the bed is narrow.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/3TEGIVP" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Furologee Night Stand with Charging Station, 2 Fabric Drawers on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">
@@ -55,6 +58,7 @@ Measure width, depth, and height before choosing, especially if the space beside
 </div>
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/3VJdXYw" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for BOLUO White Nightstand with Charging Station, LED Night Stand with 2 Fabric Drawers on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">
@@ -144,3 +148,27 @@ In rentals, removable adhesive hooks are a good no-drill alternative.
 ## Final Thoughts
 
 The strongest small bedroom storage ideas are the ones that make the room easier to live in, not simply more decorated. Start with a declutter, use under-bed and vertical space, and keep enough empty floor area for the room to feel comfortable. Small, deliberate improvements are usually more successful than changing everything at once.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from bookshelf-ideas-small-bedrooms; see editorial worksheet for evidence checks. -->
+
+## Shelf depths that actually work
+
+This is the number that matters, and knowing it opens up options:
+
+- **Paperbacks:** 6 inches deep
+- **Standard hardbacks:** 8 inches
+- **Large art or coffee-table books:** 12 inches
+- **Front-facing display (covers out):** 4 inches
+
+Most people buy 12-inch shelves for paperbacks and lose 6 inches of room depth for nothing. A 6-inch floating shelf barely intrudes at all.
+
+<!-- Consolidated existing section from bedroom-storage-ideas-small-rooms; see editorial worksheet for evidence checks. -->
+
+## Add a Drawer Bed or Ottoman Bed
+
+A drawer bed or ottoman bed replaces a separate chest of drawers in a very small room. The storage is hidden, the floor stays clear, and the room looks tidier.
+
+Ottoman beds need clearance at the foot to lift — measure before buying.

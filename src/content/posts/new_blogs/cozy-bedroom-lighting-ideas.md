@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/bedroom-lighting-layers/"
+disposition: merge
 title: "17 Cozy Bedroom Lighting Ideas for a Warm Evening Look"
 description: "Create a warm, layered bedroom atmosphere with 17 lighting ideas covering bedside lamps, fairy lights, dimmers, candles, and smart bulbs for a cozy evening look."
 category: bedroom

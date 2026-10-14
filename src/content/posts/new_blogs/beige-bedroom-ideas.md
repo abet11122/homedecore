@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/neutral-bedroom-ideas/"
+disposition: merge
 title: "17 Beige Bedroom Ideas That Don't Feel Boring"
 description: "Make beige work in a bedroom with 17 ideas that add texture, warmth, and personality through layered neutrals, natural materials, and well-chosen accent colors."
 category: bedroom

@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bathroom-organization-ideas/"
+disposition: merge
 title: "Bathroom Storage Ideas for Small Spaces"
 description: "Small bathroom storage ideas with real depths and heights — over-toilet, vanity, shower and wall storage that fits without crowding the room."
 category: "bathroom"

@@ -1,4 +1,6 @@
 ---
+updatedDate: 2026-10-14
+disposition: keep
 title: "Zoning a Studio: Making One Room Behave Like Three"
 description: "A studio fails when every activity happens everywhere. Rugs, backs of sofas, height changes and light are how you build rooms without building walls."
 category: "small-spaces"
@@ -91,7 +93,7 @@ Walk your actual routes before you commit to a layout: door to bed, bed to bathr
 - **One closed unit per zone**, so each area can be tidied independently. Open storage everywhere means the whole flat looks messy when one corner is.
 - **Furniture that stores:** ottoman with a lid, bed with drawers, a bench at the table with a hinged seat.
 
-For a compact sleeping area, our [small bedroom ideas](/post/small-bedroom-ideas-that-look-expensive/) offer ways to layer bedding, lighting and storage without crowding the room.
+For a compact sleeping area, our [small bedroom ideas](/post/small-bedroom-layout-ideas/) offer ways to layer bedding, lighting and storage without crowding the room.
 
 ## A worked example: 32m² studio, window on one wall
 
@@ -111,4 +113,15 @@ In a house with doors you can close a mess away. In a studio, every surface is o
 
 ---
 
-*Working with a compact bedroom? Try our [small bedroom ideas](/post/small-bedroom-ideas-that-look-expensive/) next.*
+*Working with a compact bedroom? Try our [small bedroom ideas](/post/small-bedroom-layout-ideas/) next.*
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from small-studio-apartment-ideas; see editorial worksheet for evidence checks. -->
+
+## Define Sleeping and Living Zones
+
+In a studio apartment, defining separate areas for sleeping and living makes the space feel more organized and intentional. Use a rug, bookcase, or sofa position to signal where one zone ends and another begins.
+
+Before buying anything, measure the available area and think about how the item will be used every day.

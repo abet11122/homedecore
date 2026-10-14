@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-kitchen-organization-ideas/"
+disposition: merge
 title: "15 Kitchen Drawer Organization Ideas for Small Kitchens"
 description: "Organize every kitchen drawer with 15 ideas covering cutlery trays, utensil dividers, spice drawers, junk drawer systems, and zone-based layouts for small kitchens."
 category: kitchen

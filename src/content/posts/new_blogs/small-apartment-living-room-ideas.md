@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/living-room-layout-rules/"
+disposition: merge
 title: "15 Small Apartment Living Room Ideas for a Functional Space"
 description: "Make a compact living room work harder with 15 small apartment living room ideas covering furniture scale, rugs, lighting, storage, and zone definition."
 category: small-spaces

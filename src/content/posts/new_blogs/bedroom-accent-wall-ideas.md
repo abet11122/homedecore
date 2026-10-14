@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/bedroom-wallpaper-ideas/"
+disposition: merge
 title: "17 Bedroom Accent Wall Ideas That Look Expensive"
 description: "Transform your bedroom with 17 accent wall ideas using paint, wallpaper, wood panels, fabric, and texture that look high-end without a high-end budget."
 category: bedroom
@@ -45,6 +47,7 @@ Vertical wood panels add height and texture to a bedroom wall. Paint them the sa
 MDF panels are cheaper than real wood and easier to cut and install.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4z4e2EU" target="_blank" rel="sponsored nofollow noopener" aria-label="View Peel and Stick PVC Slat Wall Panel on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">

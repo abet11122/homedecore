@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/studio-apartment-zoning/"
+disposition: merge
 title: "15 Small Studio Apartment Ideas for a Functional Home"
 description: "Make a single-room apartment work harder with 15 small studio apartment ideas covering zone definition, multi-purpose furniture, vertical storage, and color palettes."
 category: small-spaces

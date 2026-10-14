@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "DIY Ceramic Planters: Make Your Own Hand-Thrown Look"
 description: "No pottery wheel needed. Learn to create modern ceramic planters from air-dry clay that look store-bought for a fraction of the price."
 category: "diy-decor"

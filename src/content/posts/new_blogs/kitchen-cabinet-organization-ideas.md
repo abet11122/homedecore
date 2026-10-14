@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-kitchen-organization-ideas/"
+disposition: merge
 title: "17 Small Kitchen Cabinet Organization Ideas"
 description: "Organize small kitchen cabinets with 17 ideas covering shelf risers, pull-out drawers, door storage, pan organizers, and zone-based systems that maximize every inch."
 category: kitchen

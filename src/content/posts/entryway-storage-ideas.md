@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-entryway-ideas/"
+disposition: merge
 title: "Entryway Storage Ideas for Shoes, Coats and Keys"
 description: "Practical entryway storage ideas that handle shoes, coats, bags and keys without cluttering a small hall — with real measurements and renter-friendly options."
 category: "entryway"

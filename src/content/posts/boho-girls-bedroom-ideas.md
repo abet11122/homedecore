@@ -1,4 +1,6 @@
 ---
+updatedDate: 2026-10-14
+disposition: keep
 title: "Boho Girls Bedroom Ideas"
 description: "Boho girls bedroom ideas that look collected rather than cluttered — the palette, the textures, macrame and rattan, and how to keep the layered look tidy."
 category: "bedroom"
@@ -55,6 +57,7 @@ The bed carries most of the look.
 **Canopy:** a sheer canopy or a simple hoop with fabric draped over the bed is very boho and genuinely lovely. Fix it properly to a ceiling joist.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4ApWBA1" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Bollepo Pink Bed Canopy for Girls with Glowing Stars on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">
@@ -70,6 +73,7 @@ The bed carries most of the look.
 </div>
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/3Td1KL6" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Obrecis Bed Canopy with LED Star Lights, 24 Color Changing on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">
@@ -118,6 +122,7 @@ Good faux plants are fine and nobody will know.
 Pick two or three of these, not all six. The wall above the bed and one other wall is plenty.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4z0kX1N" target="_blank" rel="sponsored nofollow noopener" aria-label="View 12 Sheet Daisy Wall Sticker Decals on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">
@@ -176,3 +181,22 @@ The style is genuinely cheap to achieve because it favours natural, simple mater
 **The formula:** warm white walls, rattan headboard, linen bedding in oat and terracotta, layered jute rug, macrame above the bed, three plants at different heights, brass fittings, warm bulbs.
 
 Follow that and the room looks like it took years to collect.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from blue-girls-bedroom-ideas; see editorial worksheet for evidence checks. -->
+
+## The blues worth choosing
+
+**Dusty blue** — grey-blue, soft and slightly faded. The most versatile choice. Calm without being cold, and it works with pink, cream, rust and gold.
+
+**Powder blue** — pale and airy. Lovely for younger girls, and with warm accents it doesn't read as babyish.
+
+**Teal** — blue-green. More energetic, works beautifully with mustard, coral and warm wood.
+
+**Navy** — dramatic and grown-up. Excellent for a teenager, and it makes white bedding look crisp.
+
+**Cornflower** — a mid blue with warmth in it. Cheerful without being primary.
+
+**Shades to sample:** Pale Powder and Borrowed Light (Farrow & Ball), Palladian Blue and Woodlawn Blue (Benjamin Moore), Rainwashed (Sherwin-Williams).

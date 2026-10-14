@@ -1,5 +1,7 @@
 ---
-title: "17 Halloween Yard Ideas That Transform Your Outdoor Space"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Halloween Yard Ideas That Transform Your Outdoor Space"
 description: "Turn your yard into a Halloween display with 17 ideas including graveyards, inflatables, lighting, and fog effects. Scaled for small and large yards."
 category: outdoor
 tags: ["halloween decor", "halloween yard", "outdoor decor", "seasonal decorating", "yard decorations"]
@@ -54,6 +56,7 @@ Solar lights need a few hours of direct sun to charge fully.
 ## Witch's Garden
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/3VkX0na" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween-Themed Fairy Lights on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -96,6 +99,7 @@ Place a rocking chair on the lawn with a skeleton or stuffed figure sitting in i
 Use a motion-activated sound effect for extra impact on trick-or-treat night.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4xDaRTp" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 1200W Halloween Fog Machine on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -138,6 +142,7 @@ A Halloween projector that casts moving images — ghosts, bats, spiders, lightn
 Position the projector so the image falls on a light-colored surface for the best effect.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4jjkxia" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 210-Piece Fake Spider Set on Amazon (opens in a new tab)">
     <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
@@ -188,3 +193,47 @@ Vary the sizes for a more natural look.
 ## Final Thoughts
 
 The most effective Halloween yard displays are the ones that tell a clear story and guide visitors toward the door. Start with the path and the porch, then extend into the yard if space and budget allow. Lighting is the most important element — a well-lit display at night is worth ten times the same display in daylight.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from backyard-halloween-party-ideas; see editorial worksheet for evidence checks. -->
+
+## Lantern Clusters
+
+Group three or four lanterns of different sizes at the corners of the party area, each with a flameless candle inside. The clusters define the space and create warm pools of light.
+
+Use lanterns with a handle so they are easy to move if the layout needs adjusting.
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/4h1UgDI" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Halloween Balloon Garland Arch Kit on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this party decoration</small>
+      <strong>Halloween Balloon Garland Arch Kit</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<!-- Consolidated existing section from diy-halloween-decor-outdoor; see editorial worksheet for evidence checks. -->
+
+## Make Paper Bag Luminaries
+
+Fill brown paper bags with a few inches of sand or gravel, cut simple shapes into the sides — a jack-o-lantern face, a bat, a moon — and drop a battery tea light inside. Line them along a path or porch steps.
+
+Use battery tea lights rather than real candles to avoid fire risk.
+
+<!-- Consolidated existing section from funny-outdoor-halloween-decorations; see editorial worksheet for evidence checks. -->
+
+## Witch Crashed Into the Tree
+
+Attach a pair of striped witch legs — stuffed tights with boots at the end — to a tree trunk, as if the witch flew into it at speed. Add a broomstick on the ground below. This is one of the most classic funny Halloween yard decorations and always gets a reaction.
+
+Use tights in classic witch stripes — black and white or black and orange.

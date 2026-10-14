@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bedroom-layout-ideas/"
+disposition: merge
 title: "17 Cozy Small Bedroom Ideas for a Restful Space"
 description: "Transform a compact room into a calm retreat with 17 cozy small bedroom ideas covering layered bedding, warm lighting, color palettes, and smart storage."
 category: bedroom
@@ -27,6 +29,7 @@ A duvet, a folded throw at the foot of the bed, and two or three cushions create
 Start with what you already own, then make one small change at a time.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/3Voni84" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for ZonLi Weighted Blanket for Adults 60x80, 20lbs, Dark Grey on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">

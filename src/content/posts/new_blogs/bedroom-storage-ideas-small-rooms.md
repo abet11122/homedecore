@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bedroom-storage-ideas/"
+disposition: merge
 title: "17 Bedroom Storage Ideas for Small Rooms"
 description: "Maximize storage in a small bedroom with 17 ideas covering under-bed drawers, floating shelves, wardrobe organizers, and hidden storage that keep the room tidy."
 category: bedroom

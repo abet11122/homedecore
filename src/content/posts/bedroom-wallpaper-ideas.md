@@ -1,4 +1,6 @@
 ---
+updatedDate: 2026-10-14
+disposition: keep
 title: "Beautiful Bedroom Wallpaper Ideas"
 description: "Bedroom wallpaper ideas with practical guidance — which wall to paper, how many rolls you need, peel-and-stick vs traditional, and patterns that suit small rooms."
 category: "bedroom"
@@ -62,6 +64,7 @@ Reality: more work, but paste-the-wall (rather than paste-the-paper) is far more
 For a feature wall you plan to keep, traditional is usually the better choice. For a rental or a child's room, peel-and-stick.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4rzHhgd" target="_blank" rel="sponsored nofollow noopener" aria-label="View Sage Green Floral Peel and Stick Wallpaper on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">
@@ -156,3 +159,22 @@ A pattern that looks perfect on a screen frequently looks busy or dull on an act
 | Renting? | Peel-and-stick, on smooth walls only |
 | Other walls? | Plain, in the paper's background tone |
 | Before ordering? | Sample on the wall for a week |
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from bedroom-accent-wall-ideas; see editorial worksheet for evidence checks. -->
+
+## Paint the Wall Behind the Bed a Deep Color
+
+A deep color — navy, charcoal, forest green, terracotta, or dusty plum — on the wall behind the bed is the simplest and most effective accent wall approach. It costs one tin of paint and a few hours.
+
+Keep the other three walls white or a warm off-white so the accent wall reads clearly.
+
+<!-- Consolidated existing section from bedroom-wall-decor-above-bed; see editorial worksheet for evidence checks. -->
+
+## Hang One Large Piece of Art
+
+A single large canvas or framed print centered above the bed is the simplest and most effective approach. The art should be roughly two-thirds the width of the bed — about 40 inches for a double, 50 inches for a king.
+
+Hang it 6–10 inches above the headboard with the center at 57 inches from the floor.

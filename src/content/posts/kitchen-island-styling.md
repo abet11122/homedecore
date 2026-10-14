@@ -1,4 +1,6 @@
 ---
+updatedDate: 2026-10-14
+disposition: keep
 title: "The Kitchen Island: Clearance, Overhang and What Goes on Top"
 description: "Islands fail on measurements long before they fail on styling. The clearances, seating overhangs and the three-object rule for a surface you actually use."
 category: "kitchen"
@@ -7,7 +9,7 @@ publishDate: 2026-08-06
 heroImage: "photo-1600607687920-4e2a09cf159d"
 pinImage: "photo-1507089947368-19c1da9775ae"
 featured: false
-affiliateDisclosure: false
+affiliateDisclosure: true
 ---
 
 An island is the most expensive thing in most kitchen renovations and the easiest to get wrong, because the mistakes are dimensional and therefore permanent. A beautiful island with 85cm of walkway behind it will irritate you every single day, and no amount of styling fixes it.
@@ -86,7 +88,7 @@ Cluster them at one end. The other two-thirds stays empty and available. That em
 
 ### The material story
 
-Keep the island's objects in the same material family as the rest of the kitchen. If your shelves are ceramic-and-wood, the island is ceramic-and-wood — the same logic we set out in our [open shelving guide](/post/kitchen-open-shelving-styling/). Mixing chrome, brass, plastic and stone on one surface reads as unresolved.
+Keep the island's objects in the same material family as the rest of the kitchen. If your shelves are ceramic-and-wood, the island is ceramic-and-wood — the same logic we set out in our [open shelving guide](/post/kitchen-island-styling/). Mixing chrome, brass, plastic and stone on one surface reads as unresolved.
 
 ## Making it survive real life
 
@@ -110,4 +112,41 @@ Get one with a solid top, locking castors and a shelf underneath. It is not a co
 
 ---
 
-*Working out the surfaces around it? Our [open shelving guide](/post/kitchen-open-shelving-styling/) covers the 70/30 rule for everything on display.*
+*Working out the surfaces around it? Our [open shelving guide](/post/kitchen-island-styling/) covers the 70/30 rule for everything on display.*
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from kitchen-countertop-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Keep Decor to One or Two Zones
+
+Rather than decorating the entire counter, choose one or two areas — beside the hob or near the window — and keep the rest clear. This makes the kitchen easier to clean and use.
+
+Before buying anything, measure the available area and think about how the item will be used every day.
+
+A dedicated coffee station on a freestanding rack can leave more of the counter clear for cooking.
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/47kiZNL" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Rustic brown; 23.6 in microwave stand) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Product pick</small>
+      <strong>Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Rustic brown; 23.6 in microwave stand)</strong>
+      <span class="shop-look__meta">Rustic-brown 23.6-inch four-tier microwave rack with a reversible power outlet, top shelf and six S-hooks.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">View &amp; buy on Amazon <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<!-- Consolidated existing section from kitchen-open-shelving-styling; see editorial worksheet for evidence checks. -->
+
+## The Open Shelving Question: Beautiful or Chaotic?
+
+Open shelving has been a divisive trend for five years now. The Scandinavian minimalist crowd loves it. The "I actually cook" crowd? Less sure.
+
+The truth: open shelving works brilliantly when you commit to the styling and accept that it requires maintenance. It's not for everyone, but when it's done right, it looks like you have your life together (even if your chaos is just behind closed doors below).

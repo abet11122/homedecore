@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bedroom-storage-ideas/"
+disposition: merge
 title: "Bookshelf Ideas for Small Bedrooms"
 description: "Bookshelf ideas for small bedrooms — shelf depths, wall-mounted options, over-bed and over-door shelving, plus how to style shelves so they look calm."
 category: "bedroom"

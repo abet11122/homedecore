@@ -1,4 +1,6 @@
 ---
+updatedDate: 2026-10-14
+disposition: keep
 title: "Bedroom Lighting: Why the Ceiling Light Is Ruining Your Room"
 description: "One overhead bulb flattens a bedroom and wrecks your sleep. Here is the three-source layering method, plus the bulb specs that actually matter."
 category: "bedroom"
@@ -121,3 +123,14 @@ Leave the ceiling fitting switched off permanently. You will not miss it.
 ---
 
 *Pair this with the layering method in our guide to [making a bed properly](/post/bedroom-sanctuary-layering/) — soft side-light is what makes those fabric folds read.*
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from cozy-bedroom-lighting-ideas; see editorial worksheet for evidence checks. -->
+
+## Add a Dimmer Switch to the Overhead Light
+
+A dimmer switch on the overhead light is the single most impactful bedroom lighting upgrade. It costs very little and takes an hour to install. Being able to lower the overhead light in the evening changes the entire mood of the room.
+
+Use a smart dimmer if you want to control it from your phone or set schedules.

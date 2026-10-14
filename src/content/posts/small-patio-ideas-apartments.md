@@ -1,4 +1,6 @@
 ---
+updatedDate: 2026-10-14
+disposition: keep
 title: "Small Patio Ideas for Apartments"
 description: "Small patio ideas for apartments — furniture sizing, flooring over concrete, privacy screening, lighting and plants that survive a container."
 category: "outdoor"
@@ -141,3 +143,33 @@ That last one causes more neighbour complaints than anything else on a balcony.
 Interlocking deck tiles, one bistro set, a privacy screen on the railing, solar string lights overhead, three large planters, and a storage bench.
 
 That's a complete patio, nothing permanent, and it all comes with you when you move.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from backyard-seating-area-ideas; see editorial worksheet for evidence checks. -->
+
+## How much space you need
+
+**Conversation set (4 chairs + coffee table):** 10 x 10 feet minimum, 12 x 12 comfortable.
+
+**Dining set for 6:** 12 x 12 feet. The table itself is about 6 x 3, and you need 36 inches of pull-out clearance on every side.
+
+**Two chairs and a side table:** 6 x 8 feet.
+
+**Fire pit seating:** the pit plus a 7-foot radius of clear space around it.
+
+**Distance between facing seats:** 7–10 feet for comfortable conversation. Further apart and people raise their voices; closer and it feels cramped.
+
+<!-- Consolidated existing section from balcony-decor-ideas; see editorial worksheet for evidence checks. -->
+
+## Work out what you actually have
+
+**Measure the depth first.** It determines everything.
+
+- **Under 3 feet** — standing space only. Rail-mounted table, plants, no seating.
+- **3–4 feet** — one folding chair or a narrow bench against the wall.
+- **4–5 feet** — two chairs and a small table, if you keep everything slim.
+- **Over 5 feet** — a proper bistro set works.
+
+**Leave 24 inches** to walk through to the door.

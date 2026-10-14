@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bathroom-decor-ideas/"
+disposition: merge
 title: "Bathroom Vanity Decor Ideas"
 description: "Bathroom vanity decor ideas that stay tidy — the tray method, mirror sizing, what to display versus hide, and seasonal touches that survive humidity."
 category: "bathroom"

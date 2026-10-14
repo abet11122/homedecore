@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/kitchen-island-styling/"
+disposition: merge
 title: "Open Shelving in the Kitchen: Practical Styling Without the Chaos"
 description: "Open kitchen shelves can be beautiful and functional. Learn the color theory, spacing rules, and maintenance tips that make open shelving work in a real kitchen."
 category: "kitchen"
@@ -93,6 +95,7 @@ A sleek coffee maker or stand mixer is fine on open shelves *if* it's an applian
 A freestanding rack can make a separate appliance and coffee zone so your wall shelves stay easier to style and use.
 
 <div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
   <a class="shop-look" href="https://amzn.to/4AzKLmL" target="_blank" rel="sponsored nofollow noopener" aria-label="View and buy Huuger 4-Tier Bakers Rack with Reversible Power Outlet (Grey; 31.5 in microwave stand) on Amazon (opens in a new tab)">
     <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
     <span class="shop-look__copy">

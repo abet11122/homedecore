@@ -1,4 +1,5 @@
 ---
+import { imageAsset, localImage } from '../images';
 /**
  * Responsive image.
  *
@@ -32,21 +33,11 @@ const {
   class: className = '',
 } = Astro.props;
 
-const isUnsplashId = src.startsWith('photo-');
-const ratio = height / width;
-
-function unsplash(id: string, w: number) {
-  const h = Math.round(w * ratio);
-  return `https://images.unsplash.com/${id}?w=${w}&h=${h}&fit=crop&crop=entropy&auto=format&q=72`;
-}
-
-// Candidate widths up to 2× the layout size, so small tiles don't pull a
-// full-width file and retina screens still get a sharp one.
-const widths = [240, 360, 480, 720, 960, 1280, 1600].filter((w) => w <= width * 2);
-if (widths.length === 0) widths.push(width);
-
-const srcset = isUnsplashId ? widths.map((w) => `${unsplash(src, w)} ${w}w`).join(', ') : undefined;
-const finalSrc = isUnsplashId ? unsplash(src, Math.min(width * 2, 1600)) : src;
+const asset = imageAsset(src);
+const candidates = asset?.variants.filter((v) => v.width <= width * 2);
+const variants = candidates?.length ? candidates : asset?.variants.slice(0, 1);
+const srcset = variants?.map((v) => `${v.src} ${v.width}w`).join(', ');
+const finalSrc = variants?.at(-1)?.src ?? localImage(src);
 ---
 
 <img
@@ -56,6 +47,7 @@ const finalSrc = isUnsplashId ? unsplash(src, Math.min(width * 2, 1600)) : src;
   alt={alt}
   width={width}
   height={height}
+  style={`aspect-ratio:${width}/${height};object-fit:cover`}
   loading={loading}
   decoding={loading === 'eager' ? 'sync' : 'async'}
   fetchpriority={fetchpriority}

@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bedroom-layout-ideas/"
+disposition: merge
 title: "Bedroom Ideas for Small Spaces That Feel Bigger"
 description: "Small bedroom ideas that genuinely make a room feel bigger — bed sizes, clearances, sightlines, colour and the layout rules that create space you can feel."
 category: "bedroom"

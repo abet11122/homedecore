@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bathroom-organization-ideas/"
+disposition: merge
 title: "15 Bathroom Counter Organization Ideas"
 description: "Keep a bathroom vanity calm and easy to clean with 15 counter organization ideas for daily essentials, makeup, toothbrushes, and limited storage."
 category: bathroom

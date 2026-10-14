@@ -1,0 +1,485 @@
+{
+  "linkChanges": 13,
+  "sections": [
+    {
+      "source": "cozy-bedroom-lighting-ideas",
+      "target": "bedroom-lighting-layers",
+      "section": "Add a Dimmer Switch to the Overhead Light",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bedroom-accent-wall-ideas",
+      "target": "bedroom-wallpaper-ideas",
+      "section": "Paint the Wall Behind the Bed a Deep Color",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bedroom-wall-decor-above-bed",
+      "target": "bedroom-wallpaper-ideas",
+      "section": "Hang One Large Piece of Art",
+      "status": "existing section retained"
+    },
+    {
+      "source": "blue-girls-bedroom-ideas",
+      "target": "boho-girls-bedroom-ideas",
+      "section": "The blues worth choosing",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bedroom-ideas-for-young-boys",
+      "target": "boys-bedroom-ideas-cool-livable",
+      "section": "The rule that saves money: theme the cheap layer",
+      "status": "existing section retained"
+    },
+    {
+      "source": "boys-bedroom-decor-ideas",
+      "target": "boys-bedroom-ideas-cool-livable",
+      "section": "Layer 1: The bed, done properly",
+      "status": "existing section retained"
+    },
+    {
+      "source": "boys-bedroom-looks-everyday-details",
+      "target": "boys-bedroom-ideas-cool-livable",
+      "section": "The charging station",
+      "status": "existing section retained"
+    },
+    {
+      "source": "modern-boys-bedroom-ideas",
+      "target": "boys-bedroom-ideas-cool-livable",
+      "section": "Use Clean-Lined Furniture",
+      "status": "existing section retained"
+    },
+    {
+      "source": "blue-boys-bedroom-ideas",
+      "target": "boys-bedroom-paint-color-ideas",
+      "section": "Choose the right blue",
+      "status": "existing section retained"
+    },
+    {
+      "source": "navy-boys-bedroom-ideas",
+      "target": "boys-bedroom-paint-color-ideas",
+      "section": "Choose White or Cream Furniture",
+      "status": "existing section retained"
+    },
+    {
+      "source": "kitchen-countertop-decor-ideas",
+      "target": "kitchen-island-styling",
+      "section": "Keep Decor to One or Two Zones",
+      "status": "existing section retained"
+    },
+    {
+      "source": "kitchen-open-shelving-styling",
+      "target": "kitchen-island-styling",
+      "section": "The Open Shelving Question: Beautiful or Chaotic?",
+      "status": "existing section retained"
+    },
+    {
+      "source": "small-apartment-living-room-ideas",
+      "target": "living-room-layout-rules",
+      "section": "Choose a Sofa That Fits the Wall",
+      "status": "existing section retained"
+    },
+    {
+      "source": "boys-gamer-bedroom-ideas",
+      "target": "boys-gaming-bedroom-ideas",
+      "section": "Desk size — where most setups go wrong",
+      "status": "existing section retained"
+    },
+    {
+      "source": "christmas-bedroom-ideas",
+      "target": "cozy-christmas-bedroom-ideas",
+      "section": "Add a Small Bedside Tree",
+      "status": "existing section retained"
+    },
+    {
+      "source": "gothic-halloween-decor-ideas",
+      "target": "elegant-halloween-decor",
+      "section": "Black, Deep Burgundy, and Forest Green",
+      "status": "existing section retained"
+    },
+    {
+      "source": "halloween-centerpieces",
+      "target": "elegant-halloween-decor",
+      "section": "The Classic Pumpkin Cluster",
+      "status": "existing section retained"
+    },
+    {
+      "source": "halloween-crafts-for-adults",
+      "target": "elegant-halloween-decor",
+      "section": "Black Leaf Wreath",
+      "status": "existing section retained"
+    },
+    {
+      "source": "halloween-fireplace-decor-ideas",
+      "target": "elegant-halloween-decor",
+      "section": "Candelabra Centerpiece",
+      "status": "existing section retained"
+    },
+    {
+      "source": "pink-halloween-decor-ideas",
+      "target": "elegant-halloween-decor",
+      "section": "Dusty Blush, White, and Black",
+      "status": "existing section retained"
+    },
+    {
+      "source": "pumpkin-painting-ideas",
+      "target": "elegant-halloween-decor",
+      "section": "Cream Pumpkin",
+      "status": "existing section retained"
+    },
+    {
+      "source": "vintage-halloween-decor-ideas",
+      "target": "elegant-halloween-decor",
+      "section": "Sepia, Black, and Aged Cream",
+      "status": "existing section retained"
+    },
+    {
+      "source": "y2k-apocalypse-halloween-party-decor-ideas",
+      "target": "elegant-halloween-decor",
+      "section": "Silver, Black, and Neon",
+      "status": "existing section retained"
+    },
+    {
+      "source": "autumn-mantel-styling",
+      "target": "fall-living-room-decor-ideas",
+      "section": "Start by clearing it completely",
+      "status": "existing section retained"
+    },
+    {
+      "source": "fall-apartment-decor-ideas",
+      "target": "fall-living-room-decor-ideas",
+      "section": "Use Decor That Stores Flat",
+      "status": "existing section retained"
+    },
+    {
+      "source": "halloween-door-decorations",
+      "target": "halloween-door-decor-ideas",
+      "section": "Mummy Wrap",
+      "status": "existing section retained"
+    },
+    {
+      "source": "halloween-entryway-ideas",
+      "target": "halloween-door-decor-ideas",
+      "section": "A Halloween Wreath",
+      "status": "existing section retained"
+    },
+    {
+      "source": "halloween-porch-decor-ideas",
+      "target": "halloween-door-decor-ideas",
+      "section": "Pumpkin Cluster",
+      "status": "existing section retained"
+    },
+    {
+      "source": "backyard-halloween-party-ideas",
+      "target": "halloween-yard-ideas",
+      "section": "Lantern Clusters",
+      "status": "existing section retained"
+    },
+    {
+      "source": "diy-halloween-decor-outdoor",
+      "target": "halloween-yard-ideas",
+      "section": "Make Paper Bag Luminaries",
+      "status": "existing section retained"
+    },
+    {
+      "source": "funny-outdoor-halloween-decorations",
+      "target": "halloween-yard-ideas",
+      "section": "Witch Crashed Into the Tree",
+      "status": "existing section retained"
+    },
+    {
+      "source": "beige-bedroom-ideas",
+      "target": "neutral-bedroom-ideas",
+      "section": "Layer Different Shades of Beige",
+      "status": "existing section retained"
+    },
+    {
+      "source": "cream-bedroom-ideas",
+      "target": "neutral-bedroom-ideas",
+      "section": "Use Warm Cream on the Walls",
+      "status": "existing section retained"
+    },
+    {
+      "source": "earthy-bedroom-ideas",
+      "target": "neutral-bedroom-ideas",
+      "section": "Use Clay, Sand, Olive, and Warm Brown",
+      "status": "existing section retained"
+    },
+    {
+      "source": "warm-neutral-bedroom-ideas",
+      "target": "neutral-bedroom-ideas",
+      "section": "Choose Warm Neutrals With Yellow or Pink Undertones",
+      "status": "existing section retained"
+    },
+    {
+      "source": "boys-bunk-bed-bedroom-ideas",
+      "target": "shared-boys-bedroom-ideas",
+      "section": "Check your ceiling height first",
+      "status": "existing section retained"
+    },
+    {
+      "source": "halloween-bathroom-decor-ideas",
+      "target": "small-apartment-halloween-decor-no-damage",
+      "section": "Skull Soap Dish or Dispenser",
+      "status": "existing section retained"
+    },
+    {
+      "source": "halloween-bedroom-decor-ideas",
+      "target": "small-apartment-halloween-decor-no-damage",
+      "section": "Orange or Amber String Lights",
+      "status": "existing section retained"
+    },
+    {
+      "source": "halloween-kitchen-decor-ideas",
+      "target": "small-apartment-halloween-decor-no-damage",
+      "section": "Window Clings",
+      "status": "existing section retained"
+    },
+    {
+      "source": "halloween-living-room-ideas",
+      "target": "small-apartment-halloween-decor-no-damage",
+      "section": "Style the Mantel",
+      "status": "existing section retained"
+    },
+    {
+      "source": "small-apartment-halloween-decor-ideas",
+      "target": "small-apartment-halloween-decor-no-damage",
+      "section": "Pick One Wall and Own It",
+      "status": "existing section retained"
+    },
+    {
+      "source": "small-space-halloween-decor",
+      "target": "small-apartment-halloween-decor-no-damage",
+      "section": "Choose Tabletop Pumpkins",
+      "status": "existing section retained"
+    },
+    {
+      "source": "apartment-decor-ideas-budget",
+      "target": "small-apartment-organization-ideas",
+      "section": "Change every bulb — the cheapest transformation",
+      "status": "existing section retained"
+    },
+    {
+      "source": "renter-friendly-storage-ideas-no-drilling",
+      "target": "small-apartment-organization-ideas",
+      "section": "",
+      "status": "no sufficiently distinct bounded section; original retained in backup"
+    },
+    {
+      "source": "small-apartment-storage-ideas",
+      "target": "small-apartment-organization-ideas",
+      "section": "Use the Top of Wardrobes",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bathroom-vanity-decor-ideas",
+      "target": "small-bathroom-decor-ideas",
+      "section": "The rule: three things on display",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bathroom-shelf-styling-ideas",
+      "target": "small-bathroom-decor-ideas",
+      "section": "Make the Layout Easy to Wipe",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bathroom-counter-organization-ideas",
+      "target": "small-bathroom-organization-ideas",
+      "section": "Plan the usable space first",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bathroom-organization-ideas-small-spaces",
+      "target": "small-bathroom-organization-ideas",
+      "section": "Prioritize the Vanity and Under-Sink Area",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bathroom-over-toilet-storage-ideas",
+      "target": "small-bathroom-organization-ideas",
+      "section": "Install Two Shallow Floating Shelves",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bathroom-storage-ideas-small-spaces",
+      "target": "small-bathroom-organization-ideas",
+      "section": "The depths that work",
+      "status": "existing section retained"
+    },
+    {
+      "source": "under-sink-bathroom-organization-ideas",
+      "target": "small-bathroom-organization-ideas",
+      "section": "Measure Around Pipes First",
+      "status": "existing section retained"
+    },
+    {
+      "source": "aesthetic-bedroom-ideas-small-rooms",
+      "target": "small-bedroom-layout-ideas",
+      "section": "Lighting does most of the work",
+      "status": "existing section retained"
+    },
+    {
+      "source": "baddie-bedroom-ideas-small-rooms",
+      "target": "small-bedroom-layout-ideas",
+      "section": "The two palettes",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bedroom-ideas-small-spaces-bigger",
+      "target": "small-bedroom-layout-ideas",
+      "section": "The clearances you actually need",
+      "status": "existing section retained"
+    },
+    {
+      "source": "cozy-small-bedroom-ideas",
+      "target": "small-bedroom-layout-ideas",
+      "section": "Layer the Bed Without Overstuffing It",
+      "status": "existing section retained"
+    },
+    {
+      "source": "small-bedroom-ideas-that-look-expensive",
+      "target": "small-bedroom-layout-ideas",
+      "section": "Layer neutral bedding",
+      "status": "existing section retained"
+    },
+    {
+      "source": "small-bedroom-makeover-ideas",
+      "target": "small-bedroom-layout-ideas",
+      "section": "Change Bedding for the Biggest Visual Impact",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bookshelf-ideas-small-bedrooms",
+      "target": "small-bedroom-storage-ideas",
+      "section": "Shelf depths that actually work",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bedroom-storage-ideas-small-rooms",
+      "target": "small-bedroom-storage-ideas",
+      "section": "Add a Drawer Bed or Ottoman Bed",
+      "status": "existing section retained"
+    },
+    {
+      "source": "boys-bedroom-storage-ideas",
+      "target": "small-boys-bedroom-ideas",
+      "section": "Use Under-Bed Drawers",
+      "status": "existing section retained"
+    },
+    {
+      "source": "kitchen-cabinet-organization-ideas",
+      "target": "small-kitchen-organization-ideas",
+      "section": "Empty the Cabinet Before Organizing",
+      "status": "existing section retained"
+    },
+    {
+      "source": "kitchen-corner-storage-ideas",
+      "target": "small-kitchen-organization-ideas",
+      "section": "Use a Narrow Freestanding Corner Shelf",
+      "status": "existing section retained"
+    },
+    {
+      "source": "kitchen-drawer-organization-ideas",
+      "target": "small-kitchen-organization-ideas",
+      "section": "Use Adjustable Dividers",
+      "status": "existing section retained"
+    },
+    {
+      "source": "small-kitchen-storage-ideas",
+      "target": "small-kitchen-organization-ideas",
+      "section": "Use Toe-Kick or Low Drawer Space Where Available",
+      "status": "existing section retained"
+    },
+    {
+      "source": "christmas-entryway-decor-ideas",
+      "target": "small-space-christmas-decor-ideas",
+      "section": "The rule for a small entry",
+      "status": "existing section retained"
+    },
+    {
+      "source": "apartment-christmas-door-decor-ideas",
+      "target": "small-space-christmas-decor-ideas",
+      "section": "Classic Evergreen Wreath",
+      "status": "existing section retained"
+    },
+    {
+      "source": "christmas-coffee-table-decor-ideas",
+      "target": "small-space-christmas-decor-ideas",
+      "section": "Start With a Tray",
+      "status": "existing section retained"
+    },
+    {
+      "source": "christmas-entryway-ideas",
+      "target": "small-space-christmas-decor-ideas",
+      "section": "Add a Wreath at Eye Level",
+      "status": "existing section retained"
+    },
+    {
+      "source": "christmas-kitchen-decor-ideas",
+      "target": "small-space-christmas-decor-ideas",
+      "section": "Decorate the Window Instead of the Counter",
+      "status": "existing section retained"
+    },
+    {
+      "source": "small-studio-apartment-ideas",
+      "target": "studio-apartment-zoning",
+      "section": "Define Sleeping and Living Zones",
+      "status": "existing section retained"
+    },
+    {
+      "source": "bedroom-ideas-small-teen-rooms",
+      "target": "teenage-boy-bedroom-ideas",
+      "section": "Zone the room into three",
+      "status": "existing section retained"
+    },
+    {
+      "source": "entryway-storage-ideas",
+      "target": "small-entryway-ideas",
+      "section": "Start by counting what actually lands there",
+      "status": "existing section retained"
+    },
+    {
+      "source": "mudroom-ideas-small-homes",
+      "target": "small-entryway-ideas",
+      "section": "What a mudroom actually needs",
+      "status": "existing section retained"
+    },
+    {
+      "source": "narrow-hallway-decor-ideas",
+      "target": "small-entryway-ideas",
+      "section": "Work out your real usable depth first",
+      "status": "existing section retained"
+    },
+    {
+      "source": "entryway-table-decor-ideas",
+      "target": "small-entryway-ideas",
+      "section": "The basic formula that always works",
+      "status": "existing section retained"
+    },
+    {
+      "source": "small-entryway-organization-ideas",
+      "target": "small-entryway-ideas",
+      "section": "Choose a Console No Deeper Than You Need",
+      "status": "existing section retained"
+    },
+    {
+      "source": "backyard-seating-area-ideas",
+      "target": "small-patio-ideas-apartments",
+      "section": "How much space you need",
+      "status": "existing section retained"
+    },
+    {
+      "source": "balcony-decor-ideas",
+      "target": "small-patio-ideas-apartments",
+      "section": "Work out what you actually have",
+      "status": "existing section retained"
+    },
+    {
+      "source": "cozy-winter-home-decor-ideas",
+      "target": "winter-hygge-guide",
+      "section": "Keep the Post-Holiday Greenery Simple",
+      "status": "existing section retained"
+    }
+  ]
+}

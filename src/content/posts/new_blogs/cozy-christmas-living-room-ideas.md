@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "21 Cozy Christmas Living Room Ideas for a Warm Holiday Home"
 description: "Create a warm and inviting holiday space with 21 cozy Christmas living room ideas using warm lighting, layered textiles, greenery, and restrained seasonal styling."
 category: seasonal

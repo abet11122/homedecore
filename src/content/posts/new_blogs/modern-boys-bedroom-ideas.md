@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/boys-bedroom-ideas-cool-livable/"
+disposition: merge
 title: "15 Modern Boys Bedroom Ideas for a Stylish Space"
 description: "Create a clean, contemporary room with 15 modern boys bedroom ideas covering color palettes, furniture choices, graphic art, and practical storage solutions."
 category: bedroom

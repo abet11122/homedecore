@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "17 Small Pantry Organization Ideas That Maximize Every Shelf"
 description: "Transform a cluttered pantry with 17 small pantry organization ideas covering shelf risers, turntables, zone-based storage, and smart container choices."
 category: kitchen

@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/bedroom-wallpaper-ideas/"
+disposition: merge
 title: "15 Bedroom Wall Decor Ideas Above the Bed"
 description: "Fill the wall above your bed with 15 decor ideas including gallery walls, large art, mirrors, shelves, and textile hangings that make the room feel finished."
 category: bedroom

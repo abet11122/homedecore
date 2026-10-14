@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-bathroom-decor-ideas/"
+disposition: merge
 title: "17 Bathroom Shelf Styling Ideas That Stay Practical"
 description: "Style bathroom shelves with a useful balance of towels, everyday essentials, and simple decor, while keeping moisture, weight, and cleaning in mind."
 category: bathroom

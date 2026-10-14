@@ -1,4 +1,6 @@
 ---
+mergeInto: "/post/small-apartment-organization-ideas/"
+disposition: merge
 title: "17 Renter-Friendly Storage Ideas Without Drilling"
 description: "Add useful storage to a rental without drilling using freestanding furniture, tension rods, over-door organizers, and adhesive options with realistic limits."
 category: renter

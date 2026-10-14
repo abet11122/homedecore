@@ -1,4 +1,5 @@
 ---
+disposition: keep
 title: "How to Choose a Paint Colour and Not Regret It"
 description: "Why the swatch lies, how light orientation changes everything, and the sample method that takes three days but saves you repainting the whole room."
 category: "living-room"

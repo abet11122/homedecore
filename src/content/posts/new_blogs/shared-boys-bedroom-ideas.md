@@ -1,5 +1,7 @@
 ---
-title: "15 Shared Boys Bedroom Ideas for Two Kids"
+updatedDate: 2026-10-14
+disposition: keep
+title: "Shared Boys Bedroom Ideas for Two Kids"
 description: "Make a shared boys bedroom work for two kids with 15 ideas covering bunk beds, divided zones, storage, and decor that suits different ages and personalities."
 category: bedroom
 tags: ["boys bedroom", "shared bedroom", "bunk beds", "kids rooms", "bedroom storage"]
@@ -113,3 +115,24 @@ The most successful shared bedrooms are the ones that adapt rather than the ones
 ## Final Thoughts
 
 A shared boys bedroom works when both children feel the space is theirs. Start with a clear layout, separate storage, and individual display zones. The shared elements — color palette, furniture style, floor space — create unity, while the personal details make each child feel at home.
+
+
+<!-- Approved consolidation -->
+
+<!-- Consolidated existing section from boys-bunk-bed-bedroom-ideas; see editorial worksheet for evidence checks. -->
+
+## Check your ceiling height first
+
+This is the thing to measure before you shop.
+
+You need **at least 30 inches** between the top mattress surface and the ceiling. Less than that and a child sitting up in the top bunk hits his head.
+
+Work it out:
+
+- Standard bunk top mattress sits about **60 inches** off the floor
+- Add a 6-inch mattress → top surface at 66 inches
+- Add 30 inches clearance → you need **96 inches (8 feet)** of ceiling
+
+Standard ceilings are 8 feet, so most rooms just work. Rooms with sloped ceilings, ceiling fans or low soffits need checking carefully.
+
+**Never put a bunk bed under a ceiling fan.**
