@@ -1,0 +1,321 @@
+{
+  "environment": "Local Astro dev, unthrottled headless Chrome. Lab observations, not field Core Web Vitals or a Lighthouse score.",
+  "results": [
+    {
+      "route": "/",
+      "width": 363,
+      "scrollWidth": 363,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 3408,
+        "cls": 0
+      },
+      "domContentLoaded": 3395.9000000059605
+    },
+    {
+      "route": "/post/green-christmas-decor-ideas/",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 228,
+        "cls": 0
+      },
+      "domContentLoaded": 269.20000000298023
+    },
+    {
+      "route": "/post/small-entryway-ideas/",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 76,
+        "cls": 0
+      },
+      "domContentLoaded": 85
+    },
+    {
+      "route": "/post/neutral-bedroom-ideas/",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 80,
+        "cls": 0
+      },
+      "domContentLoaded": 87.09999999403954
+    },
+    {
+      "route": "/about/",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 84,
+        "cls": 0
+      },
+      "domContentLoaded": 90
+    },
+    {
+      "route": "/contact/",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 148,
+        "cls": 0
+      },
+      "domContentLoaded": 152.70000000298023
+    },
+    {
+      "route": "/search/",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 164,
+        "cls": 0
+      },
+      "domContentLoaded": 159.79999999701977
+    },
+    {
+      "route": "/terms/",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 160,
+        "cls": 0
+      },
+      "domContentLoaded": 157.90000000596046
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "scrollWidth": 753,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 140,
+        "cls": 0
+      },
+      "domContentLoaded": 100.30000001192093
+    },
+    {
+      "route": "/post/green-christmas-decor-ideas/",
+      "width": 768,
+      "scrollWidth": 753,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 172,
+        "cls": 0
+      },
+      "domContentLoaded": 117.79999999701977
+    },
+    {
+      "route": "/post/small-entryway-ideas/",
+      "width": 768,
+      "scrollWidth": 753,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 160,
+        "cls": 0
+      },
+      "domContentLoaded": 140.69999998807907
+    },
+    {
+      "route": "/post/neutral-bedroom-ideas/",
+      "width": 768,
+      "scrollWidth": 753,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 112,
+        "cls": 0
+      },
+      "domContentLoaded": 87
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "scrollWidth": 753,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 80,
+        "cls": 0
+      },
+      "domContentLoaded": 101.1000000089407
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "scrollWidth": 753,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 64,
+        "cls": 0
+      },
+      "domContentLoaded": 56.79999999701977
+    },
+    {
+      "route": "/search/",
+      "width": 768,
+      "scrollWidth": 753,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 128,
+        "cls": 0
+      },
+      "domContentLoaded": 120.70000000298023
+    },
+    {
+      "route": "/terms/",
+      "width": 768,
+      "scrollWidth": 753,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 64,
+        "cls": 0
+      },
+      "domContentLoaded": 53.400000005960464
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 152,
+        "cls": 0
+      },
+      "domContentLoaded": 152.19999998807907
+    },
+    {
+      "route": "/post/green-christmas-decor-ideas/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 172,
+        "cls": 0
+      },
+      "domContentLoaded": 116.69999998807907
+    },
+    {
+      "route": "/post/small-entryway-ideas/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 144,
+        "cls": 0
+      },
+      "domContentLoaded": 98.1000000089407
+    },
+    {
+      "route": "/post/neutral-bedroom-ideas/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 88,
+        "cls": 0
+      },
+      "domContentLoaded": 92.6000000089407
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 48,
+        "cls": 0
+      },
+      "domContentLoaded": 42.20000000298023
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 60,
+        "cls": 0
+      },
+      "domContentLoaded": 72.90000000596046
+    },
+    {
+      "route": "/search/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 100,
+        "cls": 0
+      },
+      "domContentLoaded": 83.5
+    },
+    {
+      "route": "/terms/",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "imagesBroken": [],
+      "remoteImages": [],
+      "metrics": {
+        "lcp": 52,
+        "cls": 0
+      },
+      "domContentLoaded": 74.40000000596046
+    }
+  ],
+  "search": {
+    "count": "16 stories",
+    "visible": 38
+  }
+}
