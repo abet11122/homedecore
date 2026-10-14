@@ -41,7 +41,7 @@ A common mistake is using too many strong colors on every surface. In a small ro
 
 ## 4. Add Floating Shelves Instead of Another Cabinet
 
-[Floating shelves](/post/diy-floating-shelves/) keep books and small objects off the floor without adding the visual weight of a full bookcase. Use them above a desk, beside the bed, or on a short empty wall.
+Floating shelves keep books and small objects off the floor without adding the visual weight of a full bookcase. Use a rated shelf system, follow its installation instructions and avoid placing heavy shelves or objects above a bed.
 
 Keep heavier items low and avoid placing a shelf directly where a child may bump into it when getting out of bed.
 

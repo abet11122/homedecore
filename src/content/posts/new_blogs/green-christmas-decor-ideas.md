@@ -23,7 +23,7 @@ faqs:
 
 Green Christmas decor does not have to mean buying a completely new set of emerald ornaments. The most convincing schemes let real or realistic foliage do much of the work, then repeat a few green details at different heights: a wreath by the door, ribbon on the tree and one small arrangement on the table.
 
-These twenty ideas move from the biggest focal points to details you can make or reuse. The photographs show the specific styling move beside each idea; they are inspiration, not a claim that we made or tested the pictured projects. If you have a compact home, our [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) offer a more space-first approach.
+These twenty ideas move from the biggest focal points to details you can make or reuse. The photographs show the specific styling move beside each idea; they are inspiration, not a claim that we made or tested the pictured projects.
 
 ## 1. Let white ornaments brighten a green tree
 
@@ -179,7 +179,7 @@ A small wreath or ring of greenery looks especially good on a coffee table becau
 
 ## 20. Finish with a soft garland above the bed
 
-For a bedroom, a thin green garland over a canopy or headboard brings the color in without a second tree. The pictured canopy uses ribbon and berries for a gentle finish. Keep the arrangement securely fixed, away from light fittings and out of reach of anyone sleeping beneath it; skip heavy ornaments overhead. For more bedroom-specific styling, see our [cozy Christmas bedroom ideas](/post/cozy-christmas-bedroom-ideas/).
+For a bedroom, a thin green garland over a canopy or headboard brings the color in without a second tree. The pictured canopy uses ribbon and berries for a gentle finish. Keep the arrangement securely fixed, away from light fittings and out of reach of anyone sleeping beneath it; skip heavy ornaments overhead.
 
 ![Bedroom canopy trimmed with green Christmas garland, ribbon and berries.](/images/stock/3318ba6a46127820-720.webp)
 

@@ -26,6 +26,12 @@ Add an article as `src/content/posts/<slug>.md`. Its frontmatter is validated by
 
 Articles marked `editorialReady: false` remain reachable at their existing URLs but are excluded from navigation and the sitemap, marked `noindex`, and do not load AdSense. Set this field to `true` only after checking that the article provides distinct, accurate guidance and does not repeat other articles. Static sites require a fresh deployment after a scheduled publish date; the build cannot update an already deployed page by itself.
 
+The approved triage is recorded as `disposition: keep`, `merge`, or `remove` in frontmatter. Merged routes are omitted from the static build and have explicit 301 mappings in `vercel.json`. Removed articles remain readable but are noindex and excluded from navigation, sitemap and RSS. Existing editorial holds remain. The empty DIY category is suppressed until a guide passes review; restore it in `src/site.ts` and retire its archive redirect at that time.
+
+Private input worksheets live in `src/editorial/posts/`; ownership and workflow inputs are listed in `src/editorial/OWNER-INPUT.md`. These files do not create website pages. `scripts/apply-editorial-fixes.mjs` is a completed, one-time migration and intentionally refuses to run again over subsequent corrections. The original source backup is in `audits/adsense/pre-remediation/`.
+
+Images are served from local assets. `npm run images:self-host` rebuilds the stock cache with network access; provider provenance is recorded in `src/data/stock-images.json`. Self-hosting does not change stock photography into original work. `npm run build` also verifies migration rules, noindex, disclosures, local image references and the absence of ad code.
+
 The selected local Pexels image sources are recorded in `IMAGE_SOURCES.md`. To regenerate those WebP crops:
 
 ```bash

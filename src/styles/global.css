@@ -1065,6 +1065,7 @@
 ------------------------------------------------------------------- */
 .home-intro {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 1.5rem;
   align-items: end;
   padding-block: clamp(2rem, 4vw, 3.75rem) 0;
@@ -1076,6 +1077,7 @@
 }
 
 .home-search {
+  min-width: 0;
   padding: 1.25rem;
   border: 1px solid #d7ccbf;
   border-radius: 0.875rem;

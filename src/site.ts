@@ -176,7 +176,7 @@ export function postPath(post: { id: string } | string): string {
 
 /** Rough reading time from a Markdown body. */
 export function readingTime(body: string): number {
-  const words = body.trim().split(/\s+/).length;
+  const words = wordCount(body);
   return Math.max(1, Math.round(words / 220));
 }
 
@@ -274,7 +274,16 @@ export function postHasTag(post: { data: { tags?: string[] } }, slug: string): b
 
 /** Body word count — reported in Article schema, which Google reads. */
 export function wordCount(body: string): number {
-  return body.trim().split(/\s+/).filter(Boolean).length;
+  const text = body
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .replace(/<figcaption\b[^>]*>[\s\S]*?<\/figcaption>/gi, '')
+    .replace(/<div\b[^>]*class="[^"]*shop-look-wrap[^"]*"[^>]*>[\s\S]*?<\/div>/gi, '')
+    .replace(/<svg\b[^>]*>[\s\S]*?<\/svg>/gi, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/&(?:[a-z]+|#\d+);/gi, ' ');
+  return text.match(/[\p{L}\p{N}]+(?:['’.-][\p{L}\p{N}]+)*/gu)?.length ?? 0;
 }
 
 /**

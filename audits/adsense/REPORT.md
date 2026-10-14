@@ -1,6 +1,6 @@
 # Audit findings and limitations
 
-Status: audit/triage complete, remediation awaiting approval. No website fixes have been applied. No new articles or AdSense code were added.
+This is the **pre-remediation audit**, preserved as the baseline. Remediation was subsequently authorized by the user's “fix issues” instruction. See [FIXES.md](FIXES.md) for implemented changes, current validation and outstanding owner inputs. No new articles or AdSense code were added.
 
 ## Evidence and method
 

@@ -1,6 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+if (fs.existsSync('audits/adsense/consolidation-log.json')) {
+  throw new Error('This one-time migration has already been applied. Do not rerun it over subsequent editorial corrections.');
+}
+
 const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(d,e.name)):[path.join(d,e.name)]);
 const parseCsv=s=>s.trim().split(/\r?\n/).map(line=>[...line.matchAll(/"((?:[^"]|"")*)"(?:,|$)/g)].map(m=>m[1].replaceAll('""','"')));
 const [headers,...values]=parseCsv(fs.readFileSync('audits/adsense/triage.csv','utf8'));

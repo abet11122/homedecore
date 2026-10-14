@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { localImage } from '../images';
+import { imageAsset, localImage } from '../images';
 import { SITE, CATEGORIES, PRIMARY_CATEGORIES, SECONDARY_CATEGORIES } from '../site';
 
 interface Props {
@@ -59,8 +59,9 @@ const DEFAULT_PHOTO = 'photo-1600210492486-724fe5c67fb0';
 // the 2:3 image rather than the horizontal hero.
 const ogImage = image ? photo(image, 1000, 1500) : photo(DEFAULT_PHOTO, 1200, 630);
 const ogIsPin = Boolean(image);
-const ogW = ogIsPin ? 1000 : 1200;
-const ogH = ogIsPin ? 1500 : 630;
+const ogAsset = imageAsset(image ?? DEFAULT_PHOTO)?.variants.at(-1);
+const ogW = ogAsset?.width ?? (ogIsPin ? 1000 : 1200);
+const ogH = ogAsset?.height ?? (ogIsPin ? 1500 : 630);
 
 // Twitter cards crop to 1.91:1, so a tall pin would be sliced through the
 // middle. Feed the horizontal hero there instead when we have one.

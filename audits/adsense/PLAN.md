@@ -1,6 +1,6 @@
-# AdSense remediation plan — approval required
+# AdSense remediation plan — approved baseline
 
-Audit date: 14 October 2026 (Asia/Karachi). No production pages, posts, ads, indexing rules, redirects, or deployment settings were changed. This is the approval checkpoint after steps 1–2; later work is proposed below.
+Audit date: 14 October 2026 (Asia/Karachi). This plan was presented before changes and then authorized by the user's “fix issues” instruction. The original proposed workflow is preserved below; see [FIXES.md](FIXES.md) for the actual changes, verification and remaining owner work. Deployment has not been performed.
 
 ## Proposed decisions
 

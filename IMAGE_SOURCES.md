@@ -1,5 +1,11 @@
 # Image sources
 
+## October 14, 2026 self-hosting update
+
+Active article, category and sharing images now render from local WebP assets. Source-provider URLs, download timestamps, dimensions and derivative paths are recorded in `src/data/stock-images.json`; existing local sources remain documented below. These files are illustrative stock photographs, not owner-original work. Some older notes below describe the previous remote-hosting arrangement.
+
+Regenerate the additional stock cache with `npm run images:self-host`. The script requires network access to the original providers and preserves existing photo credits. Review individual rights and attribution before publishing; do not treat the cache as proof of original photography.
+
 Local post images are cropped from these [Pexels](https://www.pexels.com/license/) photos. The Pexels license permits use and modification on websites and blogs.
 
 To rebuild the WebP files, install `scripts/image-requirements.txt` and run `python scripts/refresh_post_images.py` from the project root.

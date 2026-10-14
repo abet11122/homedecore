@@ -7,9 +7,5 @@
   "htmlPages": 109,
   "renderedImages": 760,
   "affiliateLinks": 116,
-  "failures": [
-    "link dist\\post\\green-christmas-decor-ideas\\index.html /post/small-space-christmas-decor-ideas/: body/navigation promotes excluded article",
-    "link dist\\post\\green-christmas-decor-ideas\\index.html /post/cozy-christmas-bedroom-ideas/: body/navigation promotes excluded article",
-    "link dist\\post\\small-boys-bedroom-ideas\\index.html /post/diy-floating-shelves/: body/navigation promotes excluded article"
-  ]
+  "failures": []
 }
