@@ -29,7 +29,7 @@ The photographs below illustrate eighteen different decisions you can borrow, fr
 
 A single short branch makes a plain white place setting feel seasonal. Put it beside—not on top of—the eating surface, or remove it before serving. A small name card can sit next to the sprig if guests need assigned seats. This is useful when the tabletop has little room for a large centerpiece.
 
-![White Christmas place setting with a spruce sprig and small card.](https://images.pexels.com/photos/5709043/pexels-photo-5709043.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![White Christmas place setting with a spruce sprig and small card.](/images/stock/d8b300bc30b1795e-720.webp)
 
 *Photo: [Monstera Production on Pexels](https://www.pexels.com/photo/coniferous-tree-branch-placed-on-plated-served-with-fork-and-knife-5709043/).*
 
@@ -37,7 +37,7 @@ A single short branch makes a plain white place setting feel seasonal. Put it be
 
 Plaid is a strong pattern, so let the napkins carry it and keep the plates simple. Gold-toned flatware echoes a warm thread in the fabric and makes everyday white dishes feel more dressed up. If you only have a few patterned napkins, alternate them with solid ones in a color pulled from the plaid.
 
-![Christmas place setting with plaid napkin, spruce detail and gold flatware.](https://images.pexels.com/photos/19594433/pexels-photo-19594433.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Christmas place setting with plaid napkin, spruce detail and gold flatware.](/images/stock/240bd4eb7cdf863a-720.webp)
 
 *Photo: [Nati on Pexels](https://www.pexels.com/photo/elegant-table-setting-19594433/).*
 
@@ -45,7 +45,7 @@ Plaid is a strong pattern, so let the napkins carry it and keep the plates simpl
 
 Red instantly signals Christmas, but it does not need to cover the entire table. The photographed setting pairs red details with gold and leaves the dinnerware to do its job. Try repeating red in napkins or a small decoration at each place, then use gold only in the cutlery or candleholders. Two repeated accents look calmer than five competing ones.
 
-![Festive Christmas table with red and gold accents.](https://images.pexels.com/photos/29831240/pexels-photo-29831240.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Festive Christmas table with red and gold accents.](/images/stock/39065ac25b00baf7-720.webp)
 
 *Photo: [Melike B on Pexels](https://www.pexels.com/photo/elegant-christmas-table-setting-with-red-accents-29831240/).*
 
@@ -53,7 +53,7 @@ Red instantly signals Christmas, but it does not need to cover the entire table.
 
 White plates, pale linens and metallic details can feel formal. A little green foliage brings them back to the season without making the arrangement crowded. Use the same greenery near each place or down the center so it reads as a deliberate motif. Keep any loose leaves away from food and from candle flames.
 
-![Holiday place setting with white plate, gold accents and greenery.](https://images.pexels.com/photos/5859775/pexels-photo-5859775.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Holiday place setting with white plate, gold accents and greenery.](/images/stock/823d6caa5c904259-720.webp)
 
 *Photo: [Elina Fairytale on Pexels](https://www.pexels.com/photo/white-ceramic-plate-on-table-5859775/).*
 
@@ -61,7 +61,7 @@ White plates, pale linens and metallic details can feel formal. A little green f
 
 On a long table, a slender line of pine can connect the settings without hiding the tabletop. Lay it down after placing the serving dishes so greenery does not occupy the space needed for platters. A few gaps between sections are fine; they make room for a bread basket, water or condiments. The photographed table pairs pine with understated tableware and warm light.
 
-![Christmas dinner table with a line of pine greenery and candles.](https://images.pexels.com/photos/5469771/pexels-photo-5469771.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Christmas dinner table with a line of pine greenery and candles.](/images/stock/b040cd11badd19ca-720.webp)
 
 *Photo: [Kaboompics on Pexels](https://www.pexels.com/photo/table-setting-at-christmas-5469771/).*
 
@@ -69,7 +69,7 @@ On a long table, a slender line of pine can connect the settings without hiding 
 
 Pinecones vary in size and shape, which makes a small evergreen arrangement more interesting without extra color. Group them on a tray or between low branches, leaving enough open table to set down bowls. If you bring cones indoors from outside, inspect and clean them first. A small, contained group feels more intentional than one pinecone at every seat.
 
-![Low Christmas table arrangement with pinecones and evergreen foliage.](https://images.pexels.com/photos/6043978/pexels-photo-6043978.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Low Christmas table arrangement with pinecones and evergreen foliage.](/images/stock/d0ae903f0efa4ed6-720.webp)
 
 *Photo: [Marta on Pexels](https://www.pexels.com/photo/pine-cones-and-leaves-on-a-table-6043978/).*
 
@@ -77,7 +77,7 @@ Pinecones vary in size and shape, which makes a small evergreen arrangement more
 
 Small paper and bottle-brush trees can run down the table like a playful miniature forest. Limit the range of heights so no one has to peer around them to talk. The photographed display uses color and texture for its holiday mood; at home, choose two or three shades that already appear in your napkins or room. Keep paper far from lit candles.
 
-![Colorful paper trees and candles arranged on a Christmas table.](https://images.pexels.com/photos/35160160/pexels-photo-35160160.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Colorful paper trees and candles arranged on a Christmas table.](/images/stock/4ce4889bb3e274dd-720.webp)
 
 *Photo: [Jilly Noble on Pexels](https://www.pexels.com/photo/festive-christmas-table-with-candle-and-paper-trees-35160160/).*
 
@@ -85,7 +85,7 @@ Small paper and bottle-brush trees can run down the table like a playful miniatu
 
 Blue goblets give a Christmas setting an unexpected cool note against warm tree lights. When glassware has color, keep the plates and linens quiet so the effect remains crisp. You do not need a matching full set: colored water glasses can sit beside clear wine glasses. Check that any vintage pieces are safe for food use before serving in them.
 
-![Blue glasses on a festive table with a lit Christmas tree behind.](https://images.pexels.com/photos/14579002/pexels-photo-14579002.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Blue glasses on a festive table with a lit Christmas tree behind.](/images/stock/813cede973671f9e-720.webp)
 
 *Photo: [Valeria Boltneva on Pexels](https://www.pexels.com/photo/blue-wineglasses-on-a-table-with-a-christmas-tree-in-the-background-14579002/).*
 
@@ -93,7 +93,7 @@ Blue goblets give a Christmas setting an unexpected cool note against warm tree 
 
 Dark plates make a small green branch and gold cutlery stand out. Use a light napkin or placemat beneath them if the tablecloth is also dark; otherwise the setting can disappear in evening light. The photographed overhead arrangement shows how a single place card and restrained foliage make the darker palette unmistakably festive.
 
-![Black Christmas dinnerware with gold cutlery and a place card.](https://images.pexels.com/photos/6062035/pexels-photo-6062035.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Black Christmas dinnerware with gold cutlery and a place card.](/images/stock/a70248b36db2ee76-720.webp)
 
 *Photo: [Nicole Michalou on Pexels](https://www.pexels.com/photo/top-view-of-christmas-dinner-card-on-a-plate-6062035/).*
 
@@ -101,7 +101,7 @@ Dark plates make a small green branch and gold cutlery stand out. Use a light na
 
 A red cloth changes the entire table at once, so the individual place settings can be very simple. Try plain white dishes and clear glasses first. The pictured room layers more ornaments and candles for a celebratory look, but a smaller dining table may need just one low centerpiece. Check that the cloth hangs evenly and does not catch on chairs.
 
-![Christmas table covered in red fabric with candles and decorations.](https://images.pexels.com/photos/35279887/pexels-photo-35279887.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Christmas table covered in red fabric with candles and decorations.](/images/stock/9968a5a24e97f590-720.webp)
 
 *Photo: [Sóc Năng Động on Pexels](https://www.pexels.com/photo/festive-christmas-table-setting-with-decorations-35279887/).*
 
@@ -109,7 +109,7 @@ A red cloth changes the entire table at once, so the individual place settings c
 
 Layered plates can make a place feel special even before food is served, but only set out dishes the meal will use. Gold cutlery adds warmth beside simple white ceramics. The photographed stack has a Christmas tree glowing behind it; at home, this look needs little more than a cloth napkin and a small ornament away from the plate.
 
-![Stacked white plates and gold cutlery with a Christmas tree in the background.](https://images.pexels.com/photos/6182886/pexels-photo-6182886.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Stacked white plates and gold cutlery with a Christmas tree in the background.](/images/stock/c3aef27d594305e1-720.webp)
 
 *Photo: [cottonbro studio on Pexels](https://www.pexels.com/photo/knives-and-forks-on-a-pile-of-ceramic-plates-on-the-table-6182886/).*
 
@@ -117,7 +117,7 @@ Layered plates can make a place feel special even before food is served, but onl
 
 The same ribbon at every place creates repetition quickly, even with mismatched plates. Use a loose bow or knot that guests can undo without struggling; this is a napkin, not gift wrap. A woven placemat under the plate adds another tactile layer, as in the photograph. If space is tight, skip separate napkin rings and let ribbon be the only accent.
 
-![Dinner plate with a ribbon-tied napkin on a woven placemat.](https://images.pexels.com/photos/6133608/pexels-photo-6133608.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Dinner plate with a ribbon-tied napkin on a woven placemat.](/images/stock/2f562000a7a82639-720.webp)
 
 *Photo: [Salena Luana on Pexels](https://www.pexels.com/photo/silverware-on-a-table-napkin-on-a-plate-6133608/).*
 
@@ -125,7 +125,7 @@ The same ribbon at every place creates repetition quickly, even with mismatched 
 
 If the first course is served family-style, its platters are part of the table design. Place them before adding decoration, then fill smaller gaps with a low seasonal accent. The photographed table has appetizers, napkins and warm light; it shows a useful balance between a working meal and a festive scene. Keep greenery clear of food and serving utensils.
 
-![Holiday table set with appetizers, napkins and candles.](https://images.pexels.com/photos/6232557/pexels-photo-6232557.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Holiday table set with appetizers, napkins and candles.](/images/stock/21901b8477bedd12-720.webp)
 
 *Photo: [Anastasia Shuraeva on Pexels](https://www.pexels.com/photo/food-light-holiday-flowers-6232557/).*
 
@@ -133,7 +133,7 @@ If the first course is served family-style, its platters are part of the table d
 
 A cake or dessert board has its own visual presence. Plan a clear central spot for it from the beginning rather than trying to squeeze it between candles later. The photographed red-cloth table places desserts among fir details; if you use a similar look, keep branches beside the food rather than under it and leave easy reach for serving.
 
-![Christmas table with dessert, red cloth and fir sprigs.](https://images.pexels.com/photos/6211043/pexels-photo-6211043.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Christmas table with dessert, red cloth and fir sprigs.](/images/stock/018c166d1c84541e-720.webp)
 
 *Photo: [Tim Douglas on Pexels](https://www.pexels.com/photo/served-table-with-delicious-food-during-christmas-holiday-at-home-6211043/).*
 
@@ -141,7 +141,7 @@ A cake or dessert board has its own visual presence. Plan a clear central spot f
 
 A tiny tree, one candle holder or a low bowl can mark a holiday meal without turning a small table into a display. Put the water, glasses and plates in place first, then choose just one object for the remaining center. The pictured setting uses a mini tree and a wine glass to create that intimate scale.
 
-![Small Christmas table setting with wine glass and miniature tree.](https://images.pexels.com/photos/14935796/pexels-photo-14935796.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Small Christmas table setting with wine glass and miniature tree.](/images/stock/8d2e0df27f5c4857-720.webp)
 
 *Photo: [Tuğba Kobal Yılmaz on Pexels](https://www.pexels.com/photo/red-wine-in-glass-and-christmas-decor-on-table-14935796/).*
 
@@ -149,7 +149,7 @@ A tiny tree, one candle holder or a low bowl can mark a holiday meal without tur
 
 Warm candlelight makes glassware and plain ceramics glow, but a narrow dining table often puts flames close to sleeves, paper and greenery. Choose sturdy holders and keep lit candles at least 12 inches from anything that can burn, as the [NFPA recommends](https://www.nfpa.org/education-and-research/home-fire-safety/candles). Flameless candles are an easy substitute when the centerpiece needs to sit closer together.
 
-![Warm candlelit Christmas dinner table with glassware and decorations.](https://images.pexels.com/photos/35370343/pexels-photo-35370343.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Warm candlelit Christmas dinner table with glassware and decorations.](/images/stock/5cd9401f42ac49bb-720.webp)
 
 *Photo: [Dawid Tkocz on Pexels](https://www.pexels.com/photo/warm-candlelit-christmas-table-setting-35370343/).*
 
@@ -157,7 +157,7 @@ Warm candlelight makes glassware and plain ceramics glow, but a narrow dining ta
 
 Not every Christmas table needs red or a fir runner. Soft eucalyptus tones pair well with clear glassware and a few small metallic ornaments. The photograph keeps these details close to the center so the table still reads as a place to eat. If you use real eucalyptus, keep it separate from food and out of reach of pets that might chew it.
 
-![Christmas table with glassware, eucalyptus and small ornaments.](https://images.pexels.com/photos/9523630/pexels-photo-9523630.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Christmas table with glassware, eucalyptus and small ornaments.](/images/stock/28f8c12618e8e3b0-720.webp)
 
 *Photo: [Karen Laårk Boshoff on Pexels](https://www.pexels.com/photo/close-up-of-christmas-table-with-decorations-9523630/).*
 
@@ -165,7 +165,7 @@ Not every Christmas table needs red or a fir runner. Soft eucalyptus tones pair 
 
 The table does not have to carry every decoration. In the photographed rustic room, greenery, soft lighting and the room's surfaces frame the dining setting. If there is a nearby shelf or mantel, decorate that too and leave more space on the tabletop for food. This works particularly well for a large meal with multiple shared dishes.
 
-![Rustic dining room with a Christmas table, greenery and warm light.](https://images.pexels.com/photos/14017646/pexels-photo-14017646.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Rustic dining room with a Christmas table, greenery and warm light.](/images/stock/dabdfcdff8b573e8-720.webp)
 
 *Photo: [Luis Quintero on Pexels](https://www.pexels.com/photo/table-decorated-with-flowers-and-candles-14017646/).*
 

@@ -37,14 +37,15 @@ const sourcePosts = markdown.map((file) => {
   const source = fs.readFileSync(file, 'utf8');
   const publishDate = source.match(/^publishDate:\s*["']?(\d{4}-\d{2}-\d{2})["']?\s*$/m)?.[1];
   const editorialReady = !/^editorialReady:\s*false\s*$/m.test(source);
+  const disposition = source.match(/^disposition:\s*(\w+)/m)?.[1] ?? 'keep';
   const url = `https://www.cozynestideas.online/post/${path.basename(file, '.md')}/`;
-  return { file, publishDate, editorialReady, url };
+  return { file, publishDate, editorialReady, disposition, url };
 });
 
-const expectedPostRoutes = new Set(sourcePosts.map((post) => post.url));
+const expectedPostRoutes = new Set(sourcePosts.filter((post) => post.disposition !== 'merge').map((post) => post.url));
 const expectedIndexedPosts = new Set(
   sourcePosts
-    .filter((post) => post.editorialReady && post.publishDate && new Date(`${post.publishDate}T00:00:00.000Z`) <= new Date())
+    .filter((post) => post.disposition === 'keep' && post.editorialReady && post.publishDate && new Date(`${post.publishDate}T00:00:00.000Z`) <= new Date())
     .map((post) => post.url)
 );
 
@@ -178,13 +179,12 @@ for (const post of sourcePosts) {
   if (!fs.existsSync(file)) continue;
 
   const html = fs.readFileSync(file, 'utf8');
-  const isScheduled = !post.editorialReady || new Date(`${post.publishDate}T00:00:00.000Z`) > new Date();
+  const isScheduled = post.disposition !== 'keep' || !post.editorialReady || new Date(`${post.publishDate}T00:00:00.000Z`) > new Date();
   const isNoindex = /<meta name="robots" content="noindex, follow"/.test(html);
   if (isScheduled && !isNoindex) scheduledPostsMissingNoindex.push(post.url);
   if (!isScheduled && isNoindex) publishedPostsMarkedNoindex.push(post.url);
-  if (!isScheduled && !html.includes('pagead2.googlesyndication.com')) {
-    publishedPostsMissingAdLoader.push(post.url);
-  }
+  // Advertising is intentionally disabled during editorial remediation.
+  if (html.includes('pagead2.googlesyndication.com')) unexpectedAdLoaderPages.push(file);
 }
 
 const missingImages = [];
@@ -193,7 +193,7 @@ for (const file of markdown) {
   const imagePattern = /(?:heroImage|pinImage):\s*["']?(\/images\/[^"'\r\n]+)|\]\((\/images\/[^) ]+)\)/g;
   for (const match of source.matchAll(imagePattern)) {
     const url = match[1] || match[2];
-    if (!fs.existsSync(path.join('public', ...url.split('/').filter(Boolean)))) {
+  if (!fs.existsSync(path.join('public', ...url.split('/').filter(Boolean)))) {
       missingImages.push(`${file}: ${url}`);
     }
   }

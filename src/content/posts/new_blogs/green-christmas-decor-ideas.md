@@ -29,7 +29,7 @@ These twenty ideas move from the biggest focal points to details you can make or
 
 White baubles and small floral accents are especially clear against deep needles. Start with the largest pale pieces, spread them across the front and sides, then add smaller ornaments between them. This creates contrast without hiding the tree's natural color. Silver garland can add a little movement, but keep it light enough that the branches remain visible.
 
-![Green Christmas tree branches with white baubles, floral ornaments and silver garland.](https://images.pexels.com/photos/1734431/pexels-photo-1734431.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Green Christmas tree branches with white baubles, floral ornaments and silver garland.](/images/stock/ac906daa0ed22c82-720.webp)
 
 *Photo: [Irina Iriser on Pexels](https://www.pexels.com/photo/green-christmas-tree-with-white-baubles-and-flower-ornaments-1734431/).*
 
@@ -37,7 +37,7 @@ White baubles and small floral accents are especially clear against deep needles
 
 Short lengths of ribbon tucked into a tree feel softer than one tight spiral. Let each piece disappear behind a branch and reappear lower down; the needles and lights then break up the fabric naturally. The photographed tree mixes ribbon, pinecones and warm lights, a good reminder that texture matters as much as color.
 
-![Close view of a green Christmas tree with ribbon, lights and pinecones.](https://images.pexels.com/photos/1647473/pexels-photo-1647473.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Close view of a green Christmas tree with ribbon, lights and pinecones.](/images/stock/db6a06bee10e6aed-720.webp)
 
 *Photo: [Brett Sayles on Pexels](https://www.pexels.com/photo/green-christmas-tree-with-ornaments-1647473/).*
 
@@ -45,7 +45,7 @@ Short lengths of ribbon tucked into a tree feel softer than one tight spiral. Le
 
 An emerald bauble has more impact when it is surrounded by matte, clear or natural decorations. Put a few at eye level rather than scattering dozens across the tree. Against evergreen needles, a reflective green surface catches nearby light and gives a nearly monochrome palette some depth.
 
-![Close-up of a reflective green Christmas bauble on evergreen branches.](https://images.pexels.com/photos/34998705/pexels-photo-34998705.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Close-up of a reflective green Christmas bauble on evergreen branches.](/images/stock/e6988e436a476dfa-720.webp)
 
 *Photo: [Connor Scott McManus on Pexels](https://www.pexels.com/photo/artistic-green-christmas-ornament-close-up-34998705/).*
 
@@ -53,7 +53,7 @@ An emerald bauble has more impact when it is surrounded by matte, clear or natur
 
 For a narrow shelf or bedside table, a small tree can replace a collection of little decorations. Set it on a tray so the base, a tag and perhaps one ornament read as a single vignette. Leave clear space around it: miniature does not have to mean crowded.
 
-![Miniature green Christmas tree with a tag and soft lights behind it.](https://images.pexels.com/photos/10216993/pexels-photo-10216993.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Miniature green Christmas tree with a tag and soft lights behind it.](/images/stock/91a31aa2e7f740eb-720.webp)
 
 *Photo: [Djordje Vezilic on Pexels](https://www.pexels.com/photo/green-christmas-tree-in-close-up-photography-10216993/).*
 
@@ -61,7 +61,7 @@ For a narrow shelf or bedside table, a small tree can replace a collection of li
 
 A green wreath with a small amount of red berry detail gives a door a clear focal point without needing matching floor decorations. On a wooden door, the foliage already has a warm backdrop. Measure the clear area between panels or hardware before buying so the wreath does not collide with the handle or door frame.
 
-![Green wreath with berries hanging on a wooden door.](https://images.pexels.com/photos/10924083/pexels-photo-10924083.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Green wreath with berries hanging on a wooden door.](/images/stock/08eef89b875e291e-720.webp)
 
 *Photo: [Qnula on Pexels](https://www.pexels.com/photo/christmas-wreath-on-door-10924083/).*
 
@@ -69,7 +69,7 @@ A green wreath with a small amount of red berry detail gives a door a clear foca
 
 Greenery around a doorway can make the entrance feel decorated before a guest reaches the tree. The photograph shows a festive storefront, but the principle translates to a home: follow the frame, use a restrained ribbon color and make sure the door still swings freely. For an exterior door, choose a fastening method rated for the surface and weather rather than assuming indoor adhesive hooks will hold.
 
-![Doorway outlined with green Christmas garland and red bows.](https://images.pexels.com/photos/11048241/pexels-photo-11048241.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Doorway outlined with green Christmas garland and red bows.](/images/stock/a7cf6ea4ff720c0b-720.webp)
 
 *Photo: [Lokman Sevim on Pexels](https://www.pexels.com/photo/photograph-of-a-door-with-a-green-garland-11048241/).*
 
@@ -77,7 +77,7 @@ Greenery around a doorway can make the entrance feel decorated before a guest re
 
 The stockings are the repeated shapes; a low line of greenery connects them. Keep garland behind the stocking hooks so it does not interfere with how the stockings hang. If the fireplace is used, follow the fireplace manufacturer's clearances and keep foliage, fabric and lights away from heat and flame.
 
-![Christmas stockings hanging from a fireplace with greenery along the mantel.](https://images.pexels.com/photos/6184763/pexels-photo-6184763.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Christmas stockings hanging from a fireplace with greenery along the mantel.](/images/stock/b028da9d72b3c289-720.webp)
 
 *Photo: [cottonbro studio on Pexels](https://www.pexels.com/photo/christmas-socks-hanging-at-a-fireplace-6184763/).*
 
@@ -85,7 +85,7 @@ The stockings are the repeated shapes; a low line of greenery connects them. Kee
 
 A staircase has a natural rhythm: rail, post, rail, post. Let garland follow that line and repeat one metallic accent rather than attaching an ornament to every inch. Secure decorations to the outside or top of the rail so people can still grip it safely. Keep loose loops and trailing cords out of the walking path.
 
-![Indoor staircase decorated with green and gold Christmas garlands.](https://images.pexels.com/photos/6517730/pexels-photo-6517730.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Indoor staircase decorated with green and gold Christmas garlands.](/images/stock/3ea0390b5676df16-720.webp)
 
 *Photo: [RDNE Stock project on Pexels](https://www.pexels.com/photo/a-stairway-with-christmas-decorations-6517730/).*
 
@@ -93,7 +93,7 @@ A staircase has a natural rhythm: rail, post, rail, post. Let garland follow tha
 
 A lone branch gives you the silhouette of a tree without the footprint. A clear bottle keeps the arrangement visually light on a desk, windowsill or console. Choose a vessel with a stable base, trim any branch that overbalances it and keep fresh greenery away from heaters or vents. [University of Minnesota Extension](https://extension.umn.edu/about/our-stories/news/fresh-cut-greens-and-winter-decor) specifically recommends cooler indoor spots for cut pine and cedar.
 
-![One pine branch displayed in a transparent glass bottle.](https://images.pexels.com/photos/5813833/pexels-photo-5813833.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![One pine branch displayed in a transparent glass bottle.](/images/stock/d4a7b3737cdd2f65-720.webp)
 
 *Photo: [Tima Miroshnichenko on Pexels](https://www.pexels.com/photo/a-pine-branch-in-a-glass-bottle-5813833/).*
 
@@ -101,7 +101,7 @@ A lone branch gives you the silhouette of a tree without the footprint. A clear 
 
 A few short stems and two or three ornaments make a compact arrangement for a sideboard. Put the branches in water if the vessel and foliage allow it, and check them as the season progresses. The gold baubles in the photograph lift the green without turning the bouquet into a miniature imitation tree.
 
-![Conifer stems and gold ornaments arranged in a glass vase.](https://images.pexels.com/photos/11955564/pexels-photo-11955564.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Conifer stems and gold ornaments arranged in a glass vase.](/images/stock/f9d36399a6f6209c-720.webp)
 
 *Photo: [Максим Юрченко on Pexels](https://www.pexels.com/photo/conifer-twigs-in-a-vase-decorated-for-christmas-11955564/).*
 
@@ -109,7 +109,7 @@ A few short stems and two or three ornaments make a compact arrangement for a si
 
 Green needles look fresh beside the warm brown and orange of dried fruit. Gather the pieces on a tray or a single tabletop area; that boundary stops small objects spreading across the whole room. A wood ornament or tree shape adds height without another saturated color. The photographed vignette shows how a few different textures can do more than a dozen matching trinkets.
 
-![Pine branches in a vase beside dried citrus and a wooden tree decoration.](https://images.pexels.com/photos/5467980/pexels-photo-5467980.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Pine branches in a vase beside dried citrus and a wooden tree decoration.](/images/stock/edb3dbc6f88e47a0-720.webp)
 
 *Photo: [Kaboompics on Pexels](https://www.pexels.com/photo/green-pine-leaves-in-a-vase-beside-a-tree-shape-candle-and-a-bowl-of-fruit-slices-5467980/).*
 
@@ -117,7 +117,7 @@ Green needles look fresh beside the warm brown and orange of dried fruit. Gather
 
 At a dinner table, repeat small pieces of greenery near the center rather than building one tall arrangement that blocks conversation. Pale linens and a little gold make the foliage visible from across the room. Keep loose needles away from food, and leave room for serving dishes before deciding how much decor the table can hold.
 
-![Elegant Christmas table with evergreen centerpieces and gold details.](https://images.pexels.com/photos/6209377/pexels-photo-6209377.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Elegant Christmas table with evergreen centerpieces and gold details.](/images/stock/4c70cd94b3d93ac8-720.webp)
 
 *Photo: [Yan Krukau on Pexels](https://www.pexels.com/photo/table-decoration-for-christmas-6209377/).*
 
@@ -125,7 +125,7 @@ At a dinner table, repeat small pieces of greenery near the center rather than b
 
 Conifer and candlelight make a beautiful color combination, as the photograph shows, but do not copy a tight arrangement with lit candles near foliage. Use flameless candles among branches, or put real flames in sturdy holders well away from anything combustible. The [NFPA candle-safety guidance](https://www.nfpa.org/education-and-research/home-fire-safety/candles) recommends at least 12 inches between a lit candle and things that can burn.
 
-![Holiday table with candles and conifer branches as a greenery accent.](https://images.pexels.com/photos/10810992/pexels-photo-10810992.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Holiday table with candles and conifer branches as a greenery accent.](/images/stock/059c676e39f88885-720.webp)
 
 *Photo: [aliona zueva on Pexels](https://www.pexels.com/photo/candles-and-decorations-on-a-table-10810992/).*
 
@@ -133,7 +133,7 @@ Conifer and candlelight make a beautiful color combination, as the photograph sh
 
 Small trees can become a centerpiece that guests can see over. Mix a few heights but keep one clear green thread, such as a green candle or foliage stem. The pictured table uses paper and bottle-brush forms; their varied textures stop the repetition feeling too uniform. Move anything delicate before hot dishes arrive.
 
-![Christmas table display with paper and bottle-brush trees.](https://images.pexels.com/photos/35160155/pexels-photo-35160155.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Christmas table display with paper and bottle-brush trees.](/images/stock/d3725804af882f76-720.webp)
 
 *Photo: [Jilly Noble on Pexels](https://www.pexels.com/photo/festive-christmas-table-decor-with-paper-trees-35160155/).*
 
@@ -141,7 +141,7 @@ Small trees can become a centerpiece that guests can see over. Mix a few heights
 
 Folded or rolled green paper can add a handmade note to a shelf or place setting. Work from a firm cone or folded base, build the layers evenly and let glue dry before moving it. The photograph is of a paper-tree craft in progress, so treat it as an approach rather than a finished-product pattern. Keep paper well away from candles and hot bulbs.
 
-![Hands making a green paper Christmas tree at a craft table.](https://images.pexels.com/photos/5037276/pexels-photo-5037276.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Hands making a green paper Christmas tree at a craft table.](/images/stock/ba8401300ab6a1f1-720.webp)
 
 *Photo: [Leeloo The First on Pexels](https://www.pexels.com/photo/person-making-a-christmas-tree-5037276/).*
 
@@ -149,7 +149,7 @@ Folded or rolled green paper can add a handmade note to a shelf or place setting
 
 Packages are visible under the tree for weeks, so their paper and ribbon count as decor. Use green on just some boxes, then balance it with plain brown or cream paper. The photographed set uses green ribbon against a green background; at home, vary the wrap finish so the packages remain distinguishable from one another.
 
-![Christmas gift boxes with green ribbons and ornaments on a green surface.](https://images.pexels.com/photos/12338371/pexels-photo-12338371.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Christmas gift boxes with green ribbons and ornaments on a green surface.](/images/stock/f9ebf97d2681b074-720.webp)
 
 *Photo: [hasan kurt on Pexels](https://www.pexels.com/photo/giftboxes-on-green-background-12338371/).*
 
@@ -157,7 +157,7 @@ Packages are visible under the tree for weeks, so their paper and ribbon count a
 
 Deep green velvet has a softer, darker finish than shiny plastic ribbon. Use it on the gifts displayed at the front of the tree or on a special package near the mantel; there is no need to wrap everything the same way. A simple knot keeps the fabric's texture visible and makes the ribbon easier to reuse.
 
-![Christmas gift wrapped with dark green velvet ribbon and gold ornaments.](https://images.pexels.com/photos/19283470/pexels-photo-19283470.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Christmas gift wrapped with dark green velvet ribbon and gold ornaments.](/images/stock/cf4500f524f11e0f-720.webp)
 
 *Photo: [Nati on Pexels](https://www.pexels.com/photo/christmas-gift-with-ornaments-and-velvet-ribbon-19283470/).*
 
@@ -165,7 +165,7 @@ Deep green velvet has a softer, darker finish than shiny plastic ribbon. Use it 
 
 A full garland already has texture. Instead of filling it with a mixture of tiny ornaments, repeat one striking bauble finish at intervals. The photographed green garland has colorful ornaments, which shows the spacing idea; narrowing those accents to one color is a simple way to create a quieter version for a shelf or interior doorway.
 
-![Green Christmas garland decorated with large colorful baubles.](https://images.pexels.com/photos/734219/pexels-photo-734219.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Green Christmas garland decorated with large colorful baubles.](/images/stock/6666121ccb48652b-720.webp)
 
 *Photo: [HOÀNG VŨ on Pexels](https://www.pexels.com/photo/photo-of-green-garland-with-bold-bauble-decor-734219/).*
 
@@ -173,7 +173,7 @@ A full garland already has texture. Instead of filling it with a mixture of tiny
 
 A small wreath or ring of greenery looks especially good on a coffee table because it is low enough to see across. Put candles on a stable, nonflammable base separate from the foliage; flameless versions are the safer choice in a tight arrangement. Repeat the green in just one nearby cushion or book cover to connect the vignette to the room.
 
-![Low Christmas greenery arrangement with candles on a living-room table.](https://images.pexels.com/photos/35114278/pexels-photo-35114278.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Low Christmas greenery arrangement with candles on a living-room table.](/images/stock/40d7136aef6ea238-720.webp)
 
 *Photo: [Nati on Pexels](https://www.pexels.com/photo/festive-christmas-candle-centerpiece-on-table-35114278/).*
 
@@ -181,7 +181,7 @@ A small wreath or ring of greenery looks especially good on a coffee table becau
 
 For a bedroom, a thin green garland over a canopy or headboard brings the color in without a second tree. The pictured canopy uses ribbon and berries for a gentle finish. Keep the arrangement securely fixed, away from light fittings and out of reach of anyone sleeping beneath it; skip heavy ornaments overhead. For more bedroom-specific styling, see our [cozy Christmas bedroom ideas](/post/cozy-christmas-bedroom-ideas/).
 
-![Bedroom canopy trimmed with green Christmas garland, ribbon and berries.](https://images.pexels.com/photos/35099205/pexels-photo-35099205.jpeg?auto=compress&cs=tinysrgb&w=1200)
+![Bedroom canopy trimmed with green Christmas garland, ribbon and berries.](/images/stock/3318ba6a46127820-720.webp)
 
 *Photo: [Alexander Mass on Pexels](https://www.pexels.com/photo/cozy-festive-holiday-canopy-decor-35099205/).*
 

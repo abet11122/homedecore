@@ -1,7 +1,8 @@
 ---
 disposition: keep
-title: "DIY Floating Shelves That Hold Real Weight"
-description: "Most floating shelf tutorials skip the part that matters: the bracket and the fixing. Here is how to build shelves that carry books, not just candles."
+title: "DIY Floating Shelves: Planning Fixings and Placement"
+description: "Planning a floating shelf starts with the wall, bracket and fixing instructions. Check the manufacturer's load rating before choosing materials or placement."
+editorialReady: false
 category: "diy-decor"
 tags: ["diy", "shelving", "woodwork", "storage", "weekend-project"]
 publishDate: 2026-08-14
@@ -14,7 +15,7 @@ affiliateDisclosure: true
 
 A floating shelf is a simple object with one hard problem: everything about how it holds itself up is hidden, so the failure mode is a shelf full of books ending up on the floor at 3am. Most tutorials online show you a lovely piece of oak and gloss over the two things that determine whether it stays on the wall — the bracket and the fixing.
 
-This is the version that holds. Two shelves, about £45 in materials, a Saturday.
+This guide does not establish a tested load capacity, project cost or completion time. Follow a shelf system's installation instructions and verify compatibility with the actual wall.
 
 ## Understand the load first
 
@@ -23,22 +24,13 @@ A floating shelf is a **cantilever**. All the downward force on the shelf become
 - **Depth is the enemy.** Doubling the shelf depth roughly doubles the leverage on your fixings. A 20cm shelf is trivial to support; a 40cm shelf is four times the problem it looks like.
 - **The top fixing does the work.** It is in pure tension — being pulled straight out of the wall. That is the fixing that fails.
 
-Practical limits, for a shelf on a solid bracket into a sound wall:
-
-| Depth | Realistic load per 1m of shelf |
-|---|---|
-| 15cm | 25–30kg |
-| 20cm | 18–22kg |
-| 25cm | 12–15kg |
-| 30cm+ | Use a supported shelf instead |
-
-For reference, a metre of paperbacks is about 15kg; a metre of hardbacks is 25–30kg. If you want a metre of hardbacks, you want a 15–20cm shelf and very good fixings.
+Load capacity depends on the complete shelf system, fixing, wall construction and installation. Use the manufacturer's rating for that combination; this guide provides no universal load table.
 
 ## Materials
 
 **For two shelves, 90cm × 20cm:**
 
-- 1 length of 20mm oak or pine board, 90cm × 20cm × 2 — around £25
+- Board dimensions and materials compatible with the selected shelf system
 - 1 length of 44×20mm softwood batten for the cleats
 - Wood screws, 5×80mm
 - Fixings appropriate to your wall (see below) — this is not the place to economise
@@ -50,22 +42,22 @@ For reference, a metre of paperbacks is about 15kg; a metre of hardbacks is 25�
 
 This is the step that decides everything. Knock on the wall: a dull thud is masonry, a hollow sound is plasterboard.
 
-**Into masonry (brick, block, concrete):** an 8mm masonry bit and a good nylon plug with a 5×80mm screw. Drill into the brick, not the mortar — mortar crumbles under tension. Easily strong enough for anything on the table above.
+**Into masonry (brick, block, concrete):** choose fixings rated for the actual substrate and shelf system. Follow the specified drill size, embedment and installation instructions.
 
 **Into timber studs behind plasterboard:** the best case. Find the studs with a detector, confirm with a small pilot hole, and screw straight into the timber with a 5×80mm screw. Studs are usually at 400mm or 600mm centres, so a 90cm shelf will catch two.
 
 **Into plasterboard with no stud:** this is where shelves fail. Plastic wall anchors are not adequate. Use either:
 
-- **Metal toggle fixings** (Grip-It, Snaptoggle) — genuinely strong, roughly 20–30kg each in 12.5mm board
+- **Metal toggle fixings** — use only where the manufacturer confirms compatibility with the actual wall and shelf system
 - **Heavy-duty spring toggles** — strong, but need a large hole
 
-Never hang a book shelf on plasterboard fixings alone if you can reach a stud instead. If you cannot, halve the load figures in the table.
+Do not calculate capacity by halving a generic load table. Consult the manufacturer's instructions or a qualified installer when the wall or fixing choice is uncertain.
 
-> If you take one thing from this: find the studs. A £12 detector is the difference between a shelf that holds books and a shelf that holds a candle.
+> Identify the wall construction and check for concealed services before drilling. A stud detector does not establish a shelf's load capacity.
 
 ## Build the cleat
 
-The cleat is a batten fixed to the wall that the hollow shelf slides over. For a solid-board shelf like this one, we use a simpler L-cleat and route a groove — or, easier, screw up through the cleat into the underside of the board.
+The cleat is a batten fixed to the wall that supports the shelf. The following outline is not a tested installation specification; use a documented shelf system compatible with your wall and intended load.
 
 **Method (simple, strong, beginner-friendly):**
 
@@ -74,7 +66,7 @@ The cleat is a batten fixed to the wall that the hollow shelf slides over. For a
 3. **Mark fixing points** on the line at your stud positions, or at 30cm intervals into masonry. Minimum three fixings on a 90cm shelf.
 4. **Drill the cleat** with clearance holes and countersink them.
 5. **Drill the wall**, plug if needed, and fix the cleat. Check level again before the last screw goes fully in.
-6. **Test it.** Hang your full body weight off the cleat. Seriously — better it fails now than loaded with your books.
+6. **Check the installation** against the manufacturer's instructions. Do not hang your body weight from a shelf or cleat. Resolve loose fixings or movement before using the shelf.
 
 ## Fit the shelf
 
@@ -114,14 +106,9 @@ The quick version for a two-shelf run:
 
 **The screws spin without biting.** You are in mortar or a failed plasterboard hole. Move 5cm along and use a proper toggle. Do not fill the hole and re-drill the same spot.
 
-## Cost breakdown
+## Record the actual cost
 
-- Oak board (2 shelves): £25
-- Batten and screws: £6
-- Toggle fixings or masonry plugs: £8
-- Hardwax oil (enough for many projects): £14
-
-**Total: around £53**, or roughly £26 per shelf. Comparable ready-made solid oak floating shelves run £45–£70 each — and most of them are veneered MDF.
+Include the rated shelf system, compatible fixings, finishing materials and any tools purchased. Record local prices and the quantities used before comparing this project with a ready-made shelf.
 
 ---
 
