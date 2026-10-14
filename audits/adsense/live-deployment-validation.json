@@ -1,0 +1,840 @@
+{
+  "checked_at": "2026-10-14T18:35:11.005Z",
+  "domain": "https://www.cozynestideas.online",
+  "postRoutes": 151,
+  "mergeRedirects": 80,
+  "utilityRoutes": 15,
+  "failures": [],
+  "responses": [
+    {
+      "url": "https://www.cozynestideas.online/post/backyard-seating-area-ideas/",
+      "status": 301,
+      "location": "/post/small-patio-ideas-apartments/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/baddie-bedroom-ideas-small-rooms/",
+      "status": 301,
+      "location": "/post/small-bedroom-layout-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bathroom-lighting-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bedroom-ideas-for-young-boys/",
+      "status": 301,
+      "location": "/post/boys-bedroom-ideas-cool-livable/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bathroom-vanity-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-bathroom-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/aesthetic-bedroom-ideas-small-rooms/",
+      "status": 301,
+      "location": "/post/small-bedroom-layout-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/attic-bedroom-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bedroom-ideas-small-teen-rooms/",
+      "status": 301,
+      "location": "/post/teenage-boy-bedroom-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bedroom-ideas-small-spaces-bigger/",
+      "status": 301,
+      "location": "/post/small-bedroom-layout-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/blue-boys-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/boys-bedroom-paint-color-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bedroom-wallpaper-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bedroom-lighting-layers/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/blue-girls-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/boho-girls-bedroom-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bookshelf-ideas-small-bedrooms/",
+      "status": 301,
+      "location": "/post/small-bedroom-storage-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/boys-bedroom-decor-ideas/",
+      "status": 301,
+      "location": "/post/boys-bedroom-ideas-cool-livable/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bedroom-sanctuary-layering/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/black-and-white-bedroom-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/boys-bedroom-looks-everyday-details/",
+      "status": 301,
+      "location": "/post/boys-bedroom-ideas-cool-livable/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/beach-bedroom-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/boys-bunk-bed-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/shared-boys-bedroom-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/boys-gamer-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/boys-gaming-bedroom-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/christmas-entryway-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-space-christmas-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/entryway-storage-ideas/",
+      "status": 301,
+      "location": "/post/small-entryway-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/boho-girls-bedroom-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/boys-bedroom-ideas-cool-livable/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/mudroom-ideas-small-homes/",
+      "status": 301,
+      "location": "/post/small-entryway-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/boys-bedroom-paint-color-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/narrow-hallway-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-entryway-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/apartment-christmas-door-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-space-christmas-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/apartment-decor-ideas-budget/",
+      "status": 301,
+      "location": "/post/small-apartment-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/diy-ceramic-planters/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/autumn-mantel-styling/",
+      "status": 301,
+      "location": "/post/fall-living-room-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/kitchen-island-styling/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/backyard-halloween-party-ideas/",
+      "status": 301,
+      "location": "/post/halloween-yard-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/balcony-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-patio-ideas-apartments/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/living-room-layout-rules/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bathroom-counter-organization-ideas/",
+      "status": 301,
+      "location": "/post/small-bathroom-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bathroom-organization-ideas-small-spaces/",
+      "status": 301,
+      "location": "/post/small-bathroom-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bathroom-over-toilet-storage-ideas/",
+      "status": 301,
+      "location": "/post/small-bathroom-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bathroom-shelf-styling-ideas/",
+      "status": 301,
+      "location": "/post/small-bathroom-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bedroom-accent-wall-ideas/",
+      "status": 301,
+      "location": "/post/bedroom-wallpaper-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bathroom-storage-ideas-small-spaces/",
+      "status": 301,
+      "location": "/post/small-bathroom-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bedroom-storage-ideas-small-rooms/",
+      "status": 301,
+      "location": "/post/small-bedroom-storage-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bedroom-wall-decor-above-bed/",
+      "status": 301,
+      "location": "/post/bedroom-wallpaper-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/beige-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/neutral-bedroom-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/babys-first-halloween-costume/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/boys-bedroom-storage-ideas/",
+      "status": 301,
+      "location": "/post/small-boys-bedroom-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bedroom-curtain-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/bedroom-rug-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/christmas-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/cozy-christmas-bedroom-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/christmas-coffee-table-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-space-christmas-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/boo-basket-ideas-for-him/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/christmas-entryway-ideas/",
+      "status": 301,
+      "location": "/post/small-space-christmas-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/brunette-halloween-costume-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/christmas-table-setting-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/best-friend-halloween-costume-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/classy-halloween-costumes/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/boys-gaming-bedroom-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/christmas-kitchen-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-space-christmas-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/cozy-bedroom-lighting-ideas/",
+      "status": 301,
+      "location": "/post/bedroom-lighting-layers/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/college-halloween-costume-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/cozy-small-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/small-bedroom-layout-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/cozy-winter-home-decor-ideas/",
+      "status": 301,
+      "location": "/post/winter-hygge-guide/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/cream-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/neutral-bedroom-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/diy-halloween-decor-outdoor/",
+      "status": 301,
+      "location": "/post/halloween-yard-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/earthy-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/neutral-bedroom-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/couple-costume-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/entryway-table-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-entryway-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/fall-apartment-decor-ideas/",
+      "status": 301,
+      "location": "/post/fall-living-room-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/cozy-christmas-living-room-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/cozy-christmas-bedroom-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/diy-floating-shelves/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/funny-outdoor-halloween-decorations/",
+      "status": 301,
+      "location": "/post/halloween-yard-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/gothic-halloween-decor-ideas/",
+      "status": 301,
+      "location": "/post/elegant-halloween-decor/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/elegant-halloween-decor/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/fall-living-room-decor-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/funny-halloween-costumes-for-families/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/funny-couple-costume-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/funny-halloween-costume-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-bathroom-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-apartment-halloween-decor-no-damage/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-bedroom-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-apartment-halloween-decor-no-damage/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-centerpieces/",
+      "status": 301,
+      "location": "/post/elegant-halloween-decor/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-crafts-for-adults/",
+      "status": 301,
+      "location": "/post/elegant-halloween-decor/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/group-halloween-costume-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/green-christmas-decor-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-boo-basket-ideas-for-her/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-door-decorations/",
+      "status": 301,
+      "location": "/post/halloween-door-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-costume-ideas-for-guys/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-entryway-ideas/",
+      "status": 301,
+      "location": "/post/halloween-door-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-fireplace-decor-ideas/",
+      "status": 301,
+      "location": "/post/elegant-halloween-decor/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-kitchen-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-apartment-halloween-decor-no-damage/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-crafts-for-children/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-living-room-ideas/",
+      "status": 301,
+      "location": "/post/small-apartment-halloween-decor-no-damage/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-porch-decor-ideas/",
+      "status": 301,
+      "location": "/post/halloween-door-decor-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-door-decor-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/kitchen-cabinet-organization-ideas/",
+      "status": 301,
+      "location": "/post/small-kitchen-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/kitchen-corner-storage-ideas/",
+      "status": 301,
+      "location": "/post/small-kitchen-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-gift-baskets/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/kitchen-countertop-decor-ideas/",
+      "status": 301,
+      "location": "/post/kitchen-island-styling/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-costume-ideas-for-women/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/kitchen-drawer-organization-ideas/",
+      "status": 301,
+      "location": "/post/small-kitchen-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/kitchen-open-shelving-styling/",
+      "status": 301,
+      "location": "/post/kitchen-island-styling/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/kid-friendly-pumpkin-carving-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/halloween-yard-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/modern-boys-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/boys-bedroom-ideas-cool-livable/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/navy-boys-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/boys-bedroom-paint-color-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/pink-halloween-decor-ideas/",
+      "status": 301,
+      "location": "/post/elegant-halloween-decor/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/pumpkin-painting-ideas/",
+      "status": 301,
+      "location": "/post/elegant-halloween-decor/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/renter-friendly-storage-ideas-no-drilling/",
+      "status": 301,
+      "location": "/post/small-apartment-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-apartment-halloween-decor-ideas/",
+      "status": 301,
+      "location": "/post/small-apartment-halloween-decor-no-damage/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/minimalist-living-room-guide/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/kpop-demon-hunters-rumi-halloween-costume-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-apartment-living-room-ideas/",
+      "status": 301,
+      "location": "/post/living-room-layout-rules/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-apartment-storage-ideas/",
+      "status": 301,
+      "location": "/post/small-apartment-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/neutral-bedroom-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-bedroom-ideas-that-look-expensive/",
+      "status": 301,
+      "location": "/post/small-bedroom-layout-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-apartment-halloween-decor-no-damage/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-bedroom-makeover-ideas/",
+      "status": 301,
+      "location": "/post/small-bedroom-layout-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/shared-boys-bedroom-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-apartment-organization-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-bathroom-decor-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-entryway-organization-ideas/",
+      "status": 301,
+      "location": "/post/small-entryway-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-bathroom-organization-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-kitchen-storage-ideas/",
+      "status": 301,
+      "location": "/post/small-kitchen-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-bedroom-layout-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-boys-bedroom-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-bedroom-storage-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-space-halloween-decor/",
+      "status": 301,
+      "location": "/post/small-apartment-halloween-decor-no-damage/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-home-office-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-kitchen-organization-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-studio-apartment-ideas/",
+      "status": 301,
+      "location": "/post/studio-apartment-zoning/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-pantry-organization-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-laundry-room-organization-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-space-christmas-decor-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/under-sink-bathroom-organization-ideas/",
+      "status": 301,
+      "location": "/post/small-bathroom-organization-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/vintage-halloween-decor-ideas/",
+      "status": 301,
+      "location": "/post/elegant-halloween-decor/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/spooky-basket-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/studio-apartment-zoning/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/teenage-boy-bedroom-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/toy-story-inside-out-group-halloween-costume-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/trio-halloween-costume-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/warm-neutral-bedroom-ideas/",
+      "status": 301,
+      "location": "/post/neutral-bedroom-ideas/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/y2k-apocalypse-halloween-party-decor-ideas/",
+      "status": 301,
+      "location": "/post/elegant-halloween-decor/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/wicked-halloween-costume-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/renter-friendly-bathroom-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/paint-colour-guide/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/renter-friendly-wall-decor-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-bedroom-maximalist-guide/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-entryway-ideas/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/terms/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/small-patio-ideas-apartments/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/post/winter-hygge-guide/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/about/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/contact/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/author/elena-marsh/",
+      "status": 301,
+      "location": "/author/editorial-team/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/search/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/tag/onthecorner/",
+      "status": 301,
+      "location": "/tags/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/category/diy-decor/",
+      "status": 301,
+      "location": "/stories/"
+    },
+    {
+      "url": "https://www.cozynestideas.online/tags/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/author/editorial-team/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/robots.txt",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/ads.txt",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/rss.xml",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/sitemap-index.xml",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://www.cozynestideas.online/sitemap-0.xml",
+      "status": 200,
+      "location": null
+    }
+  ]
+}

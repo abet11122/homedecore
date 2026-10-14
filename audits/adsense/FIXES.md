@@ -1,6 +1,6 @@
 # Implemented fixes — 14 October 2026
 
-The approved cleanup is implemented in the local source and build. **It has not been deployed to the live domain.** The original audit CSVs and REPORT.md describe the pre-change site; the checks below describe the updated build.
+The approved cleanup is **deployed at https://www.cozynestideas.online/**. The original audit CSVs and REPORT.md describe the pre-change site; the checks below describe the updated build and production verification. Deployment was triggered by pushing commit `edaded7` to GitHub `main`.
 
 ## Fixed
 
@@ -30,10 +30,14 @@ The approved cleanup is implemented in the local source and build. **It has not 
 
 - 109 HTML pages generated; 71 full article routes (49 retained plus 22 noindex), with 80 merged routes handled by deployment redirects.
 - No broken built internal links, missing local images, missing canonicals, duplicate canonical URLs, missing alt attributes, invalid JSON-LD or incorrect H1 counts were reported.
-- Migration checks verify every merged destination is retained, every post redirect uses 301, and no redirect chain exists at a merge destination. These are configuration checks; actual Vercel response statuses still need verification after deployment.
+- Migration checks verify every merged destination is retained, every post redirect uses 301, and no redirect chain exists at a merge destination. Production verification also confirmed all 80 canonical merge URLs return actual HTTP 301 responses to their approved destinations.
 - All 760 rendered image occurrences use local files, and no generated HTML loads AdSense.
 - Chrome checks passed for eight representative routes at **360, 768 and 1440 pixels**: no horizontal overflow, broken loaded images or remote image sources; one H1 on each. Search for “bedroom” displayed 16 matching cards and a matching result count. Screenshots are in `.astro/browser-review/screenshots/`.
 - Browser timings and layout-shift observations are saved in `browser-validation.json`. They are unthrottled local development observations, **not** a Lighthouse score, production page-speed measurement or field Core Web Vitals clearance.
+
+## Verified in production
+
+`scripts/verify-live-deployment.mjs` checked all **151 post URLs** and 15 utility/feed routes with no failures. It verified 80 HTTP 301 merge destinations, readable retained/noindex articles, author and tag retirement redirects, canonicals, indexing state, sitemap and RSS membership, no old author identity or ad loader, local image references, the Terms footer link and delivery of a sample self-hosted image. Results and timestamps are saved in `live-deployment-validation.json`.
 
 ## Policy checklist after changes
 
@@ -42,9 +46,9 @@ The approved cleanup is implemented in the local source and build. **It has not 
 | (a) No thin, empty or coming-soon pages | PARTIAL | Empty DIY hub and public editorial placeholders are avoided; substantive originality/depth still require the owner's evidence. Word count is not a quality clearance. |
 | (b) No copied or scraped content | UNVERIFIED | Internal similarity was audited; external source provenance and plagiarism clearance require further review. |
 | (c) No prohibited content | UNVERIFIED sitewide | No obvious prohibited theme identified; a complete text/image/destination clearance is not claimed. Off-topic costumes are noindexed, not declared prohibited. |
-| (d) No ads on utility pages | PASS, local build | All ad loading is disabled across the build. |
+| (d) No ads on utility pages | PASS, build and live checks | All ad loading is disabled. |
 | (e) Affiliate disclosure near links | PASS, observed rendered links | 116 known rendered affiliate-link occurrences verified. Owner must confirm account details and any future links. |
-| (f) Working navigation and reachability | PASS, built links and sampled browser interactions | Deployment must verify actual HTTP redirects and live asset delivery. Noindex/held posts remain reachable by their full URL. |
+| (f) Working navigation and reachability | PASS, built links, sampled browser interactions and live route checks | All 151 post routes passed production checks. Noindex/held posts remain reachable by their full URL. |
 | (g) Truthful author/ownership | PARTIAL | Unsupported identity and credentials removed. Actual operator identity, production workflow and mailbox/account ownership are still needed. |
 
 ## What you must provide or verify
@@ -54,7 +58,7 @@ The approved cleanup is implemented in the local source and build. **It has not 
 3. Check factual dimensions, estimates, product claims, DIY instructions and image rights. Existing suggestions are not evidence of hands-on testing. All retained posts still lack verified owner-original photographs.
 4. Review the 11 held/scheduled retained posts before promoting or indexing them. Do not simply flip their readiness flags. Check the consolidated material and revise structure around the actual reader task; worksheet structure suggestions are not a substitute for evidence-backed editorial work.
 5. Verify the published email can receive messages. Configure a domain email if desired; its placeholder is in the private ownership notes. Confirm ads.txt's publisher ID in your account; its existing entry was not fabricated or replaced.
-6. Check Search Console/analytics/backlinks for migration effects. Deploy the prepared changes, verify live 301/noindex/sitemap/RSS behavior, and run production mobile PageSpeed/field checks.
+6. Check Search Console/analytics/backlinks for migration effects and run production mobile PageSpeed/field checks. Deployment and live 301/noindex/sitemap/RSS checks are complete.
 7. Review external originality before reapplying to AdSense. The site is **not yet established as ready for approval**, and the 49-post count does not guarantee approval.
 
 The policy references remain [AdSense Program Policies](https://support.google.com/adsense/answer/48182), [Google Publisher Policies](https://support.google.com/publisherpolicies/answer/10502938), and [Google Search spam policies](https://developers.google.com/search/docs/essentials/spam-policies). Self-hosting was based on the providers' [Unsplash license](https://unsplash.com/license) and [Pexels license](https://www.pexels.com/license/); individual asset provenance and any additional rights still need owner review.
