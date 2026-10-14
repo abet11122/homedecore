@@ -37,7 +37,7 @@ The homepage hero and post cards use local images when specified in frontmatter,
 
 ## Advertising and legal pages
 
-Copy `.env.example` to `.env` and configure `PUBLIC_ADSENSE_CLIENT_ID` only when the account is ready. Optional placement IDs use the `PUBLIC_ADSENSE_SLOT_*` fields in that file. With no client ID, ad slots show labelled placeholders.
+Advertising is disabled during editorial remediation. No AdSense loader or slot renders, regardless of environment variables. Do not enable ads on unfinished articles or utility pages.
 
 Review `/privacy-policy/` and `/disclosure/` against the actual hosting, analytics, advertising and affiliate setup before publishing changes to those services. The content of those pages is a starting point, not legal advice.
 

@@ -6,8 +6,8 @@ description: "Build a boys gaming bedroom that works for play and sleep with 17 
 category: bedroom
 tags: ["boys bedroom", "gaming bedroom", "desk setup", "bedroom storage", "kids rooms"]
 publishDate: 2026-09-20
-heroImage: "photo-1593640408182-31c228b29976"
-heroImageAlt: "Gaming desk setup with monitor, keyboard and RGB lighting in a dark bedroom."
+heroImage: "photo-1542751371-adc38448a05e"
+heroImageAlt: "A gamer wearing headphones at a desktop computer; illustrative gaming stock photography, not a bedroom makeover."
 pinImage: "photo-1542751371-adc38448a05e"
 featured: false
 affiliateDisclosure: false

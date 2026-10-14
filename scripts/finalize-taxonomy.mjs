@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(d,e.name)):[path.join(d,e.name)]);
+const slugs=source=>(source.match(/^tags:\s*\[([^\]]*)\]/m)?.[1]??'').split(',').map(t=>t.trim().replace(/^["']|["']$/g,'').toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,''));
+const published=source=>!/^editorialReady:\s*false/m.test(source)&&(source.match(/^publishDate:\s*["']?(\d{4}-\d{2}-\d{2})/m)?.[1]??'9999')<='2026-10-14';
+const counts=files=>{const map=new Map();for(const f of files){const s=fs.readFileSync(f,'utf8');if(!published(s))continue;for(const tag of new Set(slugs(s)))if(tag)map.set(tag,(map.get(tag)??0)+1);}return map;};
+const old=counts(walk('audits/adsense/pre-remediation').filter(f=>f.endsWith('.md')));
+const currentFiles=walk('src/content/posts').filter(f=>f.endsWith('.md')&&!/^disposition:\s*(?:remove|merge)/m.test(fs.readFileSync(f,'utf8')));
+const current=counts(currentFiles);
+const retired=[...old].filter(([s,n])=>(n>=3||(s==='onthecorner'&&n>=2))&&((current.get(s)??0)<3||s==='onthecorner')).map(([s])=>s);
+const config=JSON.parse(fs.readFileSync('vercel.json','utf8'));
+const additions=[...retired.map(s=>({source:`/tag/${s}/`,destination:'/tags/',statusCode:301})),{source:'/category/diy-decor/',destination:'/stories/',statusCode:301}];
+const sources=new Set(additions.map(r=>r.source));config.redirects=[...additions,...config.redirects.filter(r=>!sources.has(r.source))];
+fs.writeFileSync('vercel.json',JSON.stringify(config,null,2)+'\n');
+fs.writeFileSync('audits/adsense/retired-tags.json',JSON.stringify(retired,null,2)+'\n');
+console.log({retiredTags:retired.length});

@@ -47,7 +47,7 @@ export async function GET(context: APIContext) {
     'Themes that cut across rooms:',
     ''
   );
-  for (const tag of collectTags(posts)) {
+  for (const tag of collectTags(posts, 3)) {
     lines.push(`- [${tag.label}](${url(`/tag/${tag.slug}/`)}): ${tag.count} articles`);
   }
 

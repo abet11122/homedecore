@@ -58,7 +58,7 @@ export interface Category {
   primary?: boolean;
 }
 
-export const CATEGORIES: Category[] = [
+const ALL_CATEGORIES: Category[] = [
   {
     slug: 'living-room',
     name: 'Living Room',
@@ -144,12 +144,20 @@ export const CATEGORIES: Category[] = [
   },
 ];
 
+// Both DIY guides need evidence review. Suppress their otherwise empty hub.
+// Restore this category once at least one guide passes editorial review.
+export const CATEGORIES = ALL_CATEGORIES.filter((category) => category.slug !== 'diy-decor');
+
+export function categoryPath(slug: string): string {
+  return CATEGORIES.some((category) => category.slug === slug) ? `/category/${slug}/` : '/stories/';
+}
+
 /** Categories shown inline in the header; the rest sit under "More". */
 export const PRIMARY_CATEGORIES = CATEGORIES.filter((c) => c.primary);
 export const SECONDARY_CATEGORIES = CATEGORIES.filter((c) => !c.primary);
 
 export function categoryBySlug(slug: string): Category | undefined {
-  return CATEGORIES.find((c) => c.slug === slug);
+  return ALL_CATEGORIES.find((c) => c.slug === slug);
 }
 
 export function categoryName(slug: string): string {

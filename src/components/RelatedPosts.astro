@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import PostCard from './PostCard.astro';
 import SectionHead from './SectionHead.astro';
-import { categoryName, isPublished, tagSlug } from '../site';
+import { categoryName, categoryPath, isPublished, tagSlug } from '../site';
 
 interface Props {
   category: string;
@@ -34,7 +34,7 @@ const related = all
       id="related-heading"
       kicker="Related reading"
       title="Continue with a connected idea"
-      href={`/category/${category}/`}
+      href={categoryPath(category)}
     />
 
     <div class="mt-12 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">

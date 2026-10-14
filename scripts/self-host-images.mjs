@@ -13,7 +13,7 @@ const manifestPath='src/data/stock-images.json';
 const manifest=fs.existsSync(manifestPath)?JSON.parse(fs.readFileSync(manifestPath,'utf8')):{};
 const errors=[];const pending=[...refs];let completed=0;
 await Promise.all(Array.from({length:4},async()=>{while(pending.length){const ref=pending.shift();try{
- if(manifest[ref]&&manifest[ref].variants.every(v=>fs.existsSync('public'+v.src))){completed++;continue;}
+ if(manifest[ref]&&manifest[ref].variants.every(v=>fs.existsSync('public'+v.src)))continue;
  const url=ref.startsWith('photo-')?`https://images.unsplash.com/${ref}?w=1600&auto=format&q=85`:ref;
  const r=await fetch(url,{signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error(`HTTP ${r.status}`);
  const buffer=Buffer.from(await r.arrayBuffer());const metadata=await sharp(buffer).metadata();

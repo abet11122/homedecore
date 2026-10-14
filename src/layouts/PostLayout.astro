@@ -12,7 +12,7 @@ import RelatedPosts from '../components/RelatedPosts.astro';
 import PostNav from '../components/PostNav.astro';
 import PinterestButton from '../components/PinterestButton.astro';
 import ExploreMore from '../components/ExploreMore.astro';
-import { SITE, categoryName, formatDate, collectTags, tagSlug, tagLabel, wordCount, isPublished } from '../site';
+import { SITE, categoryName, categoryPath, formatDate, collectTags, tagSlug, tagLabel, wordCount, isPublished } from '../site';
 
 interface Props {
   post: any;
@@ -98,13 +98,13 @@ const faqSchema = d.faqs?.length
       <Breadcrumbs
         items={[
           { label: 'Home', href: '/' },
-          { label: categoryName(d.category), href: `/category/${d.category}/` },
+          { label: categoryName(d.category), href: categoryPath(d.category) },
           { label: d.title },
         ]}
       />
 
       <header class="mt-8">
-        <a href={`/category/${d.category}/`} class="eyebrow hover:text-clay-deep">
+        <a href={categoryPath(d.category)} class="eyebrow hover:text-clay-deep">
           {categoryName(d.category)}
         </a>
 
@@ -161,7 +161,7 @@ const faqSchema = d.faqs?.length
           <div class="mt-8 border-t border-rule pt-6">
             <p class="eyebrow-muted">Keep going</p>
             <a
-              href={`/category/${d.category}/`}
+              href={categoryPath(d.category)}
               class="link-arrow mt-4 text-[0.8125rem] text-ink-60 hover:text-clay"
             >
               More {categoryName(d.category).toLowerCase()}

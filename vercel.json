@@ -2,6 +2,171 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/tag/apartment-decor/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/autumn/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/seasonal/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/halloween-costumes/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/outdoor/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/vanity/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/bathroom/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/bedroom-decor/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/wall-decor/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/bedroom-styling/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/desk/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/bedroom-storage/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/neutral-bedroom/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/bedroom-color/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/halloween/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/halloween-gifts/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/boo-basket/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/gift-ideas/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/organization/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/costume-ideas/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/entryway/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/onthecorner/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/home-styling/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/cozy-home/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/diy-decor/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/outdoor-decor/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/halloween-crafts/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/funny-halloween-costumes/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/group-costumes/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/kitchen-organization/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/small-kitchen/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/kitchen-storage/",
+      "destination": "/tags/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/diy-decor/",
+      "destination": "/stories/",
+      "statusCode": 301
+    },
+    {
       "source": "/post/aesthetic-bedroom-ideas-small-rooms/",
       "destination": "/post/small-bedroom-layout-ideas/",
       "statusCode": 301
@@ -804,11 +969,6 @@
     {
       "source": "/author/elena-marsh/",
       "destination": "/author/editorial-team/",
-      "statusCode": 301
-    },
-    {
-      "source": "/tag/onthecorner/",
-      "destination": "/tags/",
       "statusCode": 301
     },
     {
