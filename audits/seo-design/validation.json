@@ -1,0 +1,179 @@
+{
+  "htmlPages": 109,
+  "pinLinks": 71,
+  "responsive": [
+    {
+      "route": "/",
+      "width": 320,
+      "scrollWidth": 320,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/stories/",
+      "width": 320,
+      "scrollWidth": 320,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/search/",
+      "width": 320,
+      "scrollWidth": 320,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/post/neutral-bedroom-ideas/",
+      "width": 320,
+      "scrollWidth": 320,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/category/bedroom/",
+      "width": 320,
+      "scrollWidth": 320,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "scrollWidth": 320,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "scrollWidth": 1009,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/stories/",
+      "width": 1024,
+      "scrollWidth": 1009,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/search/",
+      "width": 1024,
+      "scrollWidth": 1009,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/post/neutral-bedroom-ideas/",
+      "width": 1024,
+      "scrollWidth": 1009,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/category/bedroom/",
+      "width": 1024,
+      "scrollWidth": 1009,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/contact/",
+      "width": 1024,
+      "scrollWidth": 1009,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/",
+      "width": 1536,
+      "scrollWidth": 1521,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/stories/",
+      "width": 1536,
+      "scrollWidth": 1521,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/search/",
+      "width": 1536,
+      "scrollWidth": 1521,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/post/neutral-bedroom-ideas/",
+      "width": 1536,
+      "scrollWidth": 1521,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/category/bedroom/",
+      "width": 1536,
+      "scrollWidth": 1521,
+      "brokenImages": [],
+      "h1": 1
+    },
+    {
+      "route": "/contact/",
+      "width": 1536,
+      "scrollWidth": 1521,
+      "brokenImages": [],
+      "h1": 1
+    }
+  ],
+  "filters": [
+    {
+      "route": "/search/",
+      "initial": 3,
+      "selected": "true",
+      "spaces": 3,
+      "empty": true,
+      "resetCount": 38,
+      "total": 38,
+      "resetDisabled": true,
+      "focused": true,
+      "query": ""
+    },
+    {
+      "route": "/stories/",
+      "initial": 3,
+      "selected": "true",
+      "spaces": 3,
+      "empty": true,
+      "resetCount": 38,
+      "total": 38,
+      "resetDisabled": true,
+      "focused": true,
+      "query": ""
+    }
+  ],
+  "article": {
+    "collapsed": true,
+    "open": true,
+    "pinUrl": "https://www.cozynestideas.online/post/neutral-bedroom-ideas/",
+    "canonical": "https://www.cozynestideas.online/post/neutral-bedroom-ideas/"
+  },
+  "print": {
+    "titleVisible": true,
+    "mastheadHidden": true,
+    "grid": "block"
+  },
+  "menu": {
+    "escape": true,
+    "outside": true
+  },
+  "noJs": {
+    "pin": "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.cozynestideas.online%2Fpost%2Fneutral-bedroom-ideas%2F&media=https%3A%2F%2Fwww.cozynestideas.online%2Fimages%2Fposts%2Fneutral-bedroom-ideas%2Fpin.webp&description=Neutral+Bedroom+Ideas+for+a+Calm+and+Timeless+Space+%E2%80%94+Create+a+serene+and+sophisticated+bedroom+with+15+neutral+bedroom+ideas+using+warm+whites%2C+layered+neutrals%2C+mixed+textures%2C+natural+materials%2C+and+subtle+contrast.",
+    "text": 6932
+  },
+  "exceptions": [],
+  "failures": []
+}

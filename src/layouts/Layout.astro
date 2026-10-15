@@ -57,9 +57,10 @@ const DEFAULT_PHOTO = 'photo-1600210492486-724fe5c67fb0';
 
 // og:image is the vertical pin when a post supplies one, so Pinterest saves
 // the 2:3 image rather than the horizontal hero.
-const ogImage = image ? photo(image, 1000, 1500) : photo(DEFAULT_PHOTO, 1200, 630);
+const socialPhoto = image ?? imageWide ?? DEFAULT_PHOTO;
+const ogImage = photo(socialPhoto, image ? 1000 : 1200, image ? 1500 : 630);
 const ogIsPin = Boolean(image);
-const ogAsset = imageAsset(image ?? DEFAULT_PHOTO)?.variants.at(-1);
+const ogAsset = imageAsset(socialPhoto)?.variants.at(-1);
 const ogW = ogAsset?.width ?? (ogIsPin ? 1000 : 1200);
 const ogH = ogAsset?.height ?? (ogIsPin ? 1500 : 630);
 
@@ -178,7 +179,13 @@ const articleNode =
       }
     : null;
 
-const graph = [orgNode, siteNode, authorNode, pageNode, articleNode, ...schemas].filter(Boolean);
+// A collection/profile describes this page, rather than a second page entity.
+const pageSchema = schemas.find((schema) =>
+  ['CollectionPage', 'ProfilePage'].includes(String(schema['@type']))
+);
+const resolvedPage = { ...pageNode, ...pageSchema, '@id': PAGE_ID, url: canonical };
+const graph = [orgNode, siteNode, authorNode, resolvedPage, articleNode,
+  ...schemas.filter((schema) => schema !== pageSchema)].filter(Boolean);
 const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 ---
 
@@ -252,7 +259,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
       <meta name="google-site-verification" content={SITE.googleVerification} />
     )}
 
-    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />
 
     {/*
       Google Consent Mode v2 defaults — denied until the certified CMP
@@ -381,7 +388,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
               </svg>
             </a>
 
-            {/* CSS-only mobile menu — no JavaScript shipped */}
+            {/* Native disclosure works without JS; the script adds dismissal. */}
             <details class="min-[1400px]:hidden [&_svg.close]:hidden [&[open]_svg.close]:block [&[open]_svg.open]:hidden">
               <summary
                 class="grid h-10 w-10 cursor-pointer list-none place-items-center text-ink [&::-webkit-details-marker]:hidden"
@@ -500,3 +507,25 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     <script is:inline async defer data-pin-hover="true" src="https://assets.pinterest.com/js/pinit.js"></script>
   </body>
 </html>
+
+<script>
+  const menus = [...document.querySelectorAll<HTMLDetailsElement>('.masthead details')];
+  menus.forEach((menu) => menu.addEventListener('toggle', () => {
+    if (menu.open) menus.forEach((other) => { if (other !== menu) other.open = false; });
+  }));
+  document.addEventListener('click', (event) => {
+    if (!(event.target instanceof Node)) return;
+    const target = event.target;
+    menus.forEach((menu) => {
+      if (!menu.contains(target) || (target instanceof Element && target.closest('a'))) menu.open = false;
+    });
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    const active = menus.find((menu) => menu.open);
+    if (active) {
+      active.open = false;
+      active.querySelector('summary')?.focus();
+    }
+  });
+</script>

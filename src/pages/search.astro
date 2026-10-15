@@ -2,20 +2,13 @@
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import Img from '../components/Img.astro';
+import { normalizeSearch } from '../search';
 import { CATEGORIES, categoryName, formatDateShort, isPublished, postPath } from '../site';
 
 const posts = (await getCollection('posts')).filter(isPublished).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
 );
 
-// Prebuilt index — a plain array baked into the page, no fetch, no library.
-const index = posts.map((p) => ({
-  id: p.id,
-  t: p.data.title,
-  d: p.data.description,
-  c: p.data.category,
-  g: (p.data.tags ?? []).join(' '),
-}));
 ---
 
 <Layout
@@ -23,7 +16,7 @@ const index = posts.map((p) => ({
   description="Search every story in the archive by title, room or tag."
   noindex
 >
-  <div class="wrap py-12 lg:py-16">
+  <div class="wrap py-12 lg:py-16" data-story-browser="search">
     <div class="mx-auto max-w-2xl text-center">
       <p class="eyebrow-muted">The complete archive</p>
       <h1 class="mt-4 font-display text-4xl leading-tight text-ink sm:text-5xl">Find your next room idea</h1>
@@ -50,25 +43,29 @@ const index = posts.map((p) => ({
       </div>
 
       <div class="mt-6 flex flex-wrap justify-center gap-2">
-        <button type="button" data-filter="" class="chip is-active">All</button>
+        <button type="button" data-room="" aria-pressed="true" class="chip is-active">All</button>
         {CATEGORIES.map((c) => (
-          <button type="button" data-filter={c.slug} class="chip">{c.name}</button>
+          <button type="button" data-room={c.slug} aria-pressed="false" class="chip">{c.name}</button>
         ))}
       </div>
     </div>
 
-    <p id="count" class="mt-12 border-b border-rule pb-4 text-eyebrow font-semibold uppercase text-ink-40" aria-live="polite">
+    <div class="mt-8 flex flex-wrap items-center justify-between gap-4 border-b border-rule pb-4">
+    <p id="count" data-result-count class="text-eyebrow font-semibold uppercase text-ink-40" role="status" aria-live="polite" aria-atomic="true">
       {posts.length} stories
     </p>
+    <button type="button" data-reset-filters disabled class="reset-filters">Clear filters</button>
+    </div>
+    <noscript><p class="mt-5 text-ink-60">All stories are listed below. Enable JavaScript to search and filter them.</p></noscript>
 
     <div id="results" class="mt-10 grid gap-x-7 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
       {posts.map((post) => (
-        <article class="result group" data-id={post.id} data-cat={post.data.category}>
+        <article class="result group" data-room={post.data.category} data-search-text={normalizeSearch([post.data.title, post.data.description, categoryName(post.data.category), ...(post.data.tags ?? [])].join(' '))}>
           <a href={postPath(post)} class="block">
             <div class="frame aspect-[4/5]">
               <Img
                 src={post.data.heroImage}
-                alt={post.data.title}
+                alt={post.data.heroImageAlt ?? post.data.title}
                 width={640}
                 height={800}
                 sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 90vw"
@@ -87,7 +84,7 @@ const index = posts.map((p) => ({
       ))}
     </div>
 
-    <p id="empty" class="hidden py-20 text-center">
+    <p id="empty" data-empty-results hidden class="py-20 text-center">
       <span class="block font-display text-2xl text-ink">No stories match that.</span>
       <span class="mt-3 block text-ink-60">Try a broader word, or browse a room from the menu.</span>
     </p>
@@ -96,7 +93,7 @@ const index = posts.map((p) => ({
 
 <style>
   .chip {
-    @apply border border-rule px-3.5 py-1.5 text-xs uppercase tracking-[0.08em] text-ink-60 transition-colors;
+    @apply min-h-11 rounded-full border border-rule px-3.5 py-2 text-xs uppercase tracking-[0.08em] text-ink-60 transition-colors;
   }
   .chip:hover {
     @apply border-ink text-ink;
@@ -106,63 +103,7 @@ const index = posts.map((p) => ({
   }
 </style>
 
-<script is:inline define:vars={{ index }}>
-  (function () {
-    var input = document.getElementById('q');
-    var count = document.getElementById('count');
-    var empty = document.getElementById('empty');
-    var cards = Array.prototype.slice.call(document.querySelectorAll('.result'));
-    var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
-
-    var haystack = {};
-    index.forEach(function (item) {
-      haystack[item.id] = (item.t + ' ' + item.d + ' ' + item.c + ' ' + item.g).toLowerCase();
-    });
-
-    var query = '';
-    var cat = '';
-
-    function apply() {
-      var terms = query.split(/\s+/).filter(Boolean);
-      var visible = 0;
-
-      cards.forEach(function (card) {
-        var text = haystack[card.dataset.id] || '';
-        var matchesCat = !cat || card.dataset.cat === cat;
-        var matchesText = terms.every(function (t) {
-          return text.indexOf(t) !== -1;
-        });
-        var show = matchesCat && matchesText;
-        card.hidden = !show;
-        if (show) visible++;
-      });
-
-      count.textContent = visible + (visible === 1 ? ' story' : ' stories');
-      empty.classList.toggle('hidden', visible !== 0);
-    }
-
-    input.addEventListener('input', function () {
-      query = input.value.trim().toLowerCase();
-      apply();
-    });
-
-    chips.forEach(function (chip) {
-      chip.addEventListener('click', function () {
-        chips.forEach(function (c) {
-          c.classList.remove('is-active');
-        });
-        chip.classList.add('is-active');
-        cat = chip.dataset.filter;
-        apply();
-      });
-    });
-
-    // Support /search/?q=term links
-    var initial = new URLSearchParams(location.search).get('q');
-    if (initial) {
-      input.value = initial;
-      query = initial.trim().toLowerCase();
-      apply();
-    }
-  })();
+<script>
+  import { initStoryFilters } from '../scripts/story-filters';
+  initStoryFilters('search');
 </script>

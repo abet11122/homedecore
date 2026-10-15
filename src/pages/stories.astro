@@ -3,23 +3,12 @@ import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import PostCard from '../components/PostCard.astro';
+import { normalizeSearch } from '../search';
 import { SITE, CATEGORIES, categoryName, isPublished, postPath } from '../site';
 
 const posts = (await getCollection('posts')).filter(isPublished).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
 );
-
-const searchablePosts = posts.map((post) => ({
-  id: post.id,
-  text: [
-    post.data.title,
-    post.data.description,
-    categoryName(post.data.category),
-    ...(post.data.tags ?? []),
-  ]
-    .join(' ')
-    .toLowerCase(),
-}));
 
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 const collectionSchema = {
@@ -46,6 +35,7 @@ const collectionSchema = {
   description="Browse every Cozy Nest Ideas story by room, topic or title, from small-space storage to seasonal decorating."
   schemas={[collectionSchema]}
 >
+  <div data-story-browser="archive">
   <header class="archive-hero border-b border-rule">
     <div class="wrap py-10 lg:py-16">
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'All stories' }]} />
@@ -90,9 +80,9 @@ const collectionSchema = {
 
   <div class="wrap py-10 lg:py-14">
     <div class="flex gap-2 overflow-x-auto pb-3 sm:grid sm:grid-cols-3 sm:overflow-visible lg:grid-cols-4 xl:grid-cols-6" aria-label="Filter stories by room">
-      <button type="button" data-category="" class="archive-filter is-active sm:w-full">All rooms</button>
+      <button type="button" data-room="" aria-pressed="true" class="archive-filter is-active sm:w-full">All rooms</button>
       {CATEGORIES.map((category) => (
-        <button type="button" data-category={category.slug} class="archive-filter sm:w-full">{category.name}</button>
+        <button type="button" data-room={category.slug} aria-pressed="false" class="archive-filter sm:w-full">{category.name}</button>
       ))}
     </div>
 
@@ -101,80 +91,32 @@ const collectionSchema = {
         <p class="eyebrow">Browse the archive</p>
         <h2 class="mt-2 font-display text-display-4 text-ink">Newest stories first</h2>
       </div>
-      <p id="story-count" class="shrink-0 text-sm text-ink-40" aria-live="polite">
+      <div class="flex flex-wrap justify-end gap-x-4 gap-y-2">
+      <p id="story-count" data-result-count class="shrink-0 text-sm text-ink-40" role="status" aria-live="polite" aria-atomic="true">
         {posts.length} stories
       </p>
+      <button type="button" data-reset-filters disabled class="reset-filters">Clear filters</button>
+      </div>
     </div>
+    <noscript><p class="mt-5 text-ink-60">All stories are listed below. Enable JavaScript to search and filter them.</p></noscript>
 
     <div id="story-grid" class="mt-10 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
       {posts.map((post) => (
-        <div class="archive-story" data-story-id={post.id} data-category={post.data.category}>
+        <div class="archive-story" data-room={post.data.category} data-search-text={normalizeSearch([post.data.title, post.data.description, categoryName(post.data.category), ...(post.data.tags ?? [])].join(' '))}>
           <PostCard post={post} />
         </div>
       ))}
     </div>
 
-    <div id="story-empty" class="hidden border-y border-rule py-16 text-center">
+    <div id="story-empty" data-empty-results hidden class="border-y border-rule py-16 text-center">
       <p class="font-display text-2xl text-ink">No stories match that search.</p>
       <p class="mt-3 text-ink-60">Try a shorter phrase or choose another room.</p>
     </div>
   </div>
+  </div>
 </Layout>
 
-<script is:inline define:vars={{ searchablePosts }}>
-  (function () {
-    var input = document.getElementById('story-search');
-    var count = document.getElementById('story-count');
-    var empty = document.getElementById('story-empty');
-    var cards = Array.prototype.slice.call(document.querySelectorAll('.archive-story'));
-    var filters = Array.prototype.slice.call(document.querySelectorAll('.archive-filter'));
-    var textById = {};
-    var query = '';
-    var category = '';
-
-    searchablePosts.forEach(function (post) {
-      textById[post.id] = post.text;
-    });
-
-    function update() {
-      var terms = query.split(/\s+/).filter(Boolean);
-      var visible = 0;
-
-      cards.forEach(function (card) {
-        var matchesCategory = !category || card.dataset.category === category;
-        var text = textById[card.dataset.storyId] || '';
-        var matchesQuery = terms.every(function (term) {
-          return text.indexOf(term) !== -1;
-        });
-        var show = matchesCategory && matchesQuery;
-        card.hidden = !show;
-        if (show) visible += 1;
-      });
-
-      count.textContent = visible + (visible === 1 ? ' story' : ' stories');
-      empty.classList.toggle('hidden', visible !== 0);
-    }
-
-    input.addEventListener('input', function () {
-      query = input.value.trim().toLowerCase();
-      update();
-    });
-
-    filters.forEach(function (filter) {
-      filter.addEventListener('click', function () {
-        filters.forEach(function (item) {
-          item.classList.remove('is-active');
-          item.setAttribute('aria-pressed', 'false');
-        });
-        filter.classList.add('is-active');
-        filter.setAttribute('aria-pressed', 'true');
-        category = filter.dataset.category || '';
-        update();
-      });
-    });
-
-    filters.forEach(function (filter) {
-      filter.setAttribute('aria-pressed', filter.classList.contains('is-active') ? 'true' : 'false');
-    });
-  })();
+<script>
+  import { initStoryFilters } from '../scripts/story-filters';
+  initStoryFilters('archive');
 </script>

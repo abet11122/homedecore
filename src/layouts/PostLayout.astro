@@ -205,7 +205,7 @@ const faqSchema = d.faqs?.length
             <p class="eyebrow-muted">Save it</p>
             <p class="mt-3 font-display text-2xl text-ink sm:text-3xl">Pin this for your board</p>
             <p class="mx-auto mt-3 max-w-md text-[0.9375rem] leading-relaxed text-ink-60">
-              Tap the image to save it to Pinterest and come back to it when you are ready to start.
+              Use the Save button to keep this idea on Pinterest and come back when you are ready to start.
             </p>
           </div>
           <div class="mt-8">
@@ -218,14 +218,6 @@ const faqSchema = d.faqs?.length
         <PostNav prev={prev} next={next} />
       </div>
 
-      {/*
-        Sticky half-page in the right margin, from 2xl only — at narrower
-        widths there is no spare margin and it would squeeze the column.
-      */}
-      <aside class="post-aside hidden 2xl:block">
-        <div class="sticky top-28">
-        </div>
-      </aside>
     </div>
 
     <div class="mx-auto max-w-[72rem]">
@@ -306,9 +298,13 @@ const faqSchema = d.faqs?.length
       }
 
       if (active === current) return;
-      if (current !== null) sections[current].link.classList.remove('is-current');
+      if (current !== null) {
+        sections[current].link.classList.remove('is-current');
+        sections[current].link.removeAttribute('aria-current');
+      }
       current = active;
       sections[current].link.classList.add('is-current');
+      sections[current].link.setAttribute('aria-current', 'location');
     }
 
     function remeasure() {
@@ -320,6 +316,7 @@ const faqSchema = d.faqs?.length
     addEventListener('resize', remeasure, { passive: true });
     // Late-loading images change every offset below them.
     addEventListener('load', remeasure);
+    if (document.fonts) document.fonts.ready.then(remeasure);
     remeasure();
   })();
 </script>

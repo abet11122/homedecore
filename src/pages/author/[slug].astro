@@ -12,7 +12,7 @@ import { SITE, CATEGORIES, categoryName, formatDateShort, isPublished, postPath 
  *
  * Google's guidance on helpful content leans hard on who wrote a page and why
  * they are qualified to. Every article already carries an author byline and a
- * Person node in its structured data — this is the page that node points at,
+ * editorial Organization node — this is the page that node points at,
  * so the claim resolves to something real instead of dangling.
  */
 export async function getStaticPaths() {
@@ -35,7 +35,7 @@ const beats = CATEGORIES.map((c) => ({
   .sort((a, b) => b.count - a.count);
 
 const oldest = posts[posts.length - 1];
-const description = `${SITE.author}, ${SITE.authorRole.toLowerCase()} at ${SITE.name}. ${SITE.authorBio}`;
+const description = `Meet the ${SITE.name} editorial team, explore our approach to home decor guidance, and browse our latest room-by-room decorating stories.`;
 
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 

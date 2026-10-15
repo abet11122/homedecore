@@ -22,12 +22,17 @@ interface Props {
 
 const { headings, variant = 'inline', class: className = '' } = Astro.props;
 const items = headings.filter((h) => h.depth === 2);
+const label = (text: string) => text.replace(/^\d+[.)]\s+/, '');
 ---
 
 {items.length > 2 && variant === 'inline' && (
-  <nav class={`my-10 border-y border-rule py-7 ${className}`} aria-labelledby="toc-heading">
-    <p id="toc-heading" class="eyebrow-muted">In this article</p>
-    <ol class="mt-5 grid gap-x-10 gap-y-3 sm:grid-cols-2">
+  <details class={`article-contents my-8 border-y border-rule ${className}`}>
+    <summary class="flex min-h-14 cursor-pointer items-center justify-between gap-4 py-4">
+      <span class="eyebrow-muted">In this article</span>
+      <span class="contents-count">{items.length} sections <span class="contents-toggle" aria-hidden="true">+</span></span>
+    </summary>
+    <nav aria-label="Article contents">
+    <ol class="grid gap-x-10 gap-y-3 pb-6 sm:grid-cols-2">
       {items.map((h, i) => (
         <li class="flex gap-3">
           <span class="mt-[0.15rem] w-5 shrink-0 font-display text-sm text-clay">
@@ -37,12 +42,13 @@ const items = headings.filter((h) => h.depth === 2);
             href={`#${h.slug}`}
             class="text-[0.9375rem] leading-snug text-ink-60 transition-colors hover:text-clay"
           >
-            {h.text}
+            {label(h.text)}
           </a>
         </li>
       ))}
     </ol>
-  </nav>
+    </nav>
+  </details>
 )}
 
 {items.length > 2 && variant === 'sidebar' && (
@@ -59,7 +65,7 @@ const items = headings.filter((h) => h.depth === 2);
             <span class="mr-1.5 font-display text-[0.6875rem] text-ink-20">
               {String(i + 1).padStart(2, '0')}
             </span>
-            {h.text}
+            {label(h.text)}
           </a>
         </li>
       ))}
