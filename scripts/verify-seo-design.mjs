@@ -14,6 +14,7 @@ for (const file of htmlFiles) {
   const canonical = html.match(/rel="canonical" href="([^"]+)"/)?.[1];
   const graph = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
   check(`schema ${file}`, () => {
+    assert(!html.includes('assets.pinterest.com/js/pinit.js'), 'external SDK must not replace the custom Save link');
     const ids = graph.map((node) => node['@id']).filter(Boolean);
     assert.equal(new Set(ids).size, ids.length, 'duplicate entity IDs');
     const pages = graph.filter((node) => ['WebPage', 'CollectionPage', 'ProfilePage'].includes(node['@type']));
@@ -64,7 +65,7 @@ const send = (method, params = {}) => new Promise((resolve, reject) => {
 });
 const evaluate = async (expression) => {
   const result = await send('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true });
-  if (result.exceptionDetails) throw Error(result.exceptionDetails.text);
+  if (result.exceptionDetails) throw Error(result.exceptionDetails.exception?.description ?? result.exceptionDetails.text);
   return result.result.value;
 };
 const navigate = async (route) => {

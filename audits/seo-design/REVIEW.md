@@ -4,7 +4,7 @@
 
 | Area | Finding and fix |
 | --- | --- |
-| Pinterest saves | Replaced the JavaScript-only button with a standard link. Saved pins use the existing production canonical and local pin image, excluding tracking parameters, section fragments and preview hosts. The Save button remains visible and works without JavaScript. |
+| Pinterest saves | Replaced the JavaScript-only button with a standard link. Saved pins use the existing production canonical and local pin image, excluding tracking parameters, section fragments and preview hosts. The Save button remains visible and works without JavaScript. Removed the redundant sitewide Pinterest SDK after browser checks showed it replacing the custom button; direct saves still work and the third-party script no longer loads on every page. |
 | Structured data | Collection and author-profile information now extend a single page entity. Removed competing page entities and duplicate IDs; article references resolve to the same canonical page. Escaped less-than characters when serializing the shared JSON-LD. |
 | Search and archive | Consolidated filtering into a shared controller. Normalized accents, punctuation and hyphens in both story text and queries. Added selected-state announcements, result status, clear filters, and query/room URL state that survives refresh. All stories remain available without JavaScript. |
 | Article reading | Made the mobile contents list expandable, removed duplicate numbers from numbered contents labels, marked the current desktop section for assistive technology, and remeasured section positions after fonts load. Removed the unused third desktop column; the article remains within the page wrapper. Heading IDs and article text are preserved. |
