@@ -1,6 +1,6 @@
 {
-  "htmlPages": 109,
-  "pinLinks": 71,
+  "htmlPages": 120,
+  "pinLinks": 77,
   "responsive": [
     {
       "route": "/",
@@ -136,8 +136,8 @@
       "selected": "true",
       "spaces": 3,
       "empty": true,
-      "resetCount": 38,
-      "total": 38,
+      "resetCount": 52,
+      "total": 52,
       "resetDisabled": true,
       "focused": true,
       "query": ""
@@ -148,8 +148,8 @@
       "selected": "true",
       "spaces": 3,
       "empty": true,
-      "resetCount": 38,
-      "total": 38,
+      "resetCount": 52,
+      "total": 52,
       "resetDisabled": true,
       "focused": true,
       "query": ""
