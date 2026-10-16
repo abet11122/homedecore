@@ -1,5 +1,6 @@
 ---
-disposition: remove
+updatedDate: 2026-10-16
+disposition: keep
 title: "20 Trio Halloween Costume Ideas for Three Friends"
 description: "Find the perfect Halloween costume for three people with 20 trio ideas from iconic trios to punny three-ways and pop culture groups. Every style covered."
 category: seasonal
@@ -11,7 +12,7 @@ featured: false
 affiliateDisclosure: true
 keyTakeaways:
   - "The best trio costumes have three distinct, recognizable characters that form a clear set."
-  - "Assign characters based on each person's personality and physical characteristics."
+  - "Assign characters based on each person's preferences and available clothing."
   - "Coordinate the execution level — all three costumes should be equally elaborate or equally simple."
   - "Plan the group photo in advance — the three-person arrangement is the whole point."
 faqs:
@@ -23,7 +24,7 @@ faqs:
 
 A trio Halloween costume works when all three members have distinct, recognizable characters that form a clear set. The ideas below are organized by style and theme.
 
-Assign characters based on personality and physical characteristics, not just preference. The most convincing trio costumes are the ones where the casting feels right.
+Assign characters based on preferences and available clothing, with everyone agreeing on their role. The most convincing trio costumes are the ones where the casting feels right.
 
 ## Classic Trios
 
@@ -98,11 +99,11 @@ Harry in a Gryffindor robe with round glasses and a lightning bolt scar; Ron in 
 
 The Gryffindor robes are the most important element — they are what makes the trio recognizable as a set.
 
-### 7. The Powerpuff Girls (Live Action)
+### 7. Three Scoops of Ice Cream
 
-Blossom in a pink dress with a red bow; Bubbles in a blue dress with pigtails; Buttercup in a green dress with a short dark bob. This is a live-action version of the classic animated trio.
+Choose three different shirt colors as ice-cream flavors. Add a flat cardboard cone design to each shirt and a large flavor label. Use the same cone pattern so the three outfits read as a set, while each person chooses their own flavor.
 
-The hair is the most important element — each character has a very specific hairstyle.
+Keep the decoration on the torso so everyone can sit down and move their arms comfortably.
 
 ### 8. The Plastics (Mean Girls)
 
@@ -222,4 +223,4 @@ The symbols are the most important element — they need to be large and clearly
 
 ## Final Thoughts
 
-The best trio Halloween costumes are the ones where all three members are equally committed and the group is instantly recognizable as a set. Assign characters based on personality and physical characteristics, coordinate the execution level, and plan the group photo in advance. A well-executed trio costume is one of the most memorable things you can do on Halloween.
+The best trio Halloween costumes are the ones where all three members are equally committed and the group is instantly recognizable as a set. Assign characters based on preferences and available clothing, coordinate the execution level, and plan the group photo in advance. A well-executed trio costume is one of the most memorable things you can do on Halloween.

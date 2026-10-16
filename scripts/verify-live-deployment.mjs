@@ -3,7 +3,9 @@ import path from 'node:path';
 const base='https://www.cozynestideas.online';
 const parse=s=>s.trim().split(/\r?\n/).map(line=>[...line.matchAll(/"((?:[^"]|"")*)"(?:,|$)/g)].map(m=>m[1].replaceAll('""','"')));
 const [cols,...rows]=parse(fs.readFileSync('audits/adsense/triage.csv','utf8'));
-const posts=rows.map(row=>Object.fromEntries(cols.map((c,i)=>[c,row[i]])));
+const recovery=new Set(JSON.parse(fs.readFileSync('audits/seo-design/recovered-search-pages.json','utf8')).slugs);
+// Preserve the historical triage CSV; apply the later, evidence-based recovery decisions.
+const posts=rows.map(row=>{const p=Object.fromEntries(cols.map((c,i)=>[c,row[i]]));if(recovery.has(new URL(p.url).pathname.split('/').filter(Boolean).at(-1))){p.action='KEEP';p.merge_into='';}return p;});
 const get=async url=>{try{const r=await fetch(url,{redirect:'manual',cache:'no-store',headers:{'Cache-Control':'no-cache'},signal:AbortSignal.timeout(25000)});return {url,status:r.status,location:r.headers.get('location'),html:await r.text()};}catch(e){return {url,status:'ERROR',error:e.message};}};
 if(process.argv.includes('--probe')){
  const home=await get(base+'/');const terms=await get(base+'/terms/');const redirect=await get(base+'/post/halloween-door-decorations/');

@@ -507,16 +507,6 @@
       "statusCode": 301
     },
     {
-      "source": "/post/christmas-coffee-table-decor-ideas/",
-      "destination": "/post/small-space-christmas-decor-ideas/",
-      "statusCode": 301
-    },
-    {
-      "source": "/post/new_blogs/christmas-coffee-table-decor-ideas/",
-      "destination": "/post/small-space-christmas-decor-ideas/",
-      "statusCode": 301
-    },
-    {
       "source": "/post/christmas-entryway-ideas/",
       "destination": "/post/small-space-christmas-decor-ideas/",
       "statusCode": 301
@@ -614,16 +604,6 @@
     {
       "source": "/post/new_blogs/fall-apartment-decor-ideas/",
       "destination": "/post/fall-living-room-decor-ideas/",
-      "statusCode": 301
-    },
-    {
-      "source": "/post/funny-outdoor-halloween-decorations/",
-      "destination": "/post/halloween-yard-ideas/",
-      "statusCode": 301
-    },
-    {
-      "source": "/post/new_blogs/funny-outdoor-halloween-decorations/",
-      "destination": "/post/halloween-yard-ideas/",
       "statusCode": 301
     },
     {
@@ -813,16 +793,6 @@
     },
     {
       "source": "/post/new_blogs/pink-halloween-decor-ideas/",
-      "destination": "/post/elegant-halloween-decor/",
-      "statusCode": 301
-    },
-    {
-      "source": "/post/pumpkin-painting-ideas/",
-      "destination": "/post/elegant-halloween-decor/",
-      "statusCode": 301
-    },
-    {
-      "source": "/post/new_blogs/pumpkin-painting-ideas/",
       "destination": "/post/elegant-halloween-decor/",
       "statusCode": 301
     },

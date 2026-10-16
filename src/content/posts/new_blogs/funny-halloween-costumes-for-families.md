@@ -1,5 +1,6 @@
 ---
-disposition: remove
+updatedDate: 2026-10-16
+disposition: keep
 title: "18 Funny Halloween Costumes for Families That Everyone Will Love"
 description: "Find a funny family Halloween costume with 18 ideas for groups of 3 to 6 that work for all ages, from toddlers to grandparents. Punny, themed, and pop culture options."
 category: seasonal
@@ -250,7 +251,7 @@ The overalls and straw hats are the most important elements for the farmers.
 
 ### 15. A Bunch of Grapes
 
-Each family member wears a purple outfit covered in purple balloons. The family is a bunch of grapes. This is a funny, colorful family costume that suits a family with young children.
+Each family member wears a purple outfit decorated with large, flat grape shapes printed or sewn onto the fabric. The group becomes a bunch of grapes without loose balloons.
 
 Use purple balloons rather than green — they are more recognizable as grapes.
 

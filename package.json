@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/audit_site.mjs && node scripts/verify-remediation.mjs",
+    "build": "astro build && node scripts/audit_site.mjs && node scripts/verify-remediation.mjs && node scripts/verify-search-recovery.mjs",
     "images:self-host": "node scripts/self-host-images.mjs",
     "audit:remediation": "node scripts/verify-remediation.mjs",
     "preview": "astro preview",

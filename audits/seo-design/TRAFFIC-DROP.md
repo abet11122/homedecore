@@ -1,5 +1,17 @@
 # Search Console impression-drop investigation
 
+## October 16 recovery based on owner-provided Pages data
+
+The supplied table attributes all 21 clicks to eleven `/post/new_blogs/` article URLs. Eight were subsequently marked `remove` (14 clicks); three were merged (7 clicks). The October 10 commit `425fb7e` changed these paths to `/post/<slug>/` and configured a permanent prefix redirect at the same time. This establishes migration exposure, not a missing-redirect finding. October 14 removals cannot explain the first zero day on October 12. The date range of the supplied Pages table remains unconfirmed.
+
+Restored those eleven articles as `keep`; removed six explicit merge redirect rules so the existing legacy-prefix redirect reaches each article's own page. The scope is recorded in `recovered-search-pages.json`. Other editorial holds and future publication dates remain in effect. The Christmas coffee-table guide was revised and explicitly released October 16 instead of its previous November 8 schedule; this is not a claim about its historical publication date.
+
+Corrected child-carving guidance, removed age-based cutting recommendations, replaced balloon decorations in the family guide, removed the repeated Powerpuff entry, revised unsupported pumpkin-longevity claims, and replaced the repetitive coffee-table article with six practical arrangements. Illustrative stock imagery remains; original experience, AdSense acceptance and ranking recovery are not verified.
+
+Validation: `npm.cmd run build` passed the Astro build, site audit and remediation audit. `node scripts/verify-search-recovery.mjs` passed all eleven indexability, canonical, sitemap, RSS and redirect checks and is now part of the build. The sitemap contains 49 article URLs, previously 38. The live validation script applies these recovery decisions over the historical triage CSV rather than treating that CSV as the current editorial state.
+
+Deployment has not been performed. After deployment, verify the eleven old URLs resolve to the corresponding indexable articles, submit the sitemap index in Search Console, and inspect the highest-traffic URLs. Local validation does not prove Google's selected canonical, crawl status, or rankings. No recovery date is promised.
+
 Investigation date: October 15, 2026 (Asia/Karachi).
 
 The owner reports roughly 100 daily Google Search Console impressions previously, dropping to zero about three days ago. The exact Search Console property, date filters, affected pages and indexing reports have not been supplied. No account-level traffic or Google-selected canonical data was available during this investigation.

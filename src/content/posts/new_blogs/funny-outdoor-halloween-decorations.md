@@ -1,13 +1,14 @@
 ---
-mergeInto: "/post/halloween-yard-ideas/"
-disposition: merge
+updatedDate: 2026-10-16
+disposition: keep
 title: "15 Funny Outdoor Halloween Decorations That Will Make the Neighbors Laugh"
 description: "Add humor to your Halloween yard with 15 funny outdoor decoration ideas including witch crashes, skeleton scenes, and punny signs. Easy to make or buy."
 category: outdoor
 tags: ["halloween decor", "funny halloween", "outdoor decor", "seasonal decorating", "yard decorations"]
 publishDate: 2026-09-11
-heroImage: "photo-1635177106854-476d85a24e25"
-pinImage: "photo-1635177106854-476d85a24e25"
+heroImage: "/images/posts/halloween-yard-ideas/hero.webp"
+heroImageAlt: "Illustrative seasonal stock photograph; not a completed project from this guide."
+pinImage: "/images/posts/halloween-yard-ideas/pin.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

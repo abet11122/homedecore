@@ -1,5 +1,6 @@
 ---
-disposition: remove
+updatedDate: 2026-10-16
+disposition: keep
 title: "22 Halloween Costume Ideas for Guys That Are Actually Good"
 description: "Find a Halloween costume you will actually wear with 22 ideas for men covering classic, pop culture, DIY, and funny options at every budget."
 category: seasonal

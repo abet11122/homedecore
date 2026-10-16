@@ -1,11 +1,11 @@
 {
   "sourcePosts": 151,
-  "keep": 49,
-  "merge": 80,
-  "remove": 22,
+  "keep": 60,
+  "merge": 77,
+  "remove": 14,
   "heldKeep": 10,
-  "htmlPages": 109,
-  "renderedImages": 760,
-  "affiliateLinks": 116,
+  "htmlPages": 117,
+  "renderedImages": 869,
+  "affiliateLinks": 122,
   "failures": []
 }
