@@ -1069,7 +1069,10 @@
 }
 
 .home-intro h1 {
-  max-width: 19ch;
+  max-width: 20ch;
+  font-size: clamp(2.7rem, 5.8vw, 5.3rem);
+  line-height: 1.06;
+  letter-spacing: -0.045em;
   text-wrap: balance;
 }
 
@@ -1116,10 +1119,10 @@
 
 .home-search {
   min-width: 0;
-  padding: 1.25rem;
+  padding: clamp(1.25rem, 2.5vw, 2rem);
   border: 1px solid #d7ccbf;
   border-radius: 0.875rem;
-  background: #fffdfb;
+  background: #f0eee5;
 }
 
 .home-search-row {
