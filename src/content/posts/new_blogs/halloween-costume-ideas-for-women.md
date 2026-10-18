@@ -1,6 +1,7 @@
 ---
 updatedDate: 2026-10-16
 disposition: keep
+editorialReady: false
 title: "25 Halloween Costume Ideas for Women That Are Actually Good"
 description: "Find a Halloween costume you will actually love with 25 ideas for women covering classic, pop culture, DIY, and group options at every budget."
 category: seasonal

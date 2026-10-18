@@ -1,6 +1,7 @@
 ---
 updatedDate: 2026-10-16
 disposition: keep
+editorialReady: false
 title: "20 Trio Halloween Costume Ideas for Three Friends"
 description: "Find the perfect Halloween costume for three people with 20 trio ideas from iconic trios to punny three-ways and pop culture groups. Every style covered."
 category: seasonal

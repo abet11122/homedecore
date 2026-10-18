@@ -1,6 +1,7 @@
 ---
 updatedDate: 2026-10-16
 disposition: keep
+editorialReady: false
 title: "18 Funny Couple Costume Ideas That Will Make Everyone Laugh"
 description: "Get genuine laughs with 18 funny couple Halloween costume ideas including puns, pop culture jokes, and clever concepts. Easy to execute at every budget."
 category: seasonal

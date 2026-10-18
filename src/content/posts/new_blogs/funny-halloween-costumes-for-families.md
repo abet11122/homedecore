@@ -1,6 +1,7 @@
 ---
 updatedDate: 2026-10-16
 disposition: keep
+editorialReady: false
 title: "18 Funny Halloween Costumes for Families That Everyone Will Love"
 description: "Find a funny family Halloween costume with 18 ideas for groups of 3 to 6 that work for all ages, from toddlers to grandparents. Punny, themed, and pop culture options."
 category: seasonal
