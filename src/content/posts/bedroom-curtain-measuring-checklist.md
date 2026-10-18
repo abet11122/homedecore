@@ -1,5 +1,6 @@
 ---
 disposition: keep
+updatedDate: 2026-10-18
 title: "Measure Bedroom Curtains Before Ordering: A Simple Worksheet"
 description: "Plan bedroom curtain width, length and opening space with a clear measuring worksheet, common fitting mistakes and a final ordering checklist."
 category: bedroom
@@ -55,6 +56,23 @@ Picture where each panel gathers during the day. It may cover some glass, interf
 
 Keep operating cords out of children's reach and follow the window-covering manufacturer's safety instructions. Choose appropriate hardware rather than improvising a hanging method for heavy fabric.
 
-## Before placing the order
+## A worked width calculation
+
+Suppose your usable track is 180 cm wide and the supplier recommends flat fabric equal to twice the track width for your chosen heading. The calculation is 180 × 2 = 360 cm of total flat fabric. For two equal panels, each would need 180 cm of flat width under that specific recommendation. This is an illustrative calculation, not a universal fullness rule.
+
+If a listing offers two 140 cm panels, the total is 280 cm: 80 cm less than the example calls for. A longer rod does not solve that shortage. Choose another panel width, another quantity supported by the heading system, or a different product. For ready-made pleated curtains, the listed width may already describe the gathered coverage; do not multiply it again without checking.
+
+## Troubleshoot before ordering
+
+| What you notice | What to check next |
+| --- | --- |
+| Curtains close but look stretched flat | Compare total fabric width with the supplier's fullness guidance |
+| The hem differs from one side to the other | Recheck the rod level and all three floor measurements |
+| Fabric covers too much glass when open | Check stack-back space and whether the hardware can extend safely |
+| Light enters at the top or sides | Review hardware projection, overlap and lining; extra length alone will not fix every gap |
+
+For a bay window or several connected tracks, label each segment separately. Curves, brackets and joins affect where runners can travel. Ask the hardware supplier how to measure the system before using the straight-track example above.
+
+## Final ordering checklist
 
 Confirm panel quantity, heading type, finished length, flat width, care instructions and return conditions. Keep your worksheet with the order confirmation so that you can check what arrived. For the rest of the room, explore our [bedroom guides](/category/bedroom/).

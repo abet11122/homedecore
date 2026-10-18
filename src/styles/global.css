@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Planning tools share the journal's warm paper and ink palette. */
+.planning-sheet {
+  margin-block: 3rem;
+  padding: clamp(1.25rem, 4vw, 2.25rem);
+  border: 1px solid #d6cec0;
+  border-top: 4px solid #986345;
+  border-radius: 0.75rem;
+  background: #f2eee5;
+  color: #484238;
+}
+.planning-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; }
+.planning-heading h2 { margin-top: 0.5rem; font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.2; }
+.planning-sheet > p { margin-block: 1.25rem; font-size: 0.9rem; }
+.planning-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+.planning-fields label { display: grid; gap: 0.5rem; font-size: 0.85rem; font-weight: 600; }
+.planning-fields textarea { width: 100%; min-width: 0; padding: 0.75rem; border: 1px solid #b8ac9c; border-radius: 0.3rem; background: #fffdf8; color: #302b25; resize: vertical; font: inherit; font-weight: 400; }
+.planning-fields textarea:focus-visible, .print-plan:focus-visible { outline: 3px solid #986345; outline-offset: 3px; }
+.print-plan { padding: 0.7rem 1rem; border-radius: 0.3rem; background: #353c32; color: white; font-size: 0.85rem; min-height: 44px; }
+.print-plan:hover { background: #505b49; }
+@media (max-width: 520px) { .planning-fields { grid-template-columns: 1fr; } }
+@media print {
+  .print-plan { display: none; }
+  .planning-sheet { background: white; break-inside: avoid; }
+  .planning-fields textarea { height: 6rem; overflow: visible; }
+}
+
 /* ------------------------------------------------------------------
    Fallback font metrics
 

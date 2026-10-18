@@ -1,5 +1,6 @@
 ---
 disposition: keep
+updatedDate: 2026-10-18
 title: "Before You Buy a Living Room Rug: A Layout Checklist"
 description: "Compare rug footprints around your actual sofa, chairs and doorways with a practical measuring worksheet, layout options and a final fit check."
 category: living-room
@@ -45,7 +46,29 @@ An outline does not reproduce thickness. Check the rug and underlay specificatio
 
 If furniture is heavy, plan how you will place the rug before delivery. Do not assume a large rug will be easy to pull beneath a fully loaded sofa.
 
-## Keep a short buying note
+## Compare the sizes with a worked example
+
+Imagine a sofa 210 cm wide, centered on the long side of each sample rug. A 160 × 230 cm rug leaves 10 cm beyond each sofa end: (230 − 210) ÷ 2. A 200 × 300 cm rug leaves 45 cm at each end. Those figures describe the width only; neither tells you whether the rug reaches the chairs or clears the doorway.
+
+Now mark the rug's depth from the sofa toward the chairs. If the smaller footprint leaves a chair's front legs on the edge, either adjust the chair without narrowing the walkway or compare the larger footprint. If the larger one crosses a frequently used doorway, test a different orientation or furniture arrangement. Choose the option that works from the doorway and from the seat, not only from above.
+
+## Match the material to the way you use the room
+
+| Everyday constraint | Check before buying |
+| --- | --- |
+| A desk chair shares the space | Whether the chair rolls across the rug and edge without catching |
+| Frequent spills or muddy shoes | The actual cleaning instructions, rather than a general “easy care” label |
+| A low door swings over the rug | Combined rug and underlay thickness, including any raised edge |
+| A robot vacuum cleans the room | The vacuum's stated obstacle clearance and restrictions around fringe |
+| Furniture needs frequent rearrangement | Rug weight, underlay movement and whether lifting help is needed |
+
+“Washable” also needs a practical check: confirm the washing method, machine capacity requirements and drying instructions for the exact size. A care label for a small version may not describe a larger rug in the same collection.
+
+## When neither size works
+
+Do not buy the larger option just to make every chair touch the rug. Try moving one occasional chair out of the group, rotating the rug, or leaving a secondary seat outside the rug area. Keep the main walking route usable. If the rug must sit independently, choose a position where its edges look intentional and do not land under an unstable furniture leg.
+
+## Record the final choice
 
 Record your preferred footprint, acceptable alternatives, door-clearance constraint and care needs. Also note the return conditions before ordering. If both sizes work, choose based on how much floor you want visible and the practicalities of cleaning, rather than assuming bigger is always better.
 

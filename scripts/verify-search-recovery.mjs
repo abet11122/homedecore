@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-const { slugs } = JSON.parse(fs.readFileSync('audits/seo-design/recovered-search-pages.json'));
+const { slugs, heldAsOffTopic = [] } = JSON.parse(fs.readFileSync('audits/seo-design/recovered-search-pages.json'));
 const { redirects } = JSON.parse(fs.readFileSync('vercel.json'));
 const sitemap = fs.readFileSync('dist/sitemap-0.xml','utf8');
 const feed = fs.readFileSync('dist/rss.xml','utf8');
@@ -19,3 +19,12 @@ for (const slug of slugs) {
   assert(!feed.includes(`/post/new_blogs/${slug}/`), `${slug}: legacy feed link`);
 }
 console.log(`Search recovery: ${slugs.length} articles have indexable HTML, self-canonicals, sitemap entries and unambiguous legacy redirects.`);
+for (const slug of heldAsOffTopic) {
+  const route = `/post/${slug}/`;
+  const html = fs.readFileSync(`dist${route}index.html`, 'utf8');
+  assert(/<meta name="robots" content="noindex, follow"/.test(html), `${slug}: off-topic page became indexable`);
+  for (const file of ['dist/sitemap-0.xml', 'dist/rss.xml', 'dist/index.html', 'dist/stories/index.html', 'dist/search/index.html']) {
+    assert(!fs.readFileSync(file, 'utf8').includes(route), `${slug}: promoted by ${file}`);
+  }
+}
+console.log(`Editorial scope: ${heldAsOffTopic.length} off-topic pages remain noindex and outside discovery.`);

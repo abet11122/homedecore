@@ -1,0 +1,17 @@
+---
+interface Props { title: string; fields: string[] }
+const { title, fields } = Astro.props;
+---
+<section class="planning-sheet" aria-labelledby="planning-title">
+  <div class="planning-heading">
+    <div><p class="eyebrow text-clay">Make it work in your home</p><h2 id="planning-title">{title}</h2></div>
+    <button type="button" class="print-plan">Print this guide</button>
+  </div>
+  <p>Keep your measurements in one unit. These notes stay on this page and are not saved or sent anywhere; print them before leaving.</p>
+  <div class="planning-fields">
+    {fields.map((field, index) => <label for={`plan-${index}`}><span>{field}</span><textarea id={`plan-${index}`} rows="2" placeholder="Your notes…"></textarea></label>)}
+  </div>
+</section>
+<script>
+  document.querySelectorAll('.print-plan').forEach(button => button.addEventListener('click', () => window.print()));
+</script>
