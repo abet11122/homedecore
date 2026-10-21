@@ -14,6 +14,7 @@ import PinterestButton from '../components/PinterestButton.astro';
 import ExploreMore from '../components/ExploreMore.astro';
 import PlanningWorksheet from '../components/PlanningWorksheet.astro';
 import { SITE, categoryName, categoryPath, formatDate, collectTags, tagSlug, tagLabel, wordCount, isPublished } from '../site';
+import { imageAsset } from '../images';
 
 interface Props {
   post: any;
@@ -23,6 +24,7 @@ interface Props {
 
 const { post, headings, minutes } = Astro.props;
 const d = post.data;
+const heroSource = imageAsset(d.heroImage);
 const published = isPublished(post);
 const planningGuides: Record<string, { title: string; fields: string[] }> = {
   'bedroom-curtain-measuring-checklist': { title: 'Your curtain ordering notes', fields: ['Usable track width and unit', 'Heading type and supplier fullness guidance', 'Left / middle / right finished lengths', 'Panel quantity, opening space and obstructions'] },
@@ -153,7 +155,12 @@ const faqSchema = d.faqs?.length
         />
       </div>
     </figure>
-    <p class="mt-3 text-center text-xs text-ink-60">Illustrative stock photograph; not a project photographed or tested by this publication.</p>
+    <p class="mt-3 text-center text-xs text-ink-60">
+      Illustrative stock photograph; not a project photographed or tested by this publication.
+      {heroSource?.stock && heroSource.source_url && (
+        <> <a href={heroSource.source_url} rel="noopener noreferrer" target="_blank" class="underline underline-offset-2">Image source: {heroSource.provider ?? 'original listing'}</a>.</>
+      )}
+    </p>
 
     {/*
       From xl up the page becomes a rail + column + rail grid. Below that it

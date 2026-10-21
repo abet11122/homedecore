@@ -39,6 +39,44 @@ const topics = collectTags(posts, 1)
   .filter((t) => hubs.has(t.slug) && t.slug !== slug)
   .slice(0, 10);
 
+// Give rooms with a small article collection a useful starting decision,
+// rather than leaving visitors with only a photograph and one story card.
+const startingPoints: Partial<Record<string, { heading: string; paragraphs: string[]; checks: string[] }>> = {
+  kitchen: {
+    heading: 'Start with the counter space you need',
+    paragraphs: [
+      'Before styling an island or adding display storage, set out the appliances, chopping boards and serving pieces you use on a normal day. The remaining clear surface is the space available for decoration. A tray can group objects, but it should lift away easily when you need to cook.',
+      'Notice where people enter the kitchen, open drawers and set down groceries. Keep those routes and landing spots free. If a pendant, shelf or new fitting is part of the plan, check the actual dimensions and installation requirements before buying.',
+    ],
+    checks: ['What must stay within reach while cooking?', 'Which surface can remain clear for preparation?', 'Can the display be moved and cleaned easily?'],
+  },
+  entryway: {
+    heading: 'Plan for the first minute at home',
+    paragraphs: [
+      'An entryway has to handle arrivals before it has to look styled. Open the front door fully, then mark the space used by shoes, bags and the people who pass through. A narrow console is useful only if it leaves that route comfortable.',
+      'Give everyday items an obvious home: a bowl for keys, a place for wet shoes and a hook or stand for the coats actually worn this week. In a rental, check the lease and wall construction before mounting anything; a freestanding option may be easier to take away later.',
+    ],
+    checks: ['Does the door open without striking furniture?', 'Where do wet shoes and coats go?', 'Can everyone find keys on the way out?'],
+  },
+  'home-office': {
+    heading: 'Choose a workable desk location',
+    paragraphs: [
+      'A small workspace needs room for the chair as well as the desk. Mark the desk footprint on the floor, then pull a chair back as you would to stand up. Check where daylight falls on the screen, where a lamp can plug in and whether the setup blocks a door or shared route.',
+      'A closet can hide occasional work at the end of the day, but it needs enough depth for your knees, a safe power arrangement and suitable ventilation. A hallway console may work for a short laptop session; a full working day with a monitor usually needs more support and surface space.',
+    ],
+    checks: ['Can you pull the chair back freely?', 'Will daylight cause screen glare?', 'Where will cables, papers and equipment go after work?'],
+  },
+  renter: {
+    heading: 'Choose changes that can move with you',
+    paragraphs: [
+      'Start with the lease, the surfaces you are allowed to alter and the time you expect to stay. Curtains, lamps, rugs and freestanding storage can change a room without a permanent finish. Adhesive products still need a discreet patch test, because paint condition and removal methods vary.',
+      'Photograph the original condition before changing anything and keep fitting instructions and spare parts. If a shelf, blind or safety anchor needs a fixing, ask the landlord or property manager about the approved method rather than assuming every hole or adhesive is permitted.',
+    ],
+    checks: ['What does the lease allow?', 'Can the change be removed without damage?', 'Will the item fit and work in a future home?'],
+  },
+};
+const startingPoint = startingPoints[slug!];
+
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 
 const listSchema = {
@@ -102,22 +140,18 @@ const listSchema = {
     </div>
   </header>
 
-  {slug === 'home-office' && (
-    <section class="wrap border-b border-rule py-10 lg:py-14" aria-labelledby="office-start">
+  {startingPoint && (
+    <section class="wrap border-b border-rule py-10 lg:py-14" aria-labelledby="room-start">
       <div class="max-w-reading">
         <p class="eyebrow text-clay">Start with the room you have</p>
-        <h2 id="office-start" class="mt-3 font-display text-3xl text-ink">Choose a workable desk location</h2>
-        <p class="mt-4 leading-relaxed text-ink-60">
-          A small workspace needs room for the chair as well as the desk. Before choosing a corner,
-          mark the desk footprint on the floor and pull a chair back as you would to stand up. Check
-          where daylight falls on the screen, where a lamp can plug in and whether the setup blocks a
-          door or shared route through the room.
-        </p>
-        <p class="mt-4 leading-relaxed text-ink-60">
-          A closet is useful when work needs to disappear at the end of the day; a hallway console
-          works better for occasional laptop use than for a monitor. Our guide below compares those
-          layouts and gives starting dimensions to check against your own space.
-        </p>
+        <h2 id="room-start" class="mt-3 font-display text-3xl text-ink">{startingPoint.heading}</h2>
+        {startingPoint.paragraphs.map((paragraph) => (
+          <p class="mt-4 leading-relaxed text-ink-60">{paragraph}</p>
+        ))}
+        <h3 class="mt-7 font-display text-xl text-ink">Three checks before you buy</h3>
+        <ul class="mt-3 list-disc space-y-2 pl-5 text-ink-60">
+          {startingPoint.checks.map((check) => <li>{check}</li>)}
+        </ul>
       </div>
     </section>
   )}

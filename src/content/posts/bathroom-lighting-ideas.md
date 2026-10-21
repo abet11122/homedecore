@@ -5,6 +5,7 @@ description: "Bathroom lighting ideas with the heights, temperatures and CRI rat
 category: "bathroom"
 tags: ["bathroom", "lighting", "sconces", "bulbs", "measurements"]
 publishDate: 2026-08-22
+updatedDate: 2026-10-21
 heroImage: "photo-1642755623069-eb720c326553"
 pinImage: "photo-1658370230118-24aa79649d6c"
 featured: false
@@ -37,7 +38,7 @@ This single change transforms a bathroom more than any other lighting decision.
 
 **A backlit or LED mirror** — light emanates from around the mirror itself. Excellent and increasingly affordable.
 
-**A lamp on the vanity** — if there's a socket, even a small lamp beside the mirror helps considerably.
+**An approved mirror light** — if you are replacing a fitting, ask a qualified electrician which fixture and location suit this particular bathroom. A portable table lamp and an extension lead are poor substitutes in a wet room.
 
 ## Bulb temperature: 2700–3000K
 
@@ -73,15 +74,9 @@ Full brightness at 7am. Ten percent for a bath at 10pm, or for the 3am trip that
 
 ## Safety and zones
 
-Bathroom electrics are regulated because water and electricity don't mix. Fixtures are rated by **IP rating** according to how close they are to water.
+Bathroom electrics are regulated because water and electricity can make an electric shock more severe. A fixture's suitability depends on its location, the applicable local rules and the manufacturer's instructions. A single IP number is not a safe specification for every position in every bathroom.
 
-**General guidance:**
-
-- **Inside the bath or shower** — needs a high IP-rated fixture (typically IP65), low voltage
-- **Immediately around the bath or shower** — IP44 minimum
-- **Elsewhere in the room** — standard fittings usually fine, though splash zones vary
-
-Rules differ significantly by country. **Check your local electrical regulations, and use a qualified electrician for any new bathroom wiring.** This isn't a DIY area.
+Ask a qualified electrician to assess new wiring and fitting placement before buying a sconce, mirror light, dimmer or shower light. Do not bring an extension lead into the bathroom to power a decorative lamp. For example, [Electrical Safety First's bathroom guidance](https://www.electricalsafetyfirst.org.uk/safety-advice/home-and-people/bathroom/) explains the restrictions and installation precautions in the UK; requirements elsewhere may differ.
 
 ## Natural light
 
@@ -129,4 +124,4 @@ Enough to see by at 3am without the full ceiling light waking you up. One of tho
 | Bulb temperature | 2700–3000K |
 | CRI at the mirror | 90+ |
 | Light layers | 3 (ambient, task, accent) |
-| Near water | Check local IP rating rules |
+| Near water | Have a qualified electrician select a suitable fixture for its location |

@@ -1,6 +1,11 @@
 import stockImages from './data/stock-images.json';
 
-type StockAsset = { variants: Array<{ src: string; width: number; height: number }> };
+type StockAsset = {
+  provider?: string;
+  source_url?: string;
+  stock?: boolean;
+  variants: Array<{ src: string; width: number; height: number }>;
+};
 const assets = stockImages as Record<string, StockAsset>;
 
 export function imageAsset(src: string): StockAsset | undefined {
