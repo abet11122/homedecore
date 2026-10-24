@@ -6,9 +6,9 @@ description: "Plan bedroom curtain width, length and opening space with a clear 
 category: bedroom
 tags: ["bedroom", "curtains", "measurements", "planning"]
 publishDate: 2026-10-16
-heroImage: "photo-1631049307264-da0ec9d70304"
-heroImageAlt: "Illustrative stock bedroom photograph used as decorating inspiration."
-pinImage: "photo-1505693416388-ac5ce068fe85"
+heroImage: "/images/generated/bedroom-curtains-1536.webp"
+heroImageAlt: "AI-generated bedroom showing linen curtains, a dark rod and the window opening from rod to floor."
+pinImage: "/images/generated/bedroom-curtains-1536.webp"
 featured: false
 keyTakeaways:
   - "Choose the heading and hanging position before measuring length."

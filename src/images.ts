@@ -6,7 +6,11 @@ type StockAsset = {
   stock?: boolean;
   variants: Array<{ src: string; width: number; height: number }>;
 };
-const assets = stockImages as Record<string, StockAsset>;
+const assets = { ...stockImages } as Record<string, StockAsset>;
+for (const name of ['living-room-rug', 'bedroom-curtains', 'rental-entryway']) {
+  const key = `/images/generated/${name}-1536.webp`;
+  assets[key] = { provider: 'AI-generated illustration', stock: false, variants: [480, 960, 1536].map(width => ({ src: `/images/generated/${name}-${width}.webp`, width, height: width * 2 / 3 })) };
+}
 
 export function imageAsset(src: string): StockAsset | undefined {
   return assets[src];

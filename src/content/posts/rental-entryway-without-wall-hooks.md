@@ -6,9 +6,9 @@ description: "Create a place for shoes, keys and bags without wall hooks. Compar
 category: renter
 tags: ["renter-friendly", "entryway", "storage", "small spaces"]
 publishDate: 2026-10-16
-heroImage: "photo-1635108198077-4f849708645b"
-heroImageAlt: "Illustrative stock photograph of a furnished entryway."
-pinImage: "photo-1635108197511-8e6046f191f3"
+heroImage: "/images/generated/rental-entryway-1536.webp"
+heroImageAlt: "AI-generated entryway with an olive door, oak bench, shoe tray and a key dish on a nearby ledge."
+pinImage: "/images/generated/rental-entryway-1536.webp"
 featured: false
 keyTakeaways:
   - "Test the door swing before choosing storage furniture."
@@ -18,7 +18,7 @@ keyTakeaways:
 
 When drilling is not an option, it is tempting to replace wall hooks with adhesive ones. But sometimes the better answer is a different layout. A small landing place can work without hanging anything on the wall, provided it fits the door swing and holds only what you need when coming and going.
 
-The three layouts below are planning suggestions. Choose one after measuring your own entrance; the stock photograph is inspiration rather than a record of an installation.
+The three layouts below are planning suggestions. Choose one after measuring your own entrance; the AI-generated illustration is inspiration rather than a record of an installation.
 
 ## First, map the space the door needs
 

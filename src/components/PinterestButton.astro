@@ -16,6 +16,7 @@ interface Props {
 }
 
 const { image, title, description } = Astro.props;
+const generated = image.startsWith('/images/generated/');
 
 const mediaUrl = new URL(localImage(image), Astro.site ?? SITE.url).href;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
@@ -29,8 +30,8 @@ shareUrl.search = new URLSearchParams({
 
 <figure class="mx-auto max-w-sm">
   <div class="group relative">
-    <div class="frame aspect-[2/3]">
-      <Img src={image} alt={title} width={600} height={900} sizes="(min-width: 640px) 384px, 90vw" />
+    <div class:list={['frame', generated ? 'aspect-[3/2]' : 'aspect-[2/3]']}>
+      <Img src={image} alt={title} width={600} height={generated ? 400 : 900} sizes="(min-width: 640px) 384px, 90vw" />
     </div>
 
     <a
@@ -50,6 +51,6 @@ shareUrl.search = new URLSearchParams({
   </div>
 
   <figcaption class="mt-3 text-center text-xs text-ink-40">
-    Illustrative stock photography. Save this decorating idea for later.
+    {generated ? 'AI-generated interior illustration.' : 'Illustrative stock photography.'} Save this decorating idea for later.
   </figcaption>
 </figure>

@@ -156,7 +156,7 @@ const faqSchema = d.faqs?.length
       </div>
     </figure>
     <p class="mt-3 text-center text-xs text-ink-60">
-      Illustrative stock photograph; not a project photographed or tested by this publication.
+      {d.heroImage.startsWith('/images/generated/') ? 'AI-generated interior illustration; not a photograph of a completed project.' : 'Illustrative stock photograph; not a project photographed or tested by this publication.'}
       {heroSource?.stock && heroSource.source_url && (
         <> <a href={heroSource.source_url} rel="noopener noreferrer" target="_blank" class="underline underline-offset-2">Image source: {heroSource.provider ?? 'original listing'}</a>.</>
       )}

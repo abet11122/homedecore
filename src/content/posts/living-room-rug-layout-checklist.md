@@ -6,9 +6,9 @@ description: "Compare rug footprints around your actual sofa, chairs and doorway
 category: living-room
 tags: ["living-room", "rugs", "layout", "measurements"]
 publishDate: 2026-10-16
-heroImage: "photo-1524758631624-e2822e304c36"
-heroImageAlt: "Illustrative stock interior showing furniture arranged in a shared seating area."
-pinImage: "photo-1560448204-e02f11c3d0e2"
+heroImage: "/images/generated/living-room-rug-1536.webp"
+heroImageAlt: "AI-generated living room with an oatmeal sofa, olive armchair and large ivory rug beneath the seating group."
+pinImage: "/images/generated/living-room-rug-1536.webp"
 featured: true
 keyTakeaways:
   - "Measure the seating group, not just the empty space in front of the sofa."
@@ -16,7 +16,7 @@ keyTakeaways:
   - "Check door clearance and everyday walking routes."
 ---
 
-A rug can look generous in a shop and become a small island beneath your coffee table at home. The useful measurement is the footprint of your seating group: sofa, chairs and the space people actually use between them. This guide gives you a way to compare layouts before committing to a purchase. The photographs are illustrative stock interiors, not demonstrations of a tested installation.
+A rug can look generous in a shop and become a small island beneath your coffee table at home. The useful measurement is the footprint of your seating group: sofa, chairs and the space people actually use between them. This guide gives you a way to compare layouts before committing to a purchase. The AI-generated interior illustrates a possible arrangement, not a tested installation.
 
 ## Start with the furniture in its everyday position
 
