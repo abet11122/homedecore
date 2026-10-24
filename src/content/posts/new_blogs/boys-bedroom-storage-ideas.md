@@ -6,8 +6,9 @@ description: "Create a bedroom that stays organized with 17 boys bedroom storage
 category: bedroom
 tags: ["boys bedrooms", "bedroom storage", "kids rooms", "storage", "bedroom organization"]
 publishDate: 2026-11-15
-heroImage: "photo-1555041469-a586c61ea9bc"
-pinImage: "photo-1616486338812-3dadae4b4ace"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

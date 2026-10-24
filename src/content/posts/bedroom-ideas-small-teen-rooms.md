@@ -6,8 +6,9 @@ description: "Small teen bedroom ideas that handle sleeping, studying and hangin
 category: "bedroom"
 tags: ["bedroom", "teen bedroom", "small spaces", "desk", "storage"]
 publishDate: 2026-08-15
-heroImage: "photo-1628746234641-28eb583a51b4"
-pinImage: "photo-1628304457638-562e9c885708"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

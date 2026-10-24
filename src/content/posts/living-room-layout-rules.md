@@ -6,8 +6,9 @@ description: "Why your furniture is pushed against the walls and why that is the
 category: "living-room"
 tags: ["layout", "living-room", "furniture", "rugs", "measurements"]
 publishDate: 2026-08-04
-heroImage: "photo-1524758631624-e2822e304c36"
-pinImage: "photo-1560448204-e02f11c3d0e2"
+heroImage: "/images/generated/living-room-rug-1536.webp"
+heroImageAlt: "AI-generated living room with an oatmeal sofa, olive armchair and ivory rug."
+pinImage: "/images/generated/living-room-rug-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

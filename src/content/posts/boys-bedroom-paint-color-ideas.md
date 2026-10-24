@@ -6,8 +6,9 @@ description: "Boys bedroom paint colour ideas with real shade names and pairings
 category: "bedroom"
 tags: ["bedroom", "boys bedroom", "paint colour", "navy", "sage green"]
 publishDate: 2026-08-19
-heroImage: "photo-1557124841-db1fcb1de493"
-pinImage: "photo-1713942589571-c19b1a7a14e4"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

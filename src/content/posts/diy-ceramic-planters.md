@@ -7,8 +7,9 @@ category: "diy-decor"
 tags: ["diy", "plants", "ceramics", "home-decor", "crafts"]
 publishDate: 2024-08-10
 updatedDate: 2024-08-18
-heroImage: "photo-1526057565006-20beab8dd2ed"
-pinImage: "photo-1517705008128-361805f42e86"
+heroImage: "/images/generated/diy-decor-1536.webp"
+heroImageAlt: "AI-generated craft table with clay pots and simple hand tools."
+pinImage: "/images/generated/diy-decor-1536.webp"
 featured: true
 affiliateDisclosure: true
 ---

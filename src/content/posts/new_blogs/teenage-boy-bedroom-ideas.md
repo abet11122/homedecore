@@ -6,9 +6,9 @@ description: "Create a bedroom that works for study, gaming, and sleep with 17 t
 category: bedroom
 tags: ["teenage bedroom", "boys bedrooms", "bedroom decor", "storage", "bedroom styling"]
 publishDate: 2026-09-27
-heroImage: "/images/posts/teenage-boy-bedroom-ideas/hero.webp"
-heroImageAlt: "Blue accent wall and simple bed in a modern teenage bedroom."
-pinImage: "/images/posts/teenage-boy-bedroom-ideas/pin.webp"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

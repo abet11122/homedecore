@@ -7,8 +7,9 @@ description: "Find a Halloween costume that works with dark hair with 20 brunett
 category: seasonal
 tags: ["halloween costumes", "brunette costumes", "costume ideas", "halloween", "seasonal"]
 publishDate: 2026-10-01
-heroImage: "photo-1624623327145-68298404e205"
-pinImage: "photo-1624623327145-68298404e205"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

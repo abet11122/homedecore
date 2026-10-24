@@ -6,8 +6,9 @@ description: "Make your own outdoor Halloween decor with 16 DIY ideas using mate
 category: diy-decor
 tags: ["halloween decor", "diy decor", "outdoor decor", "seasonal decorating", "halloween crafts"]
 publishDate: 2026-09-02
-heroImage: "photo-1632856976438-6282d960c4ef"
-pinImage: "photo-1572978306654-a3835dd40cd4"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

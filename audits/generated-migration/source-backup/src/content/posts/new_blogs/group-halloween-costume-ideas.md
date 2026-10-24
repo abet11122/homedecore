@@ -1,0 +1,321 @@
+---
+disposition: remove
+title: "20 Group Halloween Costume Ideas That Actually Work"
+description: "Find the perfect group Halloween costume with 20 ideas for 3 to 10 people covering pop culture, classic themes, punny groups, and easy DIY options."
+category: seasonal
+tags: ["halloween costumes", "group costumes", "halloween", "seasonal", "costume ideas"]
+publishDate: 2026-09-25
+heroImage: "photo-1667129702857-74261f4243a9"
+pinImage: "photo-1667129702857-74261f4243a9"
+featured: false
+affiliateDisclosure: true
+keyTakeaways:
+  - "The best group costumes are instantly recognizable as a set — each costume is incomplete without the others."
+  - "Agree on the theme early — last-minute group costumes almost always fall apart."
+  - "Assign specific characters rather than a general theme so everyone has a clear brief."
+  - "Coordinate the execution level — one person in a full costume and others in half-hearted versions looks unbalanced."
+faqs:
+  - q: "What are the best group Halloween costumes?"
+    a: "The best group costumes are the ones where every member has a clear, specific character and the group is instantly recognizable as a set. The Sanderson Sisters, the Scooby-Doo gang, the Spice Girls, and the characters from Clue are perennially popular because they have distinct, recognizable looks for each member."
+  - q: "How do you organize a group Halloween costume?"
+    a: "Agree on the theme at least two weeks before Halloween. Assign specific characters to each person based on their preferences and physical characteristics. Set a budget and a deadline for sourcing the costumes. Plan a group photo — it is the whole point of a group costume."
+---
+
+A group Halloween costume works when every member has a clear, specific character and the group is instantly recognizable as a set. The ideas below are organized by group size and style.
+
+Agree on the theme early. Last-minute group costumes almost always result in one or two people opting out.
+
+## Groups of 3
+
+### 1. The Sanderson Sisters (Hocus Pocus)
+
+Winifred in green with red hair, Sarah in purple with blonde hair, Mary in red and black with dark hair. This is one of the most popular group costumes for women and is instantly recognizable.
+
+The wigs are the most important element — each sister has a very specific hairstyle.
+
+### 2. The Three Musketeers
+
+Three people in 17th-century French military outfits — plumed hats, capes, and swords. This is a classic literary group costume that suits three friends with a sense of adventure.
+
+The plumed hats are the most important element.
+
+### 3. Powerpuff Girls
+
+Blossom in pink, Bubbles in blue, Buttercup in green. Each character wears a simple dress in their color with a black stripe at the hem. This is a simple, recognizable group costume.
+
+The hair is the most important element — each character has a very specific hairstyle.
+
+### 4. Destiny's Child
+
+Three women in matching outfits — sequined dresses or coordinated stage looks. This is a stylish, recognizable group costume that suits three women who want to look good.
+
+Matching outfits in the same color family are more recognizable than identical outfits.
+
+### 5. The Good, the Bad, and the Ugly
+
+Three people in Western outfits — one in white, one in black, one in a poncho. This is a classic film group costume that suits three friends with contrasting personalities.
+
+The poncho is the most important element for the Ugly.
+
+## Groups of 4
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/4xDbBrF" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 12-Pack Halloween Costume Headbands on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this costume accessory</small>
+      <strong>12-Pack Halloween Costume Headbands</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+### 6. Scooby-Doo Gang
+
+Fred in a white shirt and orange neckerchief, Daphne in a purple dress, Velma in an orange turtleneck and glasses, Shaggy in a green shirt and brown trousers. Add a Scooby-Doo dog costume for a fifth member.
+
+Velma's orange turtleneck and glasses are the most recognizable elements.
+
+### 7. Teenage Mutant Ninja Turtles
+
+Leonardo in blue, Donatello in purple, Raphael in red, Michelangelo in orange. Each turtle wears a matching colored mask and carries their signature weapon.
+
+The colored masks are the most important element — they are what distinguishes the turtles.
+
+### 8. The Beatles
+
+Four people in matching suits — black suits with thin ties for the early Beatles, or colorful Sgt. Pepper uniforms for the later era. Add mop-top wigs for the early look.
+
+The mop-top wigs are the most important element for the early Beatles look.
+
+### 9. Ghostbusters
+
+Four people in tan jumpsuits with a Ghostbusters logo patch, proton pack props, and ghost traps. This is a classic group costume that suits four friends who want to look cool.
+
+The proton pack props are the most important element — make them or buy them, but do not skip them.
+
+### 10. Clue Characters
+
+Miss Scarlett in red, Colonel Mustard in yellow, Mrs. Peacock in blue, Professor Plum in purple, Mrs. White in white, Reverend Green in green. Choose four to six characters depending on group size.
+
+Each character's color is the most important element — the costume should be predominantly that color.
+
+## Groups of 5 or More
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/4y0ZSUH" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 54-Color Face Painting Kit on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this costume makeup</small>
+      <strong>54-Color Face Painting Kit</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+### 11. Spice Girls
+
+Scary Spice in animal print, Sporty Spice in a tracksuit, Baby Spice in pink, Posh Spice in a little black dress, Ginger Spice in a Union Jack dress. This is a fun, recognizable group costume for five women.
+
+The key is committing to the specific Spice Girl rather than a generic version.
+
+### 12. The Wizard of Oz
+
+Dorothy in a blue gingham dress with ruby slippers, the Scarecrow in a straw hat and patched clothes, the Tin Man in silver, the Cowardly Lion in a lion costume, the Wicked Witch in black. Add Glinda in pink for a sixth member.
+
+Dorothy's ruby slippers are the most important element.
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/4izJFBb" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Spooktacular Creations Girls Light-Up Witch Costume (hat + broom) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Spooktacular Creations Girls Light-Up Witch Costume (hat + broom)</strong>
+      <span class="shop-look__meta">A children&#x27;s light-up witch costume with hat and broom for the Wicked Witch role.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/3V0ulE0" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Forwe 5Pcs Wizard Costume Set (Robe, Hat, Wig, Beard) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Forwe 5Pcs Wizard Costume Set (Robe, Hat, Wig, Beard)</strong>
+      <span class="shop-look__meta">A robe-and-hat wizard set for an expanded Oz group; check the character styling.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+### 13. Disney Princesses
+
+Each person chooses a different Disney princess. The group is recognizable as a set because of the princess aesthetic — ball gowns, tiaras, and specific color palettes.
+
+Assign princesses based on each person's preferences and coloring.
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/4cXB7QR" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Davvew Light-Up LED Princess Dress, Yellow (Belle-style, 8-pc set) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Davvew Light-Up LED Princess Dress, Yellow (Belle-style, 8-pc set)</strong>
+      <span class="shop-look__meta">A yellow light-up children&#x27;s princess dress for a family princess group.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/4rlGHT3" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Davvew Light-Up LED Princess Dress, Pink (Aurora-style, 8-pc set) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Davvew Light-Up LED Princess Dress, Pink (Aurora-style, 8-pc set)</strong>
+      <span class="shop-look__meta">A pink light-up children&#x27;s princess dress for a family princess group.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/3V5zzOD" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Esvaiy Girls Princess Elsa Dress Costume (5-pc set with wig) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Esvaiy Girls Princess Elsa Dress Costume (5-pc set with wig)</strong>
+      <span class="shop-look__meta">A children&#x27;s Elsa dress set with a wig for a family princess group.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/4h7lQ0Y" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for Zvzio Girl&#x27;s Ruffle Tulle Satin Princess Pageant Dress (8 colors) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>Zvzio Girl&#x27;s Ruffle Tulle Satin Princess Pageant Dress (8 colors)</strong>
+      <span class="shop-look__meta">A girl&#x27;s tulle princess dress; choose the color that fits the group&#x27;s characters.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+### 14. The Office Characters
+
+Michael Scott in a suit with a "World's Best Boss" mug, Dwight in a mustard shirt and glasses, Jim in a casual shirt, Pam in a cardigan, Kevin in a casual outfit. Add more characters for a larger group.
+
+The "World's Best Boss" mug is the most important prop for Michael Scott.
+
+### 15. Avengers
+
+Each person chooses a different Avenger. The group is recognizable as a set because of the superhero aesthetic. Assign characters based on each person's preferences and physical characteristics.
+
+The most recognizable Avengers are Iron Man, Captain America, Thor, Black Widow, and Hulk.
+
+## Punny Group Costumes
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/4hltPI7" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for 42-Color Costume Makeup Kit on Amazon (opens in a new tab)">
+    <svg class="shop-look__ornament" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M60 16a31 31 0 1 0 24 49A33 33 0 0 1 60 16Z"/><path d="m79 19 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z M27 14l1.5 4.5L33 20l-4.5 1.5L27 26l-1.5-4.5L21 20l4.5-1.5Z"/></svg>
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this costume makeup</small>
+      <strong>42-Color Costume Makeup Kit</strong>
+      <span class="shop-look__meta">See details &amp; availability</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+### 16. A Bag of Jelly Beans
+
+Each person wears a different color outfit and a sign that says their jelly bean flavor. The group wears a large bag-shaped sign together. This is a funny, colorful group costume.
+
+Use large, readable labels — the pun needs to be visible from across the room.
+
+### 17. A Box of Crayons
+
+Each person wears a different color outfit with a crayon label. The group is recognizable as a set because of the matching crayon aesthetic.
+
+Use large, readable labels with the crayon color name.
+
+### 18. The Seven Dwarfs
+
+Happy, Grumpy, Sleepy, Bashful, Sneezy, Dopey, and Doc. Each dwarf wears a matching tunic in a different color with a name badge. This is a classic group costume for seven people.
+
+The name badges are the most important element — they are what distinguishes the dwarfs.
+
+### 19. A Deck of Cards
+
+Each person wears a different playing card — the Ace of Spades, the Queen of Hearts, the Jack of Clubs. The group is recognizable as a set because of the playing card aesthetic.
+
+Use large, readable card designs — the suit and number need to be visible from across the room.
+
+### 20. The Planets of the Solar System
+
+Each person represents a different planet — Mercury in grey, Venus in yellow, Earth in blue and green, Mars in red, Jupiter in orange and white stripes, Saturn with a ring prop, Uranus in light blue, Neptune in dark blue. Add the Sun for a ninth member.
+
+The ring prop is the most important element for Saturn.
+
+<div class="shop-look-wrap">
+  <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
+  <a class="shop-look" href="https://amzn.to/4yKwqCe" target="_blank" rel="sponsored nofollow noopener" aria-label="Check current price for WISHTEN 5 PCS Costume Accessory Set (goggles, beanie, tutu, suspenders, gloves) on Amazon (opens in a new tab)">
+    <span class="shop-look__icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7.5 11.5h17l-1.2 15h-14.6l-1.2-15Z"/><path d="M11.5 12v-2.5a4.5 4.5 0 0 1 9 0V12"/><path d="m11 17 2.5-1.5L15 18h-4Z"/><path d="m17 18 1.5-2.5L21 17v1h-4Z"/><path d="M12 21.5c2.4 1.8 5.6 1.8 8 0"/></svg></span>
+    <span class="shop-look__copy">
+      <small>Shop this Halloween pick</small>
+      <strong>WISHTEN 5 PCS Costume Accessory Set (goggles, beanie, tutu, suspenders, gloves)</strong>
+      <span class="shop-look__meta">Five costume accessories for building a coordinated DIY group look.</span>
+    </span>
+    <span class="shop-look__purchase" aria-hidden="true">
+      <span class="shop-look__action">Check current price <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h11M11 6l4 4-4 4"/></svg></span>
+      <span class="shop-look__destination">On Amazon &middot; Opens in a new tab</span>
+    </span>
+  </a>
+</div>
+
+## Final Thoughts
+
+The best group Halloween costumes are the ones where every member is equally committed. Agree on the theme early, assign specific characters, coordinate the execution level, and plan a group photo. A well-executed group costume is one of the most memorable things you can do on Halloween.

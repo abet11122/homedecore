@@ -6,8 +6,9 @@ description: "Backyard seating area ideas with real dimensions — how much spac
 category: "outdoor"
 tags: ["outdoor", "patio", "seating", "furniture", "lighting"]
 publishDate: 2026-08-26
-heroImage: "photo-1589830468294-765e8aba10a9"
-pinImage: "photo-1589830517302-44c51f875686"
+heroImage: "/images/generated/outdoor-1536.webp"
+heroImageAlt: "AI-generated small patio with two chairs, a table and terracotta planters."
+pinImage: "/images/generated/outdoor-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

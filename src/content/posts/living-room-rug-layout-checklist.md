@@ -7,7 +7,7 @@ category: living-room
 tags: ["living-room", "rugs", "layout", "measurements"]
 publishDate: 2026-10-16
 heroImage: "/images/generated/living-room-rug-1536.webp"
-heroImageAlt: "AI-generated living room with an oatmeal sofa, olive armchair and large ivory rug beneath the seating group."
+heroImageAlt: "AI-generated living room with an oatmeal sofa, olive armchair and ivory rug."
 pinImage: "/images/generated/living-room-rug-1536.webp"
 featured: true
 keyTakeaways:

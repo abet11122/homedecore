@@ -6,8 +6,9 @@ description: "Bring autumn warmth into a small space with 17 fall apartment deco
 category: seasonal
 tags: ["fall decor", "apartment decor", "seasonal decorating", "small spaces", "cozy home"]
 publishDate: 2026-09-20
-heroImage: "photo-1572635196237-14b3f281503f"
-pinImage: "photo-1572635196237-14b3f281503f"
+heroImage: "/images/generated/autumn-1536.webp"
+heroImageAlt: "AI-generated living room with a rust throw, cream pumpkin and amber vase."
+pinImage: "/images/generated/autumn-1536.webp"
 featured: false
 keyTakeaways:
   - "Choose decor that stores flat and works with your normal furniture year-round."

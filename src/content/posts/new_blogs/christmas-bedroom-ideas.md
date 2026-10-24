@@ -6,8 +6,9 @@ description: "Create a festive and restful bedroom with 17 Christmas bedroom ide
 category: seasonal
 tags: ["christmas decor", "bedroom decor", "seasonal decorating", "holiday decor", "cozy bedroom"]
 publishDate: 2026-10-18
-heroImage: "photo-1512389142860-9c449e58a543"
-pinImage: "photo-1543589077-47d81606c1bf"
+heroImage: "/images/generated/christmas-1536.webp"
+heroImageAlt: "AI-generated living room with a decorated green Christmas tree."
+pinImage: "/images/generated/christmas-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

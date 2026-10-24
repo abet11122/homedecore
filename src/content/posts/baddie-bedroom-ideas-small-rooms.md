@@ -6,8 +6,9 @@ description: "Baddie bedroom ideas for small rooms — the glam palette, LED lig
 category: "bedroom"
 tags: ["bedroom", "small spaces", "glam", "LED lighting", "vanity"]
 publishDate: 2026-08-14
-heroImage: "photo-1603726477468-da922b12b8ce"
-pinImage: "photo-1743867840110-ee532b7c6fb9"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

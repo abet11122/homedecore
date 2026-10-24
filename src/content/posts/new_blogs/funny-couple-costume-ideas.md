@@ -7,8 +7,9 @@ description: "Get genuine laughs with 18 funny couple Halloween costume ideas in
 category: seasonal
 tags: ["halloween costumes", "couple costumes", "funny halloween costumes", "halloween", "seasonal"]
 publishDate: 2026-09-29
-heroImage: "photo-1697425351819-50f9fa8f1f8b"
-pinImage: "photo-1726759354534-7b3681e6af43"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

@@ -7,8 +7,9 @@ description: "Find the perfect Halloween costume for three people with 20 trio i
 category: seasonal
 tags: ["halloween costumes", "trio costumes", "group costumes", "halloween", "seasonal"]
 publishDate: 2026-09-30
-heroImage: "photo-1669483478131-6222bc46b06c"
-pinImage: "photo-1669483478131-6222bc46b06c"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

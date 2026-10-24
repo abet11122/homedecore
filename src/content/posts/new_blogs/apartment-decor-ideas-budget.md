@@ -6,8 +6,9 @@ description: "Budget apartment decor ideas in order of impact — the cheap chan
 category: "renter"
 tags: ["renter-friendly", "budget", "apartment", "lighting", "textiles"]
 publishDate: 2026-08-29
-heroImage: "photo-1665249934445-1de680641f50"
-pinImage: "photo-1650137938625-11576502aecd"
+heroImage: "/images/generated/rental-entryway-1536.webp"
+heroImageAlt: "AI-generated entryway with an olive door, oak bench and shoe tray."
+pinImage: "/images/generated/rental-entryway-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

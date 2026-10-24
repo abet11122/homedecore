@@ -6,8 +6,9 @@ description: "Aesthetic bedroom ideas for small rooms — the lighting, palette 
 category: "bedroom"
 tags: ["bedroom", "small spaces", "aesthetic", "lighting", "styling"]
 publishDate: 2026-08-11
-heroImage: "photo-1611286079235-f4e84fccacba"
-pinImage: "photo-1587911146207-813e19d079f9"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

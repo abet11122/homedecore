@@ -5,9 +5,9 @@ description: "Choose the right bedroom rug and place it correctly with 17 ideas 
 category: bedroom
 tags: ["bedroom rug", "bedroom decor", "rug placement", "interior design", "bedroom styling"]
 publishDate: 2026-10-01
-heroImage: "photo-1616594039964-ae9021a400a0"
-heroImageAlt: "Large neutral rug extending beyond the sides of a bed in a bright bedroom."
-pinImage: "photo-1555041469-a586c61ea9bc"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

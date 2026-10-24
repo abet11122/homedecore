@@ -6,8 +6,9 @@ description: "Transform your bedroom for Halloween with 20 ideas using string li
 category: bedroom
 tags: ["halloween decor", "bedroom decor", "seasonal decorating", "cozy bedroom", "home styling"]
 publishDate: 2026-09-30
-heroImage: "photo-1785530899798-7d73c9c90765"
-pinImage: "photo-1602861166176-3dda0761b39b"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

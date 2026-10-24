@@ -6,8 +6,9 @@ description: "Create a functional and welcoming entrance with 15 small entryway 
 category: small-spaces
 tags: ["entryway", "organization", "small spaces", "storage", "home organization"]
 publishDate: 2026-09-20
-heroImage: "photo-1600585154340-be6161a56a0c"
-pinImage: "photo-1558618666-fcd25c85cd64"
+heroImage: "/images/generated/small-spaces-1536.webp"
+heroImageAlt: "AI-generated studio apartment with separate sleeping and sitting areas."
+pinImage: "/images/generated/small-spaces-1536.webp"
 featured: false
 editorialReady: false
 affiliateDisclosure: true

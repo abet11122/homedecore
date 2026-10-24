@@ -6,8 +6,9 @@ category: "small-spaces"
 tags: ["maximalism", "bedroom", "color", "small-spaces", "design-tips"]
 publishDate: 2024-08-15
 updatedDate: 2026-10-21
-heroImage: "photo-1611892440504-42a792e24d32"
-pinImage: "photo-1611892440504-42a792e24d32"
+heroImage: "/images/generated/small-spaces-1536.webp"
+heroImageAlt: "AI-generated studio apartment with separate sleeping and sitting areas."
+pinImage: "/images/generated/small-spaces-1536.webp"
 featured: true
 affiliateDisclosure: false
 keyTakeaways:

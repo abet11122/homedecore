@@ -6,9 +6,9 @@ description: "Fill the wall above your bed with 15 decor ideas including gallery
 category: bedroom
 tags: ["bedroom decor", "wall decor", "bedroom styling", "gallery wall", "interior design"]
 publishDate: 2026-09-24
-heroImage: "photo-1616594039964-ae9021a400a0"
-heroImageAlt: "Large framed art print centered above a bed with white bedding."
-pinImage: "photo-1555041469-a586c61ea9bc"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

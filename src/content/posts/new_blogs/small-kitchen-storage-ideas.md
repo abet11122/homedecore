@@ -6,9 +6,9 @@ description: "Maximize a compact kitchen with 17 small kitchen storage ideas cov
 category: kitchen
 tags: ["small kitchen", "kitchen storage", "kitchen organization", "small spaces", "storage"]
 publishDate: 2026-11-22
-heroImage: "/images/posts/small-kitchen-storage-ideas/hero.webp"
-heroImageAlt: "Open kitchen cabinet with neatly stacked dishes and glassware."
-pinImage: "/images/posts/small-kitchen-storage-ideas/pin.webp"
+heroImage: "/images/generated/kitchen-1536.webp"
+heroImageAlt: "AI-generated kitchen with sage cabinets and a small oak-topped island."
+pinImage: "/images/generated/kitchen-1536.webp"
 featured: false
 editorialReady: false
 affiliateDisclosure: true

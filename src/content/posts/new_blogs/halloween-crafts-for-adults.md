@@ -6,8 +6,9 @@ description: "Make Halloween decorations and gifts with 16 adult craft ideas inc
 category: diy-decor
 tags: ["halloween crafts", "diy decor", "halloween decor", "crafts for adults", "seasonal decorating"]
 publishDate: 2026-09-17
-heroImage: "photo-1602865048633-c341342b2334"
-pinImage: "photo-1663754832816-36a5d862d23d"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

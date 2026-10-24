@@ -6,8 +6,9 @@ description: "Small bathroom storage ideas with real depths and heights — over
 category: "bathroom"
 tags: ["bathroom", "small spaces", "storage", "shelving", "renter-friendly"]
 publishDate: 2026-08-20
-heroImage: "photo-1515938541268-cb8a388444b4"
-pinImage: "photo-1618579252366-f431305ada51"
+heroImage: "/images/generated/bathroom-1536.webp"
+heroImageAlt: "AI-generated bathroom with an oak vanity, pale tile and towel storage."
+pinImage: "/images/generated/bathroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

@@ -12,7 +12,7 @@ export const SITE = {
   author: 'Editorial Team',
   authorRole: 'Cozy Nest Ideas editorial byline',
   authorBio:
-    'Editorial Team is the publication byline for Cozy Nest Ideas, not a claim about staff numbers or professional credentials. Our guides provide decorating inspiration; stock photographs do not document projects completed by us.',
+    'Editorial Team is the publication byline for Cozy Nest Ideas, not a claim about staff numbers or professional credentials. Our guides provide decorating inspiration; AI-generated illustrations are visual concepts, not photographs of projects completed by us.',
   authorAvatar:
     '/favicon.svg',
   pinterest: '',
@@ -64,7 +64,7 @@ const ALL_CATEGORIES: Category[] = [
     name: 'Living Room',
     blurb:
       'The room that sets the tone for the whole house — layout, seating, light and the art of a room that works for both guests and Tuesday nights.',
-    image: 'photo-1600210492486-724fe5c67fb0',
+    image: '/images/generated/living-room-rug-1536.webp',
     primary: true,
   },
   {
@@ -72,7 +72,7 @@ const ALL_CATEGORIES: Category[] = [
     name: 'Bedroom',
     blurb:
       'Rooms built for rest. Layered bedding, quiet colour, low light and the small decisions that make a bedroom feel like a retreat.',
-    image: 'photo-1595526114035-0d45ed16cfbf',
+    image: '/images/generated/bedroom-1536.webp',
     primary: true,
   },
   {
@@ -80,7 +80,7 @@ const ALL_CATEGORIES: Category[] = [
     name: 'Kitchen',
     blurb:
       'Hard-working rooms that still deserve to be beautiful. Open shelving, islands, surfaces and storage that survives real cooking.',
-    image: 'photo-1600489000022-c2086d79f9d4',
+    image: '/images/generated/kitchen-1536.webp',
     primary: true,
   },
   {
@@ -88,7 +88,7 @@ const ALL_CATEGORIES: Category[] = [
     name: 'Bathroom',
     blurb:
       'The smallest room and the hardest to get right. Storage that fits, lighting that flatters, and changes that work even when you rent.',
-    image: 'photo-1763485956235-0f9a1217f58c',
+    image: '/images/generated/bathroom-1536.webp',
     primary: true,
   },
   {
@@ -96,7 +96,7 @@ const ALL_CATEGORIES: Category[] = [
     name: 'Entryway',
     blurb:
       'The first three feet of the house and the hardest-working. Storage, layout and styling for entries, hallways and mudrooms of every size.',
-    image: 'photo-1765766599670-a625d0fef258',
+    image: '/images/generated/rental-entryway-1536.webp',
     primary: true,
   },
   {
@@ -104,7 +104,7 @@ const ALL_CATEGORIES: Category[] = [
     name: 'Small Spaces',
     blurb:
       'Studios, box rooms and awkward corners. How to zone, scale and edit so a small home reads as intentional rather than cramped.',
-    image: 'photo-1502672023488-70e25813eb80',
+    image: '/images/generated/small-spaces-1536.webp',
     primary: true,
   },
   {
@@ -112,35 +112,35 @@ const ALL_CATEGORIES: Category[] = [
     name: 'Home Office',
     blurb:
       'Workspaces built into corners, closets and the edges of other rooms — layouts, lighting and storage for a desk that still feels like part of the house.',
-    image: 'photo-1591382696684-38c427c7547a',
+    image: '/images/generated/home-office-1536.webp',
   },
   {
     slug: 'diy-decor',
     name: 'DIY Decor',
     blurb:
       'Projects worth the weekend. Handmade pieces that look considered, not crafty — with honest costs and realistic timelines.',
-    image: 'photo-1595351298020-038700609878',
+    image: '/images/generated/diy-decor-1536.webp',
   },
   {
     slug: 'outdoor',
     name: 'Outdoor',
     blurb:
       'Balconies, patios and back gardens. The dimensions, bases and lighting that turn leftover outdoor space into somewhere you actually sit.',
-    image: 'photo-1693643449872-67f203f99560',
+    image: '/images/generated/outdoor-1536.webp',
   },
   {
     slug: 'seasonal',
     name: 'Seasonal',
     blurb:
       'Decorating with the calendar. Mantels, tablescapes and light — how to mark the season without redecorating the whole house.',
-    image: 'photo-1726090401458-7abb00f7450c',
+    image: '/images/generated/autumn-1536.webp',
   },
   {
     slug: 'renter',
     name: 'Renter',
     blurb:
       'Everything that comes off the wall again. Reversible upgrades, deposit-safe fixes and the changes that move house with you.',
-    image: 'photo-1631510390389-c1e4fb20ff31',
+    image: '/images/generated/rental-entryway-1536.webp',
   },
 ];
 

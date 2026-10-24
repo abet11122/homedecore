@@ -6,9 +6,9 @@ description: "Make a shared boys bedroom work for two kids with 15 ideas coverin
 category: bedroom
 tags: ["boys bedroom", "shared bedroom", "bunk beds", "kids rooms", "bedroom storage"]
 publishDate: 2026-09-21
-heroImage: "photo-1555041469-a586c61ea9bc"
-heroImageAlt: "Two single beds with matching bedding in a shared children's bedroom."
-pinImage: "photo-1616594039964-ae9021a400a0"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

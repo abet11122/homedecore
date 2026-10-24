@@ -7,7 +7,7 @@ category: renter
 tags: ["renter-friendly", "entryway", "storage", "small spaces"]
 publishDate: 2026-10-16
 heroImage: "/images/generated/rental-entryway-1536.webp"
-heroImageAlt: "AI-generated entryway with an olive door, oak bench, shoe tray and a key dish on a nearby ledge."
+heroImageAlt: "AI-generated entryway with an olive door, oak bench and shoe tray."
 pinImage: "/images/generated/rental-entryway-1536.webp"
 featured: false
 keyTakeaways:

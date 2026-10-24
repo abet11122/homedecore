@@ -6,8 +6,9 @@ category: "bedroom"
 tags: ["bedding", "layering", "linen", "styling", "bedroom"]
 publishDate: 2026-08-24
 updatedDate: 2026-08-26
-heroImage: "photo-1631049307264-da0ec9d70304"
-pinImage: "photo-1505693416388-ac5ce068fe85"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: true
 affiliateDisclosure: true
 keyTakeaways:

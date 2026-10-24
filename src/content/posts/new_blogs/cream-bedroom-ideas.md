@@ -6,9 +6,9 @@ description: "Create a soft, calm bedroom with 15 cream bedroom ideas covering p
 category: bedroom
 tags: ["cream bedroom", "neutral bedroom", "bedroom decor", "bedroom color", "interior design"]
 publishDate: 2026-09-28
-heroImage: "photo-1616594039964-ae9021a400a0"
-heroImageAlt: "Cream bedroom with linen bedding, wooden furniture, and warm natural light."
-pinImage: "photo-1555041469-a586c61ea9bc"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

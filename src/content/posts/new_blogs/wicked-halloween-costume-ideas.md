@@ -5,8 +5,9 @@ description: "Recreate the most iconic duo of the year with 17 Wicked Halloween 
 category: seasonal
 tags: ["halloween costumes", "wicked", "elphaba", "glinda", "duo costumes", "seasonal"]
 publishDate: 2026-09-15
-heroImage: "photo-1783712990053-5bb76106df74"
-pinImage: "photo-1783712990053-5bb76106df74"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

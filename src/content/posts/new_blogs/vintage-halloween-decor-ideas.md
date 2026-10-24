@@ -6,8 +6,9 @@ description: "Decorate for Halloween with 17 vintage Halloween decor ideas using
 category: seasonal
 tags: ["halloween decor", "vintage decor", "seasonal decorating", "antique style", "home styling"]
 publishDate: 2026-09-22
-heroImage: "photo-1571152013534-fdc8f268ce37"
-pinImage: "photo-1572978567882-408eb0787206"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

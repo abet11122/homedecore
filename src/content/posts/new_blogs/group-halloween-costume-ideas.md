@@ -5,8 +5,9 @@ description: "Find the perfect group Halloween costume with 20 ideas for 3 to 10
 category: seasonal
 tags: ["halloween costumes", "group costumes", "halloween", "seasonal", "costume ideas"]
 publishDate: 2026-09-25
-heroImage: "photo-1667129702857-74261f4243a9"
-pinImage: "photo-1667129702857-74261f4243a9"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

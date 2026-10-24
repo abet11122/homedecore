@@ -6,8 +6,9 @@ description: "Carve pumpkins safely with children using 15 kid-friendly ideas fr
 category: seasonal
 tags: ["pumpkin carving", "halloween crafts", "crafts for kids", "halloween decor", "seasonal decorating"]
 publishDate: 2026-09-19
-heroImage: "photo-1477516561410-f0b5dd8319e4"
-pinImage: "photo-1663568399694-fa3ee4fbb972"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

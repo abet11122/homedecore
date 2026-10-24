@@ -5,8 +5,9 @@ description: "Make a compact laundry room work harder with 15 small laundry room
 category: small-spaces
 tags: ["laundry room", "organization", "small spaces", "storage", "home organization"]
 publishDate: 2026-09-27
-heroImage: "photo-1558618666-fcd25c85cd64"
-pinImage: "photo-1484101403633-562f891dc89a"
+heroImage: "/images/generated/small-spaces-1536.webp"
+heroImageAlt: "AI-generated studio apartment with separate sleeping and sitting areas."
+pinImage: "/images/generated/small-spaces-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

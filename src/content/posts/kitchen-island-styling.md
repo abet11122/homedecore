@@ -6,8 +6,9 @@ description: "Islands fail on measurements long before they fail on styling. The
 category: "kitchen"
 tags: ["kitchen", "island", "layout", "measurements", "styling"]
 publishDate: 2026-08-06
-heroImage: "photo-1600607687920-4e2a09cf159d"
-pinImage: "photo-1507089947368-19c1da9775ae"
+heroImage: "/images/generated/kitchen-1536.webp"
+heroImageAlt: "AI-generated kitchen with sage cabinets and a small oak-topped island."
+pinImage: "/images/generated/kitchen-1536.webp"
 featured: false
 affiliateDisclosure: true
 ---

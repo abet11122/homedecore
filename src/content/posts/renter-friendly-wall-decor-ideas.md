@@ -5,8 +5,9 @@ description: "Renter-friendly wall decor ideas that leave no damage — adhesive
 category: "renter"
 tags: ["renter-friendly", "wall decor", "no-damage", "frames", "art"]
 publishDate: 2026-08-30
-heroImage: "photo-1697620734013-b7890bbeb02b"
-pinImage: "photo-1574514120529-364d014b9a0a"
+heroImage: "/images/generated/rental-entryway-1536.webp"
+heroImageAlt: "AI-generated entryway with an olive door, oak bench and shoe tray."
+pinImage: "/images/generated/rental-entryway-1536.webp"
 featured: false
 affiliateDisclosure: true
 ---

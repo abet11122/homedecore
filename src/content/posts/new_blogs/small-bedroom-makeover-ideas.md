@@ -6,9 +6,9 @@ description: "Refresh a compact room without a full renovation using 17 small be
 category: bedroom
 tags: ["small bedrooms", "bedroom makeover", "bedroom decor", "budget decor", "bedroom styling"]
 publishDate: 2026-10-18
-heroImage: "/images/posts/small-bedroom-makeover-ideas/hero.webp"
-heroImageAlt: "Simple bedroom with pale bedding and a clean neutral palette."
-pinImage: "/images/posts/small-bedroom-makeover-ideas/pin.webp"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 editorialReady: false
 affiliateDisclosure: true

@@ -5,8 +5,9 @@ description: "Recreate Rumi's iconic look from K-Pop Demon Hunters with 20 costu
 category: seasonal
 tags: ["halloween costumes", "kpop", "demon hunters", "costume ideas", "seasonal"]
 publishDate: 2026-09-28
-heroImage: "photo-1727409030251-7763511fba53"
-pinImage: "photo-1604212485216-3397090e9825"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

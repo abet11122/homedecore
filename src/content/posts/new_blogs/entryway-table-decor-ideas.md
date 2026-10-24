@@ -6,8 +6,9 @@ description: "How to style an entryway table so it looks finished and still work
 category: "entryway"
 tags: ["entryway", "console table", "styling", "seasonal decor"]
 publishDate: 2026-08-28
-heroImage: "photo-1752061289543-de2e7720b029"
-pinImage: "photo-1777305293159-70adab4ea6ef"
+heroImage: "/images/generated/rental-entryway-1536.webp"
+heroImageAlt: "AI-generated entryway with an olive door, oak bench and shoe tray."
+pinImage: "/images/generated/rental-entryway-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

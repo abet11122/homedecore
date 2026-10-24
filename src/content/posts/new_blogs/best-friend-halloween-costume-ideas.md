@@ -5,8 +5,9 @@ description: "Find the perfect matching Halloween costume for you and your best 
 category: seasonal
 tags: ["halloween costumes", "best friend costumes", "duo costumes", "halloween", "seasonal"]
 publishDate: 2026-09-24
-heroImage: "photo-1612373856198-8ff66f376aaa"
-pinImage: "photo-1667129702857-74261f4243a9"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

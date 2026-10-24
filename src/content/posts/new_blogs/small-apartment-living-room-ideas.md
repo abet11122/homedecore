@@ -6,8 +6,9 @@ description: "Make a compact living room work harder with 15 small apartment liv
 category: small-spaces
 tags: ["small apartment", "living room", "small spaces", "apartment living", "living room decor"]
 publishDate: 2026-11-15
-heroImage: "photo-1484101403633-562f891dc89a"
-pinImage: "photo-1484101403633-562f891dc89a"
+heroImage: "/images/generated/small-spaces-1536.webp"
+heroImageAlt: "AI-generated studio apartment with separate sleeping and sitting areas."
+pinImage: "/images/generated/small-spaces-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

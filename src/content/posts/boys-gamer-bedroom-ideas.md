@@ -6,8 +6,9 @@ description: "Gamer bedroom ideas for boys — desk sizes, monitor heights, cabl
 category: "bedroom"
 tags: ["bedroom", "boys bedroom", "gaming setup", "desk", "cable management"]
 publishDate: 2026-08-21
-heroImage: "photo-1614179924047-e1ab49a0a0cf"
-pinImage: "photo-1603481588273-2f908a9a7a1b"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

@@ -6,8 +6,9 @@ description: "Decorate your apartment door for Christmas with 14 renter-friendly
 category: seasonal
 tags: ["christmas decor", "apartment decor", "door decor", "seasonal decorating", "renter friendly"]
 publishDate: 2026-09-06
-heroImage: "photo-1543589077-47d81606c1bf"
-pinImage: "photo-1512389142860-9c449e58a543"
+heroImage: "/images/generated/christmas-1536.webp"
+heroImageAlt: "AI-generated living room with a decorated green Christmas tree."
+pinImage: "/images/generated/christmas-1536.webp"
 featured: false
 keyTakeaways:
   - "An over-the-door hook is the only tool you need — no drilling, no damage."

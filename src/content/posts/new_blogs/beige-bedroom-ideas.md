@@ -6,9 +6,9 @@ description: "Make beige work in a bedroom with 17 ideas that add texture, warmt
 category: bedroom
 tags: ["beige bedroom", "neutral bedroom", "bedroom decor", "bedroom color", "interior design"]
 publishDate: 2026-09-29
-heroImage: "photo-1616594039964-ae9021a400a0"
-heroImageAlt: "Beige bedroom with layered linen bedding, warm wood furniture, and natural light."
-pinImage: "photo-1555041469-a586c61ea9bc"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

@@ -6,8 +6,9 @@ description: "Plan a backyard Halloween party with 18 ideas covering decor, ligh
 category: outdoor
 tags: ["halloween party", "backyard party", "halloween decor", "seasonal decorating", "entertaining"]
 publishDate: 2026-09-12
-heroImage: "photo-1783712280458-ae8575c4cdee"
-pinImage: "photo-1665779132288-4fa362fd5180"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

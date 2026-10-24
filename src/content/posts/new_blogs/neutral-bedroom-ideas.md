@@ -6,9 +6,9 @@ description: "Create a serene and sophisticated bedroom with 15 neutral bedroom 
 category: bedroom
 tags: ["neutral bedroom", "bedroom decor", "bedroom styling", "calm bedroom", "natural bedroom"]
 publishDate: 2026-11-22
-heroImage: "/images/posts/neutral-bedroom-ideas/hero.webp"
-heroImageAlt: "Soft neutral bedding in a modern beige bedroom."
-pinImage: "/images/posts/neutral-bedroom-ideas/pin.webp"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

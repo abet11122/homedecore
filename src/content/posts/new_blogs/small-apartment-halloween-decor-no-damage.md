@@ -6,8 +6,9 @@ description: "Decorate a small apartment for Halloween with 17 renter-friendly i
 category: seasonal
 tags: ["halloween decor", "small apartment", "renter friendly", "seasonal decorating", "small spaces"]
 publishDate: 2026-10-01
-heroImage: "photo-1758192178306-98a89d651a34"
-pinImage: "photo-1758192178306-98a89d651a34"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

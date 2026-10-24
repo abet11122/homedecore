@@ -6,8 +6,9 @@ description: "Create a gothic Halloween atmosphere with 17 dark botanical decor 
 category: seasonal
 tags: ["halloween decor", "gothic decor", "dark botanical", "seasonal decorating", "home styling"]
 publishDate: 2026-10-07
-heroImage: "photo-1477659803863-c1bf91b34c90"
-pinImage: "photo-1640085461451-e3dc47415dd1"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

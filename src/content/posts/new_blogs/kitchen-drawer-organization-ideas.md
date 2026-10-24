@@ -6,9 +6,9 @@ description: "Organize every kitchen drawer with 15 ideas covering cutlery trays
 category: kitchen
 tags: ["kitchen organization", "kitchen drawers", "small kitchen", "kitchen storage", "organization"]
 publishDate: 2026-10-04
-heroImage: "photo-1556909114-f6e7ad7d3136"
-heroImageAlt: "Neatly organized kitchen drawer with cutlery tray and sorted utensils."
-pinImage: "photo-1556909114-f6e7ad7d3136"
+heroImage: "/images/generated/kitchen-1536.webp"
+heroImageAlt: "AI-generated kitchen with sage cabinets and a small oak-topped island."
+pinImage: "/images/generated/kitchen-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

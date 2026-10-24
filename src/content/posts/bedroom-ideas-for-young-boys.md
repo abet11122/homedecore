@@ -6,8 +6,9 @@ description: "Bedroom ideas for young boys aged 3-8 — layouts, storage, paint 
 category: "bedroom"
 tags: ["bedroom", "kids room", "boys bedroom", "storage", "paint colour"]
 publishDate: 2026-08-18
-heroImage: "photo-1719530743877-6a17284162cf"
-pinImage: "photo-1602469906774-8f6114f2a186"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

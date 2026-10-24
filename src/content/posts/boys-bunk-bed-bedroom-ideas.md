@@ -6,8 +6,9 @@ description: "Boys bunk bed bedroom ideas with real measurements — ceiling hei
 category: "bedroom"
 tags: ["bedroom", "boys bedroom", "bunk bed", "shared room", "storage"]
 publishDate: 2026-08-20
-heroImage: "photo-1723258343563-7d71a55d6dfa"
-pinImage: "photo-1664999348418-f01c705871d7"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

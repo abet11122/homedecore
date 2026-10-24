@@ -5,9 +5,9 @@ description: "Choose and hang bedroom curtains correctly with 15 ideas covering 
 category: bedroom
 tags: ["bedroom curtains", "bedroom decor", "window treatments", "bedroom styling", "interior design"]
 publishDate: 2026-10-02
-heroImage: "photo-1616594039964-ae9021a400a0"
-heroImageAlt: "Floor-length linen curtains hung high above a bedroom window in a bright room."
-pinImage: "photo-1555041469-a586c61ea9bc"
+heroImage: "/images/generated/bedroom-curtains-1536.webp"
+heroImageAlt: "AI-generated bedroom with linen curtains framing a large window."
+pinImage: "/images/generated/bedroom-curtains-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

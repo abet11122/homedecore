@@ -6,9 +6,9 @@ description: "Six Christmas coffee table arrangements for small, round and recta
 category: seasonal
 tags: ["christmas decor", "coffee table decor", "seasonal decorating", "holiday decor", "living room styling"]
 publishDate: 2026-10-16
-heroImage: "/images/posts/christmas-coffee-table-decor-ideas/hero.webp"
-heroImageAlt: "Gold and evergreen Christmas centerpiece on a coffee table."
-pinImage: "/images/posts/christmas-coffee-table-decor-ideas/pin.webp"
+heroImage: "/images/generated/christmas-table-1536.webp"
+heroImageAlt: "AI-generated dining table with cream plates, olive napkins and low greenery."
+pinImage: "/images/generated/christmas-table-1536.webp"
 featured: false
 keyTakeaways:
   - "Start with a tray to contain the seasonal display and make it easy to move."

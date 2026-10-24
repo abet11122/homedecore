@@ -7,7 +7,7 @@ category: bedroom
 tags: ["bedroom", "curtains", "measurements", "planning"]
 publishDate: 2026-10-16
 heroImage: "/images/generated/bedroom-curtains-1536.webp"
-heroImageAlt: "AI-generated bedroom showing linen curtains, a dark rod and the window opening from rod to floor."
+heroImageAlt: "AI-generated bedroom with linen curtains framing a large window."
 pinImage: "/images/generated/bedroom-curtains-1536.webp"
 featured: false
 keyTakeaways:

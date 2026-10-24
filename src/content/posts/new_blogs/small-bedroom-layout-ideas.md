@@ -6,9 +6,9 @@ description: "Make the most of a small bedroom with 15 layout ideas that improve
 category: bedroom
 tags: ["small bedroom", "bedroom layout", "small spaces", "bedroom design", "interior design"]
 publishDate: 2026-09-26
-heroImage: "photo-1616594039964-ae9021a400a0"
-heroImageAlt: "Small bedroom with bed against the wall, floating shelves, and clear floor space."
-pinImage: "photo-1555041469-a586c61ea9bc"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

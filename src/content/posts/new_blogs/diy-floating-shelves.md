@@ -7,8 +7,9 @@ category: "diy-decor"
 tags: ["diy", "shelving", "woodwork", "storage", "weekend-project"]
 publishDate: 2026-08-14
 updatedDate: 2026-08-20
-heroImage: "photo-1594026112284-02bb6f3352fe"
-pinImage: "photo-1595428774223-ef52624120d2"
+heroImage: "/images/generated/diy-decor-1536.webp"
+heroImageAlt: "AI-generated craft table with clay pots and simple hand tools."
+pinImage: "/images/generated/diy-decor-1536.webp"
 featured: false
 affiliateDisclosure: true
 ---

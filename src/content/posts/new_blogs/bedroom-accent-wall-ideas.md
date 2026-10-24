@@ -6,9 +6,9 @@ description: "Transform your bedroom with 17 accent wall ideas using paint, wall
 category: bedroom
 tags: ["bedroom decor", "accent wall", "bedroom design", "wall decor", "interior design"]
 publishDate: 2026-09-23
-heroImage: "photo-1616594039964-ae9021a400a0"
-heroImageAlt: "Dark painted accent wall behind a bed with white bedding and warm lighting."
-pinImage: "photo-1555041469-a586c61ea9bc"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

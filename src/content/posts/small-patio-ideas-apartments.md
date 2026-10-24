@@ -6,8 +6,9 @@ description: "Small patio ideas for apartments — furniture sizing, flooring ov
 category: "outdoor"
 tags: ["outdoor", "patio", "apartment", "small spaces", "containers"]
 publishDate: 2026-08-24
-heroImage: "photo-1719324923613-ff0884b031ed"
-pinImage: "photo-1597088136953-db42ae225804"
+heroImage: "/images/generated/outdoor-1536.webp"
+heroImageAlt: "AI-generated small patio with two chairs, a table and terracotta planters."
+pinImage: "/images/generated/outdoor-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

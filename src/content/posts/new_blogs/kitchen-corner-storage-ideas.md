@@ -6,9 +6,9 @@ description: "Make awkward kitchen corners easier to use with 17 practical stora
 category: kitchen
 tags: ["kitchen storage", "kitchen organization", "corner storage", "small kitchen", "small spaces"]
 publishDate: 2026-09-29
-heroImage: "/images/posts/small-kitchen-organization-ideas/hero.webp"
-heroImageAlt: "Organized kitchen storage with everyday cooking items kept within reach."
-pinImage: "/images/posts/small-kitchen-organization-ideas/pin.webp"
+heroImage: "/images/generated/kitchen-1536.webp"
+heroImageAlt: "AI-generated kitchen with sage cabinets and a small oak-topped island."
+pinImage: "/images/generated/kitchen-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

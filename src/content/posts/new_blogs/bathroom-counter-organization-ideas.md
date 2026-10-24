@@ -6,9 +6,9 @@ description: "Keep a bathroom vanity calm and easy to clean with 15 counter orga
 category: bathroom
 tags: ["bathroom organization", "bathroom counter", "bathroom storage", "vanity", "small bathroom"]
 publishDate: 2026-09-29
-heroImage: "photo-1576698483491-8c43f0862543"
-heroImageAlt: "A tidy bathroom vanity with everyday items arranged neatly."
-pinImage: "photo-1635286771551-9d7241ce7811"
+heroImage: "/images/generated/bathroom-1536.webp"
+heroImageAlt: "AI-generated bathroom with an oak vanity, pale tile and towel storage."
+pinImage: "/images/generated/bathroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

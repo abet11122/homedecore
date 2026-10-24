@@ -6,8 +6,9 @@ description: "A grown-up approach to autumn decorating: three heights, one palet
 category: "seasonal"
 tags: ["autumn", "mantel", "seasonal", "styling", "dried-flowers"]
 publishDate: 2026-08-27
-heroImage: "photo-1513694203232-719a280e022f"
-pinImage: "photo-1550581190-9c1c48d21d6c"
+heroImage: "/images/generated/autumn-1536.webp"
+heroImageAlt: "AI-generated living room with a rust throw, cream pumpkin and amber vase."
+pinImage: "/images/generated/autumn-1536.webp"
 featured: true
 affiliateDisclosure: true
 ---

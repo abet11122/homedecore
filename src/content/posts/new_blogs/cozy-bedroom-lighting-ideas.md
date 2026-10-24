@@ -6,9 +6,9 @@ description: "Create a warm, layered bedroom atmosphere with 17 lighting ideas c
 category: bedroom
 tags: ["bedroom lighting", "cozy bedroom", "bedroom decor", "interior lighting", "home styling"]
 publishDate: 2026-09-25
-heroImage: "photo-1616594039964-ae9021a400a0"
-heroImageAlt: "Warm bedside lamp glowing beside a bed with layered pillows in a cozy bedroom."
-pinImage: "photo-1555041469-a586c61ea9bc"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

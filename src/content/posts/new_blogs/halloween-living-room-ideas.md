@@ -6,8 +6,9 @@ description: "Decorate your living room for Halloween with 16 ideas using candle
 category: living-room
 tags: ["halloween decor", "living room decor", "seasonal decorating", "home styling", "cozy decor"]
 publishDate: 2026-09-10
-heroImage: "photo-1725349434921-666dff058b1c"
-pinImage: "photo-1632489369505-346cf4a7d06b"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

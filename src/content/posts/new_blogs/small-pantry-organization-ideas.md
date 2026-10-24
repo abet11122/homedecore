@@ -5,9 +5,9 @@ description: "Transform a cluttered pantry with 17 small pantry organization ide
 category: kitchen
 tags: ["pantry organization", "kitchen organization", "small kitchen", "storage", "organization"]
 publishDate: 2026-11-01
-heroImage: "/images/posts/small-pantry-organization-ideas/hero.webp"
-heroImageAlt: "Glass jars of dry ingredients on shelves in a home pantry."
-pinImage: "/images/posts/small-pantry-organization-ideas/pin.webp"
+heroImage: "/images/generated/kitchen-1536.webp"
+heroImageAlt: "AI-generated kitchen with sage cabinets and a small oak-topped island."
+pinImage: "/images/generated/kitchen-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

@@ -6,8 +6,9 @@ description: "Christmas entryway decor ideas that fit a small hall — wreath si
 category: "seasonal"
 tags: ["seasonal", "christmas", "entryway", "hallway", "decorations"]
 publishDate: 2026-08-28
-heroImage: "photo-1514712640984-713640f515c7"
-pinImage: "photo-1632210373446-bf3ce948e7db"
+heroImage: "/images/generated/christmas-1536.webp"
+heroImageAlt: "AI-generated living room with a decorated green Christmas tree."
+pinImage: "/images/generated/christmas-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

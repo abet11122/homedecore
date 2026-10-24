@@ -6,8 +6,9 @@ description: "Find the right Halloween door decor for your style with 18 ideas r
 category: seasonal
 tags: ["halloween decor", "halloween door decor", "seasonal decorating", "front door decor", "home styling"]
 publishDate: 2026-09-05
-heroImage: "photo-1673300970122-14e7a2d5c5ef"
-pinImage: "photo-1698444436276-5064eae977e5"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

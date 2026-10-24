@@ -6,8 +6,9 @@ description: "Narrow hallway decor ideas that add warmth without blocking the wa
 category: "entryway"
 tags: ["hallway", "small spaces", "lighting", "gallery wall", "runner"]
 publishDate: 2026-08-26
-heroImage: "photo-1696986324639-caa0590be25f"
-pinImage: "photo-1737642135153-7e6aea9ea163"
+heroImage: "/images/generated/rental-entryway-1536.webp"
+heroImageAlt: "AI-generated entryway with an olive door, oak bench and shoe tray."
+pinImage: "/images/generated/rental-entryway-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

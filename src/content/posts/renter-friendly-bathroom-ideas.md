@@ -5,8 +5,9 @@ description: "Renter-friendly bathroom ideas that leave no damage — peel-and-s
 category: "bathroom"
 tags: ["bathroom", "renter-friendly", "peel-and-stick", "storage", "lighting"]
 publishDate: 2026-08-23
-heroImage: "photo-1620626011761-996317b8d101"
-pinImage: "photo-1629079447777-1e605162dc8d"
+heroImage: "/images/generated/bathroom-1536.webp"
+heroImageAlt: "AI-generated bathroom with an oak vanity, pale tile and towel storage."
+pinImage: "/images/generated/bathroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

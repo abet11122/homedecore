@@ -6,8 +6,9 @@ description: "Plan ambient, reading and accent light for a bedroom, then compare
 category: "bedroom"
 tags: ["lighting", "bedroom", "sconces", "colour-temperature", "styling"]
 publishDate: 2026-08-18
-heroImage: "photo-1522771739844-6a9f6d5f14af"
-pinImage: "photo-1616594039964-ae9021a400a0"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

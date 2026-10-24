@@ -6,9 +6,9 @@ description: "Tackle clutter in a compact home with 21 small apartment organizat
 category: small-spaces
 tags: ["small apartment", "organization", "storage", "small spaces", "decluttering"]
 publishDate: 2026-09-13
-heroImage: "/images/posts/small-apartment-organization-ideas/hero.webp"
-heroImageAlt: "Compact living room with a bookcase beside a grey sofa."
-pinImage: "/images/posts/small-apartment-organization-ideas/pin.webp"
+heroImage: "/images/generated/small-spaces-1536.webp"
+heroImageAlt: "AI-generated studio apartment with separate sleeping and sitting areas."
+pinImage: "/images/generated/small-spaces-1536.webp"
 featured: false
 keyTakeaways:
   - "Create clear zones for sleeping, working, and living before buying any storage."

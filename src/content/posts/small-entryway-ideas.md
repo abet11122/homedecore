@@ -6,8 +6,9 @@ description: "Smart small entryway ideas for narrow halls and apartment doorways
 category: "entryway"
 tags: ["entryway", "small spaces", "storage", "lighting", "mirrors"]
 publishDate: 2026-08-24
-heroImage: "photo-1635108198077-4f849708645b"
-pinImage: "photo-1635108197511-8e6046f191f3"
+heroImage: "/images/generated/rental-entryway-1536.webp"
+heroImageAlt: "AI-generated entryway with an olive door, oak bench and shoe tray."
+pinImage: "/images/generated/rental-entryway-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

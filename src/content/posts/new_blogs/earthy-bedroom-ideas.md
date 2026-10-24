@@ -6,8 +6,9 @@ description: "Create a warm and natural bedroom with 15 earthy bedroom ideas usi
 category: bedroom
 tags: ["earthy bedroom", "bedroom decor", "natural bedroom", "bedroom styling", "neutral bedroom"]
 publishDate: 2026-11-01
-heroImage: "photo-1616594039964-ae9021a400a0"
-pinImage: "photo-1540518614846-7eded433c457"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 editorialReady: false
 affiliateDisclosure: true

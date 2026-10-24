@@ -6,8 +6,9 @@ description: "Small bedroom ideas that genuinely make a room feel bigger — bed
 category: "bedroom"
 tags: ["bedroom", "small spaces", "layout", "storage", "clearances"]
 publishDate: 2026-08-12
-heroImage: "photo-1499916078039-922301b0eb9b"
-pinImage: "photo-1499916078039-922301b0eb9b"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

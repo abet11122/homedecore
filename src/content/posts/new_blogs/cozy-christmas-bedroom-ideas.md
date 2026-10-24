@@ -6,9 +6,9 @@ description: "Create a warm and restful holiday bedroom with 17 cozy Christmas b
 category: seasonal
 tags: ["christmas decor", "bedroom decor", "cozy bedroom", "seasonal decorating", "holiday decor"]
 publishDate: 2026-11-15
-heroImage: "/images/posts/cozy-christmas-bedroom-ideas/hero.webp"
-heroImageAlt: "White bed with green pillows and a small Christmas tree."
-pinImage: "/images/posts/cozy-christmas-bedroom-ideas/pin.webp"
+heroImage: "/images/generated/christmas-1536.webp"
+heroImageAlt: "AI-generated living room with a decorated green Christmas tree."
+pinImage: "/images/generated/christmas-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

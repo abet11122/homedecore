@@ -6,8 +6,9 @@ description: "Bedroom wallpaper ideas with practical guidance — which wall to 
 category: "bedroom"
 tags: ["bedroom", "wallpaper", "accent wall", "paint colour", "styling"]
 publishDate: 2026-08-19
-heroImage: "photo-1697462247864-338e7eba8c4c"
-pinImage: "photo-1758448755969-8791367cf5c5"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: true
 ---

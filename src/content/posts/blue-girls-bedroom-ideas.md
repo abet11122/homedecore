@@ -6,8 +6,9 @@ description: "Blue girls bedroom ideas beyond the obvious — dusty blue, teal a
 category: "bedroom"
 tags: ["bedroom", "girls bedroom", "blue", "paint colour", "dusty blue"]
 publishDate: 2026-08-09
-heroImage: "photo-1615388247210-f97018b08786"
-pinImage: "photo-1633197011007-34da7df0253b"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

@@ -6,8 +6,9 @@ description: "Style your kitchen surfaces with 15 kitchen countertop decor ideas
 category: kitchen
 tags: ["kitchen decor", "kitchen styling", "countertop decor", "kitchen organization", "home styling"]
 publishDate: 2026-11-08
-heroImage: "photo-1556909114-f6e7ad7d3136"
-pinImage: "photo-1556909172-54557c7e4fb7"
+heroImage: "/images/generated/kitchen-1536.webp"
+heroImageAlt: "AI-generated kitchen with sage cabinets and a small oak-topped island."
+pinImage: "/images/generated/kitchen-1536.webp"
 featured: false
 editorialReady: false
 affiliateDisclosure: true

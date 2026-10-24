@@ -6,8 +6,9 @@ description: "Transform your bathroom for Halloween with 16 ideas using black ca
 category: bathroom
 tags: ["halloween decor", "bathroom decor", "seasonal decorating", "home styling", "spooky decor"]
 publishDate: 2026-10-08
-heroImage: "photo-1604610426369-2ff40588e236"
-pinImage: "photo-1759169277632-e5052b6d3e01"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

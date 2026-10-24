@@ -6,8 +6,9 @@ description: "Decorate your kitchen for Christmas with 17 ideas that add festive
 category: seasonal
 tags: ["christmas decor", "kitchen decor", "seasonal decorating", "holiday decor", "kitchen styling"]
 publishDate: 2026-10-25
-heroImage: "photo-1556909172-54557c7e4fb7"
-pinImage: "photo-1556909172-54557c7e4fb7"
+heroImage: "/images/generated/christmas-1536.webp"
+heroImageAlt: "AI-generated living room with a decorated green Christmas tree."
+pinImage: "/images/generated/christmas-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

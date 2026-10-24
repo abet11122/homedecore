@@ -6,8 +6,9 @@ description: "Boho girls bedroom ideas that look collected rather than cluttered
 category: "bedroom"
 tags: ["bedroom", "girls bedroom", "boho", "rattan", "macrame"]
 publishDate: 2026-08-10
-heroImage: "photo-1600210491305-7396500b5b31"
-pinImage: "photo-1633945098489-6ffc53067860"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: true
 ---

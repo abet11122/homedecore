@@ -6,9 +6,9 @@ description: "Style bathroom shelves with a useful balance of towels, everyday e
 category: bathroom
 tags: ["bathroom shelves", "bathroom styling", "bathroom storage", "small bathroom", "shelf decor"]
 publishDate: 2026-09-29
-heroImage: "/images/posts/small-bathroom-organization-ideas/hero.webp"
-heroImageAlt: "Bathroom shelves arranged with folded towels and useful everyday supplies."
-pinImage: "/images/posts/small-bathroom-organization-ideas/pin.webp"
+heroImage: "/images/generated/bathroom-1536.webp"
+heroImageAlt: "AI-generated bathroom with an oak vanity, pale tile and towel storage."
+pinImage: "/images/generated/bathroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

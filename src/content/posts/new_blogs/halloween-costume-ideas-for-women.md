@@ -7,8 +7,9 @@ description: "Find a Halloween costume you will actually love with 25 ideas for 
 category: seasonal
 tags: ["halloween costumes", "costume ideas", "halloween", "seasonal", "women's costumes"]
 publishDate: 2026-09-22
-heroImage: "photo-1783712986056-90e824d369ad"
-pinImage: "photo-1783712990053-5bb76106df74"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

@@ -5,8 +5,9 @@ description: "Find the perfect couple Halloween costume with 22 ideas from class
 category: seasonal
 tags: ["halloween costumes", "couple costumes", "halloween", "seasonal", "costume ideas"]
 publishDate: 2026-09-28
-heroImage: "photo-1636634959169-c1145dba87c1"
-pinImage: "photo-1669483478131-6222bc46b06c"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

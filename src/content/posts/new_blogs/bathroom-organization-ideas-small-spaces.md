@@ -6,8 +6,9 @@ description: "Maximize every inch of a compact bathroom with 17 bathroom organiz
 category: bathroom
 tags: ["bathroom organization", "small spaces", "bathroom storage", "small bathroom", "organization"]
 publishDate: 2026-10-04
-heroImage: "photo-1584622650111-993a426fbf0a"
-pinImage: "photo-1584622650111-993a426fbf0a"
+heroImage: "/images/generated/bathroom-1536.webp"
+heroImageAlt: "AI-generated bathroom with an oak vanity, pale tile and towel storage."
+pinImage: "/images/generated/bathroom-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

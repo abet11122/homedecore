@@ -6,8 +6,9 @@ description: "Decorate your kitchen for Halloween with 18 ideas using window dis
 category: kitchen
 tags: ["halloween decor", "kitchen decor", "seasonal decorating", "home styling", "autumn"]
 publishDate: 2026-10-02
-heroImage: "photo-1666249709493-21a751c08f57"
-pinImage: "photo-1666249712070-7208603be73e"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

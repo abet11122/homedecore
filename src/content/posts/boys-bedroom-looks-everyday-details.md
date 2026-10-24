@@ -6,8 +6,9 @@ description: "The small everyday details that make a boys bedroom work — charg
 category: "bedroom"
 tags: ["bedroom", "boys bedroom", "storage", "organization", "routines"]
 publishDate: 2026-08-08
-heroImage: "photo-1651607160925-bbe958e38115"
-pinImage: "photo-1613043546863-9ede428dabb6"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

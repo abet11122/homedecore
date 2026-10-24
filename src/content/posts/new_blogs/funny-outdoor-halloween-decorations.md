@@ -6,9 +6,9 @@ description: "Add humor to your Halloween yard with 15 funny outdoor decoration 
 category: outdoor
 tags: ["halloween decor", "funny halloween", "outdoor decor", "seasonal decorating", "yard decorations"]
 publishDate: 2026-09-11
-heroImage: "/images/posts/halloween-yard-ideas/hero.webp"
-heroImageAlt: "Illustrative seasonal stock photograph; not a completed project from this guide."
-pinImage: "/images/posts/halloween-yard-ideas/pin.webp"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

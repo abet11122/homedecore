@@ -6,8 +6,9 @@ category: "bathroom"
 tags: ["bathroom", "lighting", "sconces", "bulbs", "measurements"]
 publishDate: 2026-08-22
 updatedDate: 2026-10-21
-heroImage: "photo-1642755623069-eb720c326553"
-pinImage: "photo-1658370230118-24aa79649d6c"
+heroImage: "/images/generated/bathroom-1536.webp"
+heroImageAlt: "AI-generated bathroom with an oak vanity, pale tile and towel storage."
+pinImage: "/images/generated/bathroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

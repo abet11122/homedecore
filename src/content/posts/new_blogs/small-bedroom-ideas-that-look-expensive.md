@@ -6,9 +6,9 @@ description: "Discover 21 small bedroom ideas that look expensive without a huge
 category: "bedroom"
 tags: ["bedroom", "small spaces", "decor", "lighting", "storage", "styling"]
 publishDate: 2026-09-02
-heroImage: "/images/posts/small-bedroom-ideas-that-look-expensive/hero.webp"
-heroImageAlt: "Elegant bedroom with an ornate bed and warm metallic finishes."
-pinImage: "/images/posts/small-bedroom-ideas-that-look-expensive/pin.webp"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

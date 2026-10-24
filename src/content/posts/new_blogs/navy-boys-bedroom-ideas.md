@@ -6,9 +6,9 @@ description: "Use navy in a boys bedroom without making it feel heavy with 15 id
 category: bedroom
 tags: ["boys bedroom", "navy bedroom", "bedroom color", "kids rooms", "bedroom decor"]
 publishDate: 2026-09-22
-heroImage: "photo-1616594039964-ae9021a400a0"
-heroImageAlt: "Navy blue accent wall behind a single bed with white bedding in a boys bedroom."
-pinImage: "photo-1555041469-a586c61ea9bc"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

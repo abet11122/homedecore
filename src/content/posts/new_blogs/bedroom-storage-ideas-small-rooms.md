@@ -6,9 +6,9 @@ description: "Maximize storage in a small bedroom with 17 ideas covering under-b
 category: bedroom
 tags: ["bedroom storage", "small bedroom", "bedroom organization", "small spaces", "storage ideas"]
 publishDate: 2026-09-27
-heroImage: "photo-1616594039964-ae9021a400a0"
-heroImageAlt: "Floating shelves with baskets and books above a bed in a small bedroom."
-pinImage: "photo-1555041469-a586c61ea9bc"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

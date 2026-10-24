@@ -5,8 +5,9 @@ description: "Beach bedroom ideas that feel coastal rather than themed — the r
 category: "bedroom"
 tags: ["bedroom", "coastal", "beach style", "linen", "natural textures"]
 publishDate: 2026-08-17
-heroImage: "photo-1602810372187-76337cedc513"
-pinImage: "photo-1760067537391-cd60b1ebc597"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

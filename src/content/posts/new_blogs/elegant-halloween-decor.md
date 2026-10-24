@@ -6,8 +6,9 @@ description: "Create a stylish seasonal display with 17 elegant Halloween decor 
 category: seasonal
 tags: ["halloween decor", "seasonal decorating", "elegant decor", "autumn", "home styling"]
 publishDate: 2026-09-13
-heroImage: "photo-1572978567882-408eb0787206"
-pinImage: "photo-1572332727986-4de3e3d8d9a3"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

@@ -5,8 +5,9 @@ description: "Small home office ideas for corners, closets, hallways and shared 
 category: "home-office"
 tags: ["home office", "small spaces", "desk", "storage", "lighting"]
 publishDate: 2026-08-29
-heroImage: "photo-1777460978703-32d290b8f9e3"
-pinImage: "photo-1697809462690-57bc1601f665"
+heroImage: "/images/generated/home-office-1536.webp"
+heroImageAlt: "AI-generated workspace with an oak desk, adjustable chair and closed cabinet."
+pinImage: "/images/generated/home-office-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

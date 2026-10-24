@@ -6,8 +6,9 @@ description: "Boys bedroom decor ideas built in layers — bedding, texture, wal
 category: "bedroom"
 tags: ["bedroom", "boys bedroom", "decor", "layering", "styling"]
 publishDate: 2026-08-23
-heroImage: "photo-1713942590431-354ccaf9c83d"
-pinImage: "photo-1613043547088-a18e08637d1c"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

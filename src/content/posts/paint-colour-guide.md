@@ -6,8 +6,9 @@ category: "living-room"
 tags: ["paint", "colour", "living-room", "undertones", "light"]
 publishDate: 2026-08-22
 updatedDate: 2026-08-25
-heroImage: "photo-1586023492125-27b2c045efd7"
-pinImage: "photo-1615529182904-14819c35db37"
+heroImage: "/images/generated/living-room-rug-1536.webp"
+heroImageAlt: "AI-generated living room with an oatmeal sofa, olive armchair and ivory rug."
+pinImage: "/images/generated/living-room-rug-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

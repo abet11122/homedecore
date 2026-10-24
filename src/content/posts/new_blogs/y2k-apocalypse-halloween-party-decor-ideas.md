@@ -6,9 +6,9 @@ description: "Throw a Y2K apocalypse Halloween party with 17 decor ideas using g
 category: seasonal
 tags: ["halloween party", "y2k decor", "party decor", "seasonal decorating", "halloween"]
 publishDate: 2026-10-05
-heroImage: "/images/posts/y2k-apocalypse-halloween-party-decor-ideas/hero.webp"
-heroImageAlt: "Halloween party room with dark decorations and orange lights."
-pinImage: "/images/posts/y2k-apocalypse-halloween-party-decor-ideas/pin.webp"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

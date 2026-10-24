@@ -5,9 +5,9 @@ description: "Create a warm and inviting holiday space with 21 cozy Christmas li
 category: seasonal
 tags: ["christmas decor", "living rooms", "cozy home", "seasonal decorating", "holiday decor"]
 publishDate: 2026-10-04
-heroImage: "/images/posts/cozy-christmas-living-room-ideas/hero.webp"
-heroImageAlt: "Living room with red sofa accents and a decorated Christmas tree."
-pinImage: "/images/posts/cozy-christmas-living-room-ideas/pin.webp"
+heroImage: "/images/generated/christmas-1536.webp"
+heroImageAlt: "AI-generated living room with a decorated green Christmas tree."
+pinImage: "/images/generated/christmas-1536.webp"
 featured: false
 keyTakeaways:
   - "Start with the tree placement before adding any other decorations."

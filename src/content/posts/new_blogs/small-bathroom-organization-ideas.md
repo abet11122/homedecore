@@ -6,9 +6,9 @@ description: "Discover 17 small bathroom organization ideas that make better use
 category: bathroom
 tags: ["small bathrooms","bathroom organization","storage","decluttering","small spaces"]
 publishDate: 2026-09-06
-heroImage: "/images/posts/small-bathroom-organization-ideas/hero.webp"
-heroImageAlt: "Wooden bathroom shelves holding towels and everyday toiletries."
-pinImage: "/images/posts/small-bathroom-organization-ideas/pin.webp"
+heroImage: "/images/generated/bathroom-1536.webp"
+heroImageAlt: "AI-generated bathroom with an oak vanity, pale tile and towel storage."
+pinImage: "/images/generated/bathroom-1536.webp"
 featured: false
 keyTakeaways:
   - "Declutter first, then measure drawers and the space around under-sink plumbing before buying organizers."
@@ -39,10 +39,7 @@ Group similar items into small bins: hair care, skincare, cleaning, backups, and
 
 Whichever style you choose, keep categories broad enough that everyone can put things back quickly.
 
-<figure class="article-figure">
-  <img src="/images/posts/small-bathroom-organization-ideas/storage-baskets.webp" srcset="/images/posts/small-bathroom-organization-ideas/storage-baskets-480.webp 480w, /images/posts/small-bathroom-organization-ideas/storage-baskets-960.webp 960w, /images/posts/small-bathroom-organization-ideas/storage-baskets.webp 1440w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1440" height="2160" loading="lazy" decoding="async" alt="Woven storage baskets and folded white towels on a small bathroom shelf." />
-  <figcaption><span>Use matching baskets for visible storage, with a label when the contents are hidden.</span><a href="https://www.pexels.com/photo/elegant-wicker-baskets-in-modern-bathroom-decor-34667272/" target="_blank" rel="noopener noreferrer">Photo: Kader D. Kahraman</a></figcaption>
-</figure>
+
 
 ## 4. Add Stackable Drawers
 
@@ -74,10 +71,7 @@ A tray turns several loose bottles into one visual group. It also makes it easie
 
 Choose a moisture-resistant material such as sealed wood, metal, stone, or washable plastic rather than something that will swell when wet.
 
-<figure class="article-figure">
-  <img src="/images/posts/small-bathroom-organization-ideas/counter-tray.webp" srcset="/images/posts/small-bathroom-organization-ideas/counter-tray-480.webp 480w, /images/posts/small-bathroom-organization-ideas/counter-tray-960.webp 960w, /images/posts/small-bathroom-organization-ideas/counter-tray.webp 1440w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1440" height="2160" loading="lazy" decoding="async" alt="White bathroom sink with a potted plant and round wall mirror." />
-  <figcaption><span>One small tray keeps daily essentials together and leaves the rest of the counter clear.</span><a href="https://www.pexels.com/photo/set-of-stylish-cosmetic-products-placed-near-sink-in-bathroom-4239017/" target="_blank" rel="noopener noreferrer">Photo: Kaboompics</a></figcaption>
-</figure>
+
 
 ## 9. Add Hooks Instead of More Furniture
 
@@ -115,10 +109,7 @@ Rolled hand towels and washcloths fit neatly into baskets or shallow open shelve
 
 For full-size bath towels, folding is often more space-efficient than rolling, so use the method that matches the shelf dimensions.
 
-<figure class="article-figure">
-  <img src="/images/posts/small-bathroom-organization-ideas/rolled-towels.webp" srcset="/images/posts/small-bathroom-organization-ideas/rolled-towels-480.webp 480w, /images/posts/small-bathroom-organization-ideas/rolled-towels-960.webp 960w, /images/posts/small-bathroom-organization-ideas/rolled-towels.webp 1440w" sizes="(max-width: 600px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 64px), 688px" width="1440" height="960" loading="lazy" decoding="async" alt="Folded patterned towels stacked neatly on open shelves." />
-  <figcaption><span>Roll small towels with their edges facing out so you can see and reach each one.</span><a href="https://www.pexels.com/photo/white-textile-lot-282892/" target="_blank" rel="noopener noreferrer">Photo: Lum3n</a></figcaption>
-</figure>
+
 
 ## 15. Try a Slim Rolling Cart
 

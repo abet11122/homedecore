@@ -6,8 +6,9 @@ description: "Bathroom vanity decor ideas that stay tidy — the tray method, mi
 category: "bathroom"
 tags: ["bathroom", "vanity", "styling", "mirrors", "storage"]
 publishDate: 2026-08-21
-heroImage: "photo-1576698483491-8c43f0862543"
-pinImage: "photo-1635286771551-9d7241ce7811"
+heroImage: "/images/generated/bathroom-1536.webp"
+heroImageAlt: "AI-generated bathroom with an oak vanity, pale tile and towel storage."
+pinImage: "/images/generated/bathroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

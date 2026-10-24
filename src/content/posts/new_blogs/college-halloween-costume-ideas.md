@@ -5,8 +5,9 @@ description: "Stand out at every college Halloween party with 24 costume ideas t
 category: seasonal
 tags: ["halloween costumes", "college costumes", "costume ideas", "halloween", "seasonal"]
 publishDate: 2026-10-02
-heroImage: "photo-1665779132288-4fa362fd5180"
-pinImage: "photo-1667129702857-74261f4243a9"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

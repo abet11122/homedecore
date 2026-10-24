@@ -6,8 +6,9 @@ description: "Practical entryway storage ideas that handle shoes, coats, bags an
 category: "entryway"
 tags: ["entryway", "storage", "shoes", "coats", "renter-friendly"]
 publishDate: 2026-08-25
-heroImage: "photo-1783432784323-8d53cb6e5c76"
-pinImage: "photo-1775664302928-b72ff2516645"
+heroImage: "/images/generated/rental-entryway-1536.webp"
+heroImageAlt: "AI-generated entryway with an olive door, oak bench and shoe tray."
+pinImage: "/images/generated/rental-entryway-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

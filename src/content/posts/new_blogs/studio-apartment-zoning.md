@@ -6,8 +6,9 @@ description: "A studio fails when every activity happens everywhere. Rugs, backs
 category: "small-spaces"
 tags: ["studio", "small-spaces", "zoning", "layout", "rental"]
 publishDate: 2026-08-08
-heroImage: "photo-1502005229762-cf1b2da7c5d6"
-pinImage: "photo-1618221195710-dd6b41faaea6"
+heroImage: "/images/generated/small-spaces-1536.webp"
+heroImageAlt: "AI-generated studio apartment with separate sleeping and sitting areas."
+pinImage: "/images/generated/small-spaces-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

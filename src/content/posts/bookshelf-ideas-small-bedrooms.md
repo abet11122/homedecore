@@ -6,8 +6,9 @@ description: "Bookshelf ideas for small bedrooms — shelf depths, wall-mounted 
 category: "bedroom"
 tags: ["bedroom", "small spaces", "bookshelf", "storage", "styling"]
 publishDate: 2026-08-13
-heroImage: "photo-1553444836-bc6c8d340ba7"
-pinImage: "photo-1553444859-788c4b385b13"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

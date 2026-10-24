@@ -6,9 +6,9 @@ description: "Organize small kitchen cabinets with 17 ideas covering shelf riser
 category: kitchen
 tags: ["kitchen organization", "kitchen cabinets", "small kitchen", "kitchen storage", "organization"]
 publishDate: 2026-10-03
-heroImage: "photo-1556909114-f6e7ad7d3136"
-heroImageAlt: "Neatly organized kitchen cabinet with shelf risers, stacked plates, and labeled containers."
-pinImage: "photo-1556909114-f6e7ad7d3136"
+heroImage: "/images/generated/kitchen-1536.webp"
+heroImageAlt: "AI-generated kitchen with sage cabinets and a small oak-topped island."
+pinImage: "/images/generated/kitchen-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

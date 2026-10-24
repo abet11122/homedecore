@@ -6,8 +6,9 @@ description: "Decorate a compact home for Halloween with 17 small space Hallowee
 category: seasonal
 tags: ["halloween decor", "small spaces", "seasonal decorating", "apartment decor", "renter friendly"]
 publishDate: 2026-09-27
-heroImage: "photo-1758192178311-451c50d87f2e"
-pinImage: "photo-1758192178311-451c50d87f2e"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

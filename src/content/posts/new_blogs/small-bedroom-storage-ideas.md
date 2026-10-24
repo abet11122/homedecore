@@ -6,9 +6,9 @@ description: "Reclaim space in a compact room with 15 small bedroom storage idea
 category: bedroom
 tags: ["small bedrooms", "storage", "bedroom organization", "small spaces", "decluttering"]
 publishDate: 2026-09-13
-heroImage: "/images/posts/small-bedroom-storage-ideas/hero.webp"
-heroImageAlt: "Floating shelf above a compact bed."
-pinImage: "/images/posts/small-bedroom-storage-ideas/pin.webp"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 editorialReady: false
 affiliateDisclosure: true

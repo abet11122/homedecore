@@ -6,8 +6,9 @@ description: "Blue boys bedroom ideas that avoid looking babyish — which shade
 category: "bedroom"
 tags: ["bedroom", "boys bedroom", "blue", "navy", "paint colour"]
 publishDate: 2026-08-22
-heroImage: "photo-1780042731982-b8db1a86bfcf"
-pinImage: "photo-1688762430740-666f776d1ebe"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

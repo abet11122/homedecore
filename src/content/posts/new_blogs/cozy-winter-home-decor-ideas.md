@@ -6,9 +6,9 @@ description: "Keep your home feeling warm and inviting after the holidays with 2
 category: seasonal
 tags: ["winter decor", "cozy home", "seasonal decorating", "home styling", "hygge"]
 publishDate: 2026-11-22
-heroImage: "/images/posts/cozy-winter-home-decor-ideas/hero.webp"
-heroImageAlt: "Soft sofa in a warmly lit living room with an evening lamp."
-pinImage: "/images/posts/cozy-winter-home-decor-ideas/pin.webp"
+heroImage: "/images/generated/autumn-1536.webp"
+heroImageAlt: "AI-generated living room with a rust throw, cream pumpkin and amber vase."
+pinImage: "/images/generated/autumn-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

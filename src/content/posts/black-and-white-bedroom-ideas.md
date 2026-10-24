@@ -5,8 +5,9 @@ description: "Black and white bedroom ideas that feel warm instead of stark — 
 category: "bedroom"
 tags: ["bedroom", "black and white", "paint colour", "monochrome", "styling"]
 publishDate: 2026-08-18
-heroImage: "photo-1651336259530-362bce65fffe"
-pinImage: "photo-1612365416820-33b8d140f476"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 affiliateDisclosure: true
 ---

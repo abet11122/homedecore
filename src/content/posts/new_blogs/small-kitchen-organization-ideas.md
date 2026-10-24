@@ -6,9 +6,9 @@ description: "Reclaim your kitchen with 17 small kitchen organization ideas cove
 category: kitchen
 tags: ["kitchen organization", "small kitchen", "kitchen storage", "organization", "small spaces"]
 publishDate: 2026-10-11
-heroImage: "/images/posts/small-kitchen-organization-ideas/hero.webp"
-heroImageAlt: "Neatly sorted cooking utensils in a kitchen drawer."
-pinImage: "/images/posts/small-kitchen-organization-ideas/pin.webp"
+heroImage: "/images/generated/kitchen-1536.webp"
+heroImageAlt: "AI-generated kitchen with sage cabinets and a small oak-topped island."
+pinImage: "/images/generated/kitchen-1536.webp"
 featured: false
 editorialReady: false
 affiliateDisclosure: true

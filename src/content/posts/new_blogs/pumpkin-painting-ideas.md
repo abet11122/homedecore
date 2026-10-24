@@ -6,9 +6,9 @@ description: "Paint pumpkins with 18 ideas from simple solid colors to detailed 
 category: seasonal
 tags: ["pumpkin painting", "halloween crafts", "diy decor", "halloween decor", "seasonal decorating"]
 publishDate: 2026-09-20
-heroImage: "photo-1477516561410-f0b5dd8319e4"
-heroImageAlt: "Illustrative seasonal stock photograph; not a completed project from this guide."
-pinImage: "photo-1663568399694-fa3ee4fbb972"
+heroImage: "/images/generated/halloween-1536.webp"
+heroImageAlt: "AI-generated autumn porch with pumpkins, paper bats and LED lanterns."
+pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:

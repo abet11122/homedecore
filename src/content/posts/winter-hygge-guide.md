@@ -6,8 +6,9 @@ description: "Hygge is usually sold as throws and candles. The real levers are l
 category: "seasonal"
 tags: ["winter", "hygge", "texture", "lighting", "cosy"]
 publishDate: 2026-08-12
-heroImage: "photo-1533779283484-8ad4940aa3a8"
-pinImage: "photo-1512389142860-9c449e58a543"
+heroImage: "/images/generated/autumn-1536.webp"
+heroImageAlt: "AI-generated living room with a rust throw, cream pumpkin and amber vase."
+pinImage: "/images/generated/autumn-1536.webp"
 featured: false
 affiliateDisclosure: true
 ---

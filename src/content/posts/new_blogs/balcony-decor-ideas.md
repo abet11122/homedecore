@@ -6,8 +6,9 @@ description: "Balcony decor ideas for tiny spaces — railing solutions, vertica
 category: "outdoor"
 tags: ["outdoor", "balcony", "small spaces", "plants", "renter-friendly"]
 publishDate: 2026-08-25
-heroImage: "photo-1486484290742-0ce4eb743a34"
-pinImage: "photo-1708223578831-5c737a3074ab"
+heroImage: "/images/generated/outdoor-1536.webp"
+heroImageAlt: "AI-generated small patio with two chairs, a table and terracotta planters."
+pinImage: "/images/generated/outdoor-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

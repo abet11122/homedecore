@@ -6,9 +6,9 @@ description: "Make the most of a compact home with 15 small apartment storage id
 category: small-spaces
 tags: ["small apartment", "storage", "small spaces", "apartment living", "organization"]
 publishDate: 2026-10-11
-heroImage: "/images/posts/small-apartment-storage-ideas/hero.webp"
-heroImageAlt: "Open clothing rack and shelves in an organized apartment."
-pinImage: "/images/posts/small-apartment-storage-ideas/pin.webp"
+heroImage: "/images/generated/small-spaces-1536.webp"
+heroImageAlt: "AI-generated studio apartment with separate sleeping and sitting areas."
+pinImage: "/images/generated/small-spaces-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

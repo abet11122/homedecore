@@ -6,9 +6,9 @@ description: "Create a clean, contemporary room with 15 modern boys bedroom idea
 category: bedroom
 tags: ["boys bedrooms", "modern bedroom", "bedroom decor", "kids rooms", "bedroom styling"]
 publishDate: 2026-10-04
-heroImage: "/images/posts/modern-boys-bedroom-ideas/hero.webp"
-heroImageAlt: "Bright children's bedroom with a bunk bed, wardrobe and shelves."
-pinImage: "/images/posts/modern-boys-bedroom-ideas/pin.webp"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

@@ -1,0 +1,529 @@
+---
+import '../styles/global.css';
+import { imageAsset, localImage } from '../images';
+import { SITE, CATEGORIES, PRIMARY_CATEGORIES, SECONDARY_CATEGORIES } from '../site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Vertical 2:3 pin — becomes og:image so Pinterest saves the tall crop. */
+  image?: string;
+  /** Horizontal hero — becomes twitter:image, which wants 1.91:1. */
+  imageWide?: string;
+  type?: 'website' | 'article';
+  publishDate?: string;
+  updatedDate?: string;
+  noindex?: boolean;
+  /** Category name, emitted as articleSection. */
+  section?: string;
+  /** Post tags, emitted as keywords and article:tag. */
+  keywords?: string[];
+  /** Body word count, emitted as wordCount. */
+  words?: number;
+  /** Reading time in minutes, emitted as timeRequired. */
+  minutes?: number;
+  /** Extra JSON-LD nodes merged into the page graph (ItemList, FAQPage, …). */
+  schemas?: Record<string, unknown>[];
+}
+
+const {
+  title,
+  description = SITE.description,
+  image,
+  imageWide,
+  type = 'website',
+  publishDate,
+  updatedDate,
+  noindex = false,
+  section,
+  keywords = [],
+  words,
+  minutes,
+  schemas = [],
+} = Astro.props;
+
+const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+const origin = (Astro.site ?? new URL(SITE.url)).origin;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
+
+const abs = (path: string) => new URL(path, origin).href;
+
+/** Unsplash id → CDN URL at the crop we want; local assets need absolute URLs in metadata. */
+function photo(src: string, w: number, h: number) {
+  return abs(localImage(src));
+}
+
+const DEFAULT_PHOTO = 'photo-1600210492486-724fe5c67fb0';
+
+// og:image is the vertical pin when a post supplies one, so Pinterest saves
+// the 2:3 image rather than the horizontal hero.
+const socialPhoto = image ?? imageWide ?? DEFAULT_PHOTO;
+const ogImage = photo(socialPhoto, image ? 1000 : 1200, image ? 1500 : 630);
+const ogIsPin = Boolean(image);
+const ogAsset = imageAsset(socialPhoto)?.variants.at(-1);
+const ogW = ogAsset?.width ?? (ogIsPin ? 1000 : 1200);
+const ogH = ogAsset?.height ?? (ogIsPin ? 1500 : 630);
+
+// Twitter cards crop to 1.91:1, so a tall pin would be sliced through the
+// middle. Feed the horizontal hero there instead when we have one.
+const twitterImage = imageWide ? photo(imageWide, 1200, 630) : ogImage;
+
+/*
+  Which room the reader is standing in. A category page marks its own item;
+  a post marks the room it belongs to, which is passed down as `section`.
+  Without this the nav looks identical on every page of the site — the
+  reader has no idea where they are in it.
+*/
+const pathSlug = Astro.url.pathname.split('/').filter(Boolean)[0] === 'category'
+  ? Astro.url.pathname.split('/').filter(Boolean)[1]
+  : undefined;
+const currentCategory =
+  pathSlug ?? (section ? CATEGORIES.find((c) => c.name === section)?.slug : undefined);
+const isCurrent = (slug: string) => slug === currentCategory;
+
+/* ------------------------------------------------------------------
+   Structured data
+
+   Emitted as one @graph with stable @ids so Organization, WebSite, the
+   author Person and the page itself are cross-referenced rather than
+   repeated — that is what lets a search engine resolve them into a
+   single entity instead of four loose blobs.
+------------------------------------------------------------------- */
+const ORG_ID = `${origin}/#organization`;
+const SITE_ID = `${origin}/#website`;
+const AUTHOR_ID = `${origin}/author/${SITE.authorSlug}/#editorial`;
+const PAGE_ID = `${canonical}#webpage`;
+
+const orgNode = {
+  '@type': 'Organization',
+  '@id': ORG_ID,
+  name: SITE.name,
+  url: `${origin}/`,
+  description: SITE.description,
+  logo: {
+    '@type': 'ImageObject',
+    url: abs(SITE.logo),
+    caption: SITE.name,
+  },
+  ...(SITE.email
+    ? { contactPoint: { '@type': 'ContactPoint', contactType: 'editorial and privacy enquiries', email: SITE.email } }
+    : {}),
+  sameAs: [SITE.pinterest, SITE.instagram].filter(Boolean),
+};
+
+const siteNode = {
+  '@type': 'WebSite',
+  '@id': SITE_ID,
+  name: SITE.name,
+  alternateName: SITE.tagline,
+  url: `${origin}/`,
+  description: SITE.description,
+  inLanguage: SITE.lang,
+  publisher: { '@id': ORG_ID },
+};
+
+const authorNode = {
+  '@type': 'Organization',
+  '@id': AUTHOR_ID,
+  name: SITE.author,
+  url: abs(`/author/${SITE.authorSlug}/`),
+  description: SITE.authorBio,
+  parentOrganization: { '@id': ORG_ID },
+  ...(SITE.authorLinks.length ? { sameAs: [...SITE.authorLinks] } : {}),
+};
+
+const pageNode = {
+  '@type': 'WebPage',
+  '@id': PAGE_ID,
+  url: canonical,
+  name: title || SITE.name,
+  description,
+  isPartOf: { '@id': SITE_ID },
+  inLanguage: SITE.lang,
+  ...(ogImage
+    ? {
+        primaryImageOfPage: {
+          '@type': 'ImageObject',
+          url: ogImage,
+          width: ogW,
+          height: ogH,
+          caption: title || SITE.name,
+        },
+      }
+    : {}),
+};
+
+const articleNode =
+  type === 'article'
+    ? {
+        '@type': 'BlogPosting',
+        '@id': `${canonical}#article`,
+        url: canonical,
+        headline: title,
+        description,
+        // Both crops: search engines pick whichever aspect ratio the
+        // surface they are rendering into needs.
+        image: [ogImage, twitterImage].filter((v, i, a) => a.indexOf(v) === i),
+        datePublished: publishDate,
+        dateModified: updatedDate || publishDate,
+        author: { '@id': AUTHOR_ID },
+        publisher: { '@id': ORG_ID },
+        isPartOf: { '@id': SITE_ID },
+        mainEntityOfPage: { '@id': PAGE_ID },
+        inLanguage: SITE.lang,
+        isAccessibleForFree: true,
+        ...(section ? { articleSection: section } : {}),
+        ...(keywords.length ? { keywords: keywords.join(', ') } : {}),
+        ...(words ? { wordCount: words } : {}),
+        ...(minutes ? { timeRequired: `PT${minutes}M` } : {}),
+      }
+    : null;
+
+// A collection/profile describes this page, rather than a second page entity.
+const pageSchema = schemas.find((schema) =>
+  ['CollectionPage', 'ProfilePage'].includes(String(schema['@type']))
+);
+const resolvedPage = { ...pageNode, ...pageSchema, '@id': PAGE_ID, url: canonical };
+const graph = [orgNode, siteNode, authorNode, resolvedPage, articleNode,
+  ...schemas.filter((schema) => schema !== pageSchema)].filter(Boolean);
+const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
+---
+
+<!doctype html>
+<html lang={SITE.lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang={SITE.lang} href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={canonical} />
+    <meta
+      name="robots"
+      content={noindex
+        ? 'noindex, follow'
+        : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'}
+    />
+    <meta name="theme-color" content="#FBF8F4" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${SITE.name} — latest stories`} href="/rss.xml" />
+
+    {/* Fonts: preconnect + swap so text paints instantly and never reflows */}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap"
+    />
+
+    {/* Open Graph — og:image is the vertical 2:3 pin on post pages */}
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content={String(ogW)} />
+    <meta property="og:image:height" content={String(ogH)} />
+    <meta property="og:image:alt" content={title || SITE.name} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:locale" content={SITE.locale} />
+    {type === 'article' && publishDate && (
+      <meta property="article:published_time" content={publishDate} />
+    )}
+    {type === 'article' && publishDate && (
+      <meta property="article:modified_time" content={updatedDate || publishDate} />
+    )}
+    {type === 'article' && (
+      <meta property="article:author" content={abs(`/author/${SITE.authorSlug}/`)} />
+    )}
+    {type === 'article' && section && <meta property="article:section" content={section} />}
+    {type === 'article' && keywords.map((k) => <meta property="article:tag" content={k} />)}
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={twitterImage} />
+    <meta name="twitter:image:alt" content={title || SITE.name} />
+    {SITE.twitter && <meta name="twitter:site" content={SITE.twitter} />}
+    {SITE.twitter && <meta name="twitter:creator" content={SITE.twitter} />}
+
+    {/* Pinterest Rich Pins + domain verification */}
+    <meta name="pinterest-rich-pin" content="true" />
+    {SITE.pinterestVerification && (
+      <meta name="p:domain_verify" content={SITE.pinterestVerification} />
+    )}
+    {SITE.googleVerification && (
+      <meta name="google-site-verification" content={SITE.googleVerification} />
+    )}
+
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />
+
+    {/*
+      Google Consent Mode v2 defaults — denied until the certified CMP
+      (Privacy & messaging / UMP) records a choice. Required for EEA, UK and CH.
+      See README → "GDPR consent" for the one line you paste to switch it on.
+    */}
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        wait_for_update: 500,
+      });
+    </script>
+    {SITE.googleAnalyticsId && (
+      <>
+        <script
+          is:inline
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${SITE.googleAnalyticsId}`}
+        ></script>
+        <script is:inline define:vars={{ measurementId: SITE.googleAnalyticsId }}>
+          gtag('js', new Date());
+          gtag('config', measurementId);
+        </script>
+      </>
+    )}
+  </head>
+
+  <body>
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:bg-ink focus:px-4 focus:py-2 focus:text-paper"
+      >Skip to content</a
+    >
+
+    <header class="masthead sticky top-0 z-30 border-b border-ink/15 bg-paper/92 backdrop-blur-md">
+      {/* Thin clay rule across the very top — a masthead cue */}
+      <div class="h-[3px] bg-clay"></div>
+
+      <div class="wrap">
+        <div class="flex h-[4.25rem] items-center justify-between gap-6 lg:h-[5.25rem]">
+          <a href="/" class="brand shrink-0">
+            <span class="brand-mark" aria-hidden="true">C</span>
+            <span class="brand-type">
+              <span class="block font-display text-[1.5rem] font-bold leading-none tracking-display text-ink lg:text-[1.75rem]">
+                {SITE.name}
+              </span>
+              <span class="mt-1.5 hidden text-eyebrow font-semibold uppercase text-ink-40 lg:block">
+                {SITE.tagline}
+              </span>
+            </span>
+          </a>
+
+          {/*
+            Only the six primary rooms sit inline — the archive has outgrown a
+            flat nav. Everything else lives in the CSS-only "More" panel below,
+            so the masthead stays on one line at every width.
+          */}
+          <nav class="hidden items-center gap-6 xl:gap-7 min-[1400px]:flex" aria-label="Primary">
+            {PRIMARY_CATEGORIES.map((c) => (
+              <a
+                href={`/category/${c.slug}/`}
+                aria-current={isCurrent(c.slug) ? 'page' : undefined}
+                class:list={[
+                  'link-underline whitespace-nowrap font-body text-[0.8125rem] font-medium uppercase tracking-[0.11em]',
+                  isCurrent(c.slug) ? 'is-current text-ink' : 'text-ink-60 hover:text-ink',
+                ]}
+              >
+                {c.name}
+              </a>
+            ))}
+
+            <details class="relative [&[open]_svg]:rotate-180">
+              <summary
+                class="flex cursor-pointer list-none items-center gap-1.5 font-body text-[0.8125rem] font-medium uppercase tracking-[0.11em] text-ink-60 hover:text-ink [&::-webkit-details-marker]:hidden"
+              >
+                More
+                <svg class="transition-transform" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path d="m5 9 7 7 7-7"></path>
+                </svg>
+              </summary>
+              <div class="nav-panel absolute right-0 top-[calc(100%+1.15rem)] w-60 border border-rule bg-paper p-2 shadow-panel">
+                {SECONDARY_CATEGORIES.map((c) => (
+                  <a
+                    href={`/category/${c.slug}/`}
+                    aria-current={isCurrent(c.slug) ? 'page' : undefined}
+                    class:list={[
+                      'block px-3 py-2.5 font-display text-title-sm transition-colors hover:bg-sand hover:text-clay',
+                      isCurrent(c.slug) ? 'bg-sand/70 text-clay' : 'text-ink',
+                    ]}
+                  >
+                    {c.name}
+                  </a>
+                ))}
+                <a
+                  href="/tags/"
+                  class="mt-2 block border-t border-rule px-3 pb-2 pt-3.5 font-body text-eyebrow font-semibold uppercase text-ink-40 transition-colors hover:text-clay"
+                >
+                  All topics
+                </a>
+                <a
+                  href="/stories/"
+                  class="block px-3 pb-2 pt-2 font-body text-eyebrow font-semibold uppercase text-ink-40 transition-colors hover:text-clay"
+                >
+                  All stories
+                </a>
+              </div>
+            </details>
+          </nav>
+
+          <div class="flex items-center gap-2">
+            <a
+              href="/search/"
+              aria-label="Search"
+              class="grid h-10 w-10 place-items-center text-ink-60 transition-colors hover:text-clay"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="m20 20-3.5-3.5"></path>
+              </svg>
+            </a>
+
+            {/* Native disclosure works without JS; the script adds dismissal. */}
+            <details class="min-[1400px]:hidden [&_svg.close]:hidden [&[open]_svg.close]:block [&[open]_svg.open]:hidden">
+              <summary
+                class="grid h-10 w-10 cursor-pointer list-none place-items-center text-ink [&::-webkit-details-marker]:hidden"
+                aria-label="Menu"
+              >
+                <svg class="open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                  <path d="M3 6h18M3 12h18M3 18h18"></path>
+                </svg>
+                <svg class="close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                  <path d="M5 5l14 14M19 5L5 19"></path>
+                </svg>
+              </summary>
+              <div class="nav-panel absolute inset-x-0 top-[calc(4.25rem+3px)] border-b border-rule bg-paper shadow-panel">
+                <nav class="wrap grid gap-0 py-2" aria-label="Mobile">
+                  {CATEGORIES.map((c) => (
+                    <a
+                      href={`/category/${c.slug}/`}
+                      aria-current={isCurrent(c.slug) ? 'page' : undefined}
+                      class:list={[
+                        'flex items-center justify-between border-b border-rule/70 py-3.5 font-display text-lg last:border-0',
+                        isCurrent(c.slug) ? 'text-clay' : 'text-ink',
+                      ]}
+                    >
+                      {c.name}
+                      {isCurrent(c.slug) && <span class="h-px w-6 bg-clay" aria-hidden="true"></span>}
+                    </a>
+                  ))}
+                  <a href="/tags/" class="border-b border-rule/70 py-3.5 font-display text-lg text-ink">
+                    All topics
+                  </a>
+                  <a href="/stories/" class="border-b border-rule/70 py-3.5 font-display text-lg text-ink">
+                    All stories
+                  </a>
+                  <a href="/about/" class="py-3.5 font-body text-sm uppercase tracking-[0.1em] text-ink-40">
+                    About
+                  </a>
+                </nav>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer mt-24 border-t border-ink bg-ink text-paper">
+      <div class="wrap py-16">
+        <div class="grid gap-12 md:grid-cols-12">
+          <div class="md:col-span-4">
+            <p class="font-display text-display-4 text-paper">{SITE.name}</p>
+            <p class="mt-3 max-w-sm text-sm leading-relaxed text-paper/65">{SITE.description}</p>
+            <div class="mt-6 flex flex-wrap gap-4">
+              {SITE.pinterest && <a href={SITE.pinterest} rel="noopener noreferrer nofollow" target="_blank" class="eyebrow-muted text-paper/70 hover:text-clay-soft">Pinterest</a>}
+              {SITE.instagram && <a href={SITE.instagram} rel="noopener noreferrer nofollow" target="_blank" class="eyebrow-muted text-paper/70 hover:text-clay-soft">Instagram</a>}
+              {SITE.email && <a href={`mailto:${SITE.email}`} class="eyebrow-muted text-paper/70 hover:text-clay-soft">Email</a>}
+              <a href="/rss.xml" class="eyebrow-muted text-paper/60 hover:text-clay-soft">RSS</a>
+            </div>
+          </div>
+
+          <div class="md:col-span-4">
+            <p class="eyebrow-muted text-paper/50">Rooms</p>
+            {/* Two columns so the full category list stays a readable block */}
+            <ul class="mt-4 grid grid-cols-2 gap-x-6 gap-y-2.5">
+              {CATEGORIES.map((c) => (
+                <li>
+                  <a href={`/category/${c.slug}/`} class="text-sm text-paper/65 hover:text-clay-soft">{c.name}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="md:col-span-2">
+            <p class="eyebrow-muted text-paper/50">Site</p>
+            <ul class="mt-4 space-y-2.5">
+              <li><a href="/" class="text-sm text-paper/65 hover:text-clay-soft">Home</a></li>
+              <li><a href="/tags/" class="text-sm text-paper/65 hover:text-clay-soft">Topics</a></li>
+              <li><a href="/about/" class="text-sm text-paper/65 hover:text-clay-soft">About</a></li>
+              <li>
+                  <a href={`/author/${SITE.authorSlug}/`} class="text-sm text-paper/65 hover:text-clay-soft">
+                  {SITE.author}
+                </a>
+              </li>
+              <li><a href="/contact/" class="text-sm text-paper/65 hover:text-clay-soft">Contact</a></li>
+              <li><a href="/stories/" class="text-sm text-paper/65 hover:text-clay-soft">All Stories</a></li>
+              <li><a href="/search/" class="text-sm text-paper/65 hover:text-clay-soft">Search</a></li>
+            </ul>
+          </div>
+
+          <div class="md:col-span-2">
+            <p class="eyebrow-muted text-paper/50">Legal</p>
+            <ul class="mt-4 space-y-2.5">
+              <li><a href="/privacy-policy/" class="text-sm text-paper/65 hover:text-clay-soft">Privacy Policy</a></li>
+              <li><a href="/disclosure/" class="text-sm text-paper/65 hover:text-clay-soft">Disclosure</a></li>
+              <li><a href="/terms/" class="text-sm text-paper/65 hover:text-clay-soft">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-14 flex flex-col gap-3 border-t border-paper/15 pt-6 sm:flex-row sm:items-center sm:justify-between">
+          <p class="text-xs text-paper/45">
+            © {new Date().getFullYear()} {SITE.name}. All rights reserved.
+          </p>
+          <p class="text-xs text-paper/45">
+            As an Amazon Associate we earn from qualifying purchases.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <slot name="after-footer" />
+
+  </body>
+</html>
+
+<script>
+  const menus = [...document.querySelectorAll<HTMLDetailsElement>('.masthead details')];
+  menus.forEach((menu) => menu.addEventListener('toggle', () => {
+    if (menu.open) menus.forEach((other) => { if (other !== menu) other.open = false; });
+  }));
+  document.addEventListener('click', (event) => {
+    if (!(event.target instanceof Node)) return;
+    const target = event.target;
+    menus.forEach((menu) => {
+      if (!menu.contains(target) || (target instanceof Element && target.closest('a'))) menu.open = false;
+    });
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    const active = menus.find((menu) => menu.open);
+    if (active) {
+      active.open = false;
+      active.querySelector('summary')?.focus();
+    }
+  });
+</script>

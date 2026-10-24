@@ -6,9 +6,9 @@ description: "Add useful storage to a rental without drilling using freestanding
 category: renter
 tags: ["renter-friendly", "renter storage", "no drilling", "small spaces", "organization"]
 publishDate: 2026-09-29
-heroImage: "photo-1620626011761-996317b8d101"
-heroImageAlt: "A compact, well-organized home interior with freestanding storage."
-pinImage: "photo-1629079447777-1e605162dc8d"
+heroImage: "/images/generated/rental-entryway-1536.webp"
+heroImageAlt: "AI-generated entryway with an olive door, oak bench and shoe tray."
+pinImage: "/images/generated/rental-entryway-1536.webp"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:

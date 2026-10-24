@@ -6,9 +6,9 @@ description: "Decorate a compact home for Christmas with 17 small space Christma
 category: seasonal
 tags: ["christmas decor", "small spaces", "apartment decor", "seasonal decorating", "holiday decor"]
 publishDate: 2026-10-11
-heroImage: "/images/posts/small-space-christmas-decor-ideas/hero.webp"
-heroImageAlt: "Compact Christmas tree in a bright apartment corner."
-pinImage: "/images/posts/small-space-christmas-decor-ideas/pin.webp"
+heroImage: "/images/generated/christmas-1536.webp"
+heroImageAlt: "AI-generated living room with a decorated green Christmas tree."
+pinImage: "/images/generated/christmas-1536.webp"
 featured: false
 editorialReady: false
 keyTakeaways:

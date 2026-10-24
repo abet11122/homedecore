@@ -6,8 +6,9 @@ description: "Transform a compact room into a calm retreat with 17 cozy small be
 category: bedroom
 tags: ["small bedrooms", "cozy bedroom", "bedroom decor", "small spaces", "bedroom styling"]
 publishDate: 2026-09-20
-heroImage: "photo-1540518614846-7eded433c457"
-pinImage: "photo-1540518614846-7eded433c457"
+heroImage: "/images/generated/bedroom-1536.webp"
+heroImageAlt: "AI-generated bedroom with an upholstered bed, linen bedding and an olive throw."
+pinImage: "/images/generated/bedroom-1536.webp"
 featured: false
 editorialReady: false
 affiliateDisclosure: true

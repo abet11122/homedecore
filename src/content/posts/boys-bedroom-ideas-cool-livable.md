@@ -6,8 +6,9 @@ description: "Boys bedroom ideas that survive real life — durable materials, f
 category: "bedroom"
 tags: ["bedroom", "boys bedroom", "durability", "storage", "paint finish"]
 publishDate: 2026-08-30
-heroImage: "photo-1678921067408-328a49ae3098"
-pinImage: "photo-1612975325828-36d93483c668"
+heroImage: "/images/generated/kids-bedroom-1536.webp"
+heroImageAlt: "AI-generated child's bedroom with a low oak bed and dusty blue bedding."
+pinImage: "/images/generated/kids-bedroom-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---

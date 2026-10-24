@@ -6,8 +6,9 @@ description: "Small mudroom ideas that work in tight spaces — bench and hook l
 category: "entryway"
 tags: ["mudroom", "small spaces", "storage", "flooring", "bench"]
 publishDate: 2026-08-27
-heroImage: "photo-1516455207990-7a41ce80f7ee"
-pinImage: "photo-1688742677083-7b036876cbb5"
+heroImage: "/images/generated/rental-entryway-1536.webp"
+heroImageAlt: "AI-generated entryway with an olive door, oak bench and shoe tray."
+pinImage: "/images/generated/rental-entryway-1536.webp"
 featured: false
 affiliateDisclosure: false
 ---
