@@ -11,13 +11,13 @@ pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:
-  - "The best duo costumes are instantly recognizable as a pair — each costume is incomplete without the other."
+  - "The best duo costumes are immediately recognizable as a pair — each costume is incomplete without the other."
   - "Choose a pairing that reflects your actual friendship dynamic for the most authentic result."
   - "Punny duo costumes — deviled egg and angel, salt and pepper — are the most reliably funny option."
   - "Coordinate the execution level — both costumes should be equally elaborate or equally simple."
 faqs:
   - q: "What are the best Halloween costumes for best friends?"
-    a: "The best duo costumes are the ones that are instantly recognizable as a pair and reflect the friendship. Classic pairings like Thelma and Louise, Sandy and Danny from Grease, or a devil and an angel are perennially popular. Punny pairings like salt and pepper or peanut butter and jelly are reliably funny and easy to execute."
+    a: "The best duo costumes are the ones that are immediately recognizable as a pair and reflect the friendship. Classic pairings like Thelma and Louise, Sandy and Danny from Grease, or a devil and an angel are perennially popular. Punny pairings like salt and pepper or peanut butter and jelly are reliably funny and easy to execute."
   - q: "How do you coordinate best friend Halloween costumes?"
     a: "Agree on the theme first, then divide the specific costumes. Make sure both costumes are at the same level of elaborateness — one person in a full costume and one in a half-hearted version looks unbalanced. Plan the costumes together and shop or make them at the same time."
 ---

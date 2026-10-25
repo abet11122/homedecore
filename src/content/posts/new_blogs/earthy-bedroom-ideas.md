@@ -47,7 +47,7 @@ A common mistake is introducing a different strong color in every object. In a s
 
 ## 2. Add Natural Wood Furniture
 
-Natural wood — oak, walnut, pine, or bamboo — adds warmth and organic texture to a bedroom. Even one or two wood pieces can transform the atmosphere.
+Natural wood — oak, walnut, pine, or bamboo — adds warmth and organic texture to a bedroom. Even one or two wood pieces can change the atmosphere.
 
 Measure the furniture footprint and the path around it before buying.
 

@@ -28,7 +28,7 @@ Almost all of it can be improved without a drill, and reversed on the day you mo
 
 ## 1. Peel-and-stick floor tile
 
-The biggest transformation available and one of the cheapest.
+The biggest change available and one of the cheapest.
 
 Vinyl tiles go straight over existing tile or vinyl. Patterns available range from checkerboard to encaustic-style. A small bathroom floor costs very little to cover.
 
@@ -81,7 +81,7 @@ Rental mirrors are usually small, unframed and badly placed.
 
 ## 7. Replace the toilet seat
 
-Nobody thinks of this and it makes a surprising difference in an old bathroom. A new seat is inexpensive, takes ten minutes, and instantly makes the toilet look newer.
+Nobody thinks of this and it makes a surprising difference in an old bathroom. A new seat is inexpensive, takes ten minutes, and immediately makes the toilet look newer.
 
 Keep the old one.
 
@@ -95,7 +95,7 @@ Keep the old one.
 
 ## 9. Soft additions
 
-Rental bathrooms are hard, cold and beige. Textiles fix that instantly and come with you.
+Rental bathrooms are hard, cold and beige. Textiles fix that immediately and come with you.
 
 - Towels in a colour — the biggest single change for the money
 - A textured bath mat

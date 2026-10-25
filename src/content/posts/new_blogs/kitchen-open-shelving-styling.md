@@ -88,7 +88,7 @@ Group drinking glasses together in one area. Let them breathe—no need to cram 
 Drink-ware should be your most neutral zone. No patterned drinking glasses on view shelves; save those for the cabinet.
 
 ### Cookbooks
-Display 2-4 books standing upright (spines out if they're beautiful, or facing out if the cover is stunning). Lay one flat if it's oversized. This adds visual depth.
+Display 2-4 books standing upright (spines out if they're beautiful, or facing out if the cover is striking). Lay one flat if it's oversized. This adds visual depth.
 
 ### Small Appliances
 A sleek coffee maker or stand mixer is fine on open shelves *if* it's an appliance you actually use and love the look of. A cluttered toaster oven? Cabinet time.

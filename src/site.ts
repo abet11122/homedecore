@@ -24,6 +24,12 @@ export const SITE = {
   googleVerification: 'TnMLs9NaIrs9_XiBl7Y_KbP7N8XfH5FxyUWXRRBnq4A',
   /** Google Analytics 4 measurement ID. */
   googleAnalyticsId: 'G-T9NG3EPSQ6',
+  /**
+   * Public AdSense publisher ID. This is what Google reads to verify the site
+   * against /ads.txt, so keep the two in sync. The script is loaded site-wide
+   * from layouts/Layout.astro, after the Consent Mode defaults.
+   */
+  adsenseClientId: 'ca-pub-8497285724891966',
   /** Slug for the author hub page at /author/<slug>/. */
   authorSlug: 'editorial-team',
   /** Public profiles for the author — feeds Person.sameAs (E-E-A-T). */

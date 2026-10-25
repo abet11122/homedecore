@@ -137,4 +137,4 @@ Solve those four quietly and the aesthetic survives daily life.
 2. Rehang the curtains near the ceiling, floor-length
 3. Add a textured throw and one large piece of art above the bed
 
-That's under a hundred pounds and it transforms the photographs.
+That's under a hundred pounds and it changes the photographs.

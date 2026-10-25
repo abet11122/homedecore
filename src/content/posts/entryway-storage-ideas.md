@@ -67,7 +67,7 @@ Bags are heavy and awkward and they end up on the floor. Two things fix it:
 
 **Heavy-duty hooks at 44 inches** — low enough that a loaded backpack doesn't need lifting, rated for 15+ lbs.
 
-**A bench with a cubby** — one cubby per person. School bags go in, not on the floor. This single change transforms weekday mornings in a house with kids.
+**A bench with a cubby** — one cubby per person. School bags go in, not on the floor. This single change changes weekday mornings in a house with kids.
 
 ## Storage furniture worth the money
 

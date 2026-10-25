@@ -12,7 +12,7 @@ featured: false
 affiliateDisclosure: true
 keyTakeaways:
   - "Rumi's signature look is pink argyle knitwear paired with dark combat-ready layers underneath."
-  - "Dragon braids are the single most recognisable element — get those right and the costume reads instantly."
+  - "Dragon braids are the single most recognisable element — get those right and the costume reads immediately."
   - "The colour palette is dusty pink, charcoal, and deep burgundy — avoid bright neons."
   - "Group costumes work best when one person does Rumi and others take the remaining Demon Hunters."
 ---

@@ -2,7 +2,7 @@
 mergeInto: "/post/small-apartment-halloween-decor-no-damage/"
 disposition: merge
 title: "20 Halloween Bedroom Decor Ideas — Spooky But Still Cozy"
-description: "Transform your bedroom for Halloween with 20 ideas using string lights, dark bedding, pumpkins, and moody accents that stay comfortable enough to sleep in."
+description: "Change your bedroom for Halloween with 20 ideas using string lights, dark bedding, pumpkins, and moody accents that stay comfortable enough to sleep in."
 category: bedroom
 tags: ["halloween decor", "bedroom decor", "seasonal decorating", "cozy bedroom", "home styling"]
 publishDate: 2026-09-30
@@ -18,7 +18,7 @@ keyTakeaways:
   - "A small pumpkin on the bedside table is enough — you do not need to decorate every surface."
 ---
 
-A Halloween bedroom works best when it stays comfortable enough to actually sleep in. The goal is atmosphere — moody lighting, a few dark accents, and one or two seasonal objects — rather than a full themed transformation that makes the room feel like a display.
+A Halloween bedroom works best when it stays comfortable enough to actually sleep in. The goal is atmosphere — moody lighting, a few dark accents, and one or two seasonal objects — rather than a full themed change that makes the room feel like a display.
 
 The ideas below are organised from the most impactful to the most subtle. Start with the lighting and build from there.
 

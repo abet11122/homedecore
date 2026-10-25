@@ -15,7 +15,7 @@ affiliateDisclosure: false
 
 Hallways get skipped. They're transition spaces, so nobody budgets for them, and they end up as long blank tunnels with one sad overhead light.
 
-But a hallway is the space you walk through most often in a day. It's also the easiest room in the house to transform, because it's small and almost everything you do to it is cheap.
+But a hallway is the space you walk through most often in a day. It's also the easiest room in the house to change, because it's small and almost everything you do to it is cheap.
 
 ## Work out your real usable depth first
 
@@ -56,7 +56,7 @@ Hang the centre of the arrangement at 57–60 inches — eye level. In a narrow 
 
 Keep frames slim. Chunky frames with deep profiles catch shoulders and make a narrow hall feel narrower.
 
-Mixing frame colours is fine, but keep the mat colour consistent — that's what makes a mixed gallery wall look curated instead of random.
+Mixing frame colours is fine, but keep the mat colour consistent — that's what makes a mixed gallery wall look considered instead of random.
 
 ## 4. A runner is non-negotiable
 
@@ -132,4 +132,4 @@ Slat panelling on one wall is popular right now and works especially well in hal
 2. Layered warm lighting at eye level
 3. A runner with pattern
 
-Those three alone will transform a corridor, and together they cost less than a piece of furniture.
+Those three alone will change a corridor, and together they cost less than a piece of furniture.

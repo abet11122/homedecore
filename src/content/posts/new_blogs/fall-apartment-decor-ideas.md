@@ -35,7 +35,7 @@ Repeat a few materials and colors instead of using many unrelated decorations.
 
 ## 3. Decorate With Small Branches and Textiles
 
-A few autumn branches in a vase and a warm throw on the sofa can transform a room without any obvious seasonal products. Both are easy to store and work with most existing decor.
+A few autumn branches in a vase and a warm throw on the sofa can change a room without any obvious seasonal products. Both are easy to store and work with most existing decor.
 
 Choose pieces that are easy to store and that work with your normal decor.
 

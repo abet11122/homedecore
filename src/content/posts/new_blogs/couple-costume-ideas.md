@@ -11,13 +11,13 @@ pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:
-  - "The best couple costumes are instantly recognizable as a pair — each costume is incomplete without the other."
+  - "The best couple costumes are immediately recognizable as a pair — each costume is incomplete without the other."
   - "Choose a pairing that reflects your actual relationship dynamic for the most authentic result."
   - "Coordinate the execution level — both costumes should be equally elaborate or equally simple."
   - "A couple costume that tells a story is always more memorable than two unrelated costumes."
 faqs:
   - q: "What are the best couple Halloween costumes?"
-    a: "The best couple costumes are the ones that are instantly recognizable as a pair and reflect the relationship. Classic pairings like Gomez and Morticia Addams, Sandy and Danny from Grease, or a devil and an angel are perennially popular. Punny pairings like salt and pepper or plug and socket are reliably funny and easy to execute."
+    a: "The best couple costumes are the ones that are immediately recognizable as a pair and reflect the relationship. Classic pairings like Gomez and Morticia Addams, Sandy and Danny from Grease, or a devil and an angel are perennially popular. Punny pairings like salt and pepper or plug and socket are reliably funny and easy to execute."
   - q: "How do you choose a couple Halloween costume?"
     a: "Start with what you both find genuinely interesting or funny. A costume you are both excited about will be executed better than one you settled on. Consider your body types, your comfort levels, and your budget. Assign the more elaborate costume to the person who enjoys dressing up more."
 ---

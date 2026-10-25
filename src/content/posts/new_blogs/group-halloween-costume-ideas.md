@@ -11,18 +11,18 @@ pinImage: "/images/generated/halloween-1536.webp"
 featured: false
 affiliateDisclosure: true
 keyTakeaways:
-  - "The best group costumes are instantly recognizable as a set — each costume is incomplete without the others."
+  - "The best group costumes are immediately recognizable as a set — each costume is incomplete without the others."
   - "Agree on the theme early — last-minute group costumes almost always fall apart."
   - "Assign specific characters rather than a general theme so everyone has a clear brief."
   - "Coordinate the execution level — one person in a full costume and others in half-hearted versions looks unbalanced."
 faqs:
   - q: "What are the best group Halloween costumes?"
-    a: "The best group costumes are the ones where every member has a clear, specific character and the group is instantly recognizable as a set. The Sanderson Sisters, the Scooby-Doo gang, the Spice Girls, and the characters from Clue are perennially popular because they have distinct, recognizable looks for each member."
+    a: "The best group costumes are the ones where every member has a clear, specific character and the group is immediately recognizable as a set. The Sanderson Sisters, the Scooby-Doo gang, the Spice Girls, and the characters from Clue are perennially popular because they have distinct, recognizable looks for each member."
   - q: "How do you organize a group Halloween costume?"
     a: "Agree on the theme at least two weeks before Halloween. Assign specific characters to each person based on their preferences and physical characteristics. Set a budget and a deadline for sourcing the costumes. Plan a group photo — it is the whole point of a group costume."
 ---
 
-A group Halloween costume works when every member has a clear, specific character and the group is instantly recognizable as a set. The ideas below are organized by group size and style.
+A group Halloween costume works when every member has a clear, specific character and the group is immediately recognizable as a set. The ideas below are organized by group size and style.
 
 Agree on the theme early. Last-minute group costumes almost always result in one or two people opting out.
 
@@ -30,7 +30,7 @@ Agree on the theme early. Last-minute group costumes almost always result in one
 
 ### 1. The Sanderson Sisters (Hocus Pocus)
 
-Winifred in green with red hair, Sarah in purple with blonde hair, Mary in red and black with dark hair. This is one of the most popular group costumes for women and is instantly recognizable.
+Winifred in green with red hair, Sarah in purple with blonde hair, Mary in red and black with dark hair. This is one of the most popular group costumes for women and is immediately recognizable.
 
 The wigs are the most important element — each sister has a very specific hairstyle.
 

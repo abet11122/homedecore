@@ -2,7 +2,7 @@
 mergeInto: "/post/small-apartment-organization-ideas/"
 disposition: merge
 title: "Apartment Decor Ideas on a Budget"
-description: "Budget apartment decor ideas in order of impact — the cheap changes that transform a rental, what's worth spending on, and what to skip entirely."
+description: "Budget apartment decor ideas in order of impact — the cheap changes that change a rental, what's worth spending on, and what to skip entirely."
 category: "renter"
 tags: ["renter-friendly", "budget", "apartment", "lighting", "textiles"]
 publishDate: 2026-08-29
@@ -17,11 +17,11 @@ Most budget decorating advice is a list of thrifted objects. But an apartment do
 
 Here's the list in order of impact per pound spent.
 
-## 1. Change every bulb — the cheapest transformation
+## 1. Change every bulb — the cheapest change
 
 **2700K warm white**, everywhere.
 
-Rental apartments come with cool white bulbs because they're cheap in bulk. They're also what makes a flat feel institutional. Swapping them costs very little and changes every room instantly.
+Rental apartments come with cool white bulbs because they're cheap in bulk. They're also what makes a flat feel institutional. Swapping them costs very little and changes every room immediately.
 
 If you do one thing on this list, do this one.
 

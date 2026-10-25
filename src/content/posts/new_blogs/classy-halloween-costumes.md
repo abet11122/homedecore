@@ -1,7 +1,7 @@
 ---
 disposition: remove
 title: "20 Classy Halloween Costumes That Are Elegant and Memorable"
-description: "Look stunning this Halloween with 20 classy costume ideas that are sophisticated, elegant, and memorable. From gothic glamour to timeless literary characters."
+description: "Look striking this Halloween with 20 classy costume ideas that are sophisticated, elegant, and memorable. From gothic glamour to timeless literary characters."
 category: seasonal
 tags: ["halloween costumes", "classy halloween costumes", "elegant costumes", "halloween", "seasonal"]
 publishDate: 2026-10-03
@@ -14,7 +14,7 @@ keyTakeaways:
   - "A classy Halloween costume uses quality materials and restrained styling rather than cheap props."
   - "The makeup and hair do more for an elegant costume than the outfit itself."
   - "Choose a character whose aesthetic you genuinely admire — it shows in the execution."
-  - "A single statement piece — a quality gown, a real piece of jewelry, a professional wig — elevates any costume."
+  - "A single statement piece — a quality gown, a real piece of jewelry, a professional wig — lifts any costume."
 faqs:
   - q: "What makes a Halloween costume classy rather than cheap?"
     a: "Quality materials, restrained styling, and a specific character reference are what distinguish a classy Halloween costume from a cheap one. A long black dress with quality makeup and a specific character reference looks expensive. The same dress with a cheap plastic accessory and no character reference looks like a last-minute costume."
@@ -30,7 +30,7 @@ Quality materials and specific character references are what distinguish a class
 
 ### 1. Morticia Addams
 
-A long, form-fitting black dress, pale skin, dark lips, and long dark hair worn loose. Morticia is the gold standard of elegant Halloween costumes — she is instantly recognizable, inherently beautiful, and requires no props.
+A long, form-fitting black dress, pale skin, dark lips, and long dark hair worn loose. Morticia is the gold standard of elegant Halloween costumes — she is immediately recognizable, inherently beautiful, and requires no props.
 
 A long, form-fitting black dress is the most important piece. Everything else follows from it.
 
@@ -50,7 +50,7 @@ The tall, streaked wig is the most important piece.
 
 A white or ivory Victorian dress, pale makeup, dark circles under the eyes, and an ethereal expression. This is a beautiful, atmospheric costume that suits a woman who wants to look haunting rather than scary.
 
-A genuine vintage or vintage-inspired dress elevates this costume significantly.
+A genuine vintage or vintage-inspired dress lifts this costume significantly.
 
 <div class="shop-look-wrap">
   <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
@@ -219,7 +219,7 @@ The flower crown and the flowing dress are the two most important elements.
 
 A white dress, long flowing hair, and a slightly tragic expression. The Lady of Shalott is a Pre-Raphaelite literary character whose look is hauntingly beautiful.
 
-A genuine white or ivory dress elevates this costume significantly.
+A genuine white or ivory dress lifts this costume significantly.
 
 ## Final Thoughts
 

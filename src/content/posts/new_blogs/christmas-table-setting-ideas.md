@@ -37,7 +37,7 @@ Plaid is a strong pattern, so let the napkins carry it and keep the plates simpl
 
 ## 3. Use red and gold as two clear accents
 
-Red instantly signals Christmas, but it does not need to cover the entire table. The photographed setting pairs red details with gold and leaves the dinnerware to do its job. Try repeating red in napkins or a small decoration at each place, then use gold only in the cutlery or candleholders. Two repeated accents look calmer than five competing ones.
+Red immediately signals Christmas, but it does not need to cover the entire table. The photographed setting pairs red details with gold and leaves the dinnerware to do its job. Try repeating red in napkins or a small decoration at each place, then use gold only in the cutlery or candleholders. Two repeated accents look calmer than five competing ones.
 
 
 ## 4. Let greenery soften a gold-and-white setting

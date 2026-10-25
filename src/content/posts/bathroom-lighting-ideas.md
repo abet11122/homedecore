@@ -31,7 +31,7 @@ That's roughly eye level for most adults. Light arrives from both sides, shadows
 
 **Spacing:** about 36–40 inches apart, or roughly 3–4 inches out from each side of the mirror.
 
-This single change transforms a bathroom more than any other lighting decision.
+This single change changes a bathroom more than any other lighting decision.
 
 ## If sconces aren't possible
 

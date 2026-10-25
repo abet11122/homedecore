@@ -103,7 +103,7 @@ Use a waterproof nursery pot and saucer inside the decorative outer pot. Remove 
 
 ## Displaying Your Collection
 
-Three planters of different heights, staggered on a shelf or window ledge, look curated. Plant them with:
+Three planters of different heights, staggered on a shelf or window ledge, look considered. Plant them with:
 - Snake plants (trendy, low-maintenance)
 - Pothos (cascading, dramatic)
 - Monstera cuttings propagating in water (Instagram gold)

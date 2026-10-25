@@ -31,7 +31,7 @@ A small bedroom doesn't have to feel cramped or basic. In fact, having less spac
 
 The secret isn't filling your bedroom with expensive furniture. It's choosing a few details that make the entire room feel more polished: layered bedding, warm lighting, full-length curtains, oversized artwork, carefully chosen colors and furniture that works harder without taking up unnecessary space.
 
-Whether you're decorating a small apartment bedroom, guest room or compact primary bedroom, these 21 small bedroom ideas can help you create a space that feels far more luxurious than its size suggests.
+The 21 ideas below apply equally to a small apartment bedroom, a guest room and a compact primary bedroom, and most of them cost less than a single piece of new furniture.
 
 ## 1. Layer neutral bedding
 
@@ -69,7 +69,7 @@ Keep the surrounding furniture relatively simple so the headboard remains the st
 
 ## 4. Use matching bedside lamps
 
-Symmetry instantly makes many rooms feel more polished. If you have enough space on both sides of your bed, use matching bedside tables and lamps.
+Symmetry immediately makes many rooms feel more polished. If you have enough space on both sides of your bed, use matching bedside tables and lamps.
 
 For particularly narrow rooms, wall-mounted sconces can give you the same symmetrical appearance without consuming valuable nightstand space.
 
@@ -129,7 +129,7 @@ Use baskets, bedside drawers, under-bed storage and decorative boxes to keep eve
 
 ## 14. Create an accent wall
 
-You don't have to paint the entire bedroom. A single wall behind the bed can create enough contrast to transform the space.
+You don't have to paint the entire bedroom. A single wall behind the bed can create enough contrast to change the space.
 
 Try muted olive, warm taupe, dusty blue or even a rich chocolate brown. Alternatively, use subtle wallpaper or simple wall molding.
 

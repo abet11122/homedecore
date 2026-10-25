@@ -13,7 +13,7 @@ featured: false
 affiliateDisclosure: true
 keyTakeaways:
   - "Lighting is the single most important element of a backyard Halloween party."
-  - "A fog machine transforms any backyard into a genuinely atmospheric space."
+  - "A fog machine changes any backyard into a genuinely atmospheric space."
   - "Food and drink stations work better than a single buffet table for outdoor parties."
   - "One or two organized activities keep the party moving and give guests something to do."
 faqs:
@@ -23,7 +23,7 @@ faqs:
     a: "Pumpkin carving or painting works for all ages. A costume contest with categories for adults and children keeps both groups engaged. A scavenger hunt in the yard works well for children while adults socialize. A photo booth with props is popular with both groups."
 ---
 
-A backyard Halloween party has one advantage over an indoor one: space. You can create zones — a food area, a seating area, a games area — and use lighting and fog to transform the whole yard into a genuinely atmospheric space.
+A backyard Halloween party has one advantage over an indoor one: space. You can create zones — a food area, a seating area, a games area — and use lighting and fog to change the whole yard into a genuinely atmospheric space.
 
 The ideas below cover decor, lighting, food, and activities. Start with the lighting and the food stations, then add the activities and the decorative details.
 
@@ -31,7 +31,7 @@ The ideas below cover decor, lighting, food, and activities. Start with the ligh
 
 ### 1. Orange String Lights Everywhere
 
-Wrap trees, fences, and pergolas in orange or warm amber string lights. Use solar-powered or battery-powered lights to avoid running extension cords across the yard. The lights are the single most effective transformation you can make.
+Wrap trees, fences, and pergolas in orange or warm amber string lights. Use solar-powered or battery-powered lights to avoid running extension cords across the yard. The lights are the single most effective change you can make.
 
 Solar lights need a few hours of direct sun to charge fully.
 

@@ -19,7 +19,7 @@ keyTakeaways:
   - "Plan the group photo in advance — the three-person arrangement is the whole point."
 faqs:
   - q: "What are the best Halloween costumes for a trio?"
-    a: "The best trio costumes are the ones where all three characters are instantly recognizable as a set. The Sanderson Sisters, the Powerpuff Girls, the Scooby-Doo trio, and the Three Musketeers are perennially popular because they have distinct, recognizable looks for each member. Punny trios like rock, paper, scissors are reliably funny and easy to execute."
+    a: "The best trio costumes are the ones where all three characters are immediately recognizable as a set. The Sanderson Sisters, the Powerpuff Girls, the Scooby-Doo trio, and the Three Musketeers are perennially popular because they have distinct, recognizable looks for each member. Punny trios like rock, paper, scissors are reliably funny and easy to execute."
   - q: "How do you assign trio costume characters fairly?"
     a: "Start with the most distinctive character — the one with the most recognizable look — and assign it to the person who most resembles or most wants to play that character. Then assign the remaining characters based on personality and preference. If there is disagreement, draw lots."
 ---
@@ -32,7 +32,7 @@ Assign characters based on preferences and available clothing, with everyone agr
 
 ### 1. The Sanderson Sisters (Hocus Pocus)
 
-Winifred in green with red hair, Sarah in purple with blonde hair, Mary in red and black with dark hair. This is one of the most popular trio costumes for women and is instantly recognizable.
+Winifred in green with red hair, Sarah in purple with blonde hair, Mary in red and black with dark hair. This is one of the most popular trio costumes for women and is immediately recognizable.
 
 The wigs are the most important element — each sister has a very specific hairstyle.
 
@@ -225,4 +225,4 @@ The symbols are the most important element — they need to be large and clearly
 
 ## Final Thoughts
 
-The best trio Halloween costumes are the ones where all three members are equally committed and the group is instantly recognizable as a set. Assign characters based on preferences and available clothing, coordinate the execution level, and plan the group photo in advance. A well-executed trio costume is one of the most memorable things you can do on Halloween.
+The best trio Halloween costumes are the ones where all three members are equally committed and the group is immediately recognizable as a set. Assign characters based on preferences and available clothing, coordinate the execution level, and plan the group photo in advance. A well-executed trio costume is one of the most memorable things you can do on Halloween.

@@ -16,7 +16,7 @@ keyTakeaways:
   - "Dropping one bed size frees more usable floor than any decorating trick."
   - "Clear the longest diagonal in the room — an uninterrupted sightline does more than any colour choice, and costs nothing."
   - "Furniture on legs lets you see floor underneath, so the room reads larger than the same pieces sitting flat."
-  - "Hang curtains 4-6 inches below the ceiling and 6-10 inches past each side; it is the cheapest transformation in a small bedroom."
+  - "Hang curtains 4-6 inches below the ceiling and 6-10 inches past each side; it is the cheapest change in a small bedroom."
 faqs:
   - q: "How much space do you need to walk around a bed?"
     a: "24 inches is the minimum walkway beside a bed. You also need 36 inches in front of a wardrobe to open the doors and stand, and 30 inches in front of a chest of drawers to pull one out. These cannot be cheated, and they tell you what will genuinely fit."
@@ -117,7 +117,7 @@ Fill this and you may not need a chest of drawers at all — which is 6 square f
 
 Rod 4–6 inches below the ceiling. Extending 6–10 inches past each side of the window. Floor length, just kissing the floor.
 
-This makes the window look larger and the wall taller. It's the cheapest transformation in a small bedroom and almost everyone gets it wrong.
+This makes the window look larger and the wall taller. It's the cheapest change in a small bedroom and almost everyone gets it wrong.
 
 ## The rug rule
 

@@ -153,7 +153,7 @@ A tray is useful because the whole group can be moved at once.
 
 ## 14. Add Subtle Skeleton Details
 
-A small ceramic skull, a skeleton hand holding a candle, or a single skeleton figurine adds a touch of Halloween without dominating the room. Use one or two pieces rather than a collection.
+A small ceramic skull, a skeleton hand holding a candle, or a single skeleton figurine adds a little Halloween without dominating the room. Use one or two pieces rather than a collection.
 
 Choose pieces that are easy to store and that work with your normal decor.
 

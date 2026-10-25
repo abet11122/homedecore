@@ -92,7 +92,7 @@ Warm the beeswax sheet slightly with a hair dryer before rolling — it becomes 
 
 **Time:** 1–2 hours | **Cost:** $5–10
 
-Use a linoleum carving tool to carve a simple design — a moon, a bat, a skull — into the surface of a large pillar candle. The carved areas glow when the candle is lit. This is a more advanced project but produces a stunning result.
+Use a linoleum carving tool to carve a simple design — a moon, a bat, a skull — into the surface of a large pillar candle. The carved areas glow when the candle is lit. This is a more advanced project but produces a striking result.
 
 Practice the design on paper before carving the candle.
 
@@ -212,7 +212,7 @@ Choose a foam pumpkin rather than a real one — it lasts indefinitely.
 
 **Time:** 30 minutes | **Cost:** $20–40
 
-Assemble a boo basket using a black cauldron, tissue paper, and a selection of items from this list — a candle, a painted pumpkin, a garland — plus a few store-bought treats. The handmade items elevate the basket above a generic store-bought version.
+Assemble a boo basket using a black cauldron, tissue paper, and a selection of items from this list — a candle, a painted pumpkin, a garland — plus a few store-bought treats. The handmade items lift the basket above a generic store-bought version.
 
 Add a handwritten tag on kraft paper for a personal touch.
 

@@ -1,7 +1,7 @@
 ---
 updatedDate: 2026-10-14
 disposition: keep
-title: "Halloween Yard Ideas That Transform Your Outdoor Space"
+title: "Halloween Yard Ideas That Change Your Outdoor Space"
 description: "Turn your yard into a Halloween display with 17 ideas including graveyards, inflatables, lighting, and fog effects. Scaled for small and large yards."
 category: outdoor
 tags: ["halloween decor", "halloween yard", "outdoor decor", "seasonal decorating", "yard decorations"]
@@ -180,7 +180,7 @@ Use odd numbers — three, five, or seven pumpkins — for the most natural arra
 
 ### 16. Potted Plant Makeover
 
-Wrap existing potted plants in black fabric or paint the pots black. Add a few plastic spiders and a small skull. This transforms what you already have without buying anything new.
+Wrap existing potted plants in black fabric or paint the pots black. Add a few plastic spiders and a small skull. This changes what you already have without buying anything new.
 
 Use removable fabric rather than paint if you want to reuse the pots after the season.
 

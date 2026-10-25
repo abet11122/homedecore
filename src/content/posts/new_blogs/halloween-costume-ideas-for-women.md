@@ -21,7 +21,7 @@ faqs:
   - q: "What are the most popular Halloween costumes for women?"
     a: "Witches, cats, and vampires are perennially popular because they are versatile and easy to execute well. Pop culture costumes — characters from current films, TV shows, and viral moments — are popular each year but date quickly. A classic costume executed with a specific, personal twist is almost always more memorable than a trend-driven one."
   - q: "How do you make a Halloween costume look expensive on a budget?"
-    a: "Focus on one or two quality pieces rather than buying a complete costume kit. A good wig, a quality piece of makeup, or a single statement accessory elevates a simple outfit. Thrift stores are the best source for costume pieces — a vintage dress, a blazer, or a pair of boots can anchor a costume that looks far more expensive than it is."
+    a: "Focus on one or two quality pieces rather than buying a complete costume kit. A good wig, a quality piece of makeup, or a single statement accessory lifts a simple outfit. Thrift stores are the best source for costume pieces — a vintage dress, a blazer, or a pair of boots can anchor a costume that looks far more expensive than it is."
 ---
 
 The best Halloween costumes for women are the ones that feel like a genuine expression of personality rather than a default choice. The ideas below are organized by style so you can find the approach that suits you.
@@ -46,7 +46,7 @@ Theatrical-quality fangs fit better and look more convincing than cheap plastic 
 
 A black outfit, cat ears, a drawn-on nose and whiskers, and a tail. This is the most wearable classic Halloween costume — it is comfortable, flattering, and easy to execute.
 
-A cat-eye liner look elevates this costume significantly.
+A cat-eye liner look lifts this costume significantly.
 
 <div class="shop-look-wrap">
   <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>
@@ -147,7 +147,7 @@ A dramatic smoky eye and a bold red lip complete the look.
 
 ### 9. Elvira
 
-A long black dress with a plunging neckline, big black hair, and dramatic makeup. This is a classic Halloween costume that is instantly recognizable and always gets a reaction.
+A long black dress with a plunging neckline, big black hair, and dramatic makeup. This is a classic Halloween costume that is immediately recognizable and always gets a reaction.
 
 A black wig with volume is the most important piece.
 

@@ -70,7 +70,7 @@ Orientation changes a colour more than the paint choice itself.
 
 **West-facing** — dull and cool in the morning, warm and golden in the late afternoon.
 
-*Choose:* with the evening in mind. Greens and warm neutrals are stunning in western afternoon light and perfectly fine at 9am.
+*Choose:* with the evening in mind. Greens and warm neutrals are striking in western afternoon light and perfectly fine at 9am.
 
 > Test any colour at 9am, at 2pm and again at 9pm with the lamps on. A colour that looks right in only one of those three is the wrong colour.
 

@@ -110,7 +110,7 @@ Height: 60–66 inches for adults, 40 inches for kids, 44 inches for bags.
 - **Hooks at the side** for umbrellas and dog leads
 - **Small shelf** for sunglasses and keys
 
-Resist adding more than this. Mudrooms fill to capacity instantly, and extra storage just means more stuff accumulating in the busiest spot in the house.
+Resist adding more than this. Mudrooms fill to capacity immediately, and extra storage just means more stuff accumulating in the busiest spot in the house.
 
 ## 8. Make it easy to clean
 

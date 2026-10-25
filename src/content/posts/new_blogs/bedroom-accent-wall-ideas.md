@@ -2,7 +2,7 @@
 mergeInto: "/post/bedroom-wallpaper-ideas/"
 disposition: merge
 title: "17 Bedroom Accent Wall Ideas That Look Expensive"
-description: "Transform your bedroom with 17 accent wall ideas using paint, wallpaper, wood panels, fabric, and texture that look high-end without a high-end budget."
+description: "Change your bedroom with 17 accent wall ideas using paint, wallpaper, wood panels, fabric, and texture that look high-end without a high-end budget."
 category: bedroom
 tags: ["bedroom decor", "accent wall", "bedroom design", "wall decor", "interior design"]
 publishDate: 2026-09-23

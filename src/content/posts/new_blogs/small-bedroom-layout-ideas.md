@@ -209,6 +209,6 @@ Start with neutral sheets, add a duvet or quilt, then introduce a textured throw
 
 ## Change Bedding for the Biggest Visual Impact
 
-New bedding transforms a bedroom faster than almost any other change. Choose a duvet cover in a calm, neutral color and add one or two accent cushions.
+New bedding changes a bedroom faster than almost any other change. Choose a duvet cover in a calm, neutral color and add one or two accent cushions.
 
 Choose washable or easy-care materials in high-use areas.

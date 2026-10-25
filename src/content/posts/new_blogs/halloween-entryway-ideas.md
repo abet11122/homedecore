@@ -14,7 +14,7 @@ affiliateDisclosure: true
 keyTakeaways:
   - "The front door wreath is the single most impactful Halloween entryway element."
   - "Two lanterns flanking the door create a symmetrical, welcoming display."
-  - "Warm amber or orange lighting transforms an entryway more than any prop."
+  - "Warm amber or orange lighting changes an entryway more than any prop."
   - "Keep the floor path clear — seasonal decor should never block the entrance."
 ---
 

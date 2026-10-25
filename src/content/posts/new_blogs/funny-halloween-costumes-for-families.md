@@ -24,7 +24,7 @@ faqs:
     a: "Assign the baby the simplest, most comfortable costume in the group — usually a onesie with a printed design or a soft hat. Build the family theme around what the baby can wear comfortably. A baby pumpkin with parents as farmers, a baby Yoda with parents as Jedi, or a baby shark with parents as scuba divers all work well."
 ---
 
-A funny family Halloween costume works when every member has a clear role and the group is instantly recognizable as a set. The ideas below are organized by theme and family size.
+A funny family Halloween costume works when every member has a clear role and the group is immediately recognizable as a set. The ideas below are organized by theme and family size.
 
 The baby and the dog get the best costumes. That is the rule.
 
@@ -277,4 +277,4 @@ Choose a specific board game — Monopoly, Clue, or Candy Land — for the most 
 
 ## Final Thoughts
 
-The best funny family Halloween costumes are the ones where every member has a clear role and the group is instantly recognizable as a set. Assign the baby and the dog the most comfortable and most adorable costumes, plan the group photo in advance, and commit to the theme for the whole evening. A well-executed family costume is one of the most memorable things you can do on Halloween.
+The best funny family Halloween costumes are the ones where every member has a clear role and the group is immediately recognizable as a set. Assign the baby and the dog the most comfortable and most adorable costumes, plan the group photo in advance, and commit to the theme for the whole evening. A well-executed family costume is one of the most memorable things you can do on Halloween.

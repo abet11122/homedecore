@@ -142,7 +142,7 @@ Pick two or three of these, not all six. The wall above the bed and one other wa
 
 Boho lighting is warm and soft, never bright and overhead.
 
-- **A rattan or woven pendant** as the ceiling fixture — instantly sets the style
+- **A rattan or woven pendant** as the ceiling fixture — immediately sets the style
 - **Warm fairy lights** strung along a wall or draped over the headboard
 - **A bedside lamp** with a linen or rattan shade
 - **Candles** in ceramic or brass holders

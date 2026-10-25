@@ -14,7 +14,7 @@ featured: false
 affiliateDisclosure: true
 keyTakeaways:
   - "A costume built from clothes you already own is almost always better than a cheap costume kit."
-  - "One specific, well-chosen accessory — a wig, a prop, a hat — elevates any costume."
+  - "One specific, well-chosen accessory — a wig, a prop, a hat — lifts any costume."
   - "The best men's costumes are specific — 'vampire' is forgettable, 'Dracula' is a conversation starter."
   - "Choose a costume you can move, sit, and eat in — you will be wearing it for hours."
 faqs:
@@ -44,9 +44,9 @@ The green face paint is the most important element — use theatrical face paint
 
 ### 3. Werewolf
 
-Torn clothes, fur prosthetics or face paint, and a wild wig. The best werewolf costumes are mid-transformation — half human, half wolf — rather than fully transformed.
+Torn clothes, fur prosthetics or face paint, and a wild wig. The best werewolf costumes are mid-change — half human, half wolf — rather than fully changed.
 
-Prosthetic fur pieces from a costume store create the most convincing mid-transformation look.
+Prosthetic fur pieces from a costume store create the most convincing mid-change look.
 
 ### 4. Mummy
 
@@ -144,7 +144,7 @@ The bathrobe is the most important element — choose a white or cream one.
 
 A flannel shirt, jeans, boots, a beanie, and a fake axe prop. This is one of the easiest Halloween costumes for men — most men already own everything they need.
 
-A fake beard elevates this costume significantly.
+A fake beard lifts this costume significantly.
 
 ### 14. Tourist
 

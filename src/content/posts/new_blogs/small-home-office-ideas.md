@@ -74,7 +74,7 @@ What you need:
 - **Natural light from the side**, not in front (glare) or behind (silhouette on video calls)
 - **A warm ambient source** — a lamp elsewhere in the room — so you're not staring at a bright screen in a dark corner
 
-If you're on video calls, put a light *in front of you*, above eye level. A small ring light or a lamp on a shelf facing you solves the "why do I look terrible" problem instantly.
+If you're on video calls, put a light *in front of you*, above eye level. A small ring light or a lamp on a shelf facing you solves the "why do I look terrible" problem immediately.
 
 ## Storage: go up, not out
 

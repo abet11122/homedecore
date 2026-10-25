@@ -44,7 +44,7 @@ Corners are the least useful floor space in any room. Triangular corner shelves 
 
 A narrow ledge, 3.5–4 inches deep, holding books front-facing. Covers face out, which looks beautiful and makes books easy to choose.
 
-Best for a small curated selection rather than a whole library. Excellent in children's rooms — kids pick books by the cover, and a spine-out shelf gets ignored.
+Best for a small considered selection rather than a whole library. Excellent in children's rooms — kids pick books by the cover, and a spine-out shelf gets ignored.
 
 ## 5. Full-height narrow bookcase
 

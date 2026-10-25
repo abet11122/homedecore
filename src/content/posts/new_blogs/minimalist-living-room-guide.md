@@ -85,11 +85,11 @@ Lighting is your secret weapon in minimalist design. It creates mood without add
 - One floor lamp with a minimal silhouette
 - No table lamps, no string lights, no "mood lighting"
 
-Lamps should have simple cylindrical or conical shades in white or off-white linen. Brass or matte black bases add a touch of elegance without fuss.
+Lamps should have simple cylindrical or conical shades in white or off-white linen. Brass or matte black bases add a little elegance without fuss.
 
 ## The Art of Strategic Emptiness
 
-Here's where minimalism becomes design. The empty spaces are as curated as the filled ones.
+Here's where minimalism becomes design. The empty spaces are as considered as the filled ones.
 
 **Wall Space Above Furniture:**
 Leave it blank. Resist the urge to "fill" it. That emptiness makes your room feel bigger and calmer.

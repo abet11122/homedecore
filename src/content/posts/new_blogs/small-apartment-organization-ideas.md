@@ -134,11 +134,11 @@ The strongest small apartment organization ideas are the ones that make the spac
 
 <!-- Consolidated existing section from apartment-decor-ideas-budget; see editorial worksheet for evidence checks. -->
 
-## Change every bulb — the cheapest transformation
+## Change every bulb — the cheapest change
 
 **2700K warm white**, everywhere.
 
-Rental apartments come with cool white bulbs because they're cheap in bulk. They're also what makes a flat feel institutional. Swapping them costs very little and changes every room instantly.
+Rental apartments come with cool white bulbs because they're cheap in bulk. They're also what makes a flat feel institutional. Swapping them costs very little and changes every room immediately.
 
 If you do one thing on this list, do this one.
 

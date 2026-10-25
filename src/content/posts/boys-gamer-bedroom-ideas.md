@@ -60,7 +60,7 @@ The mistake is running RGB everywhere at full brightness in every colour. It loo
 - **Wall-mounted hex or bar lights** behind the desk as a feature.
 - **Dim everything after 9pm.** Blue-heavy light before bed genuinely affects sleep quality.
 
-Set the strips to a static colour rather than a cycling rainbow. It instantly looks more expensive.
+Set the strips to a static colour rather than a cycling rainbow. It immediately looks more expensive.
 
 ## Chair
 

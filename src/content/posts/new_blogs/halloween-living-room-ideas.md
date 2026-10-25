@@ -2,7 +2,7 @@
 mergeInto: "/post/small-apartment-halloween-decor-no-damage/"
 disposition: merge
 title: "16 Halloween Living Room Ideas for a Cozy Spooky Space"
-description: "Decorate your living room for Halloween with 16 ideas using candles, pumpkins, dark textiles, and moody lighting. From subtle to full spooky transformation."
+description: "Decorate your living room for Halloween with 16 ideas using candles, pumpkins, dark textiles, and moody lighting. From subtle to full spooky change."
 category: living-room
 tags: ["halloween decor", "living room decor", "seasonal decorating", "home styling", "cozy decor"]
 publishDate: 2026-09-10

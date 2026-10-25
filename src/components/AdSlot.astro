@@ -1,3 +1,11 @@
 ---
-// Advertising is disabled during editorial review. This component intentionally renders nothing.
+/*
+  No ad markup is emitted here on purpose.
+
+  The AdSense script itself loads site-wide from layouts/Layout.astro, which is
+  what Google reads to verify the publisher. Hand-placed slots are left out so
+  that utility screens — search, topic listings and error pages — carry no
+  advertising. Keeping the component means callers need not change if that
+  decision is revisited.
+*/
 ---

@@ -113,4 +113,4 @@ Include the rated shelf system, compatible fixings, finishing materials and any 
 
 ---
 
-*Once they are up, the hard part is not filling them. Our [open shelving styling guide](/post/kitchen-island-styling/) covers the 70/30 rule that keeps a shelf looking curated.*
+*Once they are up, the hard part is not filling them. Our [open shelving styling guide](/post/kitchen-island-styling/) covers the 70/30 rule that keeps a shelf looking considered.*

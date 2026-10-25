@@ -88,7 +88,7 @@ One or two of these. The empty wall is part of the style.
 
 ## Lighting
 
-- **A rattan or woven pendant** — instantly sets the tone
+- **A rattan or woven pendant** — immediately sets the tone
 - **Ceramic or wooden table lamps** with linen shades
 - **Warm bulbs, 2700K**
 

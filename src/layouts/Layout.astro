@@ -292,6 +292,21 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
         </script>
       </>
     )}
+
+    {/*
+      AdSense publisher verification. This is the script Google reads to confirm
+      the site belongs to the publisher ID declared in /ads.txt, so it loads on
+      every page unconditionally. It sits after the Consent Mode defaults above,
+      which start denied, so no advertising storage is used until the certified
+      CMP records a choice.
+    */}
+    {SITE.adsenseClientId && (
+      <script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClientId}`}
+        crossorigin="anonymous"
+      ></script>
+    )}
   </head>
 
   <body>

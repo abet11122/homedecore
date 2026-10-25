@@ -126,4 +126,4 @@ Turn off the overhead light first and see how the room feels with just the lower
 
 ## Final Thoughts
 
-Cozy bedroom lighting is not about buying expensive fixtures. It is about layering multiple warm sources at different heights and keeping the overhead light low in the evenings. Start with a dimmer switch and a warm bulb in the bedside lamp — those two changes alone will transform the room.
+Cozy bedroom lighting is not about buying expensive fixtures. It is about layering multiple warm sources at different heights and keeping the overhead light low in the evenings. Start with a dimmer switch and a warm bulb in the bedside lamp — those two changes alone will change the room.

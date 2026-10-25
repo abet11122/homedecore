@@ -2,7 +2,7 @@
 mergeInto: "/post/small-bedroom-layout-ideas/"
 disposition: merge
 title: "17 Cozy Small Bedroom Ideas for a Restful Space"
-description: "Transform a compact room into a calm retreat with 17 cozy small bedroom ideas covering layered bedding, warm lighting, color palettes, and smart storage."
+description: "Change a compact room into a calm retreat with 17 cozy small bedroom ideas covering layered bedding, warm lighting, color palettes, and smart storage."
 category: bedroom
 tags: ["small bedrooms", "cozy bedroom", "bedroom decor", "small spaces", "bedroom styling"]
 publishDate: 2026-09-20

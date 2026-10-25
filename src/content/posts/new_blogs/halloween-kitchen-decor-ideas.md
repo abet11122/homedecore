@@ -159,4 +159,4 @@ A Halloween-themed or dark-coloured dish soap bottle or hand wash dispenser on t
 
 ## Final Thoughts
 
-Halloween kitchen decor works when it respects the room's function. Keep the main workspace clear, style the windowsill and open shelves, and add one or two textile changes. The kitchen does not need to be fully transformed — a few well-placed seasonal details are enough to make it feel festive without getting in the way of cooking.
+Halloween kitchen decor works when it respects the room's function. Keep the main workspace clear, style the windowsill and open shelves, and add one or two textile changes. The kitchen does not need to be fully changed — a few well-placed seasonal details are enough to make it feel festive without getting in the way of cooking.

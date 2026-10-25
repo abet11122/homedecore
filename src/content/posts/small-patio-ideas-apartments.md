@@ -79,7 +79,7 @@ The thing that makes a small patio usable in the evening.
 - **Clip-on rail lights**
 - **A solar-powered floor lamp**
 
-Warm white, not cool. String lights zigzagged overhead or along the railing transform the space at night.
+Warm white, not cool. String lights zigzagged overhead or along the railing change the space at night.
 
 ## Plants in containers
 

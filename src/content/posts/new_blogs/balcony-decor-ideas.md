@@ -111,7 +111,7 @@ Balconies are windier and drier than gardens, and everything is in a pot.
 
 ## Styling touches
 
-- **An outdoor rug** — defines the space instantly
+- **An outdoor rug** — defines the space immediately
 - **Cushions and a throw** in weather-resistant fabric
 - **A lantern** or two on the floor
 - **A small side table** or a stool

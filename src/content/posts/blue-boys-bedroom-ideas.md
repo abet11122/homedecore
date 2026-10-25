@@ -91,7 +91,7 @@ Underrated. A navy ceiling above white walls is striking, feels like a night sky
 If you're renting or don't want to paint:
 
 - **Navy bedding** with white sheets
-- **Blue curtains** — a large block of colour that changes the room instantly
+- **Blue curtains** — a large block of colour that changes the room immediately
 - **A patterned blue rug**
 - **Removable navy wallpaper** on one wall
 - **Blue-painted furniture** — a dresser or bedside table
