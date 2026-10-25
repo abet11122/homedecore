@@ -69,8 +69,6 @@ Cream, green, terracotta, and soft orange pumpkins can work with neutral interio
 
 Reusable ceramic or fabric pumpkins reduce yearly waste if you enjoy the same look each season.
 
-
-
 ## 9. Add Candles Safely
 
 Candles add movement and warm light, especially on darker evenings. Use a stable tray and keep flames away from curtains, dried leaves, throws, and children or pets.
@@ -89,15 +87,11 @@ Choose one main focal point such as a mirror or artwork, then add a few supporti
 
 Leave some empty space. A crowded mantel can make the whole living room feel visually heavy.
 
-For a closer look at arranging this focal point, see our [autumn mantel styling guide](/post/fall-living-room-decor-ideas/).
-
 ## 12. Store Extra Throws in a Woven Basket
 
 A large basket beside the sofa keeps blankets accessible while adding natural texture. It is useful decor rather than purely decorative decor.
 
 Choose a basket with smooth edges so it does not snag delicate throws.
-
-
 
 ## 13. Introduce One Deeper Accent Color
 
@@ -116,8 +110,6 @@ Keep dried arrangements away from open flames because the material is highly fla
 An unused corner can become a cozy seasonal feature with a comfortable chair, a small table, a lamp, and a throw. It adds function instead of simply adding more decor.
 
 In a small room, use a compact chair or reposition an existing chair rather than buying an oversized accent chair.
-
-
 
 ## 16. Bring Books Into the Styling
 
@@ -160,7 +152,6 @@ Keep the room feeling calm with the principles in our [minimalist living room gu
 ## What to change first
 
 A warm fall living room is mostly about atmosphere. Layer textiles, soften the lighting, introduce a few natural materials, and then add seasonal details only where they improve the room. The most successful fall decor still feels like your home - just a little warmer and more inviting.
-
 
 <!-- Approved consolidation -->
 

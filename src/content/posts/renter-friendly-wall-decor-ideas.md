@@ -139,7 +139,7 @@ Weight ratings matter more here because failure means something breaking.
 - **A battery-operated picture light** above leaning art
 - **A neon or LED sign** on adhesive hooks
 
-## What to avoid
+## What not to hang
 
 - Nails and screws without checking your lease
 - Heavy mirrors on adhesive strips

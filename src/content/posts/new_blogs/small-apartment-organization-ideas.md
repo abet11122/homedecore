@@ -99,7 +99,7 @@ A tall bookcase uses vertical space efficiently and can hold far more than books
 
 Countertops, dining tables, and desks work better when they are not covered in objects. Group a small number of items together and leave visible empty space so the surface can still do its real job.
 
-A tray is useful because the whole group can be moved at once.
+Group them on a tray and the whole lot lifts away when the surface is needed.
 
 ## 17. Use Matching Containers
 
@@ -138,7 +138,7 @@ The strongest small apartment organization ideas are the ones that make the spac
 
 **2700K warm white**, everywhere.
 
-Rental apartments come with cool white bulbs because they're cheap in bulk. They're also what makes a flat feel institutional. Swapping them costs very little and changes every room immediately.
+Landlords fit cold bulbs because they are bought by the box, not because they suit the room. They're also what makes a flat feel institutional. Swapping them costs very little and changes every room immediately.
 
 If you do one thing on this list, do this one.
 

@@ -113,7 +113,7 @@ Black and white handles pattern well — but one pattern, not several.
 
 Pick one patterned item and let everything else be solid. Two competing black-and-white patterns in one room is visually exhausting.
 
-## Lighting
+## Lighting a monochrome room
 
 Critical here, because black absorbs light.
 

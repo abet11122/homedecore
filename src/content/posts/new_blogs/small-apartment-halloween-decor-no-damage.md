@@ -79,7 +79,7 @@ Rearrange one shelf of the bookcase to create a Halloween vignette — a few dar
 
 A small pumpkin, a dark candle, and a skull soap dispenser or dish on the bathroom counter adds a seasonal note to a room that is often overlooked.
 
-## Lighting
+## Lighting without fixings
 
 <div class="shop-look-wrap">
   <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>

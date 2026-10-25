@@ -17,7 +17,7 @@ Boho is the most popular style for girls' bedrooms right now, and it's also the 
 
 The rooms that work follow a fairly tight set of rules underneath all that apparent looseness.
 
-## The palette
+## The boho palette
 
 Boho reads as warm and earthy. Get the colours right and everything else falls into place.
 
@@ -45,7 +45,7 @@ Boho isn't really about colour — it's about how many different textures you ca
 
 Five textures in a limited palette is what makes boho look collected instead of chaotic.
 
-## The bed
+## Dressing the bed
 
 The bed carries most of the look.
 
@@ -95,7 +95,7 @@ The layered rug is a boho signature and it's easy: a large jute or sisal rug as 
 
 **Size the base rug properly** — it should extend 18 inches beyond the sides and foot of the bed. For a single bed that's roughly 5 x 7 feet.
 
-## Plants
+## Plants at a child's height
 
 Boho without plants looks incomplete. Three to five, at different heights.
 
@@ -111,7 +111,7 @@ Put one tall on the floor, one or two mid-height on a shelf or dresser, and one 
 
 Good faux plants are fine and nobody will know.
 
-## Walls
+## Wall hangings and texture
 
 - **Macrame wall hanging** above the bed — the single most recognisable boho piece
 - **A tapestry or woven wall art**
@@ -138,7 +138,7 @@ Pick two or three of these, not all six. The wall above the bed and one other wa
   </a>
 </div>
 
-## Lighting
+## Warm, layered lighting
 
 Boho lighting is warm and soft, never bright and overhead.
 

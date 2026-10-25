@@ -108,7 +108,7 @@ Do the insulation properly before spending anything on decor. A beautiful attic 
 
 Measure carefully. Getting a wardrobe up an attic staircase is often impossible — flat-pack or built-in are usually the only options.
 
-## Flooring
+## Flooring under a sloped ceiling
 
 - **Carpet** — warm underfoot and helps with sound transfer to the rooms below
 - **Engineered wood with a good underlay** if you prefer hard floors

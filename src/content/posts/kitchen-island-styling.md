@@ -89,9 +89,9 @@ Cluster them at one end. The other two-thirds stays empty and available. That em
 
 ### The material story
 
-Keep the island's objects in the same material family as the rest of the kitchen. If your shelves are ceramic-and-wood, the island is ceramic-and-wood — the same logic we set out in our [open shelving guide](/post/kitchen-island-styling/). Mixing chrome, brass, plastic and stone on one surface reads as unresolved.
+Keep the island's objects in the same material family as the rest of the kitchen. If your shelves are ceramic-and-wood, the island is ceramic-and-wood. Mixing chrome, brass, plastic and stone on one surface reads as unresolved.
 
-## Making it survive real life
+## Keeping the island usable
 
 The island is where everything lands. Two habits keep it clear:
 
@@ -112,9 +112,6 @@ If your kitchen cannot make the clearance numbers, a butcher's block on castors 
 Get one with a solid top, locking castors and a shelf underneath. It is not a compromise so much as a different, often better, answer for a room under 370cm wide.
 
 ---
-
-*Working out the surfaces around it? Our [open shelving guide](/post/kitchen-island-styling/) covers the 70/30 rule for everything on display.*
-
 
 <!-- Approved consolidation -->
 
@@ -150,4 +147,4 @@ A dedicated coffee station on a freestanding rack can leave more of the counter 
 
 Open shelving has been a divisive trend for five years now. The Scandinavian minimalist crowd loves it. The "I actually cook" crowd? Less sure.
 
-The truth: open shelving works brilliantly when you commit to the styling and accept that it requires maintenance. It's not for everyone, but when it's done right, it looks like you have your life together (even if your chaos is just behind closed doors below).
+Open shelving repays the effort only if you are willing to keep it tidy; it is storage on display, and it shows. Plenty of kitchens are better off with doors, and choosing them is not a failure of nerve.

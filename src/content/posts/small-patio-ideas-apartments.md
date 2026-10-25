@@ -69,7 +69,7 @@ Usually the main complaint about an apartment patio.
 
 Check building rules first — many have restrictions on what can be attached to railings or visible from outside.
 
-## Lighting
+## Lighting the patio after dark
 
 The thing that makes a small patio usable in the evening.
 
@@ -169,8 +169,8 @@ That's a complete patio, nothing permanent, and it all comes with you when you m
 **Measure the depth first.** It determines everything.
 
 - **Under 3 feet** — standing space only. Rail-mounted table, plants, no seating.
-- **3–4 feet** — one folding chair or a narrow bench against the wall.
-- **4–5 feet** — two chairs and a small table, if you keep everything slim.
+- **About a metre deep** — one folding chair, or a narrow bench set tight to the wall.
+- **1.3 to 1.5 metres** — two slim chairs and a small table, provided nothing is bulky.
 - **Over 5 feet** — a proper bistro set works.
 
 **Leave 24 inches** to walk through to the door.

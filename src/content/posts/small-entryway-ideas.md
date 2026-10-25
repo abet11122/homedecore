@@ -159,8 +159,8 @@ Most people's hallways fall in the first two categories, which is why floor furn
 
 Three elements, three heights:
 
-1. **Something tall** — a lamp, a vase with branches, a tall piece of art leaning against the wall
-2. **Something medium** — a stack of books, a small plant, a sculptural object
+1. **One tall thing at the back** — a lamp if there is a socket, otherwise branches in a weighted vase, or a frame propped against the wall
+2. **One mid-height thing in front of it** — books, a small plant or a box, overlapping the base of the tall one
 3. **Something low and functional** — a tray or bowl for keys
 
 Group them so they form a rough triangle rather than a straight line. Uneven numbers look more natural than even ones.

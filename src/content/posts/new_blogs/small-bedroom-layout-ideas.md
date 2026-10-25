@@ -203,7 +203,7 @@ Work with the furniture you have before buying more, moving one piece at a time.
 
 One of the easiest ways to give a small bedroom an expensive look is by layering the bed.
 
-Start with neutral sheets, add a duvet or quilt, then introduce a textured throw across the bottom of the bed. Finish with two or three different pillow sizes. Cream, oatmeal, beige, warm white and soft taupe work especially well because they create a calm, hotel-inspired look.
+Build the bed in three layers: plain sheets underneath, a duvet or quilt over them, and one textured throw folded across the foot. Finish with two or three different pillow sizes. Holding those layers inside one narrow band of warm neutrals is what makes a small room read as restful rather than busy.
 
 <!-- Consolidated existing section from small-bedroom-makeover-ideas; see editorial worksheet for evidence checks. -->
 

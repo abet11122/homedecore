@@ -39,8 +39,6 @@ Group similar items into small bins: hair care, skincare, cleaning, backups, and
 
 Whichever style you choose, keep categories broad enough that everyone can put things back quickly.
 
-
-
 ## 4. Add Stackable Drawers
 
 Small stackable drawers create a second level of storage inside a tall cabinet. They are useful for cotton pads, makeup, razors, travel products, and spare toiletries.
@@ -71,11 +69,9 @@ A tray turns several loose bottles into one visual group. It also makes it easie
 
 Choose a moisture-resistant material such as sealed wood, metal, stone, or washable plastic rather than something that will swell when wet.
 
-
-
 ## 9. Add Hooks Instead of More Furniture
 
-Wall hooks take almost no floor space and can hold towels, robes, baskets, or a shower squeegee. Place towel hooks where fabric can dry without touching the toilet or floor.
+Wall hooks take almost no floor space and can hold towels, robes, baskets, or a shower squeegee. Put hooks where a hanging towel clears both the floor and the cistern, or it never dries properly.
 
 Adhesive hooks are a useful renter-friendly alternative, but check the weight rating and surface instructions first.
 
@@ -109,8 +105,6 @@ Rolled hand towels and washcloths fit neatly into baskets or shallow open shelve
 
 For full-size bath towels, folding is often more space-efficient than rolling, so use the method that matches the shelf dimensions.
 
-
-
 ## 15. Try a Slim Rolling Cart
 
 A narrow cart can fit beside a vanity or toilet when built-in storage is limited. Use the top for daily items and lower shelves for towels or backups.
@@ -129,12 +123,11 @@ If the same item appears on the counter every day, it probably does not have an 
 
 A good organization system should make putting things away almost as easy as leaving them out.
 
-For more ways to use awkward corners, explore our [small bathroom storage guide](/post/small-bathroom-organization-ideas/). If you rent, our [budget apartment ideas](/post/small-apartment-organization-ideas/) offer more flexible updates.
+If you rent, our [small apartment organization ideas](/post/small-apartment-organization-ideas/) cover the same problems with fixings you can remove.
 
 ## Starting with the worst drawer
 
 Small bathroom organization works best when it reduces daily friction. Start with decluttering and measurements, then improve one problem area at a time. A clear counter, a practical under-sink setup, and a few well-placed hooks or shelves can make a small bathroom feel much easier to use without a renovation.
-
 
 <!-- Approved consolidation -->
 

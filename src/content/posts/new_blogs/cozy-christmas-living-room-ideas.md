@@ -29,7 +29,7 @@ Favour decorations that fold flat and sit comfortably with the colours already i
 
 Warm white lights throughout the room — on the tree, in garlands, and in lanterns — create a consistent, cozy atmosphere. Avoid mixing warm and cool white lights in the same space.
 
-For cozy rooms, warm-white bulbs around 2700K are a useful starting point.
+Aim for bulbs at 2700K or a little below; anything cooler undoes the rest of the room after dark.
 
 ## 3. Layer Greenery Across One Main Surface
 
