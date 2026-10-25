@@ -124,7 +124,7 @@ Resist the urge to fill every corner with furniture or storage. A clear floor ar
 
 The best gaming bedrooms feel like a room that happens to have a great desk, not a desk that happens to have a room around it.
 
-## Final Thoughts
+## Building it in stages
 
 A boys gaming bedroom works when the desk setup is functional, the cables are managed, and the sleep zone is kept separate. Start with the desk position and lighting, then add storage and personal details. A well-organized setup always looks better than an expensive one.
 

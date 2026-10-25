@@ -65,7 +65,7 @@ Washi tape in black or dark orange can be used to create simple geometric frames
 
 A tray on the coffee table or console contains the seasonal display and makes it easy to move when you need the surface. A candle, a small pumpkin, and one dark object — a ceramic skull, a small lantern — is enough.
 
-A tray is useful because the whole group can be moved at once.
+On a tray, the display can be lifted aside the moment the table has to work.
 
 ### 6. Windowsill Display
 
@@ -157,7 +157,7 @@ A candle in a seasonal scent — pumpkin spice, dark amber, or cedarwood — add
 
 A bundle of dried sage or rosemary tied with dark ribbon and hung on a removable hook adds a subtle herbal scent and a slightly witchy quality. It also looks good on a hook near the door.
 
-## Final Thoughts
+## Getting your deposit back
 
 Renter-friendly Halloween decor is about working with what you have and choosing removable solutions for everything else. Start with the tray display and the lighting, add one wall element using removable strips, and keep the palette restrained. A small apartment decorated with restraint looks more considered than one covered in seasonal products.
 
@@ -206,4 +206,4 @@ Use removable adhesive strips so nothing damages the paint when you take it down
 
 In a small space, tabletop pumpkins take up far less room than floor-standing ones. Group two or three on a tray on the coffee table or console.
 
-Keep walking paths, doors, drawers, and frequently used surfaces easy to access.
+Leave the routes through the room, the doors and the drawers clear of anything you have added.

@@ -131,7 +131,7 @@ A good organization system should make putting things away almost as easy as lea
 
 For more ways to use awkward corners, explore our [small bathroom storage guide](/post/small-bathroom-organization-ideas/). If you rent, our [budget apartment ideas](/post/small-apartment-organization-ideas/) offer more flexible updates.
 
-## Final Thoughts
+## Starting with the worst drawer
 
 Small bathroom organization works best when it reduces daily friction. Start with decluttering and measurements, then improve one problem area at a time. A clear counter, a practical under-sink setup, and a few well-placed hooks or shelves can make a small bathroom feel much easier to use without a renovation.
 
@@ -152,7 +152,7 @@ If several people share the counter, decide whether each person needs a small se
 
 The vanity and under-sink cabinet are the highest-impact storage zones in a small bathroom. Measure the space carefully and choose containers that fit around the plumbing.
 
-Measure width, depth, and height before choosing containers, especially around plumbing. Use low or pull-out bins when possible so items at the back remain easy to reach.
+Measure width, depth, and height before choosing containers, especially around plumbing. Low bins, or ones that pull out, stop things at the back becoming unreachable.
 
 <!-- Consolidated existing section from bathroom-over-toilet-storage-ideas; see editorial worksheet for evidence checks. -->
 
@@ -160,7 +160,7 @@ Measure width, depth, and height before choosing containers, especially around p
 
 Two shallow floating shelves above the toilet create a clean, open look and provide useful storage for towels, plants, and bathroom accessories. Keep the lower shelf at a comfortable height.
 
-Measure the wall before drilling or ordering storage, and check that doors, cabinets, and people can still move comfortably.
+Check the wall and the clearances before drilling, so the door and the cabinet still open fully.
 
 <!-- Consolidated existing section from bathroom-storage-ideas-small-spaces; see editorial worksheet for evidence checks. -->
 
@@ -180,4 +180,4 @@ Measure the wall before drilling or ordering storage, and check that doors, cabi
 
 Before buying any under-sink organizer, measure the available space carefully, including the height, width, and depth around the pipes. Many standard organizers will not fit without modification.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
+Measure the gap you are filling before buying, and picture reaching into it with wet hands.

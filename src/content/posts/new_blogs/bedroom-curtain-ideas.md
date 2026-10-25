@@ -111,6 +111,6 @@ Two curtain panels per window — one on each side — always look more generous
 
 A common mistake is buying curtains that are too narrow — they look skimpy when closed and do not block light effectively.
 
-## Final Thoughts
+## Choosing between them
 
 Bedroom curtains work when they are hung high and wide, reach the floor, and are made from a fabric that suits the room's style. Start with the hanging position — that single change makes more difference than any other curtain decision.

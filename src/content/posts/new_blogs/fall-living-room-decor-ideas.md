@@ -157,7 +157,7 @@ Leaving empty space makes seasonal details more noticeable and keeps the living 
 
 Keep the room feeling calm with the principles in our [minimalist living room guide](/post/minimalist-living-room-guide/).
 
-## Final Thoughts
+## What to change first
 
 A warm fall living room is mostly about atmosphere. Layer textiles, soften the lighting, introduce a few natural materials, and then add seasonal details only where they improve the room. The most successful fall decor still feels like your home - just a little warmer and more inviting.
 
@@ -176,6 +176,6 @@ Wipe it down, then stand back and look at the empty shelf against the wall behin
 
 ## Use Decor That Stores Flat
 
-Prints, garlands, and fabric items store flat and take up almost no space between seasons. Choose pieces that are easy to store and that work with your normal decor.
+Prints, garlands, and fabric items store flat and take up almost no space between seasons. Pick things that pack away easily and do not fight the furniture you already own.
 
 This keeps seasonal decorating affordable and makes setup and cleanup much faster.

@@ -22,7 +22,6 @@ faqs:
   - q: "How do you make Halloween door decor look expensive?"
     a: "Use natural materials — dried flowers, real or ceramic pumpkins, linen ribbon — rather than plastic. Limit the palette to two or three colors. Choose one focal point rather than layering multiple decorations. Matte finishes almost always look more expensive than shiny ones."
 ---
-
 Halloween door decor covers a wide range of styles, from maximalist haunted-house displays to restrained, elegant arrangements that suit a more sophisticated home. The ideas below are organized from playful to sophisticated so you can find the approach that suits your exterior.
 
 The front door is a small canvas. One strong idea executed well is always more effective than several competing ones.
@@ -192,7 +191,7 @@ Copper lanterns, black pumpkins, and a wreath with copper ribbon create a sophis
 
 Use spray paint to turn inexpensive lanterns copper — it takes one coat and dries in an hour.
 
-## Final Thoughts
+## Before you hang anything
 
 The best Halloween door decor matches the style of the rest of your exterior and commits to one clear idea. Whether you go playful, classic, or sophisticated, a single strong element executed well is always more effective than a door covered in competing decorations.
 
@@ -204,8 +203,6 @@ The best Halloween door decor matches the style of the rest of your exterior and
 ## Mummy Wrap
 
 Wrap the door in horizontal strips of white crepe paper or white fabric, leaving a gap for the peephole. Add two large googly eyes cut from black and white card. It takes about twenty minutes, costs almost nothing, and photographs extremely well.
-
-Use painter's tape to attach the strips so the door paint is not damaged.
 
 <!-- Consolidated existing section from halloween-entryway-ideas; see editorial worksheet for evidence checks. -->
 

@@ -173,4 +173,4 @@ That's it. Everything below is variation on that.
 
 A console table that is too deep makes a narrow entryway feel cramped. Look for one that is 25–30 cm deep, which is enough for a tray, lamp, and a few small items without blocking the walkway.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
+Take the width of the hallway first, then work out what still leaves room to put a coat on.

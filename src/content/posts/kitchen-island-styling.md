@@ -124,7 +124,7 @@ Get one with a solid top, locking castors and a shelf underneath. It is not a co
 
 Rather than decorating the entire counter, choose one or two areas — beside the hob or near the window — and keep the rest clear. This makes the kitchen easier to clean and use.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
+Measure the run of floor you can actually give up, and be honest about how often an island would get used.
 
 A dedicated coffee station on a freestanding rack can leave more of the counter clear for cooking.
 

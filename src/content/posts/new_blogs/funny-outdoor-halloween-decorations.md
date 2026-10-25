@@ -176,6 +176,6 @@ Arrange a large number of plastic crows — twenty or thirty — on the fence, t
 
 Plastic crows are inexpensive and reusable year after year.
 
-## Final Thoughts
+## Reading the room, and the street
 
 The best funny outdoor Halloween decorations are the ones with a clear, readable joke. Stage the scene so the punchline is visible from the street, keep the setup simple, and resist the urge to add too many elements. One good joke lands better than five mediocre ones.

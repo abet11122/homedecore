@@ -131,7 +131,7 @@ The cheapest small-space upgrade is often removing unnecessary things rather tha
 
 For more finishing touches, explore our [small bedroom styling ideas](/post/small-bedroom-layout-ideas/).
 
-## Final Thoughts
+## Growing with the room
 
 The best small boys bedroom is not the one with the most storage products. It is the room where the bed, clothes, school items, and play things all have a sensible place. Start with the layout, use vertical and under-bed space, and then add personality through a limited color palette and a few meaningful details.
 

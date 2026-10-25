@@ -22,7 +22,6 @@ faqs:
   - q: "What Halloween yard decorations look good at night?"
     a: "Solar stake lights along the path, carved pumpkins with tea lights, orange string lights in trees, and a fog machine at the base of the steps all create strong nighttime effects. A Halloween projector casting moving images onto the house facade is the most dramatic single addition for after-dark impact."
 ---
-
 A Halloween yard display works best when it tells a story — a graveyard, a witch's garden, a haunted scene — rather than being a collection of unrelated props. The ideas below are organized by theme and scale so you can build a display that suits your yard and your ambition.
 
 Keep a clear path to the door. Decorations should guide trick-or-treaters toward the house, not block or confuse them.
@@ -162,8 +161,6 @@ Position the projector so the image falls on a light-colored surface for the bes
 
 Wrap the trunks and lower branches of trees in orange or warm amber string lights. Use solar-powered or battery-powered lights to avoid running extension cords across the yard.
 
-Solar lights need a few hours of direct sun to charge fully.
-
 ### 14. Scarecrow Army
 
 Create a row of stuffed scarecrows along the fence or path, each in a different costume. A row of five or six scarecrows creates a dramatic, slightly unsettling display that is visible from the street.
@@ -176,7 +173,7 @@ Use clothes you were going to donate rather than buying new ones.
 
 A cluster of carved and uncarved pumpkins of different sizes on the steps is the most effective small-yard display. Use battery tea lights in the carved ones so they glow safely all evening.
 
-Use odd numbers — three, five, or seven pumpkins — for the most natural arrangement.
+Odd numbers look more natural, so group three, five or seven rather than an even row.
 
 ### 16. Potted Plant Makeover
 
@@ -190,7 +187,7 @@ Cut bat shapes from black foam sheet and attach them to the fence with removable
 
 Vary the sizes for a more natural look.
 
-## Final Thoughts
+## Planning the night itself
 
 The most effective Halloween yard displays are the ones that tell a clear story and guide visitors toward the door. Start with the path and the porch, then extend into the yard if space and budget allow. Lighting is the most important element — a well-lit display at night is worth ten times the same display in daylight.
 
@@ -234,6 +231,6 @@ Use battery tea lights rather than real candles to avoid fire risk.
 
 ## Witch Crashed Into the Tree
 
-Attach a pair of striped witch legs — stuffed tights with boots at the end — to a tree trunk, as if the witch flew into it at speed. Add a broomstick on the ground below. This is one of the most classic funny Halloween yard decorations and always gets a reaction.
+Attach a pair of striped witch legs — stuffed tights with boots at the end — to a tree trunk, as if the witch flew into it at speed. Add a broomstick on the ground below. It is an old joke and it still earns a laugh from the pavement.
 
-Use tights in classic witch stripes — black and white or black and orange.
+Striped tights in black and white, or black and orange, read best from a distance.

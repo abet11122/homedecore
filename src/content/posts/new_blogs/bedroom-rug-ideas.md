@@ -123,6 +123,6 @@ A warm-toned rug — cream, caramel, terracotta, or rust — suits a warm neutra
 
 Test a rug sample in the room before buying — colors look different in different lighting conditions.
 
-## Final Thoughts
+## Getting the placement right
 
 A bedroom rug works when it is the right size, in the right position, and in a material that suits the room's use. Start with the size — bigger than you think — and the placement — both feet on the rug when getting out of bed. Everything else follows from those two decisions.

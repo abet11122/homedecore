@@ -112,7 +112,7 @@ A layout that works for a five-year-old and a seven-year-old may not work for a 
 
 The most successful shared bedrooms are the ones that adapt rather than the ones that are perfectly designed once.
 
-## Final Thoughts
+## Keeping the peace
 
 A shared boys bedroom works when both children feel the space is theirs. Start with a clear layout, separate storage, and individual display zones. The shared elements — color palette, furniture style, floor space — create unity, while the personal details make each child feel at home.
 

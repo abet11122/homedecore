@@ -194,6 +194,6 @@ Fill a large container with water, drop nail polish in two or three colors onto 
 
 Work quickly — nail polish sets on the water surface within a minute.
 
-## Final Thoughts
+## Making them last
 
 The best painted pumpkins are the ones that suit the room they are displayed in rather than looking like a craft project. Start with a solid color in a non-traditional shade, seal it with matte varnish, and add a simple design if you want more detail. A group of three painted pumpkins in complementary colors — cream, sage, and terracotta, for example — always looks more sophisticated than a single painted pumpkin.

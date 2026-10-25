@@ -79,7 +79,7 @@ Keep walking paths, doors, drawers, and frequently used surfaces easy to access.
 
 A hook rail, small tray, and basket near the entrance stops bags, keys, and coats from spreading through the apartment. Keep only current-season items here.
 
-Start with what you already own, then make one small change at a time.
+Begin with what is already in the room, and change one thing at a time.
 
 ## 13. Use the Back of Doors
 
@@ -125,7 +125,7 @@ A row of wall hooks near the entrance, in the bedroom, or in the bathroom keeps 
 
 In rentals, removable adhesive hooks are a good no-drill alternative.
 
-## Final Thoughts
+## The order to work in
 
 The strongest small apartment organization ideas are the ones that make the space easier to live in, not simply more decorated. Start with zones and vertical storage, choose furniture that does more than one job, and keep enough empty space for the apartment to feel comfortable. Small, deliberate improvements are usually more successful than changing everything at once.
 

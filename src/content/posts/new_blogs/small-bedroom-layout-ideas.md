@@ -112,7 +112,7 @@ Draw the room to scale on paper or use a free online room planner before moving 
 
 Include door swings, window positions, and electrical outlets in the plan.
 
-## Final Thoughts
+## Testing the layout before committing
 
 A small bedroom layout works when the bed is in the right position, the storage is vertical, and the floor is as clear as possible. Start with the bed placement, then work outward. Most small bedroom problems can be solved without buying anything new.
 
@@ -179,7 +179,7 @@ In a 9 x 10 foot room, a double bed leaves you about 30 inches on one side and 2
 
 A duvet, a folded throw at the foot of the bed, and two or three cushions create a layered, inviting look without making the bed hard to make each morning. Choose washable covers so the layers stay fresh.
 
-Start with what you already own, then make one small change at a time.
+Work with the furniture you have before buying more, moving one piece at a time.
 
 <div class="shop-look-wrap">
   <p class="affiliate-note text-sm text-ink-60">Affiliate link: we may earn a commission if you buy, at no extra cost to you.</p>

@@ -125,4 +125,4 @@ In a house with doors you can close a mess away. In a studio, every surface is o
 
 In a studio apartment, defining separate areas for sleeping and living makes the space feel more organized and intentional. Use a rug, bookcase, or sofa position to signal where one zone ends and another begins.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
+Work out the floor area each zone can claim before buying anything to fill it.
