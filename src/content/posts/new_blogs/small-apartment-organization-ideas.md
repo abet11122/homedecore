@@ -138,9 +138,9 @@ The strongest small apartment organization ideas are the ones that make the spac
 
 **2700K warm white**, everywhere.
 
-Landlords fit cold bulbs because they are bought by the box, not because they suit the room. They're also what makes a flat feel institutional. Swapping them costs very little and changes every room immediately.
+Landlords fit cold bulbs because they are bought by the box, not because they suit the room. Cold light is most of what gives a rented flat its waiting-room quality. Swapping them costs very little and changes every room immediately.
 
-If you do one thing on this list, do this one.
+Of everything here, this is the change worth making first.
 
 <!-- Consolidated existing section from small-apartment-storage-ideas; see editorial worksheet for evidence checks. -->
 

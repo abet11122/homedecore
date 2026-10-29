@@ -15,9 +15,9 @@ keyTakeaways:
   - "Layer greenery across one main surface before adding ornaments."
   - "Choose a simple holiday color palette and repeat it through the whole room."
 ---
-If you are looking for cozy Christmas living room ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.
+If you are looking for cozy Christmas living room ideas, the best place to start is with function rather than decoration. A living room has to keep working through December: people sit in it, eat in it, and leave presents in it.
 
-The ideas below are designed to be practical for real homes. You do not need to use every idea. Pick the ideas that fit your room and the colours already in it, and leave the rest.
+Nothing below asks you to redecorate. Each idea works on its own, so take the two or three that suit your room and the colours already in it, and ignore the rest — a living room that still works in January is the point.
 
 ## 1. Start With the Tree Placement
 
@@ -39,9 +39,9 @@ Cluster a few pieces and leave clear space around them, so the surface still wor
 
 ## 4. Add a Basket of Holiday Throws
 
-A large basket beside the sofa holds extra blankets and adds natural texture. It is useful decor rather than purely decorative decor.
+A large basket beside the sofa holds extra blankets and adds natural texture. The basket earns its floor space twice over, being storage before it is decoration.
 
-Use labels only where they genuinely help.
+Label it only if more than one person needs to find things in it.
 
 ## 5. Choose a Simple Holiday Color Palette
 
@@ -65,7 +65,7 @@ A handful of meaningful ornaments or decorations creates more atmosphere than a 
 
 Swapping cushion covers for holiday versions and adding a warm throw to the sofa is one of the fastest ways to make a living room feel festive.
 
-Choose washable or easy-care materials in high-use areas.
+On a sofa in daily use, pick covers you can actually put through a wash.
 
 ## 10. Add a Small Wreath
 
@@ -79,7 +79,7 @@ Choose one surface — the mantel, coffee table, or console — and style it as 
 
 Wood trays, woven baskets, and natural fiber textiles add warmth and texture without looking overtly themed. They also transition easily into January decor.
 
-Choose washable or easy-care materials in high-use areas.
+Anything that gets sat on weekly should be washable.
 
 ## 13. Add Candles or Flameless Candles
 

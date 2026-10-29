@@ -166,4 +166,4 @@ Devices go in, charge overnight, no visible cables. If you want them out of the 
 
 Simple, straight-edged furniture in wood, white, or black gives a boys bedroom a modern feel that will not look dated as the child grows. Avoid overly ornate or themed pieces.
 
-Measure the furniture footprint and the path around it before buying.
+Check the piece's footprint and the walking space left around it before you commit.

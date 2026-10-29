@@ -163,7 +163,7 @@ Three elements, three heights:
 2. **One mid-height thing in front of it** — books, a small plant or a box, overlapping the base of the tall one
 3. **Something low and functional** — a tray or bowl for keys
 
-Group them so they form a rough triangle rather than a straight line. Uneven numbers look more natural than even ones.
+Group them so they form a rough triangle rather than a straight line. Odd numbers settle better than even ones.
 
 That's it. Everything below is variation on that.
 

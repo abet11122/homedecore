@@ -145,6 +145,6 @@ A dedicated coffee station on a freestanding rack can leave more of the counter 
 
 ## The Open Shelving Question: Beautiful or Chaotic?
 
-Open shelving has been a divisive trend for five years now. The Scandinavian minimalist crowd loves it. The "I actually cook" crowd? Less sure.
+Few kitchen decisions split opinion as reliably as open shelving. Minimalists are devoted to it. The "I actually cook" crowd? Less sure.
 
 Open shelving repays the effort only if you are willing to keep it tidy; it is storage on display, and it shows. Plenty of kitchens are better off with doors, and choosing them is not a failure of nerve.
