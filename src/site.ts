@@ -26,10 +26,21 @@ export const SITE = {
   googleAnalyticsId: 'G-T9NG3EPSQ6',
   /**
    * Public AdSense publisher ID. This is what Google reads to verify the site
-   * against /ads.txt, so keep the two in sync. The script is loaded site-wide
-   * from layouts/Layout.astro, after the Consent Mode defaults.
+   * against /ads.txt, so keep the two in sync. It is emitted site-wide as the
+   * `google-adsense-account` meta tag from layouts/Layout.astro, which proves
+   * ownership without serving a single ad.
    */
   adsenseClientId: 'ca-pub-8497285724891966',
+  /**
+   * Whether the adsbygoogle.js loader runs. Kept separate from the publisher
+   * ID above so ownership stays verifiable while advertising is off.
+   *
+   * False during editorial remediation. scripts/audit_site.mjs fails the
+   * build if any page ships the loader, so this flag and that assertion have
+   * to agree — flipping this to true without removing the assertion is what
+   * blocked every deploy between 25 October and 4 November 2026.
+   */
+  adsLoaderEnabled: false,
   /** Slug for the author hub page at /author/<slug>/. */
   authorSlug: 'editorial-team',
   /** Public profiles for the author — feeds Person.sameAs (E-E-A-T). */

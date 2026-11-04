@@ -258,6 +258,14 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     {SITE.googleVerification && (
       <meta name="google-site-verification" content={SITE.googleVerification} />
     )}
+    {/*
+      Proves the site belongs to the publisher ID declared in /ads.txt. It is
+      a meta tag rather than a script, so it carries no advertising and stays
+      in place while the loader below is switched off.
+    */}
+    {SITE.adsenseClientId && (
+      <meta name="google-adsense-account" content={SITE.adsenseClientId} />
+    )}
 
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />
 
@@ -294,13 +302,14 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     )}
 
     {/*
-      AdSense publisher verification. This is the script Google reads to confirm
-      the site belongs to the publisher ID declared in /ads.txt, so it loads on
-      every page unconditionally. It sits after the Consent Mode defaults above,
-      which start denied, so no advertising storage is used until the certified
-      CMP records a choice.
+      The AdSense loader. Ownership is proved by the google-adsense-account
+      meta tag above, so this script exists only to serve ads and is gated on
+      SITE.adsLoaderEnabled, which is false during editorial remediation.
+
+      It sits after the Consent Mode defaults above, which start denied, so no
+      advertising storage is used until the certified CMP records a choice.
     */}
-    {SITE.adsenseClientId && (
+    {SITE.adsenseClientId && SITE.adsLoaderEnabled && (
       <script
         async
         src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClientId}`}
