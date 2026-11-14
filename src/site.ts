@@ -311,3 +311,14 @@ export function wordCount(body: string): number {
 export function isPublished(post: { data: { publishDate: Date; editorialReady?: boolean; disposition?: string } }): boolean {
   return (post.data.disposition ?? 'keep') === 'keep' && post.data.publishDate.getTime() <= Date.now() && post.data.editorialReady !== false;
 }
+
+/**
+ * The three "Start with one corner" projects on the home page. They live here
+ * so the home page can leave these posts out of its other lists and never
+ * link the same story twice.
+ */
+export const START_HERE_PROJECTS = [
+  { number: '01', room: 'Living room', title: 'Make the room feel connected', text: 'Find the right rug footprint before you buy.', href: '/post/living-room-rug-layout-checklist/', detail: 'A measuring checklist' },
+  { number: '02', room: 'Rental living', title: 'Give everyday things a home', text: 'Create an entryway without drilling for hooks.', href: '/post/rental-entryway-without-wall-hooks/', detail: 'Three practical layouts' },
+  { number: '03', room: 'Bedroom', title: 'Get the finishing details right', text: 'Measure curtains with fewer surprises.', href: '/post/bedroom-curtain-measuring-checklist/', detail: 'A step-by-step worksheet' },
+];

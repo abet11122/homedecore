@@ -8,6 +8,7 @@ import ExploreMore from '../components/ExploreMore.astro';
 import StartHere from '../components/StartHere.astro';
 import {
   SITE,
+  START_HERE_PROJECTS,
   PRIMARY_CATEGORIES,
   SECONDARY_CATEGORIES,
   categoryName,
@@ -20,25 +21,27 @@ const posts = (await getCollection('posts')).filter(isPublished).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
 );
 
-const featured = posts.find((post) => post.data.featured) ?? posts[0];
-const rest = posts.filter((post) => post.id !== featured?.id);
-const freshStories = rest.slice(0, 6);
-const freshIds = new Set(freshStories.map((post) => post.id));
-const seasonalStories = posts
-  .filter(
-    (post) =>
-      post.data.category === 'seasonal' &&
-      !post.id.includes('costume') &&
-      post.id !== featured?.id &&
-      !freshIds.has(post.id)
-  )
+// The "Start with one corner" block links three posts by hand. Keep them out
+// of every other home list so no story is linked twice.
+const startHerePaths = new Set(START_HERE_PROJECTS.map((project) => project.href));
+const listable = posts.filter((post) => !startHerePaths.has(postPath(post)));
+
+const featured = listable.find((post) => post.data.featured) ?? listable[0];
+const rest = listable.filter((post) => post.id !== featured?.id);
+// Seasonal posts have their own section below. Keeping them out of the latest
+// and archive lists stops Halloween and Christmas from filling the home page.
+const freshStories = rest.filter((post) => post.data.category !== 'seasonal').slice(0, 6);
+const seasonalStories = rest
+  .filter((post) => post.data.category === 'seasonal' && !post.id.includes('costume'))
   .slice(0, 4);
 const usedIds = new Set([
   featured?.id,
   ...freshStories.map((post) => post.id),
   ...seasonalStories.map((post) => post.id),
 ]);
-const archivePreview = posts.filter((post) => !usedIds.has(post.id)).slice(0, 10);
+const archivePreview = rest
+  .filter((post) => !usedIds.has(post.id) && post.data.category !== 'seasonal')
+  .slice(0, 10);
 const homeStories = [featured, ...freshStories, ...seasonalStories, ...archivePreview].filter(
   (post): post is NonNullable<typeof post> => Boolean(post)
 );
