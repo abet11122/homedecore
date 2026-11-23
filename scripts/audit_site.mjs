@@ -12,6 +12,14 @@ const legacyRedirect = vercelConfig.redirects?.find(
         condition.type === 'host' && condition.value === 'homedecore-neon.vercel.app'
     )
 );
+// Fixed-path redirect sources. Vercel answers these with a 301 before it looks
+// for a static file, so an internal link to one costs every visitor and crawler
+// an extra hop, even when a page was built at that path.
+const redirectSources = new Set(
+  (vercelConfig.redirects ?? [])
+    .filter((rule) => !rule.has && !rule.source.includes(':'))
+    .map((rule) => rule.source)
+);
 const configuredSecurityHeaders = new Set(
   (vercelConfig.headers ?? [])
     .flatMap((rule) => rule.headers ?? [])
@@ -87,6 +95,7 @@ let missingCanonicals = 0;
 let missingLanguageAlternates = 0;
 const badCanonicals = [];
 const brokenLinks = new Set();
+const linksToRedirects = new Set();
 const metadata = {
   titles: new Map(),
   descriptions: new Map(),
@@ -164,6 +173,7 @@ for (const file of htmlFiles) {
   for (const match of html.matchAll(/href="([^"]+)"/g)) {
     const url = match[1];
     if (url.startsWith('/') && !localUrlExists(url)) brokenLinks.add(`${file} -> ${url}`);
+    if (redirectSources.has(url.split(/[?#]/)[0])) linksToRedirects.add(`${file} -> ${url}`);
   }
   if (
     html.includes('pagead2.googlesyndication.com') &&
@@ -220,6 +230,7 @@ const report = {
   missingLanguageAlternates,
   badCanonicals,
   brokenInternalLinks: [...brokenLinks],
+  internalLinksToRedirects: [...linksToRedirects],
   missingLocalImages: missingImages,
   duplicateTitles: [...metadata.titles].filter(([, files]) => files.length > 1),
   duplicateDescriptions: [...metadata.descriptions].filter(([, files]) => files.length > 1),
@@ -250,6 +261,7 @@ if (
   missingLanguageAlternates ||
   badCanonicals.length ||
   brokenLinks.size ||
+  linksToRedirects.size ||
   missingImages.length ||
   report.duplicateTitles.length ||
   report.duplicateDescriptions.length ||

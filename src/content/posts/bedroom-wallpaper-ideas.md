@@ -2,7 +2,7 @@
 updatedDate: 2026-10-14
 disposition: keep
 title: "Beautiful Bedroom Wallpaper Ideas"
-description: "Bedroom wallpaper ideas with practical guidance — which wall to paper, how many rolls you need, peel-and-stick vs traditional, and patterns that suit small rooms."
+description: "Bedroom wallpaper ideas with practical guidance: which wall to paper, how many rolls to buy, peel-and-stick vs traditional, and patterns for small rooms."
 category: "bedroom"
 tags: ["bedroom", "wallpaper", "accent wall", "paint colour", "styling"]
 publishDate: 2026-08-19

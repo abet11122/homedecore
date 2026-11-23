@@ -42,7 +42,12 @@ const {
   schemas = [],
 } = Astro.props;
 
-const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+// Search results show roughly the first 60 characters of a title, and Google
+// already prints the site name separately (from the WebSite schema). So the
+// brand suffix is added only when it fits: a long headline keeps its ending
+// instead of losing it to "… — Cozy Nest Ideas".
+const brandedTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+const pageTitle = title && brandedTitle.length > 60 ? title : brandedTitle;
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
 

@@ -16,24 +16,28 @@ function markdownFiles(directory) {
   });
 }
 
+const dateField = (source, field) =>
+  source.match(new RegExp(`^${field}:\\s*["']?(\\d{4}-\\d{2}-\\d{2})["']?\\s*$`, 'm'))?.[1];
+
 // Scheduled and editorial-hold posts keep their route, but stay out of the
 // sitemap until their publish date and editorial review are complete.
-const publishedPostPaths = new Set(
-  markdownFiles(postsDirectory)
-    .filter((file) => {
-      const source = readFileSync(file, 'utf8');
-      const value = source.match(/^publishDate:\s*["']?(\d{4}-\d{2}-\d{2})["']?\s*$/m)?.[1];
-      const held = /^editorialReady:\s*false\s*$/m.test(source);
-      const excluded = /^disposition:\s*(?:merge|remove)\s*$/m.test(source);
-      return value && !held && !excluded ? new Date(`${value}T00:00:00.000Z`).getTime() <= Date.now() : false;
-    })
-    .map((file) => {
-      const id = relative(postsDirectory, file)
-        .split(sep)
-        .join('/')
-        .replace(/\.md$/, '');
-      return `/post/${postSlug(id)}/`;
-    })
+// Each published path maps to its last-modified date, emitted as <lastmod>.
+// It is the same date the page itself reports as dateModified.
+const publishedPostDates = new Map(
+  markdownFiles(postsDirectory).flatMap((file) => {
+    const source = readFileSync(file, 'utf8');
+    const published = dateField(source, 'publishDate');
+    const held = /^editorialReady:\s*false\s*$/m.test(source);
+    const excluded = /^disposition:\s*(?:merge|remove)\s*$/m.test(source);
+    if (!published || held || excluded) return [];
+    if (new Date(`${published}T00:00:00.000Z`).getTime() > Date.now()) return [];
+    const id = relative(postsDirectory, file)
+      .split(sep)
+      .join('/')
+      .replace(/\.md$/, '');
+    const modified = dateField(source, 'updatedDate') ?? published;
+    return [[`/post/${postSlug(id)}/`, `${modified}T00:00:00.000Z`]];
+  })
 );
 
 function styledSitemaps() {
@@ -75,8 +79,15 @@ export default defineConfig({
       filter: (page) => {
         const path = new URL(page).pathname;
         if (path.startsWith('/tag/') || ['/tags/', '/search/', '/404/'].includes(path)) return false;
-        if (path.startsWith('/post/')) return publishedPostPaths.has(path);
+        if (path.startsWith('/post/')) return publishedPostDates.has(path);
         return true;
+      },
+      // Posts carry their last-modified date so Google can see which pages
+      // changed since its last crawl. Other pages have no reliable date, and
+      // a guessed lastmod is worse than none, so they get none.
+      serialize: (item) => {
+        const lastmod = publishedPostDates.get(new URL(item.url).pathname);
+        return lastmod ? { ...item, lastmod } : item;
       },
     }),
     styledSitemaps(),

@@ -3,6 +3,8 @@
  * Edit this file to rebrand — everything else reads from here.
  */
 
+import vercelConfig from '../vercel.json' with { type: 'json' };
+
 export const SITE = {
   name: 'Cozy Nest Ideas',
   tagline: 'Considered interiors for real homes',
@@ -261,6 +263,19 @@ export interface TagSummary {
 }
 
 /**
+ * Tag hubs that vercel.json redirects, i.e. the ones scripts/finalize-taxonomy.mjs
+ * retired. Vercel applies redirects before it serves static files, so a hub
+ * built for one of these is never reached: every link to it lands on a 301.
+ * Skipping them keeps them unbuilt and unlinked even after enough posts pick
+ * the tag up again to pass the hub threshold.
+ */
+const REDIRECTED_TAGS = new Set(
+  vercelConfig.redirects
+    .map((rule) => rule.source.match(/^\/tag\/([^/:]+)\/$/)?.[1])
+    .filter((slug): slug is string => Boolean(slug))
+);
+
+/**
  * Every distinct tag across the archive, most-used first.
  * `minCount` drops one-off tags that would only ever build a single-post
  * page — thin pages Google reads as low value, so they are left unbuilt
@@ -274,7 +289,7 @@ export function collectTags(
   for (const post of posts) {
     // A post can carry two spellings of the same tag; count it once.
     for (const slug of new Set((post.data.tags ?? []).map(tagSlug))) {
-      if (!slug || slug === 'onthecorner') continue;
+      if (!slug || slug === 'onthecorner' || REDIRECTED_TAGS.has(slug)) continue;
       counts.set(slug, (counts.get(slug) ?? 0) + 1);
     }
   }
