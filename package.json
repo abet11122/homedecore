@@ -10,6 +10,7 @@
     "build": "astro build && node scripts/audit_site.mjs && node scripts/verify-remediation.mjs && node scripts/verify-search-recovery.mjs",
     "images:self-host": "node scripts/self-host-images.mjs",
     "audit:remediation": "node scripts/verify-remediation.mjs",
+    "check:images": "node scripts/check-unique-images.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

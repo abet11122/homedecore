@@ -1,7 +1,7 @@
 ---
 updatedDate: 2026-10-14
 disposition: keep
-title: "Small Apartment Halloween Decor Ideas — No Damage, No Drilling"
+title: "Small Apartment Halloween Decor: No Damage, No Drilling"
 description: "Decorate a small apartment for Halloween with 17 renter-friendly ideas using removable hooks, tabletop displays, wall decals, and a restrained seasonal palette."
 category: seasonal
 tags: ["halloween decor", "small apartment", "renter friendly", "seasonal decorating", "small spaces"]
